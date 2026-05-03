@@ -6,41 +6,26 @@ Emma is graduating high school, turning 18, and beginning the transition into ad
 
 The purpose of this model is not to prove the one correct answer. The purpose is to make the important factors explicit so we can use conjecture and criticism to evaluate possible paths.
 
-The document has three main sections plus an appendix. Section 1 states the conjectures the model embodies. Section 2 formalizes them. Section 3 explains them in detail. The appendix lists questions for discovering values and constraints.
+The document has three main sections plus an appendix. Section 1 states the core conjecture. Section 2 formalizes it. Section 3 explains it in detail. The appendix lists questions for discovering values and constraints.
 
 ---
 
 ## 1. Conjecture
 
-The model embodies the following conjectures. Each is a falsifiable claim about how Emma's adult life works. They are open to criticism and revisable as they fail to fit reality.
+Time is Emma's most valuable resource. It is finite and spent whether or not she chooses where it goes. A life worth living is an enjoyable life.
 
-1. A life-state has five top-level dimensions: values, time, assets, education, and health. Reasoning about life decisions requires reasoning about all of them.
+Enjoyment is not the absence of difficulty. Hardship pursued toward an outcome she wants is part of a good life. Hardship endured for an outcome she doesn't want is wasted life. The target modifies the difficulty.
 
-2. Independence has four sub-types: mobility, financial, residential, and decision. They can move independently and even in opposite directions. Moving out raises residential independence while often reducing financial independence.
+The lived experience along the way is most of life. A path that ends well but spends years in misery is not the same as a path that ends equally well and is good to live through. The journey is what Emma lives. The destination is what she lives in.
 
-3. Time has three sub-dimensions: count, buffer, and quality. A plan that maximizes count while collapsing buffer or quality is not viable, even if the math on paper checks out.
+The best path for Emma is therefore one that creates momentum toward a life she wants, where the momentum is recoverable, adjustable, and good to live through.
 
-4. Cash flow, savings, debt, risk buffer, income, and income growth are coupled and live together. A plan cannot reason about cash flow without reasoning about income.
+- **Momentum**: each step moves her life-state toward something more desirable, not merely something survivable.
+- **Recoverability**: any step can be reversed, repaired, or stepped back from if it turns out badly. Mistakes should not end the game.
+- **Adjustability**: the path is not chosen once. It is revised at each stage as new information arrives.
+- **Journey**: the path is judged by the lived experience across stages, not only by where it ends.
 
-5. Education is a lever on income, not a goal. Its training time, training money, completion risk, and technology trajectory all enter the model formally and reach into time and assets.
-
-6. Technology reshapes which education paths the market pays for. The education-to-income relationship is not stable across time. Today's job market does not describe tomorrow's.
-
-7. Technology trajectory and personal income growth are independent factors. They combine multiplicatively over a planning horizon.
-
-8. Health is holistic: physical, mental, fitness, emotional, and relational. A plan that ruins any one is not a good plan, regardless of how it scores elsewhere.
-
-9. Some sub-components are floors (must stay above a minimum to survive); others are values (more is better). Floors enter the viability filter. Confusing the two leads to brittle plans.
-
-10. Survival is not the same as a life worth wanting. Desirability is a strict subset of viability.
-
-11. Life is a sequence of life-states, not a single decision. Paths are judged by their endpoint, subject to per-step viability and per-decision recoverability.
-
-12. Recoverability is a property of decisions, not states. State-level resilience is handled by the viability floors. Decision recoverability depends on lock-in time, exit cost, and state disruption.
-
-13. A good plan generates positive momentum across the whole life-state, stays above the viability floors at every stage, and avoids large irreversible commitments before there is enough evidence.
-
-14. This model is itself a conjecture, revisable as it fails to fit reality.
+The model that follows expands and formalizes this conjecture.
 
 ---
 
@@ -139,11 +124,10 @@ L_{viable} = \{L : c \geq 0 \land r \geq r_{min} \land p \geq p_{min} \land b \g
 $$
 
 $$
-L_{desirable} = L_{viable} \cap \{L : (\forall k \in \{1,2,3,4\}: i_k \geq i_{k,min}) \land e \geq e_{min} \land g \geq g_{min} \land \beta \geq \beta_{min}
-$$
-
-$$
-\land\; y \geq y_{min} \land \sigma \geq d \land \hat{y}(L, H) \geq y_{min} \land \zeta \geq \zeta_{min} \land \eta \geq \eta_{min}\}
+\begin{aligned}
+L_{desirable} = L_{viable} \cap \{L : \;& (\forall k \in \{1,2,3,4\}: i_k \geq i_{k,min}) \land e \geq e_{min} \land g \geq g_{min} \land \beta \geq \beta_{min} \\
+& \land\; y \geq y_{min} \land \sigma \geq d \land \hat{y}(L, H) \geq y_{min} \land \zeta \geq \zeta_{min} \land \eta \geq \eta_{min}\}
+\end{aligned}
 $$
 
 $$
@@ -176,10 +160,10 @@ $$
 s^* = \arg\max_{s \in S_{desirable}} Momentum(s)
 $$
 
-Path: $P = (s_0, s_1, \dots, s_n)$. Path momentum:
+Path: $P = (s_0, s_1, \dots, s_n)$. Path momentum sums life-state quality across stages, weighted by stage duration $d_j$:
 
 $$
-Momentum(P) = Momentum(L_n)
+Momentum(P) = \sum_{j=0}^{n} d_j \cdot Momentum(L_j)
 $$
 
 Path objective:
@@ -193,6 +177,18 @@ subject to:
 $$
 L_n \in L_{desirable}, \quad L_j \in L_{viable} \;\forall j, \quad R(s_j) \geq R_{min} \;\forall \text{ large decisions } j
 $$
+
+### 2.6 Adjustability
+
+The path objective is applied iteratively. At each stage $j$, re-optimize over the paths still reachable from $L_j$:
+
+$$
+P^*_j = \arg\max_{P \in \mathcal{P}_j} Momentum(P)
+$$
+
+subject to the same constraints. Take $s_{j+1}$ as the first step of $P^*_j$. Observe $L_{j+1}$. Re-optimize.
+
+The model is a policy, not a fixed plan.
 
 ---
 
@@ -355,11 +351,21 @@ Example scenarios (illustrative, not prescriptive):
 | $s_6$ | Work more hours immediately, save more money, delay car purchase |
 | $s_7$ | Keep current work, add training or school, delay apartment independence |
 
-A path's quality is judged by where it lands. The terminal life-state must be desirable. Every intermediate life-state must be viable. Every large decision must be recoverable enough.
+A path's quality is judged by the lived experience across its stages, weighted by how long each stage lasts. The terminal life-state must be desirable. Every intermediate life-state must be viable. Every large decision must be recoverable enough.
 
-Scoring the endpoint rather than integrating across stages is a deliberate choice. The per-step constraints carry the journey: any stage that fails viability or recoverability disqualifies the path. A weighted sum across stages is a reasonable alternative scoring; this model uses the simpler version.
+Scoring across stages rather than only at the endpoint reflects that the journey is what Emma lives. A path that reaches the same destination through better intermediate states is a better path. Stage durations $d_j$ weight the sum so that long stretches of a given life-state count more than brief ones; a year of stress is worse than a month of stress at the same intensity.
 
-### 3.10 Falsifiability
+### 3.10 Adjustability
+
+The path is not chosen once. Emma applies the model at each stage, using current information to choose the next step, observes the result, and applies the model again from her new life-state. The model is a policy, not a fixed plan.
+
+Two implications follow.
+
+First, the recoverability constraint is what makes adjustability possible at all. A decision with low $R(s_j)$ removes future flexibility, regardless of whether the decision looked right at the time. Adjustability is the practical reason recoverability matters: it preserves the ability to redirect when new evidence arrives.
+
+Second, adjustability and falsifiability are different responses to new information. Adjustability adjusts the path within the existing model. Falsifiability adjusts the model itself when reality stops fitting it. A path that needs frequent adjustment is not necessarily a sign that the model is wrong. A model that produces consistently poor adjustments is.
+
+### 3.11 Falsifiability
 
 The model is itself a conjecture and should be revisable. Conditions that should trigger revision:
 
