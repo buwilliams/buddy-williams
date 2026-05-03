@@ -2,27 +2,75 @@
 
 The implementation of this model is being built in [pathwise](https://github.com/buwilliams/pathwise). This document defines the model. It does not draw a conclusion about what Emma should do.
 
-## 1. Problem Domain: Considerations and Symbol Definitions
-
-Emma is graduating high school, turning 18, and beginning the transition into adult life. She wants more independence and is considering major life decisions such as buying a car, working more, moving out, and choosing a path toward higher income.
-
-These decisions are emotionally heavy because they are not isolated. A car affects money, mobility, job options, insurance, maintenance, and savings. Moving out affects independence, rent burden, work hours, stress, future options, and available time. Pursuing education affects future income, but requires time, money, discipline, and delayed gratification.
+Emma is graduating high school, turning 18, and beginning the transition into adult life. She wants more independence and is considering major life decisions: a car, more work, moving out, a path toward higher income. These decisions are not isolated. A car affects money, mobility, job options, insurance, and savings. Moving out affects independence, rent burden, work hours, stress, and time. Pursuing education affects future income but costs time, money, discipline, and delayed gratification.
 
 The purpose of this model is not to prove the one correct answer. The purpose is to make the important factors explicit so we can use conjecture and criticism to evaluate possible paths.
 
-The guiding idea is:
+The document has three main sections plus an appendix. Section 1 states the conjectures the model embodies. Section 2 formalizes them. Section 3 explains them in detail. The appendix lists questions for discovering values and constraints.
 
-> A good plan should generate positive momentum across her whole life-state (values, time, assets, education, and health) without breaking viability and without making large irreversible commitments before there is enough evidence.
+---
 
-### Core Life-State Model
+## 1. Conjecture
 
-Let:
+The model embodies the following conjectures. Each is a falsifiable claim about how Emma's adult life works. They are open to criticism and revisable as they fail to fit reality.
+
+1. A life-state has five top-level dimensions: values, time, assets, education, and health. Reasoning about life decisions requires reasoning about all of them.
+
+2. Independence has four sub-types: mobility, financial, residential, and decision. They can move independently and even in opposite directions. Moving out raises residential independence while often reducing financial independence.
+
+3. Time has three sub-dimensions: count, buffer, and quality. A plan that maximizes count while collapsing buffer or quality is not viable, even if the math on paper checks out.
+
+4. Cash flow, savings, debt, risk buffer, income, and income growth are coupled and live together. A plan cannot reason about cash flow without reasoning about income.
+
+5. Education is a lever on income, not a goal. Its training time, training money, completion risk, and technology trajectory all enter the model formally and reach into time and assets.
+
+6. Technology reshapes which education paths the market pays for. The education-to-income relationship is not stable across time. Today's job market does not describe tomorrow's.
+
+7. Technology trajectory and personal income growth are independent factors. They combine multiplicatively over a planning horizon.
+
+8. Health is holistic: physical, mental, fitness, emotional, and relational. A plan that ruins any one is not a good plan, regardless of how it scores elsewhere.
+
+9. Some sub-components are floors (must stay above a minimum to survive); others are values (more is better). Floors enter the viability filter. Confusing the two leads to brittle plans.
+
+10. Survival is not the same as a life worth wanting. Desirability is a strict subset of viability.
+
+11. Life is a sequence of life-states, not a single decision. Paths are judged by their endpoint, subject to per-step viability and per-decision recoverability.
+
+12. Recoverability is a property of decisions, not states. State-level resilience is handled by the viability floors. Decision recoverability depends on lock-in time, exit cost, and state disruption.
+
+13. A good plan generates positive momentum across the whole life-state, stays above the viability floors at every stage, and avoids large irreversible commitments before there is enough evidence.
+
+14. This model is itself a conjecture, revisable as it fails to fit reality.
+
+---
+
+## 2. Formalized Model
+
+### 2.1 State
 
 $$
 L = \{V, T, A, K, W\}
 $$
 
-Where:
+$$
+V = \{i_1, i_2, i_3, i_4, e, g, \beta\}
+$$
+
+$$
+T = \{p, b, q\}
+$$
+
+$$
+A = \{c, \sigma, d, r, y, \gamma\}
+$$
+
+$$
+K = \{k, \tau, \mu, \rho, \delta\}
+$$
+
+$$
+W = \{\phi, \psi, \zeta, \eta, \nu\}
+$$
 
 | Symbol | Meaning |
 |---|---|
@@ -31,216 +79,182 @@ Where:
 | $T$ | Time |
 | $A$ | Assets (including income) |
 | $K$ | Education |
-| $W$ | Health (physical, mental, fitness, emotional, relational) |
-
-A life-state is not just whether Emma can afford something today. A life-state describes whether her overall situation is becoming stronger, weaker, freer, or more fragile.
-
-Each top-level variable is a vector of scalar sub-components defined in the sections that follow. All conditions (viability, desirability, momentum) are stated over those scalar sub-components.
-
-One further symbol, recoverability ($R$), is introduced later but sits outside $L$ on purpose. $R$ is a property of a particular decision, not of the state itself. State-level resilience is handled by the viability floors directly.
-
-All thresholds (e.g., $r_{min}$, $\phi_{min}$, $y_{min}$, $R_{min}$) are Emma-specific parameters set by judgment and revisable as her values and circumstances change.
-
-### Values
-
-Let:
-
-$$
-V = \{i_1, i_2, i_3, i_4, e, g, \beta\}
-$$
-
-Where:
-
-| Symbol | Meaning |
-|---|---|
-| $i_1$ | Mobility independence: reliable transportation; ability to get to work, school, friends, appointments, and opportunities |
-| $i_2$ | Financial independence: positive cash flow, preserved savings, and reduced dependence on others for money |
-| $i_3$ | Residential independence: living outside a parent's home |
-| $i_4$ | Decision independence: control over schedule, choices, goals, and personal life |
+| $W$ | Health |
+| $i_1, i_2, i_3, i_4$ | Mobility, financial, residential, decision independence |
 | $e$ | Enjoyable life experience |
 | $g$ | Goal progress |
 | $\beta$ | Stability / emotional safety |
-
-Independence is decomposed into four sub-types because they can conflict with one another. A key conjecture:
-
-> Moving out increases residential independence, but may reduce financial independence if rent consumes too much income.
-
-In notation:
-
-$$
-i_3 \uparrow \Rightarrow i_2 \downarrow
-$$
-
-This means moving out may feel like independence while reducing total practical freedom.
-
-Net worth is not listed in $V$ because it is captured by the asset components $\sigma$ (savings) and $d$ (debt). The desirability filter requires $\sigma_s \geq d_s$.
-
-### Time
-
-Let:
-
-$$
-T = \{p, b, q\}
-$$
-
-Where:
-
-| Symbol | Meaning |
-|---|---|
-| $p$ | Productive hours available per week |
-| $b$ | Buffer hours for unexpected events, rest, family, errands, and chaos |
-| $q$ | Quality of time / energy level |
-
-Time is not only the number of hours available. Two plans may leave the same number of free hours, but one may leave Emma exhausted while the other leaves her with enough energy to build her future. Quality matters more than count: each of $p$, $b$, and $q$ is a viability floor, and a plan that wins on $p$ but collapses $q$ is not viable.
-
-A useful distinction:
-
-$$
-p_{theoretical} \neq p_{actual}
-$$
-
-A plan can work on paper but fail if the remaining hours are low-quality, tired, scattered, or emotionally overloaded.
-
-### Assets
-
-Let:
-
-$$
-A = \{c, \sigma, d, r, y, \gamma\}
-$$
-
-Where:
-
-| Symbol | Meaning |
-|---|---|
+| $p$ | Productive hours per week |
+| $b$ | Buffer hours |
+| $q$ | Quality of time / energy |
 | $c$ | Monthly cash flow |
 | $\sigma$ | Savings |
 | $d$ | Debt / liabilities |
 | $r$ | Risk buffer / emergency fund |
 | $y$ | Income |
-| $\gamma$ | Likely income growth over time |
+| $\gamma$ | Income growth rate |
+| $k$ | Education path |
+| $\tau$ | Time required for $k$ |
+| $\mu$ | Money required for $k$ |
+| $\rho$ | Completion / payoff risk for $k$ |
+| $\delta$ | Technology trajectory of $k$ |
+| $\phi$ | Physical health |
+| $\psi$ | Mental health |
+| $\zeta$ | Fitness practice (diet, exercise) |
+| $\eta$ | Net emotional impact (signed) |
+| $\nu$ | Relational quality |
 
-Assets are everything financial: what comes in, what goes out, what is held, what is owed, and what is likely to change. Income lives here rather than as a separate top-level variable because cash flow, savings, debt, and income are deeply coupled. A plan cannot reason about cash flow without reasoning about income.
+Subscripts: $x_s$ denotes $x$ in scenario $s$; $x_j$ denotes $x$ at stage $j$ of a path. Thresholds ($r_{min}$, $\phi_{min}$, $y_{min}$, $H$, $R_{min}$, etc.) are Emma-specific parameters.
 
-Emma currently has meaningful savings. That gives her options. The goal is not merely to spend savings on adult things, but to preserve enough savings that she remains resilient.
+### 2.2 Cross-Variable Relationships
 
-A plan becomes financially fragile when:
-
-$$
-c < 0 \quad \text{or} \quad r < r_{min}
-$$
-
-A plan that meets those floors but produces $y < y_{min}$ is viable without being desirable: it can survive without yet supporting the life Emma wants. $y_{min}$ is a desirability threshold, not a survival threshold.
-
-A useful conjecture:
-
-> Residential independence becomes desirable only when income is high enough that housing, transportation, savings, and enjoyable life can all coexist without excessive pressure.
-
-### Education
-
-Education here covers any path that builds skill or credential, formal or informal: school, certificate, apprenticeship, on-the-job learning, self-study, mentorship. The model treats them as a single category because what matters is the resulting capability, not the venue.
-
-Let:
+Education's effects on time, assets, and projected income:
 
 $$
-K = \{k, \tau, \mu, \rho, \delta\}
+p_{actual} = p_{baseline} - \tau_{weekly} \quad \text{during training}
 $$
 
-Where:
-
-| Symbol | Meaning |
-|---|---|
-| $k$ | A specific education path (formal or informal) |
-| $\tau$ | Time required to acquire it |
-| $\mu$ | Money required to acquire it |
-| $\rho$ | Risk / uncertainty of completion or payoff |
-| $\delta$ | Technology trajectory: expected change in the education path's market value as technology progresses |
-
-Education matters because it can transform income, which then feeds the rest of the asset base.
-
 $$
-K \rightarrow A \rightarrow T \rightarrow V
+\sigma_{after} = \sigma_{before} - \mu
 $$
 
-Specifically, $K$ lifts $y$ inside $A$, and that lift propagates to $c$ (cash flow), $\sigma$ (savings), and $r$ (risk buffer). With more $A$, Emma can spend money to free time (a reliable car, less commute, fewer side jobs), which raises both the count and quality of $T$. With better $T$, she can move every dimension of $V$.
-
-#### How $\tau$, $\mu$, and $\rho$ enter the model
-
-These are not inert inventory. They connect $K$ to $A$ and $T$:
-
-- $\tau$ reduces $p$ during the training period: while training is in progress, $p_{actual} = p_{baseline} - \tau_{weekly}$, where $\tau_{weekly}$ is the share of $\tau$ falling in any given week. After training ends, $p$ returns to baseline.
-- $\mu$ subtracts from $\sigma$ (at training start, or amortized over the training horizon): $\sigma_{after} = \sigma_{before} - \mu$.
-- $\rho$ discounts the expected post-training income gain: $E[\Delta y] = (1 - \rho) \cdot \Delta y_{\text{if complete}}$.
-
-These relationships make $K$ a true lever on $A$ and $T$, not just a tracked goal. They also make the cost of education visible in the same units as the rest of the model.
-
-#### Technology trajectory ($\delta$)
-
-The $K \rightarrow y$ relationship is not stable across time. People create new knowledge, knowledge produces new technology, and technology reshapes which education paths the market actually pays for. A credential that pays well today may pay more, less, or nothing over the years it takes to build a life around it. $\delta$ captures that exposure.
-
-$\delta$ has a sign:
-
-- $\delta < 0$ if the education path is exposed to displacement by emerging technology
-- $\delta \approx 0$ if the path is roughly tech-neutral over the relevant horizon
-- $\delta > 0$ if the path is amplified by emerging technology
-
-$\delta$ cannot be measured with confidence. Knowledge growth is not predictable in detail, so any estimate is a conjecture open to criticism. The point is not to forecast precisely. The point is to refuse the default assumption that today's job market describes tomorrow's.
-
-A useful question for any candidate path:
-
-> If the most plausible technology trajectory in this field plays out over $\tau$, does this education path still produce the income it does today?
-
-When the answer is no, $\rho$ should rise and the path should favor education or transitions that remain valuable as the field changes.
-
-#### Independence of $\delta$ and $\gamma$
-
-$\delta$ (technology trajectory of a field) and $\gamma$ (income growth of a path) are independent. A field can have negative $\delta$ while a particular practitioner sees positive $\gamma$ from accumulated experience, geographic advantage, or moving up the value chain. Conversely, $\gamma$ can be negative for personal reasons (a career change, a location move, a step back into training) while $\delta$ stays neutral. The model tracks them separately and combines them only in the horizon-projected income condition below.
-
-#### Horizon-projected income
-
-To enforce the claim that stagnant $K$ in a declining field eventually fails, desirability requires that projected income remain above $y_{min}$ over a planning horizon $H$ (Emma's choice; e.g., 5 years):
+$$
+E[\Delta y] = (1 - \rho) \cdot \Delta y_{\text{if complete}}
+$$
 
 $$
 \hat{y}(L_s, H) = y_s \cdot (1 + \gamma_s)^H \cdot (1 + \delta_s)^H
 $$
 
-with the desirability condition $\hat{y}(L_s, H) \geq y_{min}$.
+Emotional comparison between alternatives:
 
-This is what makes a stagnant $K$ in a declining field fail desirability: even if $y_s \geq y_{min}$ today, projected $\hat{y}$ falls below the threshold within $H$.
+$$
+\text{a choice becomes more attractive as } \eta(\text{this}) - \eta(\text{alternative}) \text{ rises}
+$$
 
-### Health
+### 2.3 Viability and Desirability
+
+$$
+L_{viable} = \{L : c \geq 0 \land r \geq r_{min} \land p \geq p_{min} \land b \geq b_{min} \land q \geq q_{min} \land \phi \geq \phi_{min} \land \psi \geq \psi_{min} \land \nu \geq \nu_{min}\}
+$$
+
+$$
+L_{desirable} = L_{viable} \cap \{L : (\forall k \in \{1,2,3,4\}: i_k \geq i_{k,min}) \land e \geq e_{min} \land g \geq g_{min} \land \beta \geq \beta_{min}
+$$
+
+$$
+\land\; y \geq y_{min} \land \sigma \geq d \land \hat{y}(L, H) \geq y_{min} \land \zeta \geq \zeta_{min} \land \eta \geq \eta_{min}\}
+$$
+
+$$
+S_{viable} = \{s \in S : L_s \in L_{viable}\}, \quad S_{desirable} = \{s \in S : L_s \in L_{desirable}\}
+$$
+
+$$
+S_{desirable} \subseteq S_{viable} \subseteq S
+$$
+
+### 2.4 Recoverability
+
+$$
+R(s_j) = 1 - \frac{w_\lambda \lambda_j + w_\xi \xi_j + w_\Delta \Delta_j}{w_\lambda + w_\xi + w_\Delta}
+$$
+
+Where $\lambda_j, \xi_j, \Delta_j \in [0, 1]$ measure lock-in duration (as a fraction of $H$), exit cost (as a fraction of $\sigma$), and state disruption (fraction of $L$ materially altered). $w_\lambda, w_\xi, w_\Delta$ are Emma-specific weights. $R(s_j) \in [0, 1]$.
+
+### 2.5 Momentum and Path Objective
+
+$$
+Momentum(L) = \sum_{x \in components(L)} w_x \cdot x
+$$
+
+Where $components(L)$ ranges over the scored scalar sub-components of $V$, $T$, $A$, and $W$: $i_1, i_2, i_3, i_4, e, g, \beta, p, b, q, c, \sigma, r, y, \gamma, \phi, \psi, \zeta, \eta, \nu$. ($K$'s sub-components and $d$ are tracked but not directly scored.)
+
+Single-scenario optimum:
+
+$$
+s^* = \arg\max_{s \in S_{desirable}} Momentum(s)
+$$
+
+Path: $P = (s_0, s_1, \dots, s_n)$. Path momentum:
+
+$$
+Momentum(P) = Momentum(L_n)
+$$
+
+Path objective:
+
+$$
+P^* = \arg\max_{P \in \mathcal{P}} Momentum(P)
+$$
+
+subject to:
+
+$$
+L_n \in L_{desirable}, \quad L_j \in L_{viable} \;\forall j, \quad R(s_j) \geq R_{min} \;\forall \text{ large decisions } j
+$$
+
+---
+
+## 3. Explanation
+
+### 3.1 Values
+
+$V$ has seven sub-components: four independence types plus enjoyable life experience ($e$), goal progress ($g$), and emotional safety ($\beta$).
+
+Independence is decomposed into four because the sub-types can conflict. The canonical example is moving out: it raises $i_3$ (residential independence) while often reducing $i_2$ (financial independence). Mobility ($i_1$) is reliable transportation. Decision independence ($i_4$) is control over schedule, choices, and direction. The model does not prescribe an ordering for climbing them; different paths build different orders, and the momentum, viability, and recoverability filters distinguish good orderings from bad ones in any given case.
+
+Net worth is not in $V$. It is captured by $\sigma$ and $d$ in $A$, with the desirability filter requiring $\sigma_s \geq d_s$.
+
+### 3.2 Time
+
+Time is more than the count of available hours. Two plans may leave the same number of free hours but one leaves Emma exhausted while the other leaves her with energy to build a life. Each of $p$, $b$, and $q$ is a viability floor. A plan that wins on $p$ but collapses $q$ is not viable.
+
+A useful distinction: $p_{theoretical} \neq p_{actual}$. A plan can work on paper but fail if the remaining hours are tired, scattered, or emotionally overloaded.
+
+### 3.3 Assets
+
+$A$ contains everything financial: what comes in ($y$), what is held ($\sigma$), what is owed ($d$), what is set aside ($r$), what flows month to month ($c$), and what is projected to change ($\gamma$). Income lives here rather than as a separate top-level variable because cash flow, savings, debt, and income are deeply coupled. A plan cannot reason about cash flow without reasoning about income.
+
+A plan becomes financially fragile when $c < 0$ or $r < r_{min}$. A plan that meets those floors but produces $y < y_{min}$ is viable without being desirable: it can survive without yet supporting the life Emma wants. $y_{min}$ is a desirability threshold, not a survival threshold.
+
+A useful conjecture: residential independence becomes desirable only when income is high enough that housing, transportation, savings, and enjoyable life can all coexist without excessive pressure.
+
+### 3.4 Education
+
+Education here covers any path that builds skill or credential, formal or informal: school, certificate, apprenticeship, on-the-job learning, self-study, mentorship. The model treats them as one category because what matters is the resulting capability, not the venue.
+
+Education is a lever on income. The chain $K \rightarrow A \rightarrow T \rightarrow V$ says it formally: $K$ lifts $y$ inside $A$, and that lift propagates to $c$, $\sigma$, and $r$. With more $A$, Emma can spend money to free time (a reliable car, less commute, fewer side jobs), which raises both the count and quality of $T$. With better $T$, every dimension of $V$ can move.
+
+$K$'s sub-components are not inert. They connect to the rest of the model: $\tau$ (training time) reduces $p$ during the training period; $\mu$ (training money) subtracts from $\sigma$; $\rho$ (completion risk) discounts the expected post-training income gain.
+
+$\delta$ (technology trajectory) reflects that the $K \rightarrow y$ relationship is not stable across time. People create new knowledge, knowledge produces new technology, and technology reshapes which education paths the market pays for. $\delta$ is signed: negative if exposed to displacement by emerging technology, near zero if tech-neutral over the relevant horizon, positive if amplified.
+
+$\delta$ cannot be measured with confidence. The point is not to forecast precisely but to refuse the assumption that today's job market describes tomorrow's. A useful question for any candidate path: if the most plausible technology trajectory in this field plays out over $\tau$, does this education path still produce the income it does today? When the answer is no, $\rho$ should rise and the path should favor education that remains valuable as the field changes.
+
+$\delta$ and $\gamma$ are independent. A field can decline while a particular practitioner sees positive $\gamma$ from accumulated experience, geographic advantage, or moving up the value chain. Conversely, $\gamma$ can be negative for personal reasons (a career change, a location move, a step back into training) while $\delta$ stays neutral. The model tracks them separately and combines them only in $\hat{y}$.
+
+The horizon-projected income condition $\hat{y}(L_s, H) \geq y_{min}$ is what makes a stagnant $K$ in a declining field actually fail desirability. Even if $y_s \geq y_{min}$ today, projected $\hat{y}$ falls below the threshold within $H$ years if $\delta$ is sufficiently negative.
+
+### 3.5 Health
 
 Health is treated holistically: the full state of body, mind, behavior, emotion, and social connection. Each dimension is real, and a plan that wins on every other axis but ruins any of them is not a good plan.
 
-Let:
+$W$ has five sub-components. Each affects the others, but they are tracked separately because a plan can be strong in one and quietly destroying another. Long hours can sustain mental focus while degrading physical health and fitness. A meaningful job can lift emotional impact while crowding out relational quality.
 
-$$
-W = \{\phi, \psi, \zeta, \eta, \nu\}
-$$
+$\phi$, $\psi$, and $\nu$ are floors in the viability filter. $\zeta$ and $\eta$ contribute to momentum but are not hard floors: a plan can briefly skip exercise or feel hard without becoming nonviable. They become floors implicitly when sustained low values destroy $\phi$ or $\psi$.
 
-Where:
+#### Physical and mental health
 
-| Symbol | Meaning |
-|---|---|
-| $\phi$ | Physical health: condition, sleep, illness, energy reserves |
-| $\psi$ | Mental health: anxiety, depression, cognitive load, capacity for stress |
-| $\zeta$ | Fitness: practiced behaviors around diet and exercise |
-| $\eta$ | Net emotional impact (signed): how a choice tends to feel day to day |
-| $\nu$ | Relational quality: depth and resilience of family, friend, romantic, mentor, and community ties |
+$\phi$ and $\psi$ are the slow underlying state of body and mind. They compound over years. A long commute eats sleep. A high-pressure job raises baseline anxiety. Skipped exercise and poor diet compound silently. A path that produces strong income but ruins $\phi$ or $\psi$ is a path that pays interest forever, often at the worst time.
 
-Each dimension affects the others, but they are tracked separately because a plan can be strong in one and quietly destroying another. Long hours can sustain mental focus while degrading physical health and fitness. A meaningful job can lift emotional impact while crowding out relational quality.
+#### Fitness
 
-#### Physical and Mental ($\phi$, $\psi$)
+$\zeta$ is the practice, not the state: what Emma actually does day to day around movement and food. State ($\phi$) follows practice ($\zeta$) over time. A plan that leaves no time or energy for $\zeta$ will eventually erode $\phi$.
 
-Physical and mental health are the slow underlying state of body and mind. They compound over years. A long commute eats sleep. A high-pressure job raises baseline anxiety. Skipped exercise and poor diet compound silently. A path that produces strong income but ruins $\phi$ or $\psi$ is a path that pays interest forever, often at the worst time.
+#### Emotional impact
 
-#### Fitness ($\zeta$)
-
-Fitness is the practice, not the state: what Emma actually does day to day around movement and food. State ($\phi$) follows practice ($\zeta$) over time. A plan that leaves no time or energy for $\zeta$ will eventually erode $\phi$.
-
-#### Emotional Impact ($\eta$)
-
-Many decisions carry emotional weight beyond their financial weight. Emotions also run both ways: meaningful work can produce pride, autonomy can produce relief, good company can produce energy, while a draining job pays in chronic stress, a wrong roommate pays in friction, and a stretched purchase pays in anxiety. These effects are real even when they do not appear on a balance sheet.
+Many decisions carry emotional weight beyond their financial weight. Emotions also run both ways. Meaningful work can produce pride, autonomy can produce relief, good company can produce energy, while a draining job pays in chronic stress, a wrong roommate pays in friction, and a stretched purchase pays in anxiety. These effects are real even when they do not appear on a balance sheet.
 
 $\eta$ is signed: positive when a choice feels net good day to day, negative when it does not.
 
@@ -252,242 +266,31 @@ $\eta$ is signed: positive when a choice feels net good day to day, negative whe
 | Intensive training | Sense of growth and identity, against discipline cost, delayed gratification, and self-doubt |
 | Car ownership | Mobility, freedom, pride of ownership, against maintenance anxiety and commute fatigue |
 
-In notation:
+A choice becomes more attractive as $\eta(\text{this}) - \eta(\text{alternative})$ rises.
 
-$$
-\text{a choice becomes more attractive as } \eta(\text{this choice}) - \eta(\text{alternative}) \text{ rises}
-$$
+#### Relationships
 
-#### Relational ($\nu$)
-
-Relationships mean the network of people Emma depends on, contributes to, and grows with: family, close friends, romantic partners, mentors, and community. People are not interchangeable, and a thin network is a real fragility. The same shock that someone with strong relationships can absorb can flatten someone who is alone.
+$\nu$ measures the network of people Emma depends on, contributes to, and grows with: family, close friends, romantic partners, mentors, and community. People are not interchangeable, and a thin network is a real fragility. The same shock that someone with strong relationships can absorb can flatten someone who is alone.
 
 Many plans look efficient on paper but quietly damage $\nu$. Long hours leave no time for friends. A move can sever a community before a new one forms. A high-pressure path can crowd out the patience and presence that close relationships require. Some damage is reversible. Some is not.
 
-#### Floors
-
-A plan should satisfy:
-
-$$
-\phi_s \geq \phi_{min}, \quad \psi_s \geq \psi_{min}, \quad \nu_s \geq \nu_{min}
-$$
-
-for each scenario $s$ (and each stage in a path). $\zeta$ and $\eta$ contribute to momentum but are not hard floors: a plan can briefly skip exercise or feel hard without becoming nonviable. They become floors implicitly when sustained low values destroy $\phi$ or $\psi$.
-
-Plain English:
-
 > No plan is a good plan if it ruins her body, her mind, or her closeness to the people who matter. Feeling bad for a stretch is survivable. Staying broken is not.
 
-### Desirable Life-State
+### 3.6 Viability and Desirability
 
-A life-state is desirable when each of its scalar sub-components meets a minimum acceptable threshold, net worth is positive, and projected income holds over the planning horizon:
+Two filters separate plans by quality.
 
-$$
-L_{desirable} = \{L_s : \text{all conditions below hold}\}
-$$
+$L_{viable}$ contains life-states that survive: nonnegative cash flow, sufficient risk buffer, all three time dimensions above their floors, and $\phi$, $\psi$, $\nu$ above their floors. Failing any of these means the plan is nonviable, regardless of how attractive it looks elsewhere.
 
-Where the conditions are:
+$L_{desirable}$ is a strict subset of $L_{viable}$. A desirable life-state additionally has each independence type meeting its minimum, named values ($e$, $g$, $\beta$) above their floors, current and projected income meeting $y_{min}$, positive net worth ($\sigma \geq d$), and fitness and emotional impact above their floors.
 
-- $i_{1,s} \geq i_{1,min}, \; i_{2,s} \geq i_{2,min}, \; i_{3,s} \geq i_{3,min}, \; i_{4,s} \geq i_{4,min}$
-- $e_s \geq e_{min}, \; g_s \geq g_{min}, \; \beta_s \geq \beta_{min}$
-- $p_s \geq p_{min}, \; b_s \geq b_{min}, \; q_s \geq q_{min}$
-- $c_s \geq 0, \; r_s \geq r_{min}, \; y_s \geq y_{min}, \; \sigma_s \geq d_s$
-- $\hat{y}(L_s, H) \geq y_{min}$
-- $\phi_s \geq \phi_{min}, \; \psi_s \geq \psi_{min}, \; \zeta_s \geq \zeta_{min}, \; \eta_s \geq \eta_{min}, \; \nu_s \geq \nu_{min}$
+The distinction matters because a plan that feels exciting but creates a brittle life is filtered out as nonviable before any momentum comparison happens. And among viable plans, only desirable ones produce a life worth wanting.
 
-Plain English:
+### 3.7 Momentum
 
-> A desirable life-state is one where every independence type, every named value, every dimension of time, the financial state (with positive net worth and income projected to hold), and every dimension of health all meet acceptable thresholds.
+Momentum is a weighted sum across the scored scalar sub-components of the life-state. The weights are Emma-specific importances. Cash flow, risk buffer, stability, and the three health floors should likely receive higher weights because their collapse makes the whole life-state fragile.
 
-A key distinction:
-
-$$
-L_{possible} \neq L_{desirable}
-$$
-
-A life-state can be possible without being desirable.
-
-Example:
-
-Emma may be able to move out if she works enough hours, but if the plan leaves her broke, tired, stressed, unable to save, and unable to invest in education, then it may be possible but not desirable.
-
-### Positive Momentum
-
-The target is not merely independence today. The target is positive momentum.
-
-For a life-state $L$, momentum is a weighted sum across the scored scalar sub-components of $L$:
-
-$$
-Momentum(L) = \sum_{x \in components(L)} w_x \cdot x
-$$
-
-Where $components(L)$ is the union of the scored scalar sub-components of $V$, $T$, $A$, and $W$, and the weights $w_x$ are Emma-specific importances.
-
-Some sub-components are tracked but not directly scored:
-
-- $K$'s sub-components ($k, \tau, \mu, \rho, \delta$) act on $A$ and $T$ via the relationships above and on desirability via $\hat{y}$. They do not score directly because their effect already shows up in $y$, $\sigma$, $p$, and the horizon condition.
-- $d$ (debt) enters momentum negatively through cash flow and the net-worth condition rather than as a direct score.
-
-A good plan should tend toward:
-
-$$
-i_1 \uparrow, \; i_2 \uparrow, \; i_3 \uparrow, \; i_4 \uparrow, \; e \uparrow, \; g \uparrow, \; \beta \uparrow,
-$$
-
-$$
-p \uparrow, \; b \uparrow, \; q \uparrow,
-$$
-
-$$
-c \uparrow, \; \sigma \uparrow, \; r \uparrow, \; y \uparrow, \; \gamma \uparrow,
-$$
-
-$$
-\phi \uparrow, \; \psi \uparrow, \; \zeta \uparrow, \; \eta \uparrow, \; \nu \uparrow
-$$
-
-while preserving the floors of the viability filter.
-
-Plain English:
-
-> A good plan should improve every independence type, every value, every dimension of time, every dimension of the financial state, and every dimension of health, while keeping the viability floors intact.
-
-### Recoverability
-
-Recoverability measures how easily Emma can reverse, repair, or step back from a decision if it turns out badly. State-level resilience is handled by the viability floors (a state above its floors can absorb shocks; a state at its floors cannot). Recoverability applies to decisions, not states.
-
-Define:
-
-$$
-R(s_j) = 1 - \frac{w_\lambda \lambda_j + w_\xi \xi_j + w_\Delta \Delta_j}{w_\lambda + w_\xi + w_\Delta}
-$$
-
-Where:
-
-| Symbol | Meaning |
-|---|---|
-| $\lambda_j$ | Lock-in duration as a fraction of the planning horizon $H$, in $[0, 1]$ |
-| $\xi_j$ | Exit cost as a fraction of $\sigma$ (or $r$), in $[0, 1]$ |
-| $\Delta_j$ | State disruption: the fraction of $L$'s sub-components materially changed by the decision, in $[0, 1]$ |
-| $w_\lambda, w_\xi, w_\Delta$ | Emma-specific weights on the three dimensions |
-
-$R(s_j) \in [0, 1]$, where 1 means fully recoverable and 0 means fully locked in.
-
-Examples:
-
-| Decision | $\lambda$ | $\xi$ | $\Delta$ | $R$ |
-|---|---:|---:|---:|---:|
-| Try a part-time job | 0.05 | 0.00 | 0.10 | 0.95 |
-| Take a short course | 0.10 | 0.05 | 0.15 | 0.90 |
-| Sign a 12-month lease (5-yr horizon) | 0.20 | 0.10 | 0.40 | 0.77 |
-| Take on high-interest debt | 0.50 | 0.30 | 0.50 | 0.57 |
-| Buy a car that drains $r$ | 0.30 | 0.50 | 0.40 | 0.60 |
-
-A plan should satisfy:
-
-$$
-R(s_j) \geq R_{min}
-$$
-
-for each step $j$ where the decision is large enough that an error would meaningfully change the path.
-
-Plain English:
-
-> Prefer decisions Emma can step back from. Irreversible decisions need more evidence than reversible ones.
-
----
-
-## 2. Scenario Modeling and Path Evaluation
-
-This section treats life choices as candidate scenarios and sequences of scenarios. The goal is to compare paths, not merely isolated decisions.
-
-### Candidate Scenarios
-
-Let:
-
-$$
-S = \{s_1, s_2, s_3, \dots, s_k\}
-$$
-
-Where each $s$ is a possible scenario or life strategy.
-
-Examples:
-
-| Scenario | Description |
-|---|---|
-| $s_1$ | Stay with mom, buy no car, save aggressively |
-| $s_2$ | Stay with mom, buy modest car, preserve savings buffer |
-| $s_3$ | Move out, buy car |
-| $s_4$ | Move out, no car |
-| $s_5$ | Stay low-rent, buy reliable modest car, pursue income/credential path, move out later |
-| $s_6$ | Work more hours immediately, save more money, delay car purchase |
-| $s_7$ | Keep current work, add training or school, delay apartment independence |
-
-Each scenario produces an outcome:
-
-$$
-O(s) = L_s
-$$
-
-Where $L_s$ is the resulting life-state, with sub-components $V_s, T_s, A_s, K_s, W_s$ each unpacked into their scalar parts.
-
-Plain English:
-
-> Each possible plan creates a different life-state.
-
-### Viability Filter
-
-Before ranking scenarios by preference, first remove scenarios that violate any survival floor.
-
-Define the set of viable life-states:
-
-$$
-L_{viable} = \{L : c \geq 0 \land r \geq r_{min} \land p \geq p_{min} \land b \geq b_{min} \land q \geq q_{min} \land \phi \geq \phi_{min} \land \psi \geq \psi_{min} \land \nu \geq \nu_{min}\}
-$$
-
-Then:
-
-$$
-S_{viable} = \{s \in S : L_s \in L_{viable}\}
-$$
-
-Plain English:
-
-> The viable scenarios are those where cash flow is nonnegative, risk buffer is high enough, all three dimensions of time are at least minimally preserved, and physical health, mental health, and relational quality are at least minimally preserved.
-
-This prevents us from being fooled by a plan that feels exciting but creates a brittle life. A plan that wins on money while quietly destroying time, health, or relationships is not viable, no matter how good its momentum score would otherwise look.
-
-### Desirability Filter
-
-A viable scenario is not automatically desirable. It may be survivable but not good.
-
-Define:
-
-$$
-S_{desirable} = \{s \in S_{viable} : L_s \in L_{desirable}\}
-$$
-
-Plain English:
-
-> Desirable scenarios are viable scenarios that also create a life-state worth wanting.
-
-This distinction matters:
-
-$$
-S_{desirable} \subseteq S_{viable} \subseteq S
-$$
-
-Meaning:
-
-> Desirable scenarios are a subset of viable scenarios, and viable scenarios are a subset of all possible scenarios.
-
-### Momentum Score
-
-Once nonviable plans are removed and undesirable plans are filtered out, we can compare the remaining plans by momentum. For a scenario $s$ with resulting life-state $L_s$:
-
-$$
-Momentum(s) = Momentum(L_s) = \sum_{x \in components(L_s)} w_x \cdot x_s
-$$
+$K$'s sub-components do not appear in the score directly because their effect already shows up in $y$, $\sigma$, $p$, and the horizon condition. $d$ enters negatively through cash flow and the net-worth condition.
 
 Possible initial weights:
 
@@ -514,120 +317,64 @@ Possible initial weights:
 | $\eta$ | Emotional impact | 3 |
 | $\nu$ | Relational quality | 4 |
 
-Cash flow, risk buffer, stability, physical health, mental health, and relational quality should likely receive high weights because when they collapse, the whole life-state becomes fragile.
+The best single scenario is the desirable scenario with the highest momentum. Selecting from $S_{desirable}$ rather than $S_{viable}$ aligns the single-scenario optimum with the path-level objective: both demand a life-state worth wanting, not merely one that survives.
 
-The best scenario is:
+### 3.8 Recoverability
 
-$$
-s^* = \arg\max_{s \in S_{desirable}} Momentum(s)
-$$
+Recoverability measures how easily Emma can reverse, repair, or step back from a decision if it turns out badly. State-level resilience is handled by the viability floors (a state above its floors can absorb shocks; a state at its floors cannot). Recoverability applies to decisions, not states.
 
-Plain English:
+$R(s_j) \in [0, 1]$ is the recoverability of decision $s_j$, computed from three dimensions. $\lambda_j$ is lock-in duration as a fraction of the planning horizon (a 12-month lease over a 5-year horizon has $\lambda \approx 0.2$). $\xi_j$ is exit cost as a fraction of savings (breaking a lease for two months' rent on $10,000 in savings has $\xi \approx 0.1$). $\Delta_j$ is state disruption: roughly the fraction of $L$'s sub-components materially changed by the decision.
 
-> The best scenario is the desirable scenario with the highest positive momentum. Selecting from $S_{desirable}$ rather than $S_{viable}$ aligns the single-scenario optimum with the path-level objective: both demand a life-state worth wanting, not merely one that survives.
+Examples:
 
-### Path-Based Evaluation
+| Decision | $\lambda$ | $\xi$ | $\Delta$ | $R$ |
+|---|---:|---:|---:|---:|
+| Try a part-time job | 0.05 | 0.00 | 0.10 | 0.95 |
+| Take a short course | 0.10 | 0.05 | 0.15 | 0.90 |
+| Sign a 12-month lease (5-yr horizon) | 0.20 | 0.10 | 0.40 | 0.77 |
+| Take on high-interest debt | 0.50 | 0.30 | 0.50 | 0.57 |
+| Buy a car that drains $r$ | 0.30 | 0.50 | 0.40 | 0.60 |
 
-Emma's life should not be modeled as one giant decision. It should be modeled as a path.
+A plan should satisfy $R(s_j) \geq R_{min}$ for each step $j$ where the decision is large enough that an error would meaningfully change the path.
 
-Let:
+> Prefer decisions Emma can step back from. Irreversible decisions need more evidence than reversible ones.
 
-$$
-P = (s_0, s_1, s_2, \dots, s_n)
-$$
+### 3.9 Paths
 
-Where $P$ is a sequence of scenarios or stages.
+Emma's life is a sequence of life-states, not a single decision. A path $P = (s_0, s_1, \dots, s_n)$ is a sequence of scenarios over time, each producing its own life-state.
 
-Example path:
+Example scenarios (illustrative, not prescriptive):
 
-$$
-P_1 = \text{stay low-rent} \rightarrow \text{buy modest car} \rightarrow \text{increase income} \rightarrow \text{move out later}
-$$
+| Scenario | Description |
+|---|---|
+| $s_1$ | Stay with mom, buy no car, save aggressively |
+| $s_2$ | Stay with mom, buy modest car, preserve savings buffer |
+| $s_3$ | Move out, buy car |
+| $s_4$ | Move out, no car |
+| $s_5$ | Stay low-rent, buy reliable modest car, pursue income/credential path, move out later |
+| $s_6$ | Work more hours immediately, save more money, delay car purchase |
+| $s_7$ | Keep current work, add training or school, delay apartment independence |
 
-The goal is:
+A path's quality is judged by where it lands. The terminal life-state must be desirable. Every intermediate life-state must be viable. Every large decision must be recoverable enough.
 
-$$
-L_0 \rightarrow L_1 \rightarrow L_2 \rightarrow \dots \rightarrow L^*
-$$
+Scoring the endpoint rather than integrating across stages is a deliberate choice. The per-step constraints carry the journey: any stage that fails viability or recoverability disqualifies the path. A weighted sum across stages is a reasonable alternative scoring; this model uses the simpler version.
 
-Where:
+### 3.10 Falsifiability
 
-$$
-L^* \in L_{desirable}
-$$
-
-Plain English:
-
-> The best plan is the sequence of moves that gets Emma from her current life-state to a desirable life-state without breaking viability along the way.
-
-### Path Objective
-
-Let:
-
-$$
-\mathcal{P} = \{P_1, P_2, P_3, \dots, P_m\}
-$$
-
-Where $\mathcal{P}$ is the set of possible paths.
-
-Define path momentum as the momentum of the terminal life-state:
-
-$$
-Momentum(P) = Momentum(L_n)
-$$
-
-The path is judged by where it ends. The per-step constraints below ensure the journey itself is acceptable. (An alternative scoring such as a weighted sum across stages would reward time spent in good intermediate states; this model uses the simpler endpoint score and lets the constraints carry the journey.)
-
-Then:
-
-$$
-P^* = \arg\max_{P \in \mathcal{P}} Momentum(P)
-$$
-
-Subject to:
-
-$$
-L_n \in L_{desirable}
-$$
-
-and:
-
-$$
-L_j \in L_{viable} \quad \text{for each step } j
-$$
-
-and:
-
-$$
-R(s_j) \geq R_{min} \quad \text{for each large decision } j
-$$
-
-Plain English:
-
-> The best path is the one that lands in the most desirable reachable life-state, while keeping every intermediate life-state above the viability floors and ensuring that large decisions remain recoverable.
-
-### Independence Dimensions
-
-Independence is multi-dimensional, not a ladder. The four sub-types defined in $V$ ($i_1, i_2, i_3, i_4$) can move independently and even in opposite directions: gains in one can come at the cost of another (the canonical example being moving out raising $i_3$ while lowering $i_2$). The model does not prescribe an ordering. Different paths may climb the dimensions in different orders, and the momentum, viability, and recoverability filters are what distinguish good orderings from bad ones in any given case.
-
-### Model-Level Falsifiability
-
-The model itself is a conjecture and should be revisable. Conditions that should trigger revision:
+The model is itself a conjecture and should be revisable. Conditions that should trigger revision:
 
 - A scenario produces high momentum but feels emotionally wrong to Emma. (A value is missing or mis-weighted.)
 - A scenario looks viable on paper but fails repeatedly in practice. (A constraint is uncosted.)
 - Emma's stated values shift in a stable, considered way. ($V$ needs updating.)
 - A variable in $L$ turns out to be redundant, or a needed variable is missing.
-- The weights in $Momentum(s)$ produce rankings that contradict considered judgment across many scenarios.
+- The weights in $Momentum$ produce rankings that contradict considered judgment across many scenarios.
 - The horizon-projected income $\hat{y}$ produces predictions that are repeatedly wrong by large margins. (The functional form, or $\delta$ or $\gamma$ estimates, may need revision.)
-
-Plain English:
 
 > The model is a tool for thinking, not a verdict. When it stops fitting reality, change the model.
 
 ---
 
-## 3. Questions to Ask Emma and Myself
+## Appendix: Questions to Ask Emma and Myself
 
 This section is for discovering values, desires, constraints, and hidden tradeoffs. The goal is not to interrogate Emma. The goal is to help her sort through what she wants and what each possible path would actually cost or create.
 
