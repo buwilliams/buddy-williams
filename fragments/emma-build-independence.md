@@ -6,20 +6,20 @@ The implementation of this model is being built in [pathwise](https://github.com
 
 Emma is graduating high school, turning 18, and beginning the transition into adult life. She wants more independence and is considering major life decisions such as buying a car, working more, moving out, and choosing a path toward higher income.
 
-These decisions are emotionally heavy because they are not isolated. A car affects money, mobility, job options, insurance, maintenance, and savings. Moving out affects independence, rent burden, work hours, stress, future options, and available time. Skill-building affects future income, but requires time, money, discipline, and delayed gratification.
+These decisions are emotionally heavy because they are not isolated. A car affects money, mobility, job options, insurance, maintenance, and savings. Moving out affects independence, rent burden, work hours, stress, future options, and available time. Pursuing education affects future income, but requires time, money, discipline, and delayed gratification.
 
 The purpose of this model is not to prove the one correct answer. The purpose is to make the important factors explicit so we can use conjecture and criticism to evaluate possible paths.
 
 The guiding idea is:
 
-> A good plan should generate positive momentum across her values, time, and assets, without creating excessive fragility.
+> A good plan should generate positive momentum across her whole life-state (values, time, assets, education, and health) without creating excessive fragility.
 
 ### Core Life-State Model
 
 Let:
 
 $$
-L = \{V, T, A, Y, K, H, W, N\}
+L = \{V, T, A, K, W\}
 $$
 
 Where:
@@ -29,53 +29,39 @@ Where:
 | $L$ | Life-state |
 | $V$ | Values |
 | $T$ | Time |
-| $A$ | Assets |
-| $Y$ | Income |
+| $A$ | Assets (including income) |
 | $K$ | Education |
-| $H$ | Emotions |
-| $W$ | Health |
-| $N$ | Relationships |
+| $W$ | Health (physical, mental, fitness, emotional, relational) |
 
 A life-state is not just whether Emma can afford something today. A life-state describes whether her overall situation is becoming stronger, weaker, freer, or more fragile.
 
+Each top-level variable is a vector of scalar sub-components defined in the sections that follow. All conditions (viability, desirability, fragility, momentum) are stated over those scalar sub-components.
+
 Two further symbols, fragility ($F$) and recoverability ($R$), are introduced later but sit outside $L$ on purpose. $F$ is a derived measure of how exposed a life-state is to shocks. $R$ is a property of a particular decision, not of the state itself.
+
+All thresholds (e.g., $r_{min}$, $\phi_{min}$, $y_{min}$, $F_{max}$, $R_{min}$) are Emma-specific parameters set by judgment and revisable as her values and circumstances change.
 
 ### Values
 
 Let:
 
 $$
-V = \{i, n, e, g, s\}
+V = \{i_1, i_2, i_3, i_4, e, g, s\}
 $$
 
 Where:
 
 | Symbol | Meaning |
 |---|---|
-| $i$ | Independence |
-| $n$ | Positive net worth |
+| $i_1$ | Mobility independence: reliable transportation; ability to get to work, school, friends, appointments, and opportunities |
+| $i_2$ | Financial independence: positive cash flow, preserved savings, and reduced dependence on others for money |
+| $i_3$ | Residential independence: living outside a parent's home |
+| $i_4$ | Decision independence: control over schedule, choices, goals, and personal life |
 | $e$ | Enjoyable life experience |
 | $g$ | Goal progress |
 | $s$ | Stability / emotional safety |
 
-Independence should not be treated as one simple thing. Emma may want independence, but different forms of independence can conflict with one another.
-
-Let:
-
-$$
-I = \{i_1, i_2, i_3, i_4\}
-$$
-
-Where:
-
-| Symbol | Type of Independence | Meaning |
-|---|---|---|
-| $i_1$ | Mobility independence | Reliable transportation; ability to get to work, school, friends, appointments, and opportunities |
-| $i_2$ | Financial independence | Positive cash flow, preserved savings, and reduced dependence on others for money |
-| $i_3$ | Residential independence | Living outside a parent’s home |
-| $i_4$ | Decision independence | More control over schedule, choices, goals, and personal life |
-
-A key conjecture:
+Independence is decomposed into four sub-types because they can conflict with one another. A key conjecture:
 
 > Moving out increases residential independence, but may reduce financial independence if rent consumes too much income.
 
@@ -87,41 +73,7 @@ $$
 
 This means moving out may feel like independence while reducing total practical freedom.
 
-### Emotions
-
-Let:
-
-$$
-H = \text{net emotional impact}
-$$
-
-Many decisions carry an emotional weight beyond their financial one. Staying with a parent saves money but can pay in privacy, autonomy, conflict, infantilization, or feeling stuck. A draining job or long commute pays in chronic stress and lost time. An intensive training path pays in discipline cost, delayed gratification, and self-doubt. The wrong roommate pays in friction. Even a car can pay in maintenance anxiety, traffic fatigue, or the pressure of an insurance bill.
-
-Emotions also run the other way. Meaningful work can produce pride. Autonomy can produce relief. Good company can produce energy. A car bought without strain can produce ease. These effects are real even when they do not appear on a balance sheet.
-
-The model should not treat any choice as emotionally neutral by default. $H(s)$ can be positive or negative, and it flows into $e$ (enjoyable life), $s$ (stability / emotional safety), and sometimes $g$ (goal progress), lifting them when positive and depressing them when negative.
-
-Examples:
-
-| Choice | Possible emotional impact |
-|---|---|
-| Stay at home | Ease and savings, against privacy loss, conflict, and feeling stuck |
-| Move out | Sense of freedom and ownership, against financial pressure, isolation, and household labor |
-| Long-hour job | Pride in earning and progress, against chronic stress, fatigue, and lost rest |
-| Intensive training | Sense of growth and identity, against discipline cost, delayed gratification, and self-doubt |
-| Car ownership | Mobility, freedom, pride of ownership, against maintenance anxiety and commute fatigue |
-
-This matters because comparing two choices requires comparing their full effects, not just their financial ones. A choice that looks cheaper financially can be more expensive emotionally, and a choice that looks expensive financially can pay for itself in restored peace, energy, or pride.
-
-In notation:
-
-$$
-\text{a choice becomes more attractive as } H(\text{this choice}) - H(\text{alternative}) \text{ rises}
-$$
-
-Plain English:
-
-> A plan that saves money but destroys peace is not a good plan. A plan that costs money but restores peace can be the right plan when the emotional gain is real.
+Net worth is not listed in $V$ because it is captured by the asset components $\sigma$ (savings) and $d$ (debt). The desirability filter requires $\sigma_s \geq d_s$.
 
 ### Time
 
@@ -154,7 +106,7 @@ A plan can work on paper but fail if the remaining hours are low-quality, tired,
 Let:
 
 $$
-A = \{c, \sigma, d, r\}
+A = \{c, \sigma, d, r, y, \gamma\}
 $$
 
 Where:
@@ -165,46 +117,20 @@ Where:
 | $\sigma$ | Savings |
 | $d$ | Debt / liabilities |
 | $r$ | Risk buffer / emergency fund |
+| $y$ | Income |
+| $\gamma$ | Likely income growth over time |
+
+Assets are everything financial: what comes in, what goes out, what is held, what is owed, and what is likely to change. Income lives here rather than as a separate top-level variable because cash flow, savings, debt, and income are deeply coupled. A plan cannot reason about cash flow without reasoning about income.
 
 Emma currently has meaningful savings. That gives her options. The goal is not merely to spend savings on adult things, but to preserve enough savings that she remains resilient.
 
-A plan becomes fragile when:
+A plan becomes financially fragile when:
 
 $$
-c < 0
+c < 0 \quad \text{or} \quad r < r_{min}
 $$
 
-or:
-
-$$
-r < r_{min}
-$$
-
-A plan may be technically possible but still undesirable if it destroys cash flow or risk buffer.
-
-### Income
-
-Let:
-
-$$
-Y = \{y, y_{min}, y_{growth}\}
-$$
-
-Where:
-
-| Symbol | Meaning |
-|---|---|
-| $y$ | Current income |
-| $y_{min}$ | Minimum income threshold for desirable independence |
-| $y_{growth}$ | Likely income growth over time |
-
-The income question is not only:
-
-> How much does she make today?
-
-It is also:
-
-> What income level would make her desired life-state actually sustainable?
+A plan that meets those floors but produces $y < y_{min}$ is viable without being desirable: it can survive without yet supporting the life Emma wants. $y_{min}$ is a desirability threshold, not a survival threshold.
 
 A useful conjecture:
 
@@ -230,21 +156,15 @@ Where:
 | $\rho$ | Risk / uncertainty of completion or payoff |
 | $\delta$ | Technology trajectory: expected change in the skill's market value as technology progresses |
 
-Education matters because it can transform the income variable.
+Education matters because it can transform income, which then feeds the rest of the asset base.
 
 $$
-K \rightarrow Y
-$$
-
-Or more fully:
-
-$$
-K \rightarrow Y \rightarrow A \rightarrow T \rightarrow V
+K \rightarrow y \rightarrow A \rightarrow T \rightarrow V
 $$
 
 This means education is not merely another goal. It is a lever that changes what life-states are possible.
 
-The $K \rightarrow Y$ relationship is not stable across time. People create new knowledge, knowledge produces new technology, and technology reshapes which skills the market actually pays for. A credential that pays well today may pay more, less, or nothing over the years it takes to build a life around it. $\delta$ captures that exposure.
+The $K \rightarrow y$ relationship is not stable across time. People create new knowledge, knowledge produces new technology, and technology reshapes which skills the market actually pays for. A credential that pays well today may pay more, less, or nothing over the years it takes to build a life around it. $\delta$ captures that exposure.
 
 $\delta$ has a sign:
 
@@ -260,65 +180,97 @@ A useful question for any candidate path:
 
 When the answer is no, $\rho$ should rise and the path should favor skills or transitions that remain valuable as the field changes.
 
+$K$'s sub-components are not directly scored in momentum and do not appear in the viability or desirability filters because $K$ acts on $y$. A plan with no $K$ progress over a long horizon will eventually fail the income or fragility floors as life and the labor market move on.
+
 ### Health
 
-Let:
-
-$$
-W = \text{health}
-$$
-
-Health here means the slow underlying state of body and mind: physical condition, mental condition, sleep, and the capacity to handle stress. It is not the same as $H$ (emotions). Emotions move quickly with daily events. Health is the slower substrate that makes most of life either easier or harder, and that compounds over years.
-
-Many decisions affect $W$ indirectly. A long commute eats sleep. A high-pressure job raises baseline anxiety. Skipped exercise and poor diet compound silently. A path that produces strong income but ruins $W$ is a path that pays interest forever, often at the worst time.
-
-Like emotions, $W$ flows into $e$ (enjoyable life), $s$ (stability), $g$ (goal progress), and $q$ (quality of productive time). It is also a floor in its own right. A plan should satisfy:
-
-$$
-W(L_j) \geq W_{min}
-$$
-
-for each stage of the plan.
-
-Plain English:
-
-> No plan is a good plan if it ruins her body or her mind. A win on every other axis cannot pay back the loss.
-
-### Relationships
+Health is treated holistically: the full state of body, mind, behavior, emotion, and social connection. Each dimension is real, and a plan that wins on every other axis but ruins any of them is not a good plan.
 
 Let:
 
 $$
-N = \text{relationships}
+W = \{\phi, \psi, \zeta, \eta, \nu\}
 $$
+
+Where:
+
+| Symbol | Meaning |
+|---|---|
+| $\phi$ | Physical health: condition, sleep, illness, energy reserves |
+| $\psi$ | Mental health: anxiety, depression, cognitive load, capacity for stress |
+| $\zeta$ | Fitness: practiced behaviors around diet and exercise |
+| $\eta$ | Net emotional impact (signed): how a choice tends to feel day to day |
+| $\nu$ | Relational quality: depth and resilience of family, friend, romantic, mentor, and community ties |
+
+Each dimension affects the others, but they are tracked separately because a plan can be strong in one and quietly destroying another. Long hours can sustain mental focus while degrading physical health and fitness. A meaningful job can lift emotional impact while crowding out relational quality.
+
+#### Physical and Mental ($\phi$, $\psi$)
+
+Physical and mental health are the slow underlying state of body and mind. They compound over years. A long commute eats sleep. A high-pressure job raises baseline anxiety. Skipped exercise and poor diet compound silently. A path that produces strong income but ruins $\phi$ or $\psi$ is a path that pays interest forever, often at the worst time.
+
+#### Fitness ($\zeta$)
+
+Fitness is the practice, not the state: what Emma actually does day to day around movement and food. State ($\phi$) follows practice ($\zeta$) over time. A plan that leaves no time or energy for $\zeta$ will eventually erode $\phi$.
+
+#### Emotional Impact ($\eta$)
+
+Many decisions carry emotional weight beyond their financial weight. Emotions also run both ways: meaningful work can produce pride, autonomy can produce relief, good company can produce energy, while a draining job pays in chronic stress, a wrong roommate pays in friction, and a stretched purchase pays in anxiety. These effects are real even when they do not appear on a balance sheet.
+
+$\eta$ is signed: positive when a choice feels net good day to day, negative when it does not.
+
+| Choice | Possible emotional impact |
+|---|---|
+| Stay at home | Ease and savings, against privacy loss, conflict, and feeling stuck |
+| Move out | Sense of freedom and ownership, against financial pressure, isolation, and household labor |
+| Long-hour job | Pride in earning and progress, against chronic stress, fatigue, and lost rest |
+| Intensive training | Sense of growth and identity, against discipline cost, delayed gratification, and self-doubt |
+| Car ownership | Mobility, freedom, pride of ownership, against maintenance anxiety and commute fatigue |
+
+In notation:
+
+$$
+\text{a choice becomes more attractive as } \eta(\text{this choice}) - \eta(\text{alternative}) \text{ rises}
+$$
+
+#### Relational ($\nu$)
 
 Relationships mean the network of people Emma depends on, contributes to, and grows with: family, close friends, romantic partners, mentors, and community. People are not interchangeable, and a thin network is a real fragility. The same shock that someone with strong relationships can absorb can flatten someone who is alone.
 
-Many plans look efficient on paper but quietly damage relationships. Long hours leave no time for friends. A move can sever a community before a new one forms. A high-pressure path can crowd out the patience and presence that close relationships require. Some damage is reversible. Some is not.
+Many plans look efficient on paper but quietly damage $\nu$. Long hours leave no time for friends. A move can sever a community before a new one forms. A high-pressure path can crowd out the patience and presence that close relationships require. Some damage is reversible. Some is not.
 
-Like health, $N$ flows into $e$ (enjoyable life) and $s$ (stability). It is also a floor in its own right. A plan should satisfy:
+#### Floors
+
+A plan should satisfy:
 
 $$
-N(L_j) \geq N_{min}
+\phi(L_j) \geq \phi_{min}, \quad \psi(L_j) \geq \psi_{min}, \quad \nu(L_j) \geq \nu_{min}
 $$
 
-for each stage of the plan.
+for each stage of the plan. $\zeta$ and $\eta$ contribute to momentum but are not hard floors: a plan can briefly skip exercise or feel hard without becoming nonviable. They become floors implicitly when sustained low values destroy $\phi$ or $\psi$.
 
 Plain English:
 
-> No plan is a good plan if it leaves her isolated, distant from the people who matter, or unable to build the relationships an adult life needs.
+> No plan is a good plan if it ruins her body, her mind, or her closeness to the people who matter. Feeling bad for a stretch is survivable; staying broken is not.
 
 ### Desirable Life-State
 
-Define:
+A life-state is desirable when each of its scalar sub-components meets a minimum acceptable threshold and net worth is positive:
 
 $$
-L_{desirable} = \{L_s : V_s \geq V_{min} \land T_s \geq T_{min} \land A_s \geq A_{min} \land Y_s \geq Y_{min} \land W_s \geq W_{min} \land N_s \geq N_{min}\}
+L_{desirable} = \{L_s : \text{all conditions below hold}\}
 $$
+
+Where the conditions are:
+
+- $i_{1,s} \geq i_{1,min}, \; i_{2,s} \geq i_{2,min}, \; i_{3,s} \geq i_{3,min}, \; i_{4,s} \geq i_{4,min}$
+- $e_s \geq e_{min}, \; g_s \geq g_{min}, \; s_s \geq s_{min}$
+- $p_s \geq p_{min}, \; q_s \geq q_{min}$
+- $c_s \geq 0, \; r_s \geq r_{min}, \; y_s \geq y_{min}, \; \sigma_s \geq d_s, \; \gamma_s \geq 0$
+- $\phi_s \geq \phi_{min}, \; \psi_s \geq \psi_{min}, \; \zeta_s \geq \zeta_{min}, \; \eta_s \geq \eta_{min}, \; \nu_s \geq \nu_{min}$
 
 Plain English:
 
-> A desirable life-state is one where values, time, assets, income, health, and relationships all meet minimum acceptable thresholds.
+> A desirable life-state is one where every independence type, every named value, productive time and its quality, the financial state (with positive net worth), and every dimension of health all meet acceptable thresholds.
 
 A key distinction:
 
@@ -330,35 +282,45 @@ A life-state can be possible without being desirable.
 
 Example:
 
-Emma may be able to move out if she works enough hours, but if the plan leaves her broke, tired, stressed, unable to save, and unable to build future skills, then it may be possible but not desirable.
+Emma may be able to move out if she works enough hours, but if the plan leaves her broke, tired, stressed, unable to save, and unable to invest in education, then it may be possible but not desirable.
 
 ### Positive Momentum
 
 The target is not merely independence today. The target is positive momentum.
 
-Let:
+For a life-state $L$, momentum is a weighted sum across the scalar sub-components of $L$:
 
 $$
-Momentum(L) = f(V, T, A, Y, K, H, W, N)
+Momentum(L) = \sum_{x \in components(L)} w_x \cdot x
 $$
 
-A plan has positive momentum when her values, time, assets, income, education, health, and relationships reinforce one another while emotional impact stays net positive.
+Where $components(L)$ is the union of the scored scalar sub-components of $V$, $T$, $A$, and $W$, and the weights $w_x$ are Emma-specific importances.
+
+Some sub-components are tracked but not directly scored:
+
+- $K$'s sub-components ($k, \tau, \mu, \rho, \delta$) act through $y$ rather than as direct scores. A path's education effort is reflected in the income it produces.
+- $b$ (buffer time) feeds the realism of $p$ and $q$ and does not score directly.
+- $d$ (debt) enters momentum negatively through cash flow and the net-worth condition rather than as a direct score.
 
 A good plan should tend toward:
 
 $$
-i \uparrow, \quad n \uparrow, \quad e \uparrow, \quad g \uparrow, \quad s \uparrow
+i_1 \uparrow, \; i_2 \uparrow, \; i_3 \uparrow, \; i_4 \uparrow, \; e \uparrow, \; g \uparrow, \; s \uparrow, \; q \uparrow,
 $$
 
-while preserving:
+$$
+c \uparrow, \; \sigma \uparrow, \; r \uparrow, \; y \uparrow, \; \gamma \uparrow,
+$$
 
 $$
-c \geq 0, \quad r \geq r_{min}, \quad p \geq p_{min}, \quad W \geq W_{min}, \quad N \geq N_{min}
+\phi \uparrow, \; \psi \uparrow, \; \zeta \uparrow, \; \eta \uparrow, \; \nu \uparrow
 $$
+
+while preserving the floors of the viability filter.
 
 Plain English:
 
-> A good plan should increase independence, net worth, enjoyment, goal progress, and stability while maintaining positive cash flow, enough emergency buffer, enough productive time, intact health, and intact relationships.
+> A good plan should improve every independence type, every value, the quality of productive time, every dimension of the financial state, and every dimension of health, while keeping the floors of cash flow, risk buffer, productive time, physical health, mental health, and relational quality intact.
 
 ### Fragility
 
@@ -368,7 +330,7 @@ $$
 F = \text{fragility}
 $$
 
-Fragility increases when she has too little money, too little time, too much debt, too much pressure, too little room for mistakes, declining health, or weakening relationships.
+Fragility increases when she has too little money, too little time, too much debt, too much pressure, too little room for mistakes, declining physical or mental health, weakening relationships, or income that depends on a skill technology is converging on.
 
 A plan should satisfy:
 
@@ -440,11 +402,7 @@ $$
 O(s) = L_s
 $$
 
-Where:
-
-$$
-L_s = \{V_s, T_s, A_s, Y_s, K_s, H_s, W_s, N_s\}
-$$
+Where $L_s$ is the resulting life-state, with sub-components $V_s, T_s, A_s, K_s, W_s$ each unpacked into their scalar parts.
 
 Plain English:
 
@@ -457,36 +415,14 @@ Before ranking scenarios by preference, first remove scenarios that are too frag
 Define:
 
 $$
-S_{viable} = \{s \in S : c_s \geq 0 \land r_s \geq r_{min} \land p_s \geq p_{min} \land W_s \geq W_{min} \land N_s \geq N_{min}\}
+S_{viable} = \{s \in S : c_s \geq 0 \land r_s \geq r_{min} \land p_s \geq p_{min} \land \phi_s \geq \phi_{min} \land \psi_s \geq \psi_{min} \land \nu_s \geq \nu_{min}\}
 $$
 
 Plain English:
 
-> The viable scenarios are all scenarios in $S$ where cash flow is nonnegative, risk buffer is high enough, productive time is high enough, health is at least minimally preserved, and relationships are at least minimally preserved.
+> The viable scenarios are those where cash flow is nonnegative, risk buffer is high enough, productive time is high enough, and physical health, mental health, and relational quality are at least minimally preserved.
 
 This prevents us from being fooled by a plan that feels exciting but creates a brittle life. A plan that wins on money and time while quietly destroying health or relationships is not viable, no matter how good its momentum score would otherwise look.
-
-A scenario is not viable if any of these fail:
-
-$$
-c_s < 0
-$$
-
-$$
-r_s < r_{min}
-$$
-
-$$
-p_s < p_{min}
-$$
-
-$$
-W_s < W_{min}
-$$
-
-$$
-N_s < N_{min}
-$$
 
 ### Desirability Filter
 
@@ -514,33 +450,37 @@ Meaning:
 
 ### Momentum Score
 
-Once nonviable plans are removed, we can compare the remaining plans by momentum.
-
-Let:
+Once nonviable plans are removed, we can compare the remaining plans by momentum. For a scenario $s$ with resulting life-state $L_s$:
 
 $$
-Momentum(s) = w_i i_s + w_n n_s + w_e e_s + w_g g_s + w_s s_s + w_p p_s + w_c c_s + w_r r_s + w_y y_s
+Momentum(s) = Momentum(L_s) = \sum_{x \in components(L_s)} w_x \cdot x_s
 $$
-
-Where the $w$'s are weights representing importance.
 
 Possible initial weights:
 
 | Variable | Meaning | Suggested Weight |
 |---|---|---:|
-| $i$ | Independence | 2 |
-| $n$ | Positive net worth | 3 |
+| $i_1$ | Mobility independence | 2 |
+| $i_2$ | Financial independence | 3 |
+| $i_3$ | Residential independence | 2 |
+| $i_4$ | Decision independence | 2 |
 | $e$ | Enjoyable life | 2 |
 | $g$ | Goal progress | 3 |
 | $s$ | Stability / emotional safety | 4 |
 | $p$ | Productive time | 2 |
+| $q$ | Quality of time | 3 |
 | $c$ | Cash flow | 4 |
+| $\sigma$ | Savings | 3 |
 | $r$ | Risk buffer | 4 |
 | $y$ | Income | 3 |
+| $\gamma$ | Income growth | 2 |
+| $\phi$ | Physical health | 4 |
+| $\psi$ | Mental health | 4 |
+| $\zeta$ | Fitness | 2 |
+| $\eta$ | Emotional impact | 3 |
+| $\nu$ | Relational quality | 4 |
 
-Cash flow, risk buffer, and emotional stability should likely receive high weights because when they collapse, the whole life-state becomes fragile.
-
-$H$ does not appear directly in the score. Its effect flows through $e_s$, $s_s$, and $g_s$, lifting them when positive and depressing them when negative. The weights on those three carry the emotional load.
+Cash flow, risk buffer, stability, physical health, mental health, and relational quality should likely receive high weights because when they collapse, the whole life-state becomes fragile.
 
 The best scenario is:
 
@@ -554,7 +494,7 @@ Plain English:
 
 ### Path-Based Evaluation
 
-Emma’s life should not be modeled as one giant decision. It should be modeled as a path.
+Emma's life should not be modeled as one giant decision. It should be modeled as a path.
 
 Let:
 
@@ -596,6 +536,14 @@ $$
 
 Where $\mathcal{P}$ is the set of possible paths.
 
+Define path momentum as the momentum of the terminal life-state:
+
+$$
+Momentum(P) = Momentum(L_n)
+$$
+
+The path is judged by where it ends. The per-step constraints below ensure the journey itself is acceptable. (An alternative scoring such as a weighted sum across stages would reward time spent in good intermediate states; this model uses the simpler endpoint score and lets the constraints carry the journey.)
+
 Then:
 
 $$
@@ -622,14 +570,14 @@ $$
 
 Plain English:
 
-> The best path is the path with the most positive momentum, ending in a desirable life-state, while keeping fragility below the danger threshold at each step and ensuring that large decisions remain recoverable.
+> The best path is the one that lands in the most desirable reachable life-state, while keeping fragility below the danger threshold at each step and ensuring that large decisions remain recoverable.
 
-### Independence Ladder
+### Independence Dimensions
 
-Instead of treating independence as binary, model it as a ladder.
+Independence is multi-dimensional, not a ladder.
 
 $$
-i_1 \rightarrow i_2 \rightarrow i_3 \rightarrow i_4
+I = \{i_1, i_2, i_3, i_4\}
 $$
 
 Where:
@@ -638,10 +586,10 @@ Where:
 |---|---|---|
 | $i_1$ | Mobility independence | Reliable transportation |
 | $i_2$ | Financial independence | Positive cash flow and savings |
-| $i_3$ | Residential independence | Living outside a parent’s home |
+| $i_3$ | Residential independence | Living outside a parent's home |
 | $i_4$ | Decision independence | Control over life choices and direction |
 
-The ladder is a structural claim about the model: independence is multi-dimensional, and gains in one dimension can come at the cost of another. The model does not prescribe an ordering. Different paths may climb the ladder in different orders, and the momentum, viability, and recoverability filters are what distinguish good orderings from bad ones in any given case.
+Gains in one dimension can come at the cost of another. The model does not prescribe an ordering. Different paths may build the dimensions in different orders, and the momentum, viability, and recoverability filters are what distinguish good orderings from bad ones in any given case.
 
 ### Model-Level Falsifiability
 
@@ -744,11 +692,13 @@ This section is for discovering values, desires, constraints, and hidden tradeof
 1. How do you feel in your body most days?
 2. How well do you usually sleep, and what tends to mess it up?
 3. What physical activities make you feel good, and which ones do you avoid?
-4. How do you usually handle stress? What works and what does not?
-5. What habits would you want to keep no matter what job or living situation you end up in?
-6. What would be a warning sign that a job, schedule, or living situation was wearing on you?
-7. Is there anything about your mental health you want to be deliberate about as life changes?
-8. When you imagine yourself at 25, what do you hope your health looks like?
+4. What does a sustainable movement routine look like for you (not punishing, not optional)?
+5. How do you want to think about food: pleasure, fuel, both, something else?
+6. How do you usually handle stress? What works and what does not?
+7. What habits would you want to keep no matter what job or living situation you end up in?
+8. What would be a warning sign that a job, schedule, or living situation was wearing on you?
+9. Is there anything about your mental health you want to be deliberate about as life changes?
+10. When you imagine yourself at 25, what do you hope your health looks like?
 
 ### Questions for Emma: Relationships
 
@@ -806,4 +756,3 @@ This section is for discovering values, desires, constraints, and hidden tradeof
 6. How can I show respect for the fact that she saved $10,000?
 7. How can I help her feel proud before discussing tradeoffs?
 8. How can I present criticism of bad plans without making her feel criticized?
-
