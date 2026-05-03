@@ -12,20 +12,20 @@ The document has three main sections plus an appendix. Section 1 states the core
 
 ## 1. Conjecture
 
-Time is Emma's most valuable resource. It is finite and spent whether or not she chooses where it goes. A life worth living is an enjoyable life.
+Time is Emma's most valuable resource. It is finite and spent whether or not she chooses where it goes. A good life is one where time is directed at enjoyment.
 
-Enjoyment is not the absence of difficulty. Hardship pursued toward an outcome she wants is part of a good life. Hardship endured for an outcome she doesn't want is wasted life. The target modifies the difficulty.
+Enjoyment is not the absence of difficulty. Hardship pursued toward an outcome she wants is a good use of time. Hardship endured for an outcome she doesn't want is poor use of time. The target modifies the difficulty.
 
-The lived experience along the way is most of life. A path that ends well but spends years in misery is not the same as a path that ends equally well and is good to live through. The journey is what Emma lives. The destination is what she lives in.
+The lived experience along the way is most of life. A path that ends well but spends years in misery is not the same as a path that ends equally well and is good to live through. The journey is what Emma lives. Destinations are milestones along the journey.
 
-The best path for Emma is therefore one that creates momentum toward a life she wants, where the momentum is recoverable, adjustable, and good to live through.
+The best path for Emma is therefore one that creates momentum toward a life she wants, where the momentum is recoverable, adjustable, and enjoyable to live through.
 
 - **Momentum**: each step moves her life-state toward something more desirable, not merely something survivable.
 - **Recoverability**: any step can be reversed, repaired, or stepped back from if it turns out badly. Mistakes should not end the game.
 - **Adjustability**: the path is not chosen once. It is revised at each stage as new information arrives.
 - **Journey**: the path is judged by the lived experience across stages, not only by where it ends.
 
-The model that follows expands and formalizes this conjecture.
+The helper's role is to wrap the complexity of scarcity tradeoffs and path dependency in a presentation digestible for a teenager. The formalization below is the mental work of a mature adult doing the heavy lifting.
 
 ---
 
