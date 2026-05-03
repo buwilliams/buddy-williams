@@ -125,10 +125,7 @@ L_{viable} = \{L : c \geq 0 \land r \geq r_{min} \land p \geq p_{min} \land b \g
 $$
 
 $$
-\begin{aligned}
-L_{desirable} = L_{viable} \cap \{L : \;& (\forall k \in \{1,2,3,4\}: i_k \geq i_{k,min}) \land e \geq e_{min} \land g \geq g_{min} \land \beta \geq \beta_{min} \\
-& \land\; y \geq y_{min} \land \sigma \geq d \land \hat{y}(L, H) \geq y_{min} \land \zeta \geq \zeta_{min} \land \eta \geq \eta_{min}\}
-\end{aligned}
+L_{desirable} = L_{viable} \cap \{L : i_1 \geq i_{1,min} \land i_2 \geq i_{2,min} \land i_3 \geq i_{3,min} \land i_4 \geq i_{4,min} \land e \geq e_{min} \land g \geq g_{min} \land \beta \geq \beta_{min} \land y \geq y_{min} \land \sigma \geq d \land \hat{y}(L, H) \geq y_{min} \land \zeta \geq \zeta_{min} \land \eta \geq \eta_{min}\}
 $$
 
 $$
