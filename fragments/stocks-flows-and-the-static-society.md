@@ -8,13 +8,13 @@
 
 ## The Question
 
-I started with what felt like a small question: what is the difference between a *milestone* and a *stock* in the way you invest?
+I started with what felt like a small question: what is the difference between a *flow* and a *stock* in the way you invest?
 
-A milestone is a discrete event. A point in time. You either hit it or you do not.
+A flow is a rate. Something you turn on, or off. You decide to invest, and the investment begins; you decide to stop, and it stops.
 
 A stock — in the systems-thinking sense — is an accumulation. It has a level. It has a fill rate. And crucially, **it compounds.**
 
-The reason this distinction matters is that companies, and people, often treat things that are stocks as if they were milestones. They assume they can decide to invest later, hit the checkpoint, and arrive where they need to be. But stocks do not work this way. Stocks accumulate slowly, and the rate at which they fill is bounded by something other than how much you suddenly care. By the time you decide to invest, your competitors have been compounding for years.
+The reason this distinction matters is that companies, and people, often treat things that are stocks as if they were flows. They assume they can decide to invest later, switch the flow on, and arrive where they need to be. But stocks do not work this way. Stocks accumulate slowly, and the rate at which they fill is bounded by something other than how much you suddenly care. By the time you decide to turn on the flow, your competitors have been compounding for years.
 
 This was the question that surfaced everything else, because the firm I work at is making exactly this category error about AI.
 
