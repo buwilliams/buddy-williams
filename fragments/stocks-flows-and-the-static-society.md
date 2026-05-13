@@ -124,6 +124,22 @@ What depletes is specific and worth naming carefully. It is not motivation in ge
 
 This matters because static institutions have a quiet way of making misalignment feel like personal failure. The signal that says *this is not my fit* is easily reinterpreted as *I am not trying hard enough.* Distinguishing the two is the difference between a useful diagnosis and a slow erosion.
 
+## The Firm, in Brief
+
+My firm is a lifestyle firm. It does competent software work, pays people well, and doesn't care what gets built as long as the rhythm of working stays the same. The identity is the *way of working*, not the *work itself*.
+
+So "investing in AI" here means something specific. The firm invests — tooling, training, experiments — but only at the rate required to keep operating. Never at the rate that would change how it operates. Every stock has a compounding threshold. The firm stays under it by design.
+
+The result: parity, never surplus. Never behind, never ahead. A coherent, consistent choice.
+
+But the stability is borrowed. The moat is being drawn down by a market that is moving, and the firm's feedback loops are tuned to "are we comfortable?" not "are we competitive?" It cannot see the drawdown because it is not looking for it.
+
+This is not a strategy you can argue with. It is an end, not a means. Investment analysis cannot move it, because it is not trying to maximize the variable that analysis measures.
+
+It runs on its own people's surplus energy. When someone inside pushes for the future, the firm absorbs the upside of that work without funding the conditions that produced it. The dynamic ones carry the load. The firm reverts to baseline around them.
+
+A stable equilibrium that costs nothing — for the firm. The cost is paid by the people who can see further than it does.
+
 ## Where the Question Lives Now
 
 A picture has assembled itself, and the picture has coherent implications:
