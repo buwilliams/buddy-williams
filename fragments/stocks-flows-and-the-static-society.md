@@ -14,19 +14,19 @@ A flow is a rate. Something you turn on, or off. You decide to invest, and the i
 
 A stock — in the systems-thinking sense — is an accumulation. It has a level. It has a fill rate. And crucially, **it compounds.**
 
-The reason this distinction matters is that companies, and people, often treat things that are stocks as if they were flows. They assume they can decide to invest later, switch the flow on, and arrive where they need to be. But stocks do not work this way. Stocks accumulate slowly, and the rate at which they fill is bounded by something other than how much you suddenly care. By the time you decide to turn on the flow, your competitors have been compounding for years.
+The reason this distinction matters is that stocks do not respond well to last-minute effort. They accumulate slowly. The rate at which they fill is bounded by something other than how much you suddenly care. A firm that wants to be where its competitors already are had to have started years earlier.
 
-This was the question that surfaced everything else, because the firm I work at is making exactly this category error about AI.
+But that is not the only way to be on the wrong side of a stock. A firm can understand the dynamic perfectly, invest in the stock at exactly the rate required to remain operational, and still build no competitive advantage. That is a different problem from confusing stocks with flows — and it is the problem I have come to recognize at the firm I work at.
 
 ## Stocks Are Not Flows
 
 Skills are stocks. Brand recognition is a stock. Internal tooling, customer trust, talent networks, vendor relationships, organizational fluency, taste — all stocks.
 
-The category error of a reactive corporate posture is to treat these as flows. **A flow is something you can turn on when you need it.** A stock is something that accumulates whether or not you are paying attention. You cannot fill a stock arbitrarily fast by deciding to care about it later.
+The simplest mistake about these stocks is to treat them as flows. **A flow is something you can turn on when you need it.** A stock is something that accumulates whether or not you are paying attention. You cannot fill a stock arbitrarily fast by deciding to care about it later. When a company says "we will invest in AI when the time is right," what they are really saying is that they believe AI capability is a flow they can turn on. If they are wrong — if AI capability is in fact a stock that compounds with use, with experimentation, with embedded organizational habits — then by the time they decide to turn it on, the competitors who have been quietly accumulating will have built a moat that no amount of late investment can cross.
 
-When a company says "we will invest in AI when the time is right," what they are really saying is that they believe AI capability is a flow they can turn on. If they are wrong — if AI capability is in fact a stock that compounds with use, with experimentation, with embedded organizational habits — then by the time they decide to turn it on, the competitors who have been quietly accumulating will have built a moat that no amount of late investment can cross.
+But there is a more sophisticated failure mode worth naming, because it is the one the rest of this essay is actually about. **Every stock has a compounding threshold — a rate of investment below which the stock merely sustains baseline competence, and above which it accrues surplus.** A firm can invest in AI tooling, training, and experimentation continuously and still sit below that threshold by design. The first failure mode is a category error — confusing stocks with flows. The second is a strategic posture — recognizing the stock and choosing not to fund it past the compounding threshold. Both produce the same competitive position. Only one is confused. The other is a choice.
 
-The compounding goes deeper than the first-order accumulation. Stocks generate their own flows. A firm that has accumulated AI capability has, by virtue of that accumulation, also built hiring pipelines, customer expectations, vendor relationships, and case studies. Those new flows further accelerate the accumulation. So the gap between leaders and laggards does not grow linearly. It compounds.
+The compounding goes deeper than first-order accumulation. Stocks generate their own flows. A firm that has accumulated AI capability has, by virtue of that accumulation, also built hiring pipelines, customer expectations, vendor relationships, and case studies. Those new flows further accelerate the accumulation. So the gap between leaders and laggards does not grow linearly. It compounds — but only for firms that have funded the stock past its compounding threshold. Firms that have not, whether by confusion or by design, watch the gap widen.
 
 ## The Fast-Follower Objection
 
