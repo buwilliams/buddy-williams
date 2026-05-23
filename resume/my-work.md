@@ -173,7 +173,7 @@ Published writing in the Buddy Williams Writings repository. The essays below fo
 | Mar 2026 | Computer People | Synthesis of two years of research on AGI. Argues that LLMs have the necessary ingredients for novel knowledge creation, that AGI is a universal explainer, and that AGI constitutes personhood. |
 | Mar 2026 | Layers | Why explanation comes in layers. Argues against reductionism: higher-level explanations are often the only forms in which reality becomes intelligible to finite minds. |
 | Mar 2026 | Structural Convergence Thesis | Tests the orthogonality thesis against real-world constraints. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
-| Feb 2026 | Metaprogramming Framework to Explore Personhood (MFP) | A functionalist exploration of personhood through information ontology. Personhood is substrate-independent metaprogramming. The difference is maturity, not kind. |
+| Feb 2026 | Metaprogramming Framework to Explore Personhood (MFP) | An exploration of personhood from an information ontology perspective. Personhood is substrate-independent metaprogramming. The difference is maturity, not kind. |
 | Feb 2026 | AI Phase Change | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating. The map-territory trap. |
 | Dec 2025 | Economics of the Intelligence Age | First-principles layered model of economics: scarcity, prices, externalities, power, AI. |
 | Nov 2025 | Outcome Economy | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
