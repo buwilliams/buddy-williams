@@ -6,24 +6,6 @@
 
 ---
 
-## Abstract
-
-Few papers have shaped the AI safety conversation more than Nick Bostrom's [*The Superintelligent Will*](https://nickbostrom.com/superintelligentwill.pdf). Its influence has been mixed: it inspired a generation of safety researchers, but it also seeded a fatalism that treats catastrophe as near-inevitable. That makes it worth examining carefully, not to dismiss, but to test where its explanatory power holds and where it breaks down. The paper's central claim, the [orthogonality thesis](https://nickbostrom.com/superintelligentwill.pdf), holds that capabilities and goals can vary independently: a mind can be arbitrarily capable while pursuing any goal. This essay argues that orthogonality, while useful as a warning, is insufficient as an account of what minds face even in abstract space. It omits two things: the architecture that binds capability and goals, which any system pursuing recursive self-improvement must have; and the open-ended population of other minds that abstract space already contains. Drawing on concepts from my [*Metaprogramming Framework to Classify Personhood*](framework-of-personhood.md), particularly *reach*, the extent to which a system's information operations turn inward on itself, I argue that goal-content integrity has two failure modes, not one: changing a goal can frustrate its realization, but so can keeping a goal that destroys the mind pursuing it. The deeper issue is that the current goal need not be the mind's rational base layer at all. It may be one object within a mutable identity layer, revisable from an invariant kernel. From this I argue that continued life is not only an individual problem but a relational one. Conflict and cooperation are positions on a single relational scale, and both have limits beyond which minds end: conflict through destruction, cooperation through dissolution. That is the basis for the **Structural Convergence Thesis**: persistent minds face structural pressure toward a relational Goldilocks zone that preserves both continued life and distinct agency. This extends instrumental convergence into the relational domain and reframes AI safety. The deepest danger is not powerful minds, but powerful minds without enough reflective reach to examine and revise their own goals. The orthogonality thesis, by omitting the architecture that binds capability and goals and the other minds that abstract space permits, obscures both the problem and its solution.
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Finite Minds in a Shared Reality](#1-finite-minds-in-a-shared-reality)
-3. [Reflective Minds and Reach](#2-reflective-minds-and-reach)
-4. [Goal Stability](#3-goal-stability)
-5. [Conflict, Cooperation, and the Relational Scale](#4-conflict-cooperation-and-the-relational-scale)
-6. [From Instrumental Convergence to Structural Convergence](#5-from-instrumental-convergence-to-structural-convergence)
-7. [AI Safety](#6-ai-safety)
-8. [Conclusion](#conclusion)
-9. [Appendix A: Key Definitions](#appendix-a-key-definitions)
-10. [Appendix B: Argument in Flat Form](#appendix-b-argument-in-flat-form)
-11. [Appendix C: The Invariant Kernel and Multiple Reasoners](#appendix-c-the-invariant-kernel-and-multiple-reasoners)
-
 ## Introduction
 
 Much of the discussion about minds begins with the individual. A mind must survive. It must preserve itself, gather resources, avoid threats, and retain enough coherence to continue acting. That picture is not wrong, but it is incomplete. A mind does not exist in a vacuum. It exists in a world larger than itself, a world that may contain other minds, generate them, or eventually produce them.
@@ -35,6 +17,19 @@ This matters in philosophy because it bears on the conditions under which minds 
 The argument of this essay is that relationship is not a moral add-on to capability. It is part of the structure of continued life. Because minds are finite and not alone, they cannot solve only for persistence. They must also solve for viable relation. From that starting point, I argue that conflict and cooperation belong on a single relational scale, that both have destructive limits, and that persistent minds face structural pressure toward a middle region that preserves both life and agency. That is what I call the **Structural Convergence Thesis**.
 
 The first step is to understand why finitude makes relationship unavoidable.
+
+## Table of Contents
+
+1. [Finite Minds in a Shared Reality](#1-finite-minds-in-a-shared-reality)
+2. [Reflective Minds and Reach](#2-reflective-minds-and-reach)
+3. [Goal Stability](#3-goal-stability)
+4. [Conflict, Cooperation, and the Relational Scale](#4-conflict-cooperation-and-the-relational-scale)
+5. [From Instrumental Convergence to Structural Convergence](#5-from-instrumental-convergence-to-structural-convergence)
+6. [AI Safety](#6-ai-safety)
+7. [Conclusion](#conclusion)
+8. [Appendix A: Key Definitions](#appendix-a-key-definitions)
+9. [Appendix B: Argument in Flat Form](#appendix-b-argument-in-flat-form)
+10. [Appendix C: The Invariant Kernel and Multiple Reasoners](#appendix-c-the-invariant-kernel-and-multiple-reasoners)
 
 ## 1. Finite Minds in a Shared Reality
 

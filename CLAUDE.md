@@ -25,7 +25,7 @@ Each piece has a status in the README table: **Draft** (AI-assisted sketch), **W
 The `style-guide.md` is the authoritative reference. Key points:
 
 - **Voice**: Clear, serious, exploratory, intellectually alive. Think Thomas Sowell's clarity meets David Deutsch's explanatory ambition. Not academic, not performative.
-- **Structure**: Essays follow Abstract → Table of Contents → Introduction → Arguments/Explanations → Conclusion → Appendices.
+- **Structure**: Essays follow Introduction → Table of Contents → Arguments/Explanations → Conclusion → Appendices. The Introduction opens the essay (no separate "Abstract" section); it does the work an abstract would, but in a motivating voice rather than a detached summary.
 - **Terminological consistency**: When a term is defined in an essay, use it precisely throughout. Do not swap in near-synonyms that blur distinctions.
 - **Criticism**: Actively identify unsupported claims, logical gaps, missing transitions, unstated assumptions, and places where bridging sentences would help. Distinguish preventable confusion from fundamental disagreement.
 - **Anticipate objections**: Flag claims stated too strongly or too early for the reader to accept. Suggest bridging clauses, softened framing, or reordering.

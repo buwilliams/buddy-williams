@@ -1,32 +1,5 @@
 # Why Explanation Comes in Layers
 
-## Abstract
-
-Why do explanations come in layers at all? Why do we explain one thing in terms of molecules, another in terms of pressure, another in terms of goals, and still another in terms of institutions, minds, or civilizations? A common answer is that higher-level explanations are merely convenient shortcuts for lower-level ones. This essay argues that this is mistaken. Explanatory layers exist because finite minds cannot reason over uncompressed reality directly, and because following descriptions downward does not lead to simpler, more separable units. It leads toward holism. The lower the level, the more connectedness must be preserved, and the more of reality must be carried along. Taken to its conclusion, reductionism does not deliver the simple foundation it promises. It delivers total interconnection. Higher-level explanations escape this regress through managed disconnection: actively severing relations that are not relevant to the phenomenon and preserving those that are. They are real not because they exist independently of any mind, but because the minds that require them are themselves real features of the world. Higher-level explanations are not merely practical summaries. They are the only forms in which reality becomes intelligible to finite knowers. The regress they escape is not a defect of cognition but a feature of a deeply connected universe.
-
-## A Note on Method
-
-Explanation and causation are not opposites, and this essay does not treat them as such. Tracing causes is frequently how we explain things. The essay does not deny this.
-
-The more precise point is that causation operates at multiple levels. Molecules cause phase transitions. Intentions cause actions. Markets cause prices. All of these are genuine causal claims. The question the essay is asking is not whether causation is real at each level. It is which level of causal description makes a given phenomenon intelligible.
-
-Reductionism assumes the answer is always the substrate level. This essay argues that it is not. The most illuminating causal description is frequently at a higher level, and the hierarchy of explanation exists precisely because finite minds must select the level at which to describe the causes that matter.
-
-One term needs flagging before proceeding. "Level of emergence" is used here in Deutsch's sense: an explanatory domain where phenomena explain one another without requiring reduction to constituent parts. This differs from the standard complexity-theory usage, which refers specifically to bottom-up causal emergence. The two are independent concepts. Conflating them is one of the easier ways to misread what follows.
-
-## Table of Contents
-
-1. Introduction
-2. The Temptation of Reductionism
-3. Compression and the Problem of Finite Minds
-4. Connectedness and the Cost of Going Lower
-5. Why Higher-Level Explanations Are Real
-6. From Boiling Water to Wanting Ramen
-7. The Reductionist Mistake
-8. Conclusion
-9. Appendix A: Working Definitions
-10. Appendix B: A Short Conjecture
-
 ## Introduction
 
 Why are there layers of explanation? Why is it possible to explain a pot of boiling water in one moment by molecular motion, in another by vapor pressure and atmospheric conditions, and in another by saying that someone wanted ramen?
@@ -42,6 +15,28 @@ My conjecture is that explanatory layers exist because finite minds cannot use r
 There is a second conjecture that goes with this one. As we move lower in the explanatory hierarchy, the burden of connectedness does not merely increase. It regresses toward holism. Lower-level descriptions are not merely more detailed. They are more dependent on wider relations, more sensitive to context, and less separable into self-contained units. Going lower demands more of reality, not less, until at the deepest levels the context implicates the whole.
 
 If that is right, then reductionism misses something central. It carries the higher-level practice of dividing phenomena into neat components down into levels where connectedness matters more than separation. In doing so, it can destroy the very relations required to understand the phenomenon at all.
+
+## A Note on Method
+
+Explanation and causation are not opposites, and this essay does not treat them as such. Tracing causes is frequently how we explain things. The essay does not deny this.
+
+The more precise point is that causation operates at multiple levels. Molecules cause phase transitions. Intentions cause actions. Markets cause prices. All of these are genuine causal claims. The question the essay is asking is not whether causation is real at each level. It is which level of causal description makes a given phenomenon intelligible.
+
+Reductionism assumes the answer is always the substrate level. This essay argues that it is not. The most illuminating causal description is frequently at a higher level, and the hierarchy of explanation exists precisely because finite minds must select the level at which to describe the causes that matter.
+
+One term needs flagging before proceeding. "Level of emergence" is used here in Deutsch's sense: an explanatory domain where phenomena explain one another without requiring reduction to constituent parts. This differs from the standard complexity-theory usage, which refers specifically to bottom-up causal emergence. The two are independent concepts. Conflating them is one of the easier ways to misread what follows.
+
+## Table of Contents
+
+1. The Temptation of Reductionism
+2. Compression and the Problem of Finite Minds
+3. Connectedness and the Cost of Going Lower
+4. Why Higher-Level Explanations Are Real
+5. From Boiling Water to Wanting Ramen
+6. The Reductionist Mistake
+7. Conclusion
+8. Appendix A: Working Definitions
+9. Appendix B: A Short Conjecture
 
 ## The Temptation of Reductionism
 

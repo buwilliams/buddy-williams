@@ -26,7 +26,7 @@ The voice should be clear, serious, exploratory, and intellectually alive. It sh
 
 Because my work is often exploratory, my essays should usually follow this structure:
 
-- **Introduction**: introduces the motivating question or questions and explains why they are interesting or important
+- **Introduction**: introduces the motivating question or questions and explains why they are interesting or important. This is the opening section of every essay. I do not use a separate "Abstract" section; it reads as pretentious and detached. The Introduction does the work an abstract would (orienting the reader to the question and the path ahead), but in a motivating, exploratory voice rather than a clipped summary.
 - **Table of Contents**
 - **Arguments and Explanations**: develops the main ideas through observations, interpretations, thought experiments, and explanatory arguments
 - **Conclusion**: revisits the original questions and summarizes the answers or insights reached

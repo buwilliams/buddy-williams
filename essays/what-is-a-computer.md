@@ -4,29 +4,6 @@
 
 ---
 
-## Abstract
-
-The common picture of a computer is a machine made of silicon. This essay argues that a computer is any system capable of implementing universal logic, and that this fact has profound consequences for how we think about reality. A computer can be built from silicon, water and pipes, dominoes, mechanical gears, or biological neurons. What makes something a computer is not what it is made of but what it can do: implement universal logic gates, from which any computation can be constructed. Once this is understood, two things follow. First, computation is substrate-independent. The same logical operations persist regardless of the material that implements them. Second, any universal computer can host nested computational worlds, each with their own rules, their own causal closure, and their own observers. This means that the physicalism any observer reports, the sense that their local physics is fundamental and causally complete, is exactly what any observer would report from inside any computationally closed world. Physicalism is real, but it is local. It describes the rules of a particular substrate, not the deepest structure of reality. The argument takes a specific form: we have already built nested computational worlds inside our own. Observers inside them would report the same causal closure we report. We know they would be wrong about fundamentality. Therefore the inference from causal closure to fundamentality is invalid, refuted not by speculation about whether we are simulated, but by what we have already built. The essay concludes that computationalism, properly understood, shows that physicalism's claim to fundamentality cannot be established from local observation alone.
-
----
-
-## Contents
-
-1. [Introduction](#introduction)
-2. [What Is a Computer?](#what-is-a-computer-1)
-3. [Nested Worlds](#nested-worlds)
-4. [Computation as the Invariant](#computation-as-the-invariant)
-5. [Local Physicalism](#local-physicalism)
-6. [Explanation and Locality](#explanation-and-locality)
-7. [Substrate and Program](#substrate-and-program)
-8. [The Deepest Anthropocentrism](#the-deepest-anthropocentrism)
-9. [Religious Resonances](#religious-resonances)
-10. [Conclusion](#conclusion)
-11. [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
-12. [Appendix B: Glossary](#appendix-b-glossary)
-
----
-
 ## Introduction
 
 When I think about what a computer is, my first instinct is to picture a machine: a box with a processor, a screen, a keyboard. Something made of silicon and metal.
@@ -34,6 +11,22 @@ When I think about what a computer is, my first instinct is to picture a machine
 That picture is not wrong, but it captures one implementation rather than the thing itself. The answer to "what is a computer?" has consequences that reach far beyond silicon chips. It touches the foundations of what we can know about reality, about whether our physics is fundamental or merely local, and about why information and matter seem to need each other.
 
 This essay begins with a careful look at what computation actually is, stripped of its association with any particular material. It then follows the implications. If computation is not tied to silicon, and if any universal computer can host worlds within worlds, then the physicalism we observe, the sense that our causal chain is closed and our physics is fundamental, may be a feature of being inside a computational world rather than a discovery about the base layer of reality.
+
+---
+
+## Contents
+
+1. [What Is a Computer?](#what-is-a-computer-1)
+2. [Nested Worlds](#nested-worlds)
+3. [Computation as the Invariant](#computation-as-the-invariant)
+4. [Local Physicalism](#local-physicalism)
+5. [Explanation and Locality](#explanation-and-locality)
+6. [Substrate and Program](#substrate-and-program)
+7. [The Deepest Anthropocentrism](#the-deepest-anthropocentrism)
+8. [Religious Resonances](#religious-resonances)
+9. [Conclusion](#conclusion)
+10. [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
+11. [Appendix B: Glossary](#appendix-b-glossary)
 
 ---
 
