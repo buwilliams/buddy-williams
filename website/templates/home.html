@@ -1,0 +1,152 @@
+{% extends "base.html" %} {% block content %}
+<main>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-stars" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">{{ cfg.role_title }}</p>
+        <h1>{{ cfg.positioning }}</h1>
+        <p class="hero-lede">{{ cfg.hero_sub }}</p>
+        <div class="hero-actions">
+          <a class="button primary" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+            >{{ cfg.scheduler_label }}</a
+          >
+          <a class="button ghost" href="/writings">Read the writing</a>
+        </div>
+        <p class="hero-note">{{ cfg.tagline }}</p>
+      </div>
+      <div class="hero-portrait">
+        <img src="/static/img/profile.jpg" alt="Portrait of {{ cfg.name }}" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Proof bar -->
+  <section class="proof">
+    <div class="proof-grid">
+      {% for s in cfg.stats %}
+      <div class="proof-item">
+        <span class="proof-value">{{ s.value }}</span>
+        <span class="proof-label">{{ s.label }}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Refine showcase -->
+  <section class="section showcase" id="refine">
+    <div class="section-head">
+      <p class="eyebrow">Shipping in production</p>
+      <h2>{{ cfg.refine.name }} — {{ cfg.refine.tagline }}</h2>
+      <p class="section-sub">{{ cfg.refine.description }}</p>
+    </div>
+    <div class="showcase-body">
+      <ul class="showcase-points">
+        {% for p in cfg.refine.points %}
+        <li>{{ p }}</li>
+        {% endfor %}
+        <li class="showcase-link">
+          <a class="button primary small" href="{{ cfg.refine.url }}" target="_blank" rel="noopener"
+            >Visit getrefine.dev →</a
+          >
+        </li>
+      </ul>
+      <div class="showcase-shots">
+        {% for shot in cfg.refine.screenshots %}
+        <figure>
+          <img src="{{ shot.src }}" alt="{{ shot.caption }}" loading="lazy" />
+          <figcaption>{{ shot.caption }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected writing -->
+  <section class="section writing-feature" id="writing">
+    <div class="section-head">
+      <p class="eyebrow">The writing</p>
+      <h2>Thinking carefully, in public</h2>
+      <p class="section-sub">
+        Essays on AI, economics, epistemology, and what it means to be human in an age of thinking
+        machines. No paywalls. Meant to be built on and argued with.
+      </p>
+    </div>
+    <div class="card-grid">
+      {% for w in featured %}
+      <a class="essay-card" href="/writings/{{ w.slug }}">
+        <span class="badge badge-{{ w.status|lower }}">{{ w.status }} · {{ w.date }}</span>
+        <h3>{{ w.title }}</h3>
+        <p>{{ w.blurb }}</p>
+        <span class="card-more">Read →</span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="section-foot">
+      <a class="button ghost" href="/writings">Browse all writing →</a>
+    </div>
+  </section>
+
+  <!-- Consulting -->
+  <section class="section consulting-band" id="consulting">
+    <div class="consulting-card">
+      <div class="consulting-head">
+        <p class="eyebrow">For founders</p>
+        <h2>{{ cfg.consulting.headline }}</h2>
+        <p class="section-sub">{{ cfg.consulting.intro }}</p>
+      </div>
+      <div class="covers-grid">
+        {% for c in cfg.consulting.covers %}
+        <div class="cover">
+          <h3>{{ c.title }}</h3>
+          <p>{{ c.body }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="consulting-actions">
+        <a class="button primary" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+          >{{ cfg.consulting.cta }}</a
+        >
+        <a class="button ghost" href="/consulting">How it works</a>
+      </div>
+      <p class="consulting-note">{{ cfg.consulting.note }}</p>
+    </div>
+  </section>
+
+  <!-- Founder credibility -->
+  <section class="section track" id="work">
+    <div class="section-head">
+      <p class="eyebrow">Built, shipped, sold</p>
+      <h2>Four companies. 25 years of first versions.</h2>
+      <p class="section-sub">{{ cfg.bio }}</p>
+    </div>
+    <div class="project-grid">
+      {% for p in cfg.projects %}
+      <div class="project">
+        <div class="project-top">
+          <h3>
+            {% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>{%
+            else %}{{ p.name }}{% endif %}
+          </h3>
+          <span class="project-period">{{ p.period }}</span>
+        </div>
+        <p>{{ p.blurb }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="section-foot">
+      <a class="button ghost" href="/resume">Full résumé (PDF) →</a>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section final-cta">
+    <h2>Building something? Let's talk.</h2>
+    <p>Bring your hardest problem. The first call is free.</p>
+    <a class="button primary large" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+      >{{ cfg.scheduler_label }}</a
+    >
+  </section>
+</main>
+{% endblock %}

@@ -1,0 +1,7 @@
+/target
+*.log
+# local source assets — published copies live in static/img/
+/background.png
+/profile.jpg
+# confidential: client-level deal breakdown, not for the public repo
+/closed-deals.txt

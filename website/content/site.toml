@@ -1,0 +1,141 @@
+# Structured site content. Edit copy here — no Rust changes needed.
+
+name = "Buddy Williams"
+role_title = "Chief AI Innovation Officer · Founder · Builder"
+tagline = "I search for good explanations. I build inspiring things."
+positioning = "I help founders build what matters before it's obvious."
+hero_sub = """
+Four-time founder and end-to-end operator. I've closed $2.3M+ in software \
+engagements, shipped Refine to production, and spent 25 years arriving at the \
+edge of what's new and building the first version. Right now I'm offering that \
+to founders — free."""
+bio = """
+By title I'm Chief AI Innovation Officer at a software consulting firm. By nature \
+I'm a builder who designs futures. I own the full arc — first customer \
+conversation through architecture, production deployment, and the tooling that \
+makes the next build faster. Low-code before it had a name. AI strategy before it \
+was on every roadmap. Now: what happens when cognitive work becomes nearly free."""
+
+# Contact + social
+email = "buddywilliams@gmail.com"
+x_handle = "@BuddyIterate"
+x_url = "https://x.com/BuddyIterate"
+substack_url = "https://buddyiterate.substack.com"
+github_url = "https://github.com/buwilliams"
+repo_url = "https://github.com/buwilliams/buddy-williams-writings"
+
+# Booking — drop in your Cal.com / Calendly link. The site links straight to it
+# now (free intro call); a paid event type slots in here later with no rework.
+scheduler_url = "https://cal.com/buddywilliams"
+scheduler_label = "Book a free intro call"
+
+# Proof bar (show, don't tell)
+[[stats]]
+value = "$2.3M+"
+label = "Closed in software engagements, and climbing"
+
+[[stats]]
+value = "4"
+label = "Companies founded"
+
+[[stats]]
+value = "Refine"
+label = "Shipped and running in production"
+
+[[stats]]
+value = "25 yrs"
+label = "Building at the edge of what's new"
+
+# Featured product
+[refine]
+name = "Refine"
+url = "https://getrefine.dev"
+tagline = "Your team's agentic software delivery system"
+description = """
+Refine turns product feedback into structured work, guides AI agents through \
+planning and implementation, and keeps files, terminals, nodes, processes, \
+review, and Git close to your local workflow. Built in Rust, local-first, and \
+running in production today."""
+points = [
+  "Empower your whole team — not just engineers — to shape the product",
+  "Coordinate a fleet of AI agents across repos, branches, and machines",
+  "Governance that keeps agent work aligned with intent before it merges",
+]
+
+[[refine.screenshots]]
+src = "/static/img/refine-dashboard.png"
+caption = "Track every thread of work from one dashboard"
+
+[[refine.screenshots]]
+src = "/static/img/refine-plan.png"
+caption = "Plan Mode — brainstorm and decompose work with AI"
+
+[[refine.screenshots]]
+src = "/static/img/refine-gaps.png"
+caption = "Turn feedback into Gaps and move them through review"
+
+# Consulting offer (free now; paid tiers later, à la handsonangel.com)
+[consulting]
+headline = "Free consulting for technology founders"
+intro = """
+I'm offering free intro calls to founders building in the technology space. No \
+pitch, no catch — I've been on every side of the table (sales, architecture, \
+implementation, production) and I'd rather help you avoid the expensive mistakes \
+than watch you make them. Book a call and bring your hardest problem."""
+note = """
+This is free while I build out the practice. Paid ongoing advisement — a booked \
+strategy session plus monthly 1:1 support — is coming for founders who want to go \
+deeper."""
+cta = "Book a free intro call"
+
+[[consulting.covers]]
+title = "Narrative & positioning"
+body = "Sharpen the story — what you're building, why now, and why anyone should care."
+
+[[consulting.covers]]
+title = "Architecture & technical strategy"
+body = "Pressure-test the build. What to own, what to buy, and what will break at scale."
+
+[[consulting.covers]]
+title = "AI strategy that ships"
+body = "Where agents and AI actually create leverage in your product — beyond the demo."
+
+[[consulting.covers]]
+title = "Go-to-market & first customers"
+body = "From first conversation to closed deal. I've closed $2.3M+ doing exactly this."
+
+# Founder credibility — selected work (sourced from resume)
+[[projects]]
+name = "Refine"
+period = "2026 · In production"
+blurb = "Agentic software delivery system that coordinates people and AI agents. Built in Rust, local-first."
+url = "https://getrefine.dev"
+
+[[projects]]
+name = "Forge"
+period = "2026"
+blurb = "Claude Code plugin for spec-driven, agentic execution — decomposes goals into tasks and runs an implement / verify / commit loop. Replaced my own use of ralph-loops and spec-kit."
+url = "https://github.com/buwilliams/forge"
+
+[[projects]]
+name = "Corpus Council"
+period = "2026"
+blurb = "Hierarchical council deliberation over a curated corpus for grounded LLM conversations — deterministic retrieval, markdown-defined personas."
+url = "https://github.com/buwilliams/corpus-council"
+
+[[projects]]
+name = "BlissUI"
+period = "2015–2021"
+blurb = "Low-code app platform compiling visual composition to a React runtime — custom data structure, compiler, and an editor where the preview is the running app."
+url = "https://www.youtube.com/watch?v=AH0zkFfc9v8"
+
+[[projects]]
+name = "PhyQuest"
+period = "2002–2006"
+blurb = "First co-founded company. Radiology significant-findings follow-up platform so critical results wouldn't fall through the cracks."
+
+[[projects]]
+name = "HarmonicWork"
+period = "2025"
+blurb = "Agent orchestration platform where AI workers are first-class citizens alongside humans, routing tasks via DAG-based workflows."
+url = "https://github.com/buwilliams/harmonic"

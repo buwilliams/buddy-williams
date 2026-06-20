@@ -1,0 +1,33 @@
+# fly.toml — deploy config for the Buddy Williams site.
+# Set up once with:  fly launch --no-deploy   (or `fly apps create buddy-williams`)
+# Deploy with:        fly deploy
+
+app = "buddy-williams"
+primary_region = "dfw"
+
+[build]
+
+[env]
+  PORT = "8080"
+  BW_SITE_ROOT = "/app"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+  [[http_service.checks]]
+    interval = "15s"
+    timeout = "2s"
+    grace_period = "5s"
+    method = "GET"
+    path = "/healthz"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1

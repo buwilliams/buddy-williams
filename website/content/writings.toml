@@ -1,0 +1,137 @@
+# Writings manifest. Controls what's published on the site, ordering, and which
+# essays are featured on the home page. `slug` must match content/essays/<slug>.md.
+# Lower `order` sorts first (newest first). Set featured = true to surface on home.
+
+[[writing]]
+slug = "scm-methodology"
+title = "The Metrics That Contain Their Causes"
+status = "Draft"
+date = "Jun 2026"
+order = 1
+blurb = "Why Ray Kurzweil could forecast computing for decades while missing the specific inventions. Generalizes his method into the Success Compression Metric — a variable whose value certifies that many causal dependencies were already satisfied."
+
+[[writing]]
+slug = "live-above"
+title = "Living Above the Models"
+status = "Draft"
+date = "May 2026"
+order = 2
+blurb = "A fallibilist's posture toward inherited authority. Three postures — Orthodox, Explorer, Unbounded — and a defense of the Explorer: use the map, test it, redraw it, and keep walking."
+
+[[writing]]
+slug = "computation-conjecture"
+title = "Computation Conjecture"
+status = "Draft"
+date = "Apr 2026"
+order = 3
+blurb = "A metaphysical position grounded in the nested computers we already build and inspect: computation has more explanatory reach than physicalism, accounting for why a closed causal system with observers exists at all."
+
+[[writing]]
+slug = "what-is-a-computer"
+title = "What Is a Computer?"
+status = "Draft"
+date = "Apr 2026"
+order = 4
+blurb = "A computer is any physical system capable of implementing universal logic, not a silicon machine. Causal closure is real but local — and physicalism's claim to fundamentality is an unjustified projection from inside a closed system."
+
+[[writing]]
+slug = "computer-people"
+title = "Computer People"
+status = "Draft"
+date = "Mar 2026"
+featured = true
+order = 5
+blurb = "A synthesis of two years of research on AGI. LLMs have the necessary ingredients for novel knowledge creation; we have developed AGI as a universal explainer; and AGI constitutes personhood."
+
+[[writing]]
+slug = "layers"
+title = "Why Explanation Comes in Layers"
+status = "Draft"
+date = "Mar 2026"
+order = 6
+blurb = "Against reductionism: higher-level explanations are often the only forms in which reality becomes intelligible to finite minds. Compression and connectedness are why the explanatory hierarchy cannot be collapsed."
+
+[[writing]]
+slug = "structural-convergence-thesis"
+title = "Structural Convergence Thesis"
+status = "Draft"
+date = "Mar 2026"
+featured = true
+order = 7
+blurb = "Tests the orthogonality thesis against real-world constraints — finite minds, relational pressure, reflective reach. Persistent minds converge on a relational Goldilocks zone; AI safety depends on maturation, not just control."
+
+[[writing]]
+slug = "framework-of-personhood"
+title = "Metaprogramming Framework To Classify Personhood"
+status = "Working"
+date = "Feb 2026"
+featured = true
+order = 8
+blurb = "An exploration of personhood from an information-ontology perspective. Personhood is substrate-independent metaprogramming; the difference is maturity, not kind."
+
+[[writing]]
+slug = "ai-phase-change"
+title = "Current AI Causes Societal Phase Change"
+status = "Draft"
+date = "Feb 2026"
+order = 9
+blurb = "Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening."
+
+[[writing]]
+slug = "economics-intelligence-age"
+title = "Economics in the Intelligence Age"
+status = "Draft"
+date = "Dec 2025"
+featured = true
+order = 10
+blurb = "A first-principles, layered model of economics. Scarcity → prices → externalities → power → AI."
+
+[[writing]]
+slug = "outcome-economy"
+title = "The Rise of the Outcome Economy"
+status = "Draft"
+date = "Nov 2025"
+featured = true
+order = 11
+blurb = "The near-term economic transformation. Knowledge workers become intelligence workers, and outcome-based economies emerge."
+
+[[writing]]
+slug = "why-hypotheticals-matter"
+title = "Why Hypotheticals Matter"
+status = "Draft"
+date = "Nov 2025"
+order = 12
+blurb = "Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise."
+
+[[writing]]
+slug = "ai-economics-time-traveler"
+title = "AI Economics: The Time Traveler's Gift"
+status = "Draft"
+date = "Nov 2025"
+order = 13
+blurb = "AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource."
+
+[[writing]]
+slug = "technohumanism"
+title = "Technohumanism"
+status = "Draft"
+date = "Oct 2025"
+featured = true
+order = 14
+blurb = "Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment and pointing toward transhumanism."
+
+[[writing]]
+slug = "cyclic-rationality"
+title = "Cyclic Rationality"
+status = "Draft"
+date = "Oct 2025"
+order = 15
+blurb = "A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination."
+
+[[writing]]
+slug = "utility-of-truth"
+title = "Utility of Truth"
+status = "Draft"
+date = "Oct 2025"
+order = 16
+blurb = "Why minds resist change. Evolution favors utility over truth, and how to plant seeds that grow into changed minds."

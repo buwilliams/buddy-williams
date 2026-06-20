@@ -1,0 +1,56 @@
+{% extends "base.html" %} {% block title %}Consulting — {{ cfg.name }}{% endblock %} {% block content
+%}
+<main class="page-shell consulting-page">
+  <header class="page-head">
+    <p class="eyebrow">For technology founders</p>
+    <h1>{{ cfg.consulting.headline }}</h1>
+    <p class="page-sub">{{ cfg.consulting.intro }}</p>
+    <div class="hero-actions">
+      <a class="button primary" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+        >{{ cfg.consulting.cta }}</a
+      >
+    </div>
+  </header>
+
+  <section class="consult-section">
+    <h2>What a call can cover</h2>
+    <div class="covers-grid">
+      {% for c in cfg.consulting.covers %}
+      <div class="cover">
+        <h3>{{ c.title }}</h3>
+        <p>{{ c.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="consult-section">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li><strong>Book a time.</strong> Pick a slot — the intro call is free, no pitch attached.</li>
+      <li>
+        <strong>Bring your hardest problem.</strong> Positioning, architecture, AI strategy, or
+        getting to first customers.
+      </li>
+      <li>
+        <strong>Leave with a plan.</strong> Concrete next steps you can act on, drawn from 25 years
+        of shipping and $2.3M+ in closed engagements.
+      </li>
+    </ol>
+    <p class="consulting-note">{{ cfg.consulting.note }}</p>
+  </section>
+
+  <section class="scheduler-embed">
+    <h2>Book your call</h2>
+    <p class="page-sub">Choose a time that works for you.</p>
+    <a class="button primary large" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+      >{{ cfg.consulting.cta }} →</a
+    >
+    <p class="scheduler-fallback">
+      Prefer email? Reach me at
+      <a href="mailto:{{ cfg.email }}">{{ cfg.email }}</a> or on
+      <a href="{{ cfg.x_url }}" target="_blank" rel="noopener">{{ cfg.x_handle }}</a>.
+    </p>
+  </section>
+</main>
+{% endblock %}

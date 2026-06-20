@@ -1,0 +1,12 @@
+{% extends "base.html" %} {% block title %}Not found — {{ cfg.name }}{% endblock %} {% block content
+%}
+<main class="page-shell notfound">
+  <p class="eyebrow">404</p>
+  <h1>This page drifted off the map.</h1>
+  <p class="page-sub">The thing you were looking for isn't here. Try the writing or head home.</p>
+  <div class="hero-actions">
+    <a class="button primary" href="/">Back home</a>
+    <a class="button ghost" href="/writings">Read the writing</a>
+  </div>
+</main>
+{% endblock %}

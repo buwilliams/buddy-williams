@@ -1,0 +1,30 @@
+{% extends "base.html" %} {% block title %}Writing — {{ cfg.name }}{% endblock %} {% block content %}
+<main class="page-shell">
+  <header class="page-head">
+    <p class="eyebrow">The writing</p>
+    <h1>Essays &amp; explanations</h1>
+    <p class="page-sub">
+      A markdown-first body of work on AI, economics, epistemology, and personhood — deliberately
+      readable by humans and machines alike. Most pieces are living drafts; status is marked on each.
+    </p>
+  </header>
+
+  <ul class="writing-list">
+    {% for w in writings %}
+    <li>
+      <a class="writing-row" href="/writings/{{ w.slug }}">
+        <div class="writing-row-main">
+          <span class="badge badge-{{ w.status|lower }}">{{ w.status }}</span>
+          <h2>{{ w.title }}</h2>
+          <p>{{ w.blurb }}</p>
+        </div>
+        <div class="writing-row-meta">
+          <span>{{ w.date }}</span>
+          <span class="card-more">Read →</span>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+{% endblock %}

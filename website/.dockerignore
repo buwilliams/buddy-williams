@@ -1,0 +1,7 @@
+target/
+.git/
+*.log
+# root-level dev assets (the published copies live under static/img/)
+background.png
+profile.jpg
+closed-deals.txt

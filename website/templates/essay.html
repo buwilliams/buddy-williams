@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block title %}{{ meta.title }} — {{ cfg.name }}{% endblock %} {% block
+description %}{{ meta.blurb }}{% endblock %} {% block body_class %}reader-body{% endblock %} {% block
+content %}
+<main class="reader-shell">
+  <article class="reader">
+    <a class="reader-back" href="/writings">← All writing</a>
+    <span class="badge badge-{{ meta.status|lower }}">{{ meta.status }} · {{ meta.date }}</span>
+    <h1>{{ meta.title }}</h1>
+    <p class="reader-blurb">{{ meta.blurb }}</p>
+
+    {% if toc %}
+    <nav class="reader-toc" aria-label="Table of contents">
+      <p class="toc-title">Contents</p>
+      <ul>
+        {% for item in toc %}
+        <li class="toc-l{{ item.level }}"><a href="#{{ item.id }}">{{ item.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+    {% endif %}
+
+    <div class="markdown">{{ content|safe }}</div>
+
+    <nav class="reader-pager">
+      {% if prev %}
+      <a class="pager-link" href="/writings/{{ prev.slug }}">
+        <span>← Newer</span><strong>{{ prev.title }}</strong>
+      </a>
+      {% else %}<span></span>{% endif %} {% if next %}
+      <a class="pager-link pager-next" href="/writings/{{ next.slug }}">
+        <span>Older →</span><strong>{{ next.title }}</strong>
+      </a>
+      {% else %}<span></span>{% endif %}
+    </nav>
+  </article>
+
+  <aside class="reader-cta">
+    <p>Building in tech? I offer free intro calls to founders.</p>
+    <a class="button primary small" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+      >{{ cfg.scheduler_label }}</a
+    >
+  </aside>
+</main>
+{% endblock %}

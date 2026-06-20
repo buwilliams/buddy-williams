@@ -1,0 +1,28 @@
+[package]
+name = "buddy-williams-site"
+version = "0.1.0"
+edition = "2021"
+description = "Personal branding site for Buddy Williams — Rust + Axum"
+
+[[bin]]
+name = "site"
+path = "src/main.rs"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "signal"] }
+tower = "0.5"
+tower-http = { version = "0.6", features = ["fs", "compression-gzip", "trace", "set-header"] }
+pulldown-cmark = "0.12"
+minijinja = { version = "2", features = ["loader"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
