@@ -52,13 +52,20 @@
           >
         </li>
       </ul>
-      <div class="showcase-shots">
-        {% for shot in cfg.refine.screenshots %}
-        <figure>
-          <img src="{{ shot.src }}" alt="{{ shot.caption }}" loading="lazy" />
-          <figcaption>{{ shot.caption }}</figcaption>
-        </figure>
-        {% endfor %}
+      <div class="gallery" data-gallery>
+        <div class="gallery-viewport">
+          <div class="gallery-track">
+            {% for shot in cfg.refine.screenshots %}
+            <figure class="gallery-slide">
+              <img src="{{ shot.src }}" alt="{{ shot.caption }}" loading="lazy" />
+              <figcaption>{{ shot.caption }}</figcaption>
+            </figure>
+            {% endfor %}
+          </div>
+          <button class="gallery-nav prev" type="button" aria-label="Previous screenshot">‹</button>
+          <button class="gallery-nav next" type="button" aria-label="Next screenshot">›</button>
+        </div>
+        <div class="gallery-dots" aria-hidden="true"></div>
       </div>
     </div>
   </section>

@@ -245,6 +245,7 @@ p {
 
 /* ---------- Proof bar ---------- */
 .proof {
+  margin-top: clamp(32px, 5vw, 60px);
   padding: 0 clamp(18px, 4vw, 48px) clamp(40px, 6vw, 72px);
 }
 .proof-grid {
@@ -339,23 +340,96 @@ p {
 .showcase-points li.showcase-link::before {
   display: none;
 }
-.showcase-shots {
-  display: grid;
-  gap: 18px;
+/* Sliding gallery (Refine screenshots) */
+.gallery-viewport {
+  position: relative;
 }
-.showcase-shots figure {
+.gallery-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.gallery-track::-webkit-scrollbar {
+  display: none;
+}
+.gallery-slide {
+  position: relative;
+  flex: 0 0 100%;
   margin: 0;
+  scroll-snap-align: center;
 }
-.showcase-shots img {
+.gallery-slide img {
+  display: block;
   width: 100%;
   border-radius: 12px;
   border: 1px solid var(--line-strong);
-  box-shadow: var(--shadow);
 }
-.showcase-shots figcaption {
-  margin-top: 10px;
-  color: var(--muted);
+.gallery-slide figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 30px 16px 12px;
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(to top, rgba(6, 12, 30, 0.92), rgba(6, 12, 30, 0));
+  color: var(--star);
   font-size: 0.9rem;
+}
+.gallery-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: rgba(7, 15, 36, 0.72);
+  color: var(--text);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: background 0.15s ease, opacity 0.15s ease;
+  z-index: 2;
+}
+.gallery-nav:hover {
+  background: rgba(7, 15, 36, 0.95);
+}
+.gallery-nav.prev {
+  left: 12px;
+}
+.gallery-nav.next {
+  right: 12px;
+}
+.gallery-nav:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+.gallery-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+.gallery-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgba(163, 182, 218, 0.4);
+  cursor: pointer;
+  transition: width 0.2s ease, background 0.2s ease;
+}
+.gallery-dot[aria-current="true"] {
+  width: 22px;
+  background: var(--amber);
 }
 
 /* ---------- Cards / writing ---------- */
