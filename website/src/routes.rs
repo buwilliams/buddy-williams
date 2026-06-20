@@ -75,7 +75,8 @@ pub async fn essay(State(state): State<AppState>, Path(slug): Path<String>) -> R
         Err(_) => return not_found(&state),
     };
 
-    let rendered = markdown::render(&markdown::strip_first_h1(&md));
+    let body = markdown::strip_toc(&markdown::strip_first_h1(&md));
+    let rendered = markdown::render(&body);
     let prev = idx.checked_sub(1).map(|i| &state.writings[i]);
     let next = state.writings.get(idx + 1);
 

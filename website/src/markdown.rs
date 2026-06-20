@@ -48,6 +48,44 @@ pub fn strip_first_h1(md: &str) -> String {
     out
 }
 
+/// Remove a hand-written "Contents" / "Table of Contents" section so it doesn't
+/// duplicate the styled TOC the reader generates. Spans from the TOC heading up
+/// to (but not including) the next heading. The Markdown source is left intact —
+/// this only affects on-site rendering, so GitHub still shows the raw TOC.
+pub fn strip_toc(md: &str) -> String {
+    let lines: Vec<&str> = md.lines().collect();
+    let mut out = String::with_capacity(md.len());
+    let mut i = 0;
+    while i < lines.len() {
+        if is_toc_heading(lines[i]) {
+            i += 1;
+            while i < lines.len() && !is_heading(lines[i]) {
+                i += 1;
+            }
+            continue;
+        }
+        out.push_str(lines[i]);
+        out.push('\n');
+        i += 1;
+    }
+    out
+}
+
+fn is_toc_heading(line: &str) -> bool {
+    let t = line.trim();
+    if !t.starts_with('#') {
+        return false;
+    }
+    let rest = t.trim_start_matches('#').trim().to_ascii_lowercase();
+    rest == "contents" || rest == "table of contents"
+}
+
+fn is_heading(line: &str) -> bool {
+    let t = line.trim_start();
+    let hashes = t.bytes().take_while(|&b| b == b'#').count();
+    (1..=6).contains(&hashes) && t[hashes..].starts_with(' ')
+}
+
 pub fn render(md: &str) -> Rendered {
     let mut opts = Options::empty();
     opts.insert(Options::ENABLE_TABLES);
