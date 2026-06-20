@@ -26,8 +26,10 @@ repo_url = "https://github.com/buwilliams/buddy-williams-writings"
 
 # Booking — drop in your Cal.com / Calendly link. The site links straight to it
 # now (free intro call); a paid event type slots in here later with no rework.
-scheduler_url = "https://cal.com/buddywilliams"
+scheduler_url = "https://cal.com/buddy-williams-1qvgvh/30min"
 scheduler_label = "Book a free intro call"
+# Cal.com event slug (username/event) — drives the inline embed + popup buttons.
+cal_link = "buddy-williams-1qvgvh/30min"
 
 # Proof bar (show, don't tell)
 [[stats]]

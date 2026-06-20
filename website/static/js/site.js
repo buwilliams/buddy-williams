@@ -52,3 +52,25 @@
 
   document.querySelectorAll("[data-gallery]").forEach(initGallery);
 })();
+
+// Cal.com integration: popups on every booking link + inline embed on /consulting.
+(function () {
+  var calLink = document.body && document.body.getAttribute("data-cal-link");
+  if (!calLink || !window.Cal) return; // no Cal -> href fallback (opens cal.com)
+
+  // Turn every link to cal.com into a popup overlay instead of a new tab.
+  document.querySelectorAll('a[href*="cal.com/"]').forEach(function (a) {
+    a.setAttribute("data-cal-link", calLink);
+    a.setAttribute("data-cal-config", '{"layout":"month_view"}');
+    a.removeAttribute("target");
+  });
+
+  // Inline calendar where a #cal-inline container exists.
+  if (document.getElementById("cal-inline")) {
+    window.Cal("inline", {
+      elementOrSelector: "#cal-inline",
+      calLink: calLink,
+      config: { layout: "month_view" },
+    });
+  }
+})();

@@ -43,9 +43,12 @@
   <section class="scheduler-embed">
     <h2>Book your call</h2>
     <p class="page-sub">Choose a time that works for you.</p>
-    <a class="button primary large" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
-      >{{ cfg.consulting.cta }} →</a
-    >
+    <div id="cal-inline" class="cal-inline"></div>
+    <noscript>
+      <a class="button primary large" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+        >{{ cfg.consulting.cta }} →</a
+      >
+    </noscript>
     <p class="scheduler-fallback">
       Prefer email? Reach me at
       <a href="mailto:{{ cfg.email }}">{{ cfg.email }}</a> or on

@@ -71,6 +71,7 @@ pub struct SiteConfig {
     pub repo_url: String,
     pub scheduler_url: String,
     pub scheduler_label: String,
+    pub cal_link: String,
     #[serde(default)]
     pub stats: Vec<Stat>,
     pub refine: Refine,
