@@ -1,0 +1,13 @@
+# The Docker build context is the repo root. Keep the upload lean — the
+# Dockerfile only needs essays/, assets/, and the website/ app files.
+.git
+.github
+.claude
+book
+website/target
+website/.git
+**/*.log
+# website dev-only files (published copies live under website/static/img/)
+website/background.png
+website/profile.jpg
+website/closed-deals.txt

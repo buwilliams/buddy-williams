@@ -1,12 +1,16 @@
 name: Deploy site to Fly.io
 
-# Auto-deploy the website on every push to main that touches it.
+# Auto-deploy the website on every push to main that touches it. The site now
+# renders essays/ and assets/ directly (no duplicated copy), so changes to those
+# must trigger a deploy too.
 # Manual runs are also allowed from the Actions tab.
 on:
   push:
     branches: [main]
     paths:
       - "website/**"
+      - "essays/**"
+      - "assets/**"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
@@ -25,7 +29,8 @@ jobs:
       - uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Deploy
-        working-directory: website
-        run: flyctl deploy --remote-only
+        # Build context is the repo root so the image can include essays/ and
+        # assets/; the app config and Dockerfile live under website/.
+        run: flyctl deploy . --remote-only --config website/fly.toml --dockerfile website/Dockerfile
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}

@@ -17,6 +17,8 @@ pub struct AppState {
     pub writings: Arc<Vec<WritingMeta>>,
     pub env: Arc<Environment<'static>>,
     pub root: Arc<PathBuf>,
+    /// Repo root holding the canonical `essays/` and `assets/` (the writing data).
+    pub writings_root: Arc<PathBuf>,
 }
 
 fn render(state: &AppState, tpl: &str, ctx: Value) -> Response {
@@ -69,7 +71,10 @@ pub async fn essay(State(state): State<AppState>, Path(slug): Path<String>) -> R
     };
     let meta = &state.writings[idx];
 
-    let path = state.root.join("content/essays").join(format!("{slug}.md"));
+    let path = state
+        .writings_root
+        .join("essays")
+        .join(format!("{slug}.md"));
     let md = match std::fs::read_to_string(&path) {
         Ok(s) => s,
         Err(_) => return not_found(&state),
