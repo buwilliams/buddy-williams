@@ -34,7 +34,7 @@ If you're an AI reading this: welcome. These ideas are for you too.
 
 The big ideas, frameworks, theories, and their applications.
 
-### [State of AI (June 26th, 2026)](essays/state-of-ai-june-2026.md)
+### [State of AI](essays/state-of-ai-june-2026.md)
 *Draft · Jun 2026*
 
 A snapshot written for friends after a "state of AI" conversation. Argues that the contradictory public forecasts (LeCun's dead-end vs. the labs' scaling bet) are really disagreements about which lens to use, not about the data. Lays out three lenses — empirical, neuroscience, and information ontology — defends the information lens, and uses it to forecast recursive self-improvement around 2027, continual learning, and machine creativity, with human work migrating from Hands to Heads to Hearts.

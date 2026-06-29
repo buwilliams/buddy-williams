@@ -1,4 +1,4 @@
-# State of AI (June 26th, 2026)
+# State of AI
 
 *by Buddy Williams · June 26, 2026*
 
