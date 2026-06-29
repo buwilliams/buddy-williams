@@ -1,3 +1,12 @@
+---
+title: "Computer People"
+status: "Final"
+date: "Mar 2026"
+order: 5
+featured: true
+blurb: "A synthesis of two years of research on AGI. LLMs have the necessary ingredients for novel knowledge creation; we have developed AGI as a universal explainer; and AGI constitutes personhood."
+---
+
 # Computer People
 
 Computer people (AGI) are nearly here. Below is a synthesis of all I have determined after two years of continuous research on this topic.

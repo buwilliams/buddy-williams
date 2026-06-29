@@ -1,3 +1,11 @@
+---
+title: "What Is a Computer?"
+status: "Final"
+date: "Apr 2026"
+order: 4
+blurb: "A computer is any physical system capable of implementing universal logic, not a silicon machine. Causal closure is real but local — and physicalism's claim to fundamentality is an unjustified projection from inside a closed system."
+---
+
 # What Is a Computer?
 
 *by Buddy Williams*

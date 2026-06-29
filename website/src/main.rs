@@ -28,7 +28,8 @@ async fn main() {
         .unwrap_or_else(|_| root.clone());
 
     let cfg = content::load_site(&root).expect("failed to load content/site.toml");
-    let writings = content::load_writings(&root).expect("failed to load content/writings.toml");
+    let writings =
+        content::load_writings(&writings_root).expect("failed to load essays/ frontmatter");
     let mut env = content::build_env(&root).expect("failed to load templates/");
     env.add_global("asset_version", content::asset_version(&root));
 

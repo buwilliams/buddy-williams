@@ -1,3 +1,12 @@
+---
+title: "The Rise of the Outcome Economy"
+status: "Final"
+date: "Nov 2025"
+order: 11
+featured: true
+blurb: "The near-term economic transformation. Knowledge workers become intelligence workers, and outcome-based economies emerge."
+---
+
 # The Rise of the Outcome Economy
 
 *Exploring the Near-term Impacts of AI on Knowledge Workers*

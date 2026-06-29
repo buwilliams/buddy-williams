@@ -1,3 +1,12 @@
+---
+title: "State of AI"
+status: "Final"
+date: "Jun 2026"
+order: 0
+featured: true
+blurb: "A snapshot written for friends after a state-of-AI conversation. The contradictory public forecasts are really disagreements about which lens to use, not about the data. Three lenses — empirical, neuroscience, information ontology — a defense of the information lens, and what it predicts: recursive self-improvement around 2027, continual learning, machine creativity, and work migrating from Hands to Heads to Hearts."
+---
+
 # State of AI
 
 *by Buddy Williams · June 26, 2026*

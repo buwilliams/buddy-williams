@@ -93,10 +93,18 @@ pub struct WritingMeta {
     pub order: i64,
 }
 
+/// Per-essay metadata, parsed from the `---` YAML frontmatter at the top of each
+/// `essays/<slug>.md`. The slug is the file stem, so it isn't stored here.
 #[derive(Debug, Deserialize)]
-struct WritingsFile {
+struct FrontMatter {
+    title: String,
+    status: String,
+    date: String,
+    blurb: String,
     #[serde(default)]
-    writing: Vec<WritingMeta>,
+    featured: bool,
+    #[serde(default)]
+    order: i64,
 }
 
 pub fn load_site(root: &Path) -> Result<SiteConfig, BoxErr> {
@@ -104,10 +112,37 @@ pub fn load_site(root: &Path) -> Result<SiteConfig, BoxErr> {
     Ok(toml::from_str(&raw)?)
 }
 
+/// Load published writings by scanning `<root>/essays/*.md`. An essay is published
+/// iff it opens with a `---` YAML frontmatter block; files without one (raw drafts,
+/// working notes) are skipped. Sorted by `order`, lowest first.
 pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
-    let raw = std::fs::read_to_string(root.join("content/writings.toml"))?;
-    let parsed: WritingsFile = toml::from_str(&raw)?;
-    let mut list = parsed.writing;
+    let mut list = Vec::new();
+    for entry in std::fs::read_dir(root.join("essays"))? {
+        let path = entry?.path();
+        if path.extension().and_then(|e| e.to_str()) != Some("md") {
+            continue;
+        }
+        let raw = std::fs::read_to_string(&path)?;
+        let Some(fm) = crate::markdown::split_frontmatter(&raw).0 else {
+            continue; // no frontmatter → unpublished
+        };
+        let slug = path
+            .file_stem()
+            .and_then(|s| s.to_str())
+            .ok_or("bad essay filename")?
+            .to_string();
+        let meta: FrontMatter = serde_yaml::from_str(fm)
+            .map_err(|e| format!("frontmatter in {}: {e}", path.display()))?;
+        list.push(WritingMeta {
+            slug,
+            title: meta.title,
+            status: meta.status,
+            date: meta.date,
+            blurb: meta.blurb,
+            featured: meta.featured,
+            order: meta.order,
+        });
+    }
     list.sort_by_key(|w| w.order);
     Ok(list)
 }

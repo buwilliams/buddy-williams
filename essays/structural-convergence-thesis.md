@@ -1,3 +1,12 @@
+---
+title: "Structural Convergence Thesis"
+status: "Final"
+date: "Mar 2026"
+order: 7
+featured: true
+blurb: "Tests the orthogonality thesis against real-world constraints — finite minds, relational pressure, reflective reach. Persistent minds converge on a relational Goldilocks zone; AI safety depends on maturation, not just control."
+---
+
 # Structural Convergence Thesis
 
 *A Relational Theory of Minds, Cooperation, and AI Safety*

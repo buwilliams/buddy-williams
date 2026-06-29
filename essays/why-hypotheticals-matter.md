@@ -1,3 +1,11 @@
+---
+title: "Why Hypotheticals Matter"
+status: "Final"
+date: "Nov 2025"
+order: 12
+blurb: "Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise."
+---
+
 # Why Hypotheticals Matter
 
 *Even When They Feel Annoying*

@@ -1,3 +1,11 @@
+---
+title: "Utility of Truth"
+status: "Final"
+date: "Oct 2025"
+order: 16
+blurb: "Why minds resist change. Evolution favors utility over truth, and how to plant seeds that grow into changed minds."
+---
+
 # Utility of Truth
 
 *Why Evolution Favors What Works Over What's True*

@@ -1,3 +1,12 @@
+---
+title: "Technohumanism"
+status: "Final"
+date: "Oct 2025"
+order: 14
+featured: true
+blurb: "Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment and pointing toward transhumanism."
+---
+
 # Technohumanism
 
 *Humanity's past, present, and future.*

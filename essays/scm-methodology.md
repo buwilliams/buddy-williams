@@ -1,3 +1,11 @@
+---
+title: "The Metrics That Contain Their Causes"
+status: "Final"
+date: "Jun 2026"
+order: 1
+blurb: "Why Ray Kurzweil could forecast computing for decades while missing the specific inventions. Generalizes his method into the Success Compression Metric — a variable whose value certifies that many causal dependencies were already satisfied."
+---
+
 # The Metrics That Contain Their Causes
 
 ## Introduction

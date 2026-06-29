@@ -108,5 +108,5 @@ curl -I https://buddy-williams.com/healthz
 - **Deploy:** push to `main` (touching `website/`) — Actions does the rest.
 - **Manual deploy:** `fly deploy` from `website/`.
 - **Logs:** `fly logs`. **Console:** `fly ssh console`.
-- **New essay:** add the `.md` to `content/essays/`, add an entry to
-  `content/writings.toml`, commit.
+- **New essay:** add `essays/<slug>.md` with a `+++` frontmatter block at the top
+  (`title`, `status`, `date`, `blurb`, optional `featured`/`order`), commit.

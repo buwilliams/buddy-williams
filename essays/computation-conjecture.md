@@ -1,3 +1,11 @@
+---
+title: "Computation Conjecture"
+status: "Final"
+date: "Apr 2026"
+order: 3
+blurb: "A metaphysical position grounded in the nested computers we already build and inspect: computation has more explanatory reach than physicalism, accounting for why a closed causal system with observers exists at all."
+---
+
 # Computation Conjecture
 
 This conjecture, or bold guess, is based on a simple idea: to make progress on fundamental ontology, or exploring the true nature of existence, we can use lessons found in computers. I'm claiming computers hold insights that can illuminate the cosmos. There are many beliefs about the fundamental nature of the universe, for some matter is all there is, for others mind is fundamental, and still for others God answers the final question. I seek to harmonize these positions.

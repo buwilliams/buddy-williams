@@ -1,3 +1,12 @@
+---
+title: "Metaprogramming Framework To Classify Personhood"
+status: "Final"
+date: "Feb 2026"
+order: 8
+featured: true
+blurb: "An exploration of personhood from an information-ontology perspective. Personhood is substrate-independent metaprogramming; the difference is maturity, not kind."
+---
+
 # Metaprogramming Framework To Classify Personhood
 
 *by Buddy Williams*

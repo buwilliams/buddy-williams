@@ -39,6 +39,39 @@ pub struct Rendered {
     pub toc: Vec<TocItem>,
 }
 
+/// Split optional `---`-fenced YAML frontmatter from the top of a markdown file.
+/// Returns `(frontmatter, body)`. The file must open with a `---` line; the block
+/// ends at the next line that is exactly `---`. Any later `---` (a horizontal
+/// rule in the prose) is left untouched. If the file does not open with a fence,
+/// the frontmatter is `None` and the whole input is returned as the body.
+pub fn split_frontmatter(md: &str) -> (Option<&str>, &str) {
+    let Some(after_open) = md
+        .strip_prefix("---\n")
+        .or_else(|| md.strip_prefix("---\r\n"))
+    else {
+        return (None, md);
+    };
+    // Scan for a line that is exactly `---` (the closing fence).
+    let mut from = 0;
+    while let Some(rel) = after_open[from..].find("\n---") {
+        let nl = from + rel; // the '\n' that begins the candidate line
+        let fence = nl + 1; // first '-' of the candidate
+        let line_end = after_open[fence..]
+            .find('\n')
+            .map(|i| fence + i)
+            .unwrap_or(after_open.len());
+        if after_open[fence..line_end].trim_end() == "---" {
+            let fm = &after_open[..nl];
+            let after = &after_open[line_end..];
+            let body = after.strip_prefix('\n').unwrap_or(after);
+            return (Some(fm), body);
+        }
+        from = fence;
+    }
+    // Unterminated fence: treat the whole file as body.
+    (None, md)
+}
+
 /// Remove the leading `# H1` line (the title is shown from the manifest, so we
 /// avoid rendering it twice).
 pub fn strip_first_h1(md: &str) -> String {

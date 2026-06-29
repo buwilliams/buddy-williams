@@ -1,3 +1,11 @@
+---
+title: "Cyclic Rationality"
+status: "Final"
+date: "Oct 2025"
+order: 15
+blurb: "A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination."
+---
+
 # Cyclic Rationality
 
 *A methodology for grounded open-mindedness.*

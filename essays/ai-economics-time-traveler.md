@@ -1,3 +1,11 @@
+---
+title: "AI Economics: The Time Traveler's Gift"
+status: "Final"
+date: "Nov 2025"
+order: 13
+blurb: "AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource."
+---
+
 # AI Economics: The Time Traveler's Gift
 
 *How Artificial Intelligence Accelerates Human Progress by Collapsing the Distance Between Present Effort and Future Abundance*
