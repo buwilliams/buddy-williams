@@ -1,14 +1,14 @@
 # Structured site content. Edit copy here — no Rust changes needed.
 
 name = "Buddy Williams"
-role_title = "Chief AI Innovation Officer · Founder · Builder"
+role_title = "Chief AI Innovation Officer · Philosopher · Futurist"
 tagline = "Build a future worth exploring."
 positioning = "I help you explore what's possible."
 hero_sub = """
-Four-time founder and end-to-end operator. I've closed $2.3M+ in software \
-engagements, shipped Refine to production, and spent 25 years building first \
-versions before the category had a name. Right now I'm offering that to you — \
-free."""
+End-to-end operator and four-time founder, 25 years serving enterprises and \
+startups. I've closed $2.3M+ in software engagements in the last four years \
+alone, shipped Refine to production, and built first versions before the \
+category had a name. Right now I'm offering that to you — free."""
 bio = """
 By title I'm Chief AI Innovation Officer at a software consulting firm. By nature \
 I'm a builder who designs futures. I own the full arc — first customer \
@@ -34,7 +34,7 @@ cal_link = "buddy-williams-1qvgvh/30min"
 # Proof bar (show, don't tell)
 [[stats]]
 value = "$2.3M+"
-label = "Closed in software engagements, and climbing"
+label = "Closed in four years — and still climbing"
 
 [[stats]]
 value = "4"
@@ -46,7 +46,7 @@ label = "Shipped and running in production"
 
 [[stats]]
 value = "25 yrs"
-label = "Building at the edge of what's new"
+label = "Serving enterprises and startups"
 
 # Featured product
 [refine]
@@ -91,6 +91,10 @@ deeper."""
 cta = "Book a free intro call"
 
 [[consulting.covers]]
+title = "First principles & the road ahead"
+body = "Step back from the roadmap. What thinking machines actually change about your product, your team, and the people they touch — reasoned from the ground up, not the hype cycle."
+
+[[consulting.covers]]
 title = "Narrative & positioning"
 body = "Sharpen the story — what you're building, why now, and why anyone should care."
 
@@ -101,10 +105,6 @@ body = "Pressure-test the build. What to own, what to buy, and what will break a
 [[consulting.covers]]
 title = "AI strategy that ships"
 body = "Where agents and AI actually create leverage in your product — beyond the demo."
-
-[[consulting.covers]]
-title = "Go-to-market & first customers"
-body = "From first conversation to closed deal. I've closed $2.3M+ doing exactly this."
 
 # Founder credibility — selected work (sourced from resume)
 [[projects]]
