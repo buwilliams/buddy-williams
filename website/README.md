@@ -33,14 +33,15 @@ No Rust changes are needed for copy edits:
 - **`content/site.toml`** — bio, tagline, stats, social links, the Refine
   showcase, consulting offer, and selected projects.
 - **`../essays/*.md`** — the essays themselves, the single source of truth. Each
-  published essay opens with a `+++` TOML frontmatter block (`title`, `status`,
+  published essay opens with a `---` YAML frontmatter block (`title`, `status`,
   `date`, `blurb`, optional `featured`, `order`); the slug is the filename. The
   site scans `essays/` at startup and publishes every file that has frontmatter —
-  set `featured = true` to surface on the home page, `order` to sort (lowest
-  first), and delete the frontmatter to unpublish. Files without frontmatter (raw
-  drafts, working notes) are ignored. Essays render on GitHub *and* on the site
-  from this one copy; the site rewrites their relative links/images at render
-  time. Images live in `../assets/` and are served at `/assets/...`.
+  set `featured: true` to surface on the home page. Both pages sort by `date`
+  newest first; `order` is the lowest-first tie-breaker within the same month.
+  Delete the frontmatter to unpublish. Files without frontmatter (raw drafts,
+  working notes) are ignored. Essays render on GitHub *and* on the site from this
+  one copy; the site rewrites their relative links/images at render time. Images
+  live in `../assets/` and are served at `/assets/...`.
 
 ### Booking
 

@@ -114,7 +114,8 @@ pub fn load_site(root: &Path) -> Result<SiteConfig, BoxErr> {
 
 /// Load published writings by scanning `<root>/essays/*.md`. An essay is published
 /// iff it opens with a `---` YAML frontmatter block; files without one (raw drafts,
-/// working notes) are skipped. Sorted by `order`, lowest first.
+/// working notes) are skipped. Sorted newest to oldest by publication month, with
+/// `order` as the tie-breaker for writings published in the same month.
 pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
     let mut list = Vec::new();
     for entry in std::fs::read_dir(root.join("essays"))? {
@@ -143,8 +144,54 @@ pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
             order: meta.order,
         });
     }
-    list.sort_by_key(|w| w.order);
+    sort_writings_newest_first(&mut list)?;
     Ok(list)
+}
+
+fn sort_writings_newest_first(list: &mut [WritingMeta]) -> Result<(), BoxErr> {
+    for writing in list.iter() {
+        if publication_month(&writing.date).is_none() {
+            return Err(format!(
+                "unsupported publication date {:?} in {}; expected Month YYYY",
+                writing.date, writing.slug
+            )
+            .into());
+        }
+    }
+
+    list.sort_by(|a, b| {
+        publication_month(&b.date)
+            .cmp(&publication_month(&a.date))
+            .then_with(|| a.order.cmp(&b.order))
+            .then_with(|| a.slug.cmp(&b.slug))
+    });
+    Ok(())
+}
+
+fn publication_month(date: &str) -> Option<(i32, u8)> {
+    let mut parts = date.split_whitespace();
+    let month = parts.next()?.trim_end_matches('.').to_ascii_lowercase();
+    let year = parts.next()?.parse().ok()?;
+    if parts.next().is_some() {
+        return None;
+    }
+
+    let month = match month.as_str() {
+        "jan" | "january" => 1,
+        "feb" | "february" => 2,
+        "mar" | "march" => 3,
+        "apr" | "april" => 4,
+        "may" => 5,
+        "jun" | "june" => 6,
+        "jul" | "july" => 7,
+        "aug" | "august" => 8,
+        "sep" | "sept" | "september" => 9,
+        "oct" | "october" => 10,
+        "nov" | "november" => 11,
+        "dec" | "december" => 12,
+        _ => return None,
+    };
+    Some((year, month))
 }
 
 /// A short hash of the CSS + JS contents, appended to asset URLs as `?v=...`.
@@ -179,4 +226,48 @@ pub fn build_env(root: &Path) -> Result<minijinja::Environment<'static>, BoxErr>
         }
     }
     Ok(env)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn writing(slug: &str, date: &str, order: i64) -> WritingMeta {
+        WritingMeta {
+            slug: slug.into(),
+            title: slug.into(),
+            status: "Draft".into(),
+            date: date.into(),
+            blurb: String::new(),
+            featured: true,
+            order,
+        }
+    }
+
+    #[test]
+    fn writings_sort_newest_first_with_order_as_same_month_tiebreaker() {
+        let mut writings = vec![
+            writing("october", "Oct 2025", 0),
+            writing("june-second", "Jun 2026", 2),
+            writing("july", "July 2026", 9),
+            writing("june-first", "June 2026", 1),
+        ];
+
+        sort_writings_newest_first(&mut writings).unwrap();
+
+        let slugs: Vec<&str> = writings
+            .iter()
+            .map(|writing| writing.slug.as_str())
+            .collect();
+        assert_eq!(slugs, ["july", "june-first", "june-second", "october"]);
+    }
+
+    #[test]
+    fn writings_reject_dates_that_cannot_be_sorted() {
+        let mut writings = vec![writing("undated", "Coming soon", 0)];
+
+        let error = sort_writings_newest_first(&mut writings).unwrap_err();
+
+        assert!(error.to_string().contains("expected Month YYYY"));
+    }
 }
