@@ -2,8 +2,8 @@
 
 A polished personal-branding site for technology founders, built as a small
 **Rust + Axum** server. Show-don't-tell: it features [Refine](https://getrefine.dev)
-(in production), $2.3M+ in closed engagements, four companies founded, and the
-full body of writing — essays rendered on-site from Markdown.
+(in production), HarmonicWork, Forge, Corpus Council, four companies founded,
+and the full body of writing — essays rendered on-site from Markdown.
 
 ## Run locally
 

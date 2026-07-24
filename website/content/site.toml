@@ -3,12 +3,15 @@
 name = "Buddy Williams"
 role_title = "Chief AI Innovation Officer · Philosopher · Futurist"
 tagline = "Build a future worth exploring."
-positioning = "I help you explore what's possible."
+positioning = "I think beyond the obvious — then I build it."
 hero_sub = """
-End-to-end operator and four-time founder, 25 years serving enterprises and \
-startups. I've closed $2.3M+ in software engagements in the last four years \
-alone, shipped Refine to production, and built first versions before the \
-category had a name. Right now I'm offering that to you — free."""
+Original thinker and end-to-end builder. Across 25 years and four companies, \
+I've turned first-principles ideas into working products for enterprises and \
+startups — from strategy and customer discovery through architecture and \
+production. I shipped Refine, a governed agentic software delivery system; built \
+HarmonicWork for human-AI orchestration; and created Forge and Corpus Council \
+for agentic execution and grounded deliberation. Right now I'm offering that \
+experience to you — free."""
 bio = """
 By title I'm Chief AI Innovation Officer at a software consulting firm. By nature \
 I'm a builder who designs futures. I own the full arc — first customer \
@@ -33,8 +36,8 @@ cal_link = "buddy-williams-1qvgvh/30min"
 
 # Proof bar (show, don't tell)
 [[stats]]
-value = "$2.3M+"
-label = "Closed in four years — and still climbing"
+value = "0→1"
+label = "Product strategy through production"
 
 [[stats]]
 value = "4"
