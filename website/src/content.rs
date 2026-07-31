@@ -19,6 +19,18 @@ pub struct Shot {
 }
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
+pub struct Video {
+    pub name: String,
+    pub tagline: String,
+    pub youtube_id: String,
+    pub youtube_url: String,
+    pub essay_slug: String,
+    pub description: String,
+    #[serde(default)]
+    pub points: Vec<String>,
+}
+
+#[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Refine {
     pub name: String,
     pub url: String,
@@ -74,6 +86,7 @@ pub struct SiteConfig {
     pub cal_link: String,
     #[serde(default)]
     pub stats: Vec<Stat>,
+    pub video: Video,
     pub refine: Refine,
     pub consulting: Consulting,
     #[serde(default)]

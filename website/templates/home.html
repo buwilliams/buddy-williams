@@ -34,6 +34,39 @@
     </div>
   </section>
 
+  <!-- Moving Line video -->
+  <section class="section showcase video-feature" id="moving-line">
+    <div class="section-head">
+      <p class="eyebrow">The model, in four minutes</p>
+      <h2>{{ cfg.video.name }} — {{ cfg.video.tagline }}</h2>
+      <p class="section-sub">{{ cfg.video.description }}</p>
+    </div>
+    <div class="showcase-body">
+      <ul class="showcase-points">
+        {% for p in cfg.video.points %}
+        <li>{{ p }}</li>
+        {% endfor %}
+        <li class="showcase-link video-actions">
+          <a class="button primary small" href="/writings/{{ cfg.video.essay_slug }}"
+            >Read the essay →</a
+          >
+          <a class="button ghost small" href="{{ cfg.video.youtube_url }}" target="_blank" rel="noopener"
+            >Watch on YouTube →</a
+          >
+        </li>
+      </ul>
+      <div class="video-frame">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/{{ cfg.video.youtube_id }}"
+          title="{{ cfg.video.name }} — {{ cfg.video.tagline }}"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
   <!-- Refine showcase -->
   <section class="section showcase" id="refine">
     <div class="section-head">

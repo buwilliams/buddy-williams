@@ -51,6 +51,25 @@ label = "Shipped and running in production"
 value = "25 yrs"
 label = "Serving enterprises and startups"
 
+# Featured video
+[video]
+name = "The Moving Line"
+tagline = "Why AI moves fast while businesses are slow"
+youtube_id = "U0Ww9_pw6v8"
+youtube_url = "https://www.youtube.com/watch?v=U0Ww9_pw6v8"
+essay_slug = "moving-line"
+description = """
+AI is changing business incredibly fast. Real transformation takes decades. These \
+claims sound contradictory — but both are true. The Moving Line is a model of the \
+three boundaries shaping the intelligence era. They move at different rates, and \
+businesses live in the gap between what AI can do and what they've actually \
+adopted. That gap feels comfortable — until capability becomes competition."""
+points = [
+  "Diffusion — how AI capability spreads into everyday business",
+  "Research — how new AI capabilities are created",
+  "The Problem Frontier — how technology and knowledge reveal new problems and markets",
+]
+
 # Featured product
 [refine]
 name = "Refine"
