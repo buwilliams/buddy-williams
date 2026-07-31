@@ -1,0 +1,16 @@
+/* Overrides layered on top of resume.css for denser, job-specific resumes.
+   Render: pandoc x.md -o x.html --standalone && weasyprint -s resume.css -s resume-compact.css x.html x.pdf */
+
+html { font-size: 9pt; }
+
+@page { margin: 0.5in 0.65in; }
+
+h2 { margin: 0.85em 0 0.3em 0; }
+
+h3 { margin: 0.6em 0 0.05em 0; }
+
+ul { margin: 0.15em 0 0.35em 0; }
+
+body, li { line-height: 1.3; }
+
+hr { margin: 0.4em 0; }
