@@ -2,7 +2,7 @@
 title: "In Search of the Meta-Modeling Process"
 status: "Final"
 date: "Aug 2026"
-order: 0
+order: 1
 featured: true
 blurb: "A search for the computational process behind model creation: how observations, purposes, values, and abstractions become reusable reasoning programs—and perhaps the primitive underlying creativity itself."
 ---
