@@ -1,6 +1,6 @@
 ---
 title: "A Return to Meaning"
-status: "Working"
+status: "Final"
 date: "Aug 2026"
 order: 0
 featured: true
