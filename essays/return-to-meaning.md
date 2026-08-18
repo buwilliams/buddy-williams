@@ -11,26 +11,32 @@ blurb: "Modern science leans hard on formalism, and it works, but there is a rea
 
 ## Introduction
 
+The essay you are reading rests on a single idea: there is more to language than meets the eye. Language is how meaning is expressed and considered. It is where people and minds voice their most profound desires, beliefs, and curiosities. Meaning, in turn, comes from caring—nothing means anything to a mind that wants nothing.
+
 You've probably noticed how much of modern science and technology feels like pure math. Our culture reduces problems to equations, optimizes them, and treats the formal structure as the only real thing. It works—spectacularly. But along the way meaning and philosophy were discarded as lesser-than approaches, and the people who employ them were relegated to the "humanities" in favor of the almighty STEM fields (science, technology, engineering, and math).
 
 That exclusion had a side effect worth naming. Questions about meaning did not stop being asked. They stopped being askable inside serious institutions, so the people who cared most about them went looking elsewhere. Some retreated into metaphysics, the kind that never has to answer to anything. Some came to reject formal method outright, treating rigor as the enemy rather than the tool. Some simply opted out. They get called crazy, and often enough the label fits. The sadness is that they are right in all the wrong ways: they correctly noticed that something real was missing, then concluded that the answer was to abandon the thing that works.
 
 The demotion of meaning is a crime against the foundations of science and curiosity. Both run on guesses about what matters and where to look, and those are exactly what got demoted. But it was not a conspiracy. It was a pragmatic decision made by a society with limited resources, and given the constraint it was close to right. Formalism paid—faster, more measurably, and in ways that compounded. Philosophy did not.
 
-The choices about what to formalize in the first place, the goals that make one model better than another, the values that decide what even counts as a solution—these never disappeared. They were just pushed outside the math and into informal judgment. As the systems we build grow larger and start interacting with each other, that outer layer is becoming hard to ignore again.
+Demoting meaning did not make it less necessary. The questions of meaning still get answered every day—only now they are settled by whoever has the power and status to assert an answer, rather than by anyone obliged to defend one. That is the sadness in it: rigor kept its hold on everything except the questions that decide how people live, what matters, and what is worthy.
 
-The constraint that justified the trade is lifting. What follows is a short argument that we now get to return to meaning, emergence, and abduction—the very things the long mathematical period set aside—and that the systems we are building will not leave us the choice.
+The choices about what to formalize in the first place, the goals that make one model better than another, the values that decide what even counts as a solution—these never disappeared. They were just pushed outside the formalism and into informal judgment. As the systems we build grow larger and start interacting with each other, that outer layer is becoming hard to ignore again.
+
+And those systems are becoming minds. It is tempting to assume that machines good enough at calculation will bypass all of this, but anything that acts has to act on something it values. Every mind we build inherits the problem of meaning rather than dissolving it, and there are about to be a great many of them.
+
+The constraint that justified the trade is lifting. What follows is a short argument that we now get to return to meaning, emergence, and abduction—the very things the age of formalism set aside—and that the systems we are building will not leave us the choice.
 
 ## Table of Contents
 
 1. [What Reason Is](#1-what-reason-is)
-2. [What Compression Is, and Why Minds Do It](#2-what-compression-is-and-why-minds-do-it)
-3. [Why Language Came First](#3-why-language-came-first)
-4. [Where Meaning Comes From](#4-where-meaning-comes-from)
-5. [Why Numbers Travel Only So Far](#5-why-numbers-travel-only-so-far)
-6. [The Power of Holding a Frame Still](#6-the-power-of-holding-a-frame-still)
+2. [Reasoning in Computers](#2-reasoning-in-computers)
+3. [What Compression Is, and Why Minds Do It](#3-what-compression-is-and-why-minds-do-it)
+4. [Why Language Came First](#4-why-language-came-first)
+5. [Where Meaning Comes From](#5-where-meaning-comes-from)
+6. [Why Formalism Is Useful](#6-why-formalism-is-useful)
 7. [The Cost of Formalism](#7-the-cost-of-formalism)
-8. [Why the Question Comes Back](#8-why-the-question-comes-back)
+8. [Why Meaning Comes Back](#8-why-meaning-comes-back)
 9. [Conclusion](#conclusion)
 - [Appendix A: The Argument in Thirteen Steps](#appendix-a-the-argument-in-thirteen-steps)
 - [Appendix B: Key Terms](#appendix-b-key-terms)
@@ -51,23 +57,25 @@ The material comes in two kinds. **Values** are what you care about—what you a
 
 This holds for any **agent**—anything with goals that acts to pursue them—whether that is a person, an animal, a firm, or a machine.
 
-One asymmetry is worth marking now, because the rest of the essay turns on it. The moves are close to identical across people. The material is not.
+The process of reasoning looks similar regardless of the topic, and much the same from one person to the next. The content it operates on changes with both.
 
-Now the part that changed history. The moves—the part that is the same for everyone—turned out to be mechanizable.
+Now the part that changed history. The process of reasoning—the part that is the same for everyone—turned out to be buildable in a machine. We know it as a computer.
+
+## 2. Reasoning in Computers
 
 A **logic gate** is a switch that takes inputs and produces an output by a fixed rule. The most famous is the NAND gate, which outputs "off" only when both of its inputs are "on," and "on" in every other case. That sounds too simple to matter. It isn't. Wire enough NAND gates together and you can build any computation that can be built at all. Every processor you have ever used is, underneath the packaging, an enormous pile of them.
 
 So the moves have a physical implementation, which brings us to the premise this essay stands on: a mind is at least a computational system, signals running over elementary gates. Not *only* that—the claim is not that a mind is nothing more than machinery. The claim is that a mind is not *less* than that. Whatever else is going on, signals are moving and being transformed along the way.
 
-I'm not going to argue the premise here. It has been argued well elsewhere. Two places to start: McCulloch and Pitts's 1943 paper [*A Logical Calculus of the Ideas Immanent in Nervous Activity*](https://doi.org/10.1007/BF02478259), which showed that networks of firing neurons can be described as logical operations, and the Stanford Encyclopedia of Philosophy's survey of [the computational theory of mind](https://plato.stanford.edu/entries/computational-mind/), which lays out the arguments and the objections to them. If the premise fails, what follows fails with it.
+That human minds are computers is called computationalism, or computational theory of mind (CTM). To learn more about CTM:
+- Alan Turing's 1936/1950 work (computability and ["Computing Machinery and Intelligence"](https://courses.cs.umbc.edu/471/papers/turing.pdf)) supplies the formal backbone.
+- Allen Newell & Herbert Simon's Physical Symbol System Hypothesis (especially ["Computer Science as Empirical Inquiry: Symbols and Search"](https://iiif.library.cmu.edu/file/Newell_box00038_fld02800_doc0003/Newell_box00038_fld02800_doc0003.pdf), 1976, and Newell's 1980 "Physical Symbol Systems"). A physical symbol system (manipulating symbols that designate and can be interpreted) is necessary and sufficient for general intelligent action. This directly equates human intelligence with the capacities of a suitably organized computer.
+- McCulloch and Pitts's 1943 paper [*A Logical Calculus of the Ideas Immanent in Nervous Activity*](https://doi.org/10.1007/BF02478259), which showed that networks of firing neurons can be described as logical operations.
+- The Stanford Encyclopedia of Philosophy's survey of [the computational theory of mind](https://plato.stanford.edu/entries/computational-mind/), which lays out the arguments and the objections to them.
 
-But notice what the gates did not absorb. They took the moves. They did not take the norms and the values, because there is nothing in a single switch that cares about anything. Values do not come from the logic.
+While computers can reason, notice that they did not encode norms and values, because there is nothing in a single switch that cares about anything. Values do not come from the logic machinery, but machinery whose operations turn inward and model themselves can generate values rather than receive them, which is the argument of [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md).
 
-More gates will not change that. A different organization might: machinery whose operations turn inward and model themselves can generate values rather than receive them, which is the argument of [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md).
-
-Hold onto that. It is the whole argument in miniature.
-
-## 2. What Compression Is, and Why Minds Do It
+## 3. What Compression Is, and Why Minds Do It
 
 Grant the premise and a second problem follows immediately. Any system like this has finite capacity, and the information reaching it does not. Something has to give.
 
@@ -77,23 +85,23 @@ Consider the phrase "traffic jam." A complete account of the thing would list se
 
 Stack these labels—words built on words, models built on models—and you get what we call **layers of abstraction**. Your doctor says you have the flu. A virologist describes a virus hijacking your cells to make copies of itself. A biochemist describes proteins changing shape. Each description is true. Each throws away what the others keep. None of them is the "real" one. Which layer is right depends on who is asking and what they intend to do about it.
 
-## 3. Why Language Came First
+## 4. Why Language Came First
 
-Language is the compression of experience, values, and intent—the compression of agents.
+Language is the compression of experience, values, and intent—the compression of minds.
 
 The layers in the last section compress the world: what is out there, and how it behaves. Language compresses what is doing the looking. Look again at "traffic jam." Those two words did not merely stand in for several thousand vehicles. They told you that you would be late and that nothing could be done about it. That is not a description of the road. It is the road as it stands to someone trying to get somewhere.
 
 This runs in both directions. Language carries meaning between minds, which is why one mind can skip work another already did instead of rediscovering it from scratch. It also runs inside a single mind: people think in words, argue with themselves, and talk their way to conclusions no one else will ever hear. A reasoning model does the same thing in its trace. Compression of meaning is the job. Transmission is one use of it.
 
-Language evolved long before mathematics. The ordering is not an accident. Sharing what you are trying to do is the prior problem, and mathematics only pays off once that problem has been solved.
+Language evolved long before mathematics. The ordering is not an accident. Understanding what matters, expressing it, and coordinating with others on it are older needs than calculation, and language compresses them better than calculation ever could. It is the higher layer, not the cruder one.
 
-Watch how much a physical description leaves out. A physicist can give you a complete account of a pot of water on a stove: convection currents, vapor pressure, the phase change at 100°C. It is a superb compression of the physical process. It is also completely silent on the only fact that explains why the pot is on the stove at all. Somebody wanted Ramen.
+Watch how much a physical description leaves out. A physicist can give you a complete account of a pot of water on a stove: convection currents, vapor pressure, the phase change at 100°C. It is a superb compression of the physical process. It is also completely silent on the only fact that explains why the pot is on the stove at all. Somebody wanted soup.
 
 That fact is not in the water. It is not recoverable from the water, no matter how precisely the water is measured. It exists in an agent: the experience of being hungry at eleven at night, the value of not wanting to spend an hour on dinner, the intent to eat something now. And a single sentence transmits all three.
 
 This is what four words like "I'm saving for a house" accomplish. They carry years of intention, a rough sense of the sacrifices involved, and a whole set of decisions the speaker will predictably make. No account of the speaker's bank balance conveys any of it.
 
-## 4. Where Meaning Comes From
+## 5. Where Meaning Comes From
 
 If compression throws away most of the original detail, what makes the surviving part worth keeping?
 
@@ -103,27 +111,13 @@ Take a weather report: a 30% chance of rain tomorrow. The number is identical fo
 
 What the agent is trying to accomplish rests, in turn, on its values—the material from the opening section, the part the logic could not supply. And this is where meaning comes from. Meaning is not some mystical substance added to information from outside. It is what information becomes when it meets an agent that has values.
 
-## 5. Why Numbers Travel Only So Far
+## 6. Why Formalism Is Useful
 
-Numbers are the most portable things we have ever built.
+**Reduction** is explaining something by breaking it into smaller parts and the rules those parts follow. Mathematics is reduction at its purest, and physics is where it was first turned loose on the world.
 
-A price is a small number that lets a stranger on the other side of the world make a sensible decision about a good they have never seen and a producer they will never meet. That is a remarkable piece of engineering. But it works under a condition that is easy to miss precisely because it is usually satisfied: both parties already share a **frame of reference**—the background assumptions about what is being measured, why it matters, and what counts as the thing being counted.
+Its power comes from a bargain. Hold a frame fixed, and the regularities inside that frame can be compressed with extraordinary force. Newton's law of gravitation is the standard example, and it shows what the bargain costs. To get the law, you have to agree to ignore nearly everything about a planet: its color, its composition, its name, the mythology attached to it, the fact that anyone is looking at it. Keep only mass, position, and motion. That set of choices *is* the **frame**—what is being measured, why it matters, and what counts as the thing being counted. Fix it, and one short equation predicts the motion of every body in the solar system.
 
-When the frame is shared, numbers are unbeatable. When the frame is what needs to be established, numbers fail, and they fail in a way that looks like success.
-
-"The project is 80% done." Between two engineers on the same team, that sentence carries real information. They share a definition of "done," they know which parts are hard, and they know what the last 20% usually costs. Say the same sentence to a client who hears "done" as shipped, documented, and supported, and the number is worse than useless. It has produced confidence pointing in the wrong direction.
-
-Notice what will not fix this. Sending a more precise number does not help. "80.4% done" is more exact and no more communicative, because precision was never the missing ingredient. The missing ingredient was the frame.
-
-The Ramen makes the same point from the other side. Telling your roommate that the water has reached 100°C is precise, accurate, and nearly useless. "Dinner in five minutes" is vague, unquantified, and does the entire job—because it is pitched at the frame your roommate actually occupies, which is the frame of being hungry.
-
-## 6. The Power of Holding a Frame Still
-
-**Reduction** is explaining something by breaking it into smaller parts and the rules those parts follow. Mathematics is reduction at its strongest.
-
-Its power comes from a bargain. Hold a frame fixed, and the regularities inside that frame can be compressed with extraordinary force. Newton's law of gravitation is the standard example, and it shows what the bargain costs. To get the law, you have to agree to ignore nearly everything about a planet: its color, its composition, its name, the mythology attached to it, the fact that anyone is looking at it. Keep only mass, position, and motion. That set of choices *is* the frame. Fix it, and one short equation predicts the motion of every body in the solar system.
-
-That is an astonishing return, and at the time the bargain looked free. Science accordingly leaned into the move, hard. Economics turned into equations. Psychology turned into statistics. Biology turned into molecular models. In each case the formal structure came to be treated as the main object of attention, while the informal work of deciding what to formalize slipped quietly into the background.
+That is an astonishing return, and at the time the bargain looked free. Physics made the trade first and made it best, and its success became the template every other field reached for. Economics turned into equations. Psychology turned into statistics. Biology turned into molecular models. In each case the formal structure came to be treated as the main object of attention, while the informal work of deciding what to formalize slipped quietly into the background.
 
 ## 7. The Cost of Formalism
 
@@ -137,17 +131,19 @@ Imre Lakatos made this visible in *[Proofs and Refutations](https://en.wikipedia
 
 What appears in the textbook as a clean deduction was, in the making, a long argument about what the words should mean. The polished final form hides the meaning-making that produced it.
 
-That hiding is the price of the bargain. The mathematics is not wrong. What went missing is our awareness that guesswork is holding it up.
+That hiding is the price of the bargain. The formalism is not wrong. What went missing is our awareness that guesswork is holding it up.
 
-## 8. Why the Question Comes Back
+And notice what the classroom was actually doing. It was not fumbling toward a formalism it had not yet reached. It was reasoning in language, because language is the only mechanism that can represent meaning—the compression of minds. And meaning was the entire subject of the argument: what "polyhedron" ought to pick out, and why that mattered. A formal system has no way to represent that. It can only run on a shape already chosen. That activity has a name: philosophy. It is not immature mathematics. It is the layer mathematics stands on.
 
-For a long time the bill went unpaid with no visible consequence. Frames changed slowly, most interesting problems lived inside an established frame, and a scientist could spend an entire career doing excellent work without ever treating the choice of frame as a live question.
+## 8. Why Meaning Comes Back
 
-That condition is ending, and the reason is scale. The systems we build are becoming more numerous, more independent, and more tightly linked to one another. When that happens, the question of which frame to use starts to matter more than the quality of the calculation performed inside any single one.
+Meaning is coming back, and the first reason is a happy one. Technology is freeing us from the scarcity of reasoning. As cheap reasoning is turned on the problems that used to consume everything—food, energy, disease, the cost of making anything at all—we are freed to take up the questions that were always waiting behind them: what a good life is, what well-being consists of, what all the effort was for.
+
+The second reason does not wait for us to be ready. The systems we build are becoming more numerous, more independent, and more tightly linked to one another. When that happens, the question of what matters starts to count for more than the quality of the calculation performed inside any one of them.
 
 Consider a patient moving between a hospital measured on bed turnover, an insurer measured on claims cost, and a specialty clinic measured on appointments per day. Each organization is doing competent work inside its own frame. Each metric is honest. Each is being optimized by people who are not cutting corners. And the patient falls through every gap between them. Audit any one of the three and you will find no error, because there is no error to find. The failure does not live inside any of the systems. It lives in the space between their frames.
 
-A pattern that exists only in the interaction between parts, and in no part by itself, is called **emergent**. The traffic jam from the opening is the plain version of this. No car contains the jam. You can disassemble a single car down to the bolts and never find it, because the jam is not a fact about any car—it is a fact about the relationship between them.
+A pattern that exists only in the interaction between parts, and in no part by itself, is called **emergent**. The traffic jam from earlier is the plain version of this. No car contains the jam. You can disassemble a single car down to the bolts and never find it, because the jam is not a fact about any car—it is a fact about the relationship between them.
 
 This is why the frame question cannot be answered by computing harder. More precision inside a frame will never tell you the frame is wrong. That information is not in there.
 
@@ -155,15 +151,21 @@ So how does anyone get a new frame? Not by deduction, which works out what neces
 
 It is not exotic. A doctor facing a cluster of symptoms that match no familiar disease does it. So does a mechanic listening to an unfamiliar noise, and a detective standing in a room with too few facts. None of them is deriving a conclusion. Each is proposing a frame and then testing it against what happens next. Nearly everyone does this constantly, and almost nobody has a name for it—which is itself a symptom of how thoroughly this layer was pushed out of view.
 
+It is tempting to think the problem is about to be automated away. Machines are getting very good at the formal half, and a system good enough at calculation might seem likely to pick its own frames as a side effect.
+
+It does not work that way. Logic decides nothing on its own; anything that acts must act on values, and values are what say which frame is worth having. A machine capable of choosing frames is a machine with something to care about. That does not retire the problem of meaning. It gives the problem another mind to live in—and then another, and then many, each with its own reading of what matters. Meaning is not a human complication that better engineering will remove. It is what any mind runs into the moment it has to decide something.
+
 ## Conclusion
 
-The mathematical period was not a mistake. Holding a frame still and compressing hard inside it is the most powerful intellectual move anyone has ever found, and nothing here asks anyone to give it up.
+The turn to formalism was not a mistake. It was the right move for its constraints: resources were scarce, the problems that pressed hardest were material ones, and holding a frame still and compressing inside it paid better than anything else on offer. Nothing here asks anyone to give it up.
 
 The claim is narrower. The move was never self-sufficient. It always depended on prior work—deciding what to formalize, deciding which goals count, deciding what would even qualify as a solution—and that work was never solved. It was relocated, into informal judgment, where it sat unexamined because it was reliably cheap.
 
 It is no longer cheap. When systems are numerous, autonomous, and coupled to each other, the frame question stops being settled background and becomes the live problem. It is not a problem any single system can answer by computing harder inside itself, because the answer is not located inside it.
 
-Answering it means working where meaning, emergence, and abduction live. Which is to say: philosophy—returned to after the math, rather than before it.
+And we will not be facing it alone. The minds we are building differ from us in substrate, and so will many of their particular problems—but substrate is the shallow difference. Every mind is finite: it meets more than it can hold and has to decide what is worth keeping, and that deciding is meaning-making. Greater capability moves the threshold; it does not remove the condition. Meaning does not retire. It acquires more minds that need it.
+
+Answering it means working where meaning, emergence, and abduction live, and that work has an instrument. Language is how a mind holds meaning, intent, and the terms it cooperates on—the only form in which any of that can be represented at all. Philosophy is that instrument handled with care. It was never the immature phase of mathematics, and the need for it does not belong to us in particular: every mind with values needs some way to reason about them and convey them. It is the layer the rest of it stands on, returned to after formalism rather than before it.
 
 ## Appendix A: The Argument in Thirteen Steps
 
@@ -175,11 +177,11 @@ The essay above is the expanded version. This is the spine, stated compactly so 
 
 3. An extra layer of compression appeared between minds: natural language.
 
-4. Language does not only compress the world. It compresses the ongoing work of other minds—their goals, hoped-for futures, limits, and ways of seeing—so one mind does not have to rediscover all of that from scratch. A physics description of boiling water is an excellent compression of the physical process, yet it says almost nothing about the fact that a mind wanted Ramen.
+4. Language does not only compress the world. It compresses the ongoing work of other minds—their goals, hoped-for futures, limits, and ways of seeing—so one mind does not have to rediscover all of that from scratch. A physics description of boiling water is an excellent compression of the physical process, yet it says almost nothing about the fact that a mind wanted soup.
 
 5. What remains after most of the original detail has been set aside is useful only if it helps an agent decide and act. In decision theory that usefulness is called utility, and utility for an agent is grounded in its values. Values are the source of meaning.
 
-6. Numbers and formal symbols travel well once everyone already shares the same frame of reference. They travel poorly when the frame itself still needs to be shared or updated between minds that do not fully match (applied use of the Ramen example in #4).
+6. Numbers and formal symbols travel well once everyone already shares the same frame of reference. They travel poorly when the frame itself still needs to be shared or updated between minds that do not fully match (applied use of the soup example in #4).
 
 7. Mathematics is reduction at its strongest: once a frame is held fixed, the regularities inside it can be compressed with great power.
 
@@ -207,7 +209,7 @@ The essay above is the expanded version. This is the spine, stated compactly so 
 
 **Layers of abstraction.** A stack of compressions describing the same thing, each discarding what the others keep. Which layer is correct depends on who is asking and what they intend to do.
 
-**Language.** The compression of experience, values, and intent—the compression of agents, as distinct from the layers of abstraction that compress the world.
+**Language.** The compression of experience, values, and intent—the compression of minds, as distinct from the layers of abstraction that compress the world.
 
 **Agent.** Anything that has goals and acts to pursue them. A person, an animal, a firm, or a machine.
 
@@ -217,9 +219,9 @@ The essay above is the expanded version. This is the spine, stated compactly so 
 
 **Meaning.** What information becomes when it meets an agent with values. Identical data carries different meaning to agents that want different things.
 
-**Frame of reference.** The background assumptions about what is being measured, why it matters, and what counts as the thing being counted. Numbers travel well between minds that share a frame and poorly between minds that do not.
+**Frame.** The set of choices about what to keep and what to discard: what is being measured, why it matters, and what counts as the thing being counted. Formalism compresses inside a frame. It cannot choose one.
 
-**Reduction.** Explaining something by breaking it into smaller parts and the rules those parts follow. Mathematics is its strongest form.
+**Reduction.** Explaining something by breaking it into smaller parts and the rules those parts follow. Mathematics is its purest form; physics is where it was first turned on the world; the other sciences followed.
 
 **The work.** The creative, messy guesswork of inventing and choosing frames: proposing something that might carve a problem correctly, finding that it does not, and proposing again. Cannot be derived from inside the formal system it produces, because it comes before it.
 
