@@ -1,5 +1,5 @@
 ---
-title: "In Search of the Meta-Modeling Process"
+title: "In Search of the Modeling Process"
 status: "Final"
 date: "Aug 2026"
 order: 1
@@ -7,11 +7,11 @@ featured: true
 blurb: "A search for the computational process behind model creation: how observations, purposes, values, and abstractions become reusable reasoning programs—and perhaps the primitive underlying creativity itself."
 ---
 
-# In Search of the Meta-Modeling Process
+# In Search of the Modeling Process
 
 For the last several years, I've been trying to teach AI to do something that I haven't been able to fully explain, even to myself.
 
-I call it **meta-modeling**.
+I call it **modeling**.
 
 Ironically, the difficulty of explaining it is precisely the problem I'm trying to solve.
 
@@ -23,7 +23,7 @@ I think it's a process.
 
 ----------
 
-## What is meta-modeling?
+## What is modeling?
 
 Every discipline has structure.
 
@@ -41,7 +41,7 @@ Someone had to discover where one concept ended and another began.
 
 Someone had to decide that these observations belonged together under a new abstraction.
 
-That activity—the process that creates the model before the model exists—is what I mean by **meta-modeling**.
+That activity—the process that creates the model before the model exists—is what I mean by **modeling**.
 
 A useful analogy is map making.
 
@@ -87,7 +87,7 @@ A new compression appears.
 
 The map becomes simpler than the territory while preserving what matters.
 
-That act is meta-modeling.
+That act is modeling.
 
 ----------
 
@@ -123,7 +123,7 @@ What causal relationships shape its existence?
 
 The quality of the eventual model depends on the quality of these observations.
 
-Meta-modeling is therefore not passive observation.
+Modeling is therefore not passive observation.
 
 It is active exploration of structure.
 
@@ -233,7 +233,7 @@ Intent shapes representation.
 
 Representation shapes action.
 
-Meta-modeling operates across all three.
+Modeling operates across all three.
 
 ----------
 
@@ -291,7 +291,7 @@ The probabilistic side performs observation.
 
 The symbolic side provides structure.
 
-Together they resemble the two halves of meta-modeling.
+Together they resemble the two halves of modeling.
 
 I've built multiple neuro-symbolic systems myself.
 
@@ -361,7 +361,7 @@ The question therefore shifts.
 
 How do we generate better explanations?
 
-That question is exactly the meta-modeling problem.
+That question is exactly the modeling problem.
 
 ----------
 
@@ -383,7 +383,7 @@ It is not novelty for its own sake.
 
 It is successful bridge construction.
 
-If this conjecture is correct, then meta-modeling is the computational process underlying creativity itself.
+If this conjecture is correct, then modeling is the computational process underlying creativity itself.
 
 ----------
 
@@ -451,7 +451,7 @@ Something recursive.
 
 Something reusable.
 
-A primitive that generates meta-models the way meta-models generate models.
+A primitive that generates reasoning programs the way reasoning programs generate models.
 
 I suspect it exists.
 
