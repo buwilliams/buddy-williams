@@ -33,13 +33,12 @@
   <body class="{% block body_class %}{% endblock %}" data-cal-slug="{{ cfg.cal_link | safe }}">
     <header class="site-header">
       <a class="brand" href="/">
-        <span class="brand-mark" aria-hidden="true"></span>
+        <img class="brand-mark" src="/static/img/mark.svg" alt="" aria-hidden="true" />
         <span class="brand-name">{{ cfg.name }}</span>
       </a>
       <nav class="site-nav">
         <a href="/writings" class="{% if page == 'writings' %}is-active{% endif %}">Writing</a>
         <a href="/consulting" class="{% if page == 'consulting' %}is-active{% endif %}">Consulting</a>
-        <a href="{{ cfg.refine.url }}" target="_blank" rel="noopener">Refine</a>
         <a class="nav-cta" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
           >{{ cfg.scheduler_label }}</a
         >
@@ -51,7 +50,7 @@
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
-          <span class="brand-mark" aria-hidden="true"></span>
+          <img class="brand-mark" src="/static/img/mark.svg" alt="" aria-hidden="true" />
           <div>
             <p class="footer-name">{{ cfg.name }}</p>
             <p class="footer-tag">{{ cfg.tagline }}</p>
