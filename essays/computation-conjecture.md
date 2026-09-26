@@ -45,7 +45,7 @@ A **substrate layer** is what something else depends on to exist. Energy is a su
 
 I want to be clear about where this argument starts. Not from myth, revelation, or the supernatural. It starts from the computer on your desk and the games your children play. Every claim in this section rests on something we have built and can inspect.
 
-In September 2010, a Minecraft player called "theinternetftw" built a 16-bit arithmetic logic unit inside the game, an early partial computer made of blocks. In 2021, Sammyuri built CHUNGUS 2, an 8-bit computer inside Minecraft that can play games like Snake. In 2022, the same group used it to run a simplified Minecraft inside Minecraft.
+In September 2010, a Minecraft player called "theinternetftw" built a 16-bit arithmetic logic unit inside the game, an early partial computer made of blocks. In 2022, Sammyuri and collaborators ran a simplified version of Minecraft on a redstone computer built inside Minecraft.
 
 These are computers within computers. They work because of an idea Alan Turing set out in his 1936 paper, "On Computable Numbers": a universal machine, one that can simulate any other computing machine given the right program. Any computer that is universal in this sense can, in principle, run another universal computer.
 
@@ -65,13 +65,13 @@ A note for the physicalist. None of this is a thought experiment. The game your 
 
 Einstein imagined chasing a beam of light, and that change of perspective helped lead him to special relativity. Anyone can use the same move. In technical fields it's called taking the view of an **observer**, and it can reveal things other methods miss.
 
-In 1972, Atari released Pong, designed by Allan Alcorn: two paddles and a ball. Fifty years later we have Cyberpunk 2077, a game with a nearly photorealistic city. I'll call this kind of progress **resolution**. Pong and Cyberpunk are the same kind of thing: information processed on a substrate and rendered for an observer. The difference between them is one of degree, not kind. At a high enough resolution, a rendered world becomes convincing to an observer inside it. That is the premise of *The Matrix*: Neo's world obeys consistent rules, supports observers, and feels real. We call it a simulation only because we can see the world that contains it.
+In 1972, Atari released Pong, designed by Allan Alcorn: two paddles and a ball. Nearly fifty years later we have Cyberpunk 2077, a game with a nearly photorealistic city. I'll call this kind of progress **resolution**. Pong and Cyberpunk are the same kind of thing: information processed on a substrate and rendered for an observer. The difference between them is one of degree, not kind. At a high enough resolution, a rendered world becomes convincing to an observer inside it. That is the premise of *The Matrix*: Neo's world obeys consistent rules, supports observers, and feels real. We call it a simulation only because we can see the world that contains it.
 
 So a **simulation** is a program that contains observers.
 
-Now take the observer's view. Put yourself inside the game, not as the player holding the controller, but as a character in the program. You have access to the rules of your world. You can run experiments, build instruments, do physics. What you can't reach is the hosting layer. You can't touch the silicon or see the programmer. From inside, the rules of your world are your physics.
+Now take the observer's view. Put yourself inside the game, not as the player holding the controller, but as a character in the program. You have access to the rules of your world. You can run experiments, build instruments, do physics. What you can't reach is the hosting layer (a containing world). You can't touch the silicon or see the programmer. From inside, the rules of your world are your physics.
 
-This is **observer locality**: an observer inside a computational world has access to the rules of that world and nothing deeper. The rules feel fundamental because, for that observer, nothing deeper is available. The hosting layer stays hidden unless it chooses to pass information down, which, as we saw, is possible but not guaranteed.
+This is **observer locality**: an observer inside a computational world has access to the rules of that world and nothing deeper. (What Is a Computer? calls this epistemic containment.) The rules feel fundamental because, for that observer, nothing deeper is available. The hosting layer stays hidden unless it chooses to pass information down, which, as we saw, is possible but not guaranteed.
 
 The same rules are physics from the inside and code from the outside. Both descriptions are correct. They come from different perspective layers.
 
@@ -79,7 +79,7 @@ The same rules are physics from the inside and code from the outside. Both descr
 
 So far I've taken "observer" for granted. What kind of thing is it? The current debate about AI, consciousness, and personhood makes this question pressing, and the answer follows from what we've already seen.
 
-David Deutsch argues in *The Beginning of Infinity* that people are **universal explainers**: entities that can create new explanations about anything. If that's what a person is, the substrate shouldn't matter. A universal explainer made of neurons and one made of silicon would be doing the same work at the level that counts. Since computation is substrate independent, and people are a kind of computation, people are substrate independent too. On this view, AGI is not a question of whether but of when someone arranges the right program on a substrate.
+David Deutsch argues in *The Beginning of Infinity* that people are **universal explainers**: entities that can create new explanations about anything. If that's what a person is, the substrate shouldn't matter. A universal explainer made of neurons and one made of silicon would be doing the same work at the level that counts. Since computation is substrate independent, and people are a kind of computation, people are substrate independent too. On this view, AGI is not ruled out by substrate. Whether a given system qualifies is a question about its program, not its material.
 
 I want to go one step further. What kind of computation makes something a person? In the [Metaprogramming Framework to Classify Personhood](framework-of-personhood.md) (MFP), I argue that personhood is metaprogramming: information operations turned inward. A thermostat processes information, but not information about its own processing. A person does. That second-order move is the threshold. In MFP's terms, finitude becomes self, persistence becomes values, and completeness becomes goals. For this essay the point is narrower: personhood is a pattern of computation, not a pattern of matter.
 
@@ -107,11 +107,11 @@ Observer locality applies to time too. If a hosting computer runs slowly, the si
 
 So far we have been looking downward. A computer hosts a program; the program can be a computer; that computer can host another program. Nesting goes down as far as logic is preserved and resources allow.
 
-Now turn the argument around. If nesting goes down, what stops it from going up? What is the argument that our layer, this physical universe, is the top?
+Now turn the argument around. (I'll call a world contained by nothing the base layer, as in [What Is a Computer?](what-is-a-computer.md).) If nesting goes down, what stops it from going up? What is the argument that our layer, this physical universe, is the base, contained by nothing?
 
-I don't know of one, and I think the reason is structural. The observer locality that keeps a character in Pong from detecting the Atari cabinet would keep us from detecting a hosting layer, if one exists. From inside a closed causal system, the system looks fundamental. So when we see consistent physics, supporting observers, with no detectable leaks, we are seeing what an observer inside any closed causal system would see. That tells us we are inside a closed causal system. It says nothing about whether we are at the top of the stack, the bottom, or anywhere in particular.
+I don't know of one, and I think the reason is structural. The observer locality that keeps a character in Pong from detecting the Atari cabinet would keep us from detecting a hosting layer, if one exists. From inside a closed causal system, the system looks fundamental. So when we see consistent physics, supporting observers, with no detectable leaks, we are seeing what an observer inside any closed causal system would see. That tells us we are inside a closed causal system. It says nothing about whether we are at the base or anywhere in particular.
 
-Consider what it would take to prove our layer is the top. You would need an experiment that detects the *absence* of a hosting layer. But every experiment we can run is run from inside, with the system's own instruments, producing results by the system's own rules. A hosting layer could reveal itself by passing information down; its absence could never be confirmed from inside. This is not a technological limit. The observer in Pong can't build an instrument that detects the missing Atari, not because the instrument is hard to build, but because every instrument it builds is made of Pong.
+Consider what it would take to prove our layer is the base. You would need an experiment that detects the *absence* of a hosting layer. But every experiment we can run is run from inside, with the system's own instruments, producing results by the system's own rules. A hosting layer could reveal itself by passing information down; its absence could never be confirmed from inside. This is not a technological limit. The observer in Pong can't build an instrument that detects the missing Atari, not because the instrument is hard to build, but because every instrument it builds is made of Pong.
 
 Here is the symmetry. Looking down, we see nested computation. We build it and watch it work. Looking up, we see our own closed causal system with consistent rules. The structure on both sides matches. To say nesting is real going down but impossible going up is to give our layer a special status without an argument. That's a preference, not a principled position. Symmetry should be the default until someone gives a reason to break it, and the burden falls on whoever wants to stop the graph at our layer.
 
@@ -129,7 +129,7 @@ Each runs into a regress. God explains God; the chain stops with the divine, by 
 
 The difference is how each handles it. God and physicalism stop the regress by decree. Computation treats it as structure. The graph has no root because nothing in the view requires one. A computational world is defined by its rules and its observers, not by its position in a hierarchy. The regress isn't a flaw in the view. It is the shape of reality under the view.
 
-That brings us to the thesis: **computation has more explanatory reach than physicalism.** By reach I mean the ability to explain things other frameworks can't, using mechanisms the framework already contains.
+That brings us to the thesis: **computation has more explanatory reach than physicalism.** By reach I mean, following Deutsch, an explanation's ability to account for more than it was designed to explain, using mechanisms it already contains.
 
 Physicalism explains our local rules, and it does so well: how a ball moves, how a star burns, how a cell divides. What it doesn't explain is why there is a closed causal system at all, why that system supports observers, why its rules hang together, or why observers inside experience those rules as necessary. Its answer is some version of "that's just how it is." That's not an explanation; it's a full stop.
 

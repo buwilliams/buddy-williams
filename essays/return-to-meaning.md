@@ -13,7 +13,7 @@ blurb: "Modern science leans hard on formalism, and it works, but there is a rea
 
 This essay rests on one idea: there is more to language than meets the eye. Language is how minds express and weigh meaning, and meaning comes from caring. Nothing means anything to a mind that wants nothing.
 
-Much of modern science and technology feels like pure math. We reduce problems to equations, optimize them, and treat the formal structure as the only real thing. It works, spectacularly. But along the way, meaning and philosophy were demoted, and the people who work with them were sent off to the "humanities" while STEM took the prestige.
+Much of modern science and technology feels like pure math. We formalize problems as equations, optimize them, and treat the formal structure as the only real thing. It works, spectacularly. But along the way, meaning and philosophy were demoted, and the people who work with them were sent off to the "humanities" while STEM took the prestige.
 
 The questions of meaning did not stop being asked. They stopped being askable inside serious institutions, so the people who cared most about them went elsewhere. Some retreated into metaphysics that never has to answer to anything. Some rejected rigor outright, treating it as the enemy rather than the tool. They get called crazy, and often the label fits. The sad part is that they are right in the wrong way: they noticed something real was missing, then decided to abandon the thing that works.
 
@@ -91,7 +91,7 @@ What an agent is trying to accomplish rests on its values, the material that log
 
 ## 6. Why Formalism Is Useful
 
-**Reduction** explains something by breaking it into smaller parts and the rules those parts follow. Mathematics is reduction at its purest, and physics is where it was first turned loose on the world.
+**Formalization** explains something by fixing a frame and expressing the regularities inside it as exact rules. Mathematics is formalization at its purest, and physics is where it was first turned loose on the world.
 
 Its power comes from a bargain: hold a frame fixed, and the regularities inside it can be compressed with extraordinary force. Newton's law of gravitation shows the bargain and its cost. To get the law, you ignore nearly everything about a planet: its color, its composition, its name, its mythology, the fact that anyone is looking at it. You keep only mass, position, and motion. That set of choices is the **frame**: what is being measured, why it matters, and what counts as the thing being counted. Fix it, and one short equation predicts the motion of nearly every body in the solar system.
 
@@ -109,7 +109,7 @@ Imre Lakatos made this visible in *[Proofs and Refutations](https://en.wikipedia
 
 That hiding is the price of the bargain. The formalism is not wrong. What went missing is our awareness that guesswork holds it up.
 
-Notice what the classroom was doing. It was not fumbling toward a formalism it had not yet reached. It was reasoning in language, because the argument was about meaning: what "polyhedron" ought to pick out, and why that mattered. A formal system can't represent that question; it can only run on a shape already chosen. Language is the tool we have for it. That activity has a name: philosophy. It is not immature mathematics. It is the layer mathematics stands on.
+Notice what the classroom was doing. It was not fumbling toward a formalism it had not yet reached. It was reasoning in language, because the argument was about meaning: what "polyhedron" ought to pick out, and why that mattered. A formal system can't represent that question; it can only run on a shape already chosen. Language is the tool we have for it. That activity has a name: philosophy. It is not immature mathematics. It is the layer that decides what mathematics is about.
 
 ## 8. Why Meaning Comes Back
 
@@ -119,7 +119,7 @@ The second reason won't wait for us to be ready. The systems we build are becomi
 
 Consider a patient moving between a hospital measured on bed turnover, an insurer measured on claims cost, and a specialty clinic measured on appointments per day. Each organization does competent work inside its own frame. Each metric is honest, and each is optimized by people who aren't cutting corners. The patient still falls through every gap. Audit any one of the three and you find no error, because the failure is not inside any of them. It lives in the space between their frames.
 
-A pattern that exists only in the interaction between parts, and in no part by itself, is **emergent**. The traffic jam is the plain version. You can take a car apart down to the bolts and never find the jam, because the jam is a fact about the relationship between cars.
+A pattern that exists only in the interaction between parts, and in no part by itself, is **emergent**. The traffic jam is the plain version. You can take a car apart down to the bolts and never find the jam, because the jam is a fact about the relationship between cars. (This is the complexity-science sense of emergence, a pattern arising from interaction, not Deutsch's 'levels of emergence' used in [Why Explanation Comes in Layers](layers.md).)
 
 This is why the frame question can't be answered by computing harder. More precision inside a frame will never tell you the frame is wrong. That information isn't in there.
 
@@ -135,4 +135,4 @@ The claim is narrower. Formalism was never self-sufficient. It always depended o
 
 We won't face it alone. The minds we are building differ from us in substrate, but that is the shallow difference. Every finite mind meets more than it can hold and has to decide what is worth keeping, and that deciding is meaning-making. Greater capability moves the threshold without removing the condition. Meaning doesn't retire; it gains more minds that need it.
 
-Working on it means working where meaning, emergence, and abduction live, and that work has an instrument. Language is how a mind holds meaning, intent, and the terms it cooperates on. Philosophy is that instrument handled with care. It was never the immature phase of mathematics. It is the layer the rest stands on, and we return to it now not in place of formalism but after it.
+Working on it means working where meaning, emergence, and abduction live, and that work has an instrument. Language is how a mind holds meaning, intent, and the terms it cooperates on. Philosophy is that instrument handled with care. It was never the immature phase of mathematics. It is the layer that decides what the rest is about, and we return to it now not in place of formalism but after it.
