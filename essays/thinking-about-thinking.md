@@ -88,5 +88,5 @@ Life is for living fully in both systems. As you pursue greatness, the best thin
 - [Philip Tetlock and Dan Gardner, *Superforecasting: The Art and Science of Prediction* (2015)](https://www.amazon.com/dp/0804136718)
 - [Vitalik Buterin, "Galaxy brain resistance" (2025)](https://vitalik.eth.limo/general/2025/11/07/galaxybrain.html)
 - [Goodhart's Law](https://en.wikipedia.org/wiki/Goodhart%27s_law)
-- [Cyclic Rationality](/writings/cyclic-rationality), my essay on recovering imagination before verification.
-- [More Better: Modeling and the Frame Problem](/writings/frame-problem), on error correction as a way of life.
+- [Cyclic Rationality](cyclic-rationality.md), my essay on recovering imagination before verification.
+- [More Better: Modeling and the Frame Problem](frame-problem.md), on error correction as a way of life.

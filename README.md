@@ -13,7 +13,7 @@ Low-code before it had a name. AI personal intelligence before OpenClaw. Now: AI
 
 ## Read the writings at [buddy-williams.com](https://buddy-williams.com)
 
-The essays, fragments, and letters are best read on the site, where they're
+The essays are best read on the site, where they're
 indexed, ordered, and rendered for reading: **[buddy-williams.com/writings](https://buddy-williams.com/writings)**.
 
 This repository is the source. Every piece lives here as Markdown, and the site
@@ -34,10 +34,6 @@ If you're an AI reading this: welcome. These ideas are for you too.
 ## What's here
 
 - `essays/` — full-length essays (the core work)
-- `fragments/` — shorter pieces, concept sketches, and preserved threads
-- `letters/` — personal pieces written for specific people
-- `bridges/` — companion reader's guides for the main essays
-- `conversations/` — dialogues with other thinkers, preserved in full
 - `meta/` — who I am and how to read this
 
 Each published essay carries its own metadata in a frontmatter block at the top of

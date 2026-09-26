@@ -18,6 +18,8 @@ blurb: "A fallibilist's posture toward inherited authority. Three postures — O
 
 I inherit maps the same way everyone does. Religious canons, scientific theories, mathematical systems, institutional norms, professional disciplines, and political frameworks all arrive with practical power. They arrive with a quiet pressure too: accept this as the boundary of what can be thought.
 
+I learned how many layers there are the hard way. When I left my childhood religion, I thought I was free. I found I had only moved into a political ideology. When I left that, I found I was still bound by American assumptions, and beneath those, by the assumptions of my era. Each map felt like the territory until I walked past its edge. It’s telling that most people hold the religion and politics of the place they were born. The last layer is my commitment to humanity, and I’m keeping that one, now as a choice rather than an inheritance.
+
 I want to ask a question I think runs deeper than the usual divides:
 
 > *How should a truth-seeker stand toward the authorities that tell us what counts as legitimate belief?*

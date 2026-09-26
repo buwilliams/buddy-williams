@@ -23,7 +23,7 @@ Every thought is a model: a belief about a friend, a hunch about the weather, a 
 - **Forecasting** models the future as probabilities and degrees of belief.
 - **Game theory** models decisions as players, values, actions, and beliefs.
 
-What do we model? Information, because that is the only form in which reality reaches us. We never deal with the world directly; we deal with information and the models we build from it. I suspect information is also what reality *is*, an idea the physicist John Wheeler called "it from bit," and one I explore in [The Computation Conjecture](/writings/computation-conjecture). But nothing in this essay depends on that stronger claim.
+What do we model? Information, because that is the only form in which reality reaches us. We never deal with the world directly; we deal with information and the models we build from it. I suspect information is also what reality *is*, an idea the physicist John Wheeler called "it from bit," and one I explore in [The Computation Conjecture](computation-conjecture.md). But nothing in this essay depends on that stronger claim.
 
 A model, then, compresses information. It keeps what we judge important and discards the rest. That compression is what makes models useful. It is also how they fail.
 
@@ -110,7 +110,7 @@ This is not a problem for AI researchers or statisticians alone. It is the condi
 
 This could all sound discouraging. If every model leaves something out, and we can't know what, why bother?
 
-Because we have no choice. Modeling isn't something we do; it is what we are. Every thought is a model. Refusing to model is itself a model, and usually a worse one, because no one examines it. The choice is not whether to model but whether to get better at it. I've written elsewhere about how to hold our models: to [live above them](/writings/live-above), inhabiting them without being imprisoned by them.
+Because we have no choice. Modeling isn't something we do; it is what we are. Every thought is a model. Refusing to model is itself a model, and usually a worse one, because no one examines it. The choice is not whether to model but whether to get better at it. I've written elsewhere about how to hold our models: to [live above them](live-above.md), inhabiting them without being imprisoned by them.
 
 This is what Popper most wanted to teach. His framework of conjecture and refutation starts from our fallibility, but it doesn't end in a fatalistic posture. We make progress by understanding our nature more truly: we are fallible, and we can still get better. The posture that follows is bold guesswork, held loosely, with a readiness to throw away positions that turn out to be invalid or unsound.
 
@@ -134,7 +134,7 @@ Or, as my father would jokingly say, we can get "more better."
 **Models and reality**
 - [John Wheeler, "Information, Physics, Quantum: The Search for Links" (1990)](https://doi.org/10.1201/9780429500459-19), the paper that introduced "it from bit."
 - [John Wheeler with Kenneth Ford, *Geons, Black Holes, and Quantum Foam* (1998)](https://www.amazon.com/dp/0393319911), a more accessible account.
-- [The Computation Conjecture](/writings/computation-conjecture), where I argue for the idea at length.
+- [The Computation Conjecture](computation-conjecture.md), where I argue for the idea at length.
 
 **The frame problem**
 - [Murray Shanahan, "The Frame Problem," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/frame-problem/)
@@ -154,5 +154,5 @@ Or, as my father would jokingly say, we can get "more better."
 **Error correction**
 - Karl Popper, *Conjectures and Refutations* (1963)
 - Karl Popper, *All Life Is Problem Solving* (1999)
-- [Living Above the Models](/writings/live-above), my essay on holding models as tools rather than identities.
+- [Living Above the Models](live-above.md), my essay on holding models as tools rather than identities.
 - David Deutsch, *The Beginning of Infinity* (2011)

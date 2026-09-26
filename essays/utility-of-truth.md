@@ -8,98 +8,77 @@ blurb: "Why minds resist change. Evolution favors utility over truth, and how to
 
 # Utility of Truth
 
-*Why Evolution Favors What Works Over What's True*
+## Introduction
 
-**Buddy Williams** · October 21, 2025
+Has this ever happened to you? You spend weeks learning something new about the world, share it excitedly with friends, and get blank looks and a polite “I don’t know about that.”
 
----
+For years I found this frustrating. Isn’t the truth more rewarding? Shouldn’t everyone want better knowledge?
 
-The following statements all suggest the same idea:
+I now think my frustration rested on a wrong assumption: that minds are built to track truth. They were shaped by evolution to track what works. This essay explains why, and what it means for anyone trying to change a mind, including their own.
 
-- People seek truth only when their current beliefs stop producing utility.
-- Evolution favors utility over truth; only when utility fails does truth become valuable.
-- The pursuit of truth begins where the utility of belief ends.
-- We don't abandon comforting lies because they are false, but because they stop working.
+## Table of Contents
 
----
+1. [Explore and Exploit](#1-explore-and-exploit)
+2. [Evolution Selects for What Works](#2-evolution-selects-for-what-works)
+3. [Belief Is a Prediction](#3-belief-is-a-prediction)
+4. [When Truth Becomes Useful](#4-when-truth-becomes-useful)
+- [Conclusion: Plant Seeds](#conclusion-plant-seeds)
+- [Further Reading](#further-reading)
 
-## Persuasion
+## 1. Explore and Exploit
 
-Below, I answer a fundamental question: **Why is it so hard to change someone's mind?**
+Ants make the pattern easy to see. Scout ants wander until one finds food. It heads home, leaving a pheromone trail. Other ants follow the trail, and each successful trip strengthens it. A few keep wandering, because no food source lasts forever. When the food runs out, fewer ants return, and the trail fades.
 
-Has this ever happened to you: You've invested a lot of time learning something new about the world, so you excitedly share it with your friends, and are disappointed by their dumbfounded expressions and statements of, "I don't know about that." Maybe, like me, you find this a frustrating fact about people. Why is it so hard for people to be open-minded? Isn't the truth more rewarding? Shouldn't everyone want better knowledge?
+This is **exploration**, searching for something that works, and **exploitation**, putting resources into what already works. Notice what the colony never does: understand the food. It keeps whatever pays off and drops whatever doesn’t.
 
-Evolution offers the answer — but not the one we expect. It turns out that people are not willfully obstinate; instead, we all evolved to trust what works rather than what is true. In evolutionary terms, cognition follows a pattern of exploration and exploitation — random search followed by the allocation of resources to what works. Let's explore these two concepts through the simple example of ants.
+Our mental models behave much like those trails. A belief that pays off gets reinforced, and one that fails slowly fades. Like the ants, we rarely question a trail while it still leads to food.
 
----
+## 2. Evolution Selects for What Works
 
-## Explore and Exploit
+The cognitive scientist Donald Hoffman argues that evolution tunes perception for fitness, not accuracy. A creature that sees only what is useful can outcompete one that sees reality in more detail than it needs.
 
-Ants embody exploration & exploitation perfectly. Scout ants wander until one discovers food. I'm willing to bet you've seen these solo wandering ants. Once they find a food source, they march back to the colony, leaving a pheromone trail. More ants find this trail and help exploit this new food source. A smaller number of ants will continue searching for new food sources, since it's unclear when a new one will be needed. As the food source is depleted, the trail weakens. This evolutionary process optimizes for utility, not understanding.
+Beliefs were shaped the same way. Ancestors whose beliefs kept them alive passed those beliefs on, accurate or not. So it helps to separate two things we usually lump together:
 
-**Humans differ only in degree, not in kind.** Our mental models — like pheromone trails — strengthen with success and fade with failure. We rarely question our models until they stop working.
+- **Utility**: does this belief get results?
+- **Truth**: does this belief match reality?
 
-As Donald Hoffman argues, evolution optimizes for fitness, not truth. A species that perceives only what's useful — even if inaccurate — may outcompete one that perceives reality too precisely. Evolution rewards what works locally, not what's true universally.
+Most of the time the two overlap, which is why we rarely notice the difference. When they come apart, evolution sides with utility.
 
-Every day, our biases guide us — not despite their inaccuracy, but because they've worked.
+The cost of that choice shows up on suburban lawns. To get rid of ants, homeowners put out poisoned bait. The ants do exactly what has always worked: find food, carry it home, feed the queen. The habit that kept the colony alive is the thing that destroys it. A strategy that tracks only what works has no defense when the world changes the rules.
 
----
+We carry false beliefs the same way. They persist because they work, until the day they don’t.
 
-## Utility of Cognition
+## 3. Belief Is a Prediction
 
-Humans, like ants, evolved through the mechanism of fitness; our minds were likewise shaped by utility rather than truth. If beliefs led to survival, they blossomed; otherwise, they died out. This explains why humans are collaborative: we are more likely to survive when we work together. (You might have noticed this is an oversimplification since people don't work together all that well. Utility, not perfection.)
+You can’t decide to find a joke funny, and you can’t choose to believe the moon is made of cheese. Belief isn’t a choice. It is the brain’s best prediction, given what it has seen and what it already expects. Researchers like Karl Friston and Andy Clark describe the brain as a prediction engine that updates when its predictions miss.
 
-So, while the processes of ants finding food and human cognition may, on the surface, appear to be analogies, they are actually the same shared mechanisms: exploration and exploitation, also known as utility.
+This explains why arguments so often fail. An argument asks someone to trade a belief that is working for one that, from where they stand, is only a claim. Until the old belief starts producing errors they can feel, they have little reason to update. That isn’t stubbornness. It’s the machine working as designed.
 
----
+It also suggests who is most persuadable: people whose current models have stopped delivering.
 
-## Local Disadvantage of Utility
+## 4. When Truth Becomes Useful
 
-A common occurrence in suburbia is unwelcome ants in your manicured lawn. What does a homeowner typically do to remove these pests? Typically, we buy a toxin delivered via a bait-and-carry method. We trick the ants into delivering the toxin to the queen. Goodbye ants.
+If minds track utility, where does truth-seeking come from?
 
-This is an obvious danger of relying on utility over understanding: the group may not survive. The same is true for beliefs. We all have false beliefs that persist because they are effective until they are no longer effective. It's at this point that major beliefs may change.
+My conjecture is that it comes from failure. People learn which strategies work for them, and for most, trusting their group works well enough. Someone who seeks truth for its own sake has often learned the hard way that the group can be wrong, usually because people they trusted let them down in a way that mattered.
 
-The search for truth can be supported by utility. If, in our lives, we found that searching for truth had the greatest utility, that becomes our worldview; if we found more success in following our social groups, that becomes our worldview. **If you are someone who seeks truth, it is probably because your trusted group let you down in a significant way.**
+Put simply, truth becomes valuable when utility fails.
 
-> Truth is an emergent property of failed utility.
+Karl Popper described knowledge as growing the same way: we make conjectures, find where they fail, and correct them. Failure is the raw material of learning, not its opposite. And once we learn from failure, truth pays for itself. More accurate models predict more, and better prediction gives us more control over the world.
 
----
+## Conclusion: Plant Seeds
 
-## Utility Over Truth
+So why is it so hard to change a mind? Because minds were built to keep what works, and a working belief gives them no reason to change.
 
-Evolution only favors those who survive. Likewise, cognition doesn't care whether a belief is accurate — only whether it coordinates behavior effectively.
+This has changed how I approach disagreement. Winning the argument rarely matters. What matters is planting a seed: an idea that is already there when someone’s old model stops working. I can’t choose when that happens for anyone else. I can make sure a better explanation is waiting.
 
-- As **William James** put it, truth is "what works."
-- As **Karl Popper** reframed it, knowledge grows through conjecture and refutation — an evolutionary cycle of error correction.
-- And as **Andy Clark** and **Karl Friston** have shown, the brain itself is an active inference engine that predicts the world and minimizes error signals.
+How the seed is offered matters too. History is hard on pioneers. Alan Turing and Kurt Gödel answered two of the deepest questions in mathematics, and both suffered terribly at the hands of the societies around them. But some pioneers found a shield. Galileo framed disruption as dialogue. Richard Feynman used humor. Carl Sagan wrapped truth in wonder. Each offered truth in a form people could take in, even when it undercut what they believed.
 
-In this light, truth-seeking isn't a natural instinct. It's a late evolutionary luxury — a mutation of the survival algorithm. If evolution tuned us to utility rather than truth, then belief itself must serve prediction rather than reflection. This brings us to the cognitive machinery of belief.
+It has also changed how I read my own discomfort. When the world stops fitting my model, that isn’t failure. It may be a sign that truth is near. [Cyclic Rationality](cyclic-rationality.md) is my attempt at a method for going looking before the failure arrives.
 
----
+## Further Reading
 
-## Belief as Prediction
-
-You cannot decide what is funny, nor can you choose to believe the moon is made of cheese. **Belief is the brain's best prediction given sensory evidence and priors.** We inherit our beliefs and update them only when the prediction error exceeds a tolerance threshold.
-
-This means the only persuadable minds are those whose epistemic models have failed to deliver results. Once persuaded, we discover something profound: the more accurate our models are, the more we can leverage control. Predictability becomes power.
-
-> Belief is not a choice.
-
----
-
-## Plant Seeds
-
-Therefore, pursuing truth is worthwhile — not because it always serves utility, but because it expands the horizon of what utility can reach. How do we expand our horizon? That's what Cyclic Rationality is all about.
-
-So, the next time you're in a heated argument, remember, we do not abandon falsehoods because they offend reason. We abandon them because they stop working.
-
-**When your beliefs stop working — when the world no longer fits your model — that discomfort is not failure. It may be a signal that truth is near.**
-
----
-
-## Definitions
-
-- **Exploration:** random search for utility
-- **Exploitation:** using what works
-- **Utility:** instrumental success (does this belief get results?)
-- **Truth:** structural accuracy (does this belief correspond to reality?)
+- Donald Hoffman, *The Case Against Reality* (2019)
+- Andy Clark, *Surfing Uncertainty* (2016)
+- Karl Popper, *Conjectures and Refutations* (1963)
+- [Cyclic Rationality](cyclic-rationality.md), my method for recovering imagination before verification.

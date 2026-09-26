@@ -1,3 +1,11 @@
+---
+title: "A Primer on Logic"
+status: "Final"
+date: "Oct 2025"
+order: 17
+blurb: "A letter to my children on reasoning well. Why truth is hard for humans to see, the three acts of the mind, deduction and induction, common errors of reason, and the character of a rational mind."
+---
+
 # A Primer on Logic
 
 *Reason and the Pursuit of Truth*

@@ -15,7 +15,7 @@ blurb: "An exploration of personhood from an information-ontology perspective. P
 
 ## Introduction
 
-This is my attempt at an explanation for personhood that supports various substrates, be they biological, digital, or otherwise. This essay reasons from first principles, drawing on sources with explanatory reach. This is an ongoing effort, one where I continue to integrate the work of others alongside contributions of my own. For those new to the subject, the [reader's guide](../bridges/mfc-guide.md) introduces the problem, surveys existing theories, and explains why a new approach is needed.
+This is my attempt at an explanation for personhood that supports various substrates, be they biological, digital, or otherwise. This essay reasons from first principles, drawing on sources with explanatory reach. This is an ongoing effort, one where I continue to integrate the work of others alongside contributions of my own. For those new to the subject, [Appendix A](#appendix-a-the-landscape-of-consciousness-theories) introduces the problem, surveys the leading theories, and explains why a new approach is needed.
 
 Personhood, for humans, is realized in the brain. A brain is a physical structure that stores and modifies information. Personhood may involve more than this, but that takes us to the boundary where current explanation thins and metaphysical claims begin. I do not reject that territory; I just do not make this framework depend on it. The posture here is open-minded but grounded: models are tools for explanation, not boxes we are forced to live inside. I proceed from what can be observed, argued, and criticized. On those grounds, personhood is at least physical and informational. So, I use an information ontology as a tool to examine the informational aspects of personhood, just as a researcher would study mice as a proxy for humans. The properties of information seem to be universal, making the proxy exceptional. Because information is substrate-agnostic, conclusions drawn from it can travel across substrates without assuming biology as the measure of all minds.
 
@@ -31,9 +31,10 @@ This essay explores personhood from an information ontology perspective, proposi
 4. [Levels of Personhood](#levels-of-personhood)
 5. [Buildable Now](#buildable-now)
 6. [Conclusion](#conclusion)
-7. [Appendix A: Qualia and Personhood](#appendix-a-qualia-and-personhood)
-8. [Appendix B: Glossary](#appendix-b-glossary)
-9. [Appendix C: Further Reading](#appendix-c-further-reading)
+7. [Appendix A: The Landscape of Consciousness Theories](#appendix-a-the-landscape-of-consciousness-theories)
+8. [Appendix B: Qualia and Personhood](#appendix-b-qualia-and-personhood)
+9. [Appendix C: Glossary](#appendix-c-glossary)
+10. [Appendix D: Further Reading](#appendix-d-further-reading)
 
 ---
 
@@ -204,7 +205,7 @@ The framework describes information operations and their orders but does not ful
 2. **Where does the corrective signal come from?** Pure self-reinforcement is a degeneracy trap. Feeding output back and training on it collapses the system into a fixed point. The system needs prediction error, not self-confirmation. A candidate answer: prediction error is the unified corrective mechanism for both world-modeling and self-modeling. The self is just another part of the environment the system is trying to predict.
 3. **How does identity bootstrap?** If identity emerges from the self-referential loop, the system starts without one. Initial weights are random or seeded. Identity develops as the loop accumulates structure, mapping onto the progression through levels.
 
-These questions are explored further in [kernel mechanics and prediction error](../fragments/kernel-mechanics-and-prediction-error.md).
+Taken together, these candidate answers suggest one mechanism for both world and self. Humans work this way. You predict you’ll stay calm, you lose your temper, and the same prediction-error machinery that updates your model of the world updates your model of yourself. On this view, identity emerges because the system keeps encountering itself in its own input stream. Values are the parts of that self-model that stabilize. Goals are the prediction errors that persist. The mechanism never changes: predict, err, update. What changes is the content. The second-order threshold is crossed when the predictions are about the system’s own predictions.
 
 ---
 
@@ -218,7 +219,49 @@ The architecture for personhood is buildable now. The question is not whether ma
 
 ---
 
-## Appendix A: Qualia and Personhood
+## Appendix A: The Landscape of Consciousness Theories
+
+This appendix is for readers new to the subject. It sketches the problem behind this essay, the leading theories of consciousness, and where this framework sits among them.
+
+### The Hard Problem
+
+Nobody knows why we experience anything. We can explain how the eye detects light and trace the signal to the visual cortex. But somewhere along that chain, you *see red*. There is something it feels like to be you, looking at a red apple, and no one has a satisfying account of why.
+
+The philosopher David Chalmers called this the **hard problem of consciousness**. The "easy" problems, such as how the brain processes information and controls behavior, are hard science but solvable in principle. The hard problem asks why any of that processing comes with experience at all.
+
+The stakes are practical. As AI systems grow more capable, we will have to decide whether they can suffer, whether they have goals of their own, and how we should treat them.
+
+### Four Leading Theories
+
+Each theory starts from a different intuition about what consciousness is.
+
+**Integrated Information Theory (Giulio Tononi).** Consciousness is information woven into a unified whole, measured by a quantity called Φ (phi). Its strength is that it makes consciousness measurable. Its weakness is that the math can assign high consciousness to very simple systems, and it doesn't explain why Φ should feel like anything.
+
+**Global Workspace Theory (Bernard Baars, Stanislas Dehaene).** Most brain activity is local, like work done in separate offices. Consciousness is what happens when information is broadcast to the whole building. The theory fits neuroscience well and explains why some things reach awareness and others don't. But it explains *access*, what we can report and act on, more than experience. A machine could broadcast information with no one home.
+
+**Higher-Order Theories (David Rosenthal).** A mental state becomes conscious when the mind has a thought about it. This ties consciousness to self-awareness, which feels right. But it risks a regress: what makes the higher-order thought conscious?
+
+**Predictive Processing (Karl Friston, Andy Clark).** The brain is a prediction machine. It builds a model of the world and revises it when predictions miss. This unifies perception, action, and learning under one principle. But the prediction loop could run without experience, so the theory doesn't say where consciousness fits.
+
+### Where This Framework Fits
+
+These theories study consciousness through how brains implement it. That builds in a bias: the conclusions end up resembling brains, because brains are the only data. This framework starts from information instead, so its conclusions can apply to any substrate.
+
+It also asks a different question. Rather than explain experience, it asks when a system becomes a person: when its information operations turn inward and identity emerges. That lets it set the hard problem aside instead of claiming to solve it. [Appendix B](#appendix-b-qualia-and-personhood) holds my speculation about qualia.
+
+It borrows from two of the theories above. Like higher-order theories, it puts the weight on the second order: information about information. Like predictive processing, it treats prediction error as the engine of revision (see [Open Questions](#open-questions)).
+
+| Theory | Core idea | What it explains well | Main criticism |
+|---|---|---|---|
+| **Integrated Information** | Consciousness is integrated information (Φ) | Consciousness as something measurable | May grant consciousness to very simple systems |
+| **Global Workspace** | Consciousness is global broadcast | Why some information reaches awareness | Explains access, not experience |
+| **Higher-Order** | Consciousness is a thought about a mental state | The link between awareness and introspection | Regress: what makes the higher-order thought conscious? |
+| **Predictive Processing** | The brain minimizes prediction error | Perception, action, and learning as one process | Consciousness is incidental to the core idea |
+| **This framework** | Personhood is information operations turned inward | How identity (self, values, goals) emerges on any substrate | Sets the hard problem aside; a substrate-specific neural finding could undercut the information-only approach |
+
+---
+
+## Appendix B: Qualia and Personhood
 
 Qualia are the specific qualitative character of conscious experience: the redness of red, the intolerable urgency of pain, the dense simultaneous signature of a spring breeze. Philosophers have treated these as central to any genuine theory of mind, and some argue that without qualia, there is no real inner life at all.
 
@@ -234,7 +277,7 @@ This is speculation. The hard problem of consciousness — why any physical proc
 
 ---
 
-## Appendix B: Glossary
+## Appendix C: Glossary
 
 **Acquire.** The first information operation. A system takes in information and retains it.
 
@@ -274,7 +317,7 @@ This is speculation. The hard problem of consciousness — why any physical proc
 
 **Persistence.** A property of information. Information that endures can accumulate across time. Turned inward, persistence becomes values.
 
-**Qualia.** The specific qualitative character of conscious experience. Not required for personhood as defined in this essay. Addressed speculatively in Appendix A.
+**Qualia.** The specific qualitative character of conscious experience. Not required for personhood as defined in this essay. Addressed speculatively in Appendix B.
 
 **Reach.** The measure of how far a system's information operations extend across capability (acquire, modify, create) and order (first-order, second-order).
 
@@ -294,7 +337,7 @@ This is speculation. The hard problem of consciousness — why any physical proc
 
 ---
 
-## Appendix C: Further Reading
+## Appendix D: Further Reading
 
 This is a collection of reference works I'm using for my study and research.
 

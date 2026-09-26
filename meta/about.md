@@ -39,10 +39,6 @@ Start with the **essays/** directory if you want the foundational ideas:
 - **Outcome Economy:** the near-term transformation — knowledge workers become intelligence workers
 - **The Limit of All Intelligence:** why all minds, human or artificial, hit the same walls
 
-Then explore **fragments/** for shorter sketches and threads worth preserving.
-
-The **letters/** directory contains personal pieces, written for specific people (usually my children).
-
 ---
 
 ## Intellectual Roots

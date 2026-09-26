@@ -9,7 +9,7 @@ use std::collections::HashSet;
 /// of truth (GitHub-native relative paths) renders correctly on the site.
 ///
 /// The essays are authored with relative links — `[x](other-essay.md)`,
-/// `[y](../fragments/z.md)`, `![img](../assets/a/b.png)` — which resolve on
+/// `[y](../meta/z.md)`, `![img](../assets/a/b.png)` — which resolve on
 /// GitHub. On the site those same paths would 404, so we rewrite them:
 ///
 /// - a link to a *published* essay  → `/writings/<slug>`
@@ -143,8 +143,8 @@ fn is_heading(line: &str) -> bool {
 
 /// Resolve a relative path against a base directory, collapsing `.` and `..`,
 /// and return a repo-root-relative path. Essays live in `essays/`, so a bare
-/// `layers.md` resolves to `essays/layers.md` and `../fragments/z.md` to
-/// `fragments/z.md`.
+/// `layers.md` resolves to `essays/layers.md` and `../meta/z.md` to
+/// `meta/z.md`.
 fn resolve_repo_path(path: &str, base_dir: &str) -> String {
     let mut parts: Vec<&str> = base_dir.split('/').filter(|s| !s.is_empty()).collect();
     for seg in path.split('/') {
@@ -306,8 +306,8 @@ mod tests {
     #[test]
     fn unpublished_targets_go_to_github_blob() {
         assert_eq!(
-            rewrite_link("../bridges/mfc-guide.md", &ctx()).unwrap(),
-            "https://github.com/owner/repo/blob/main/bridges/mfc-guide.md"
+            rewrite_link("../meta/about.md", &ctx()).unwrap(),
+            "https://github.com/owner/repo/blob/main/meta/about.md"
         );
         // an essay not in the manifest still goes to GitHub, not a dead /writings route
         assert_eq!(

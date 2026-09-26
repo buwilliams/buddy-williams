@@ -53,8 +53,8 @@ A Python API and CLI for LLM-based conversations where every response is routed 
 A markdown-first essay repository published on GitHub and cross-posted to Substack and X. The work develops a coherent position across epistemology, economics, and AI safety: mind is computation within a substrate, substrate-independence has philosophical consequences, persistent minds converge on a relational zone, and the next economy is one where cognitive work becomes nearly free and meaning becomes the scarce resource.
 
 - **Role:** Author
-- **Scope:** Essays, fragments, letters, bridges (reader's guides), and recorded conversations with other thinkers. Deliberately markdown-only, parseable by both humans and agents, no paywalls or tracking.
-- **Distribution:** Published on GitHub, cross-posted on Substack (buddyiterate.substack.com) and X (@BuddyIterate). A long-form conversation with philosopher Brett Hall on objective morality is logged in full.
+- **Scope:** Essays. Deliberately markdown-only, parseable by both humans and agents, no paywalls or tracking.
+- **Distribution:** Published at [buddy-williams.com](https://buddy-williams.com) from source on GitHub, cross-posted on Substack (buddyiterate.substack.com) and X (@BuddyIterate).
 - **Repository:** [github.com/buwilliams/buddy-williams-writings](https://github.com/buwilliams/buddy-williams-writings)
 - Detailed list of essays in the Thought Leadership section below.
 
@@ -168,40 +168,29 @@ Published writing in the Buddy Williams Writings repository. The essays below fo
 
 | Date | Title | Summary |
 |------|-------|---------|
-| Apr 2026 | What Is Existence? | A synthesis conjecture: mind is computation within a substrate, and the substrate is itself computational. Develops judgment, explanation, and coordination as expressions of personhood. |
-| Apr 2026 | What Is a Computer? | Argues that a computer is any physical system capable of implementing universal logic, not a silicon machine. Substrate-independence through nested worlds. Causal closure is real but local. |
-| Mar 2026 | Computer People | Synthesis of two years of research on AGI. Argues that LLMs have the necessary ingredients for novel knowledge creation, that AGI is a universal explainer, and that AGI constitutes personhood. |
-| Mar 2026 | Layers | Why explanation comes in layers. Argues against reductionism: higher-level explanations are often the only forms in which reality becomes intelligible to finite minds. |
-| Mar 2026 | Structural Convergence Thesis | Tests the orthogonality thesis against real-world constraints. Argues that persistent minds converge on a relational Goldilocks zone and that AI safety depends on maturation, not just control. |
-| Feb 2026 | Metaprogramming Framework to Classify Personhood (MFP) | An exploration of personhood from an information ontology perspective. Personhood is substrate-independent metaprogramming. The difference is maturity, not kind. |
-| Feb 2026 | AI Phase Change | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating. The map-territory trap. |
-| Dec 2025 | Economics of the Intelligence Age | First-principles layered model of economics: scarcity, prices, externalities, power, AI. |
-| Nov 2025 | Outcome Economy | The near-term economic transformation. Knowledge workers become intelligence workers. Outcome-based economies. |
-| Nov 2025 | Why Hypotheticals Matter | Thought experiments as instruments for revealing what is hidden by everyday noise. |
-| Nov 2025 | AI Economics Time Traveler | AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource. |
-| Oct 2025 | Technohumanism | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment. |
-| Oct 2025 | Cyclic Rationality | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. |
-| Oct 2025 | Utility of Truth | Why minds resist change. Evolution favors utility over truth. How to plant seeds. |
-
-### Fragments and Threads
-
-Shorter pieces and preserved threads worth mentioning in any narrative of my thinking:
-
-- **Kernel Mechanics and Prediction Error** (Mar 2026): mechanistic gap in MFP, prediction error as unified corrective mechanism.
-- **Phase Change Not Continuum** (Feb 2026): time compression triggers phase changes in system behavior.
-- **Top-Down Irreducibility** (Oct 2025): irreducible complexity in ant colonies, brains, DNA, reality.
-- **Compelling Ideas About Limits** (Oct 2025): Gödel, Turing, Haidt, Wolfram, and the thinkers who revealed our limits.
-- **Science Beyond Experiment** (Oct 2025): imagination and fantasy precede verification. A reply to Carmack.
-- **AGI From Existing Components** (Aug 2025): AGI is achievable by integrating existing LLM components (language, streaming data, memory, tools, search).
-- **Status Pyramid** (Oct 2025): hierarchy is human nature; do not flatten the pyramid, shorten it.
-
-### Conversations
-
-- **Objective Morality** (Mar 2026). Six-part exchange with philosopher Brett Hall, rooted in Deutsch's principle of optimism, Popper's epistemology, and Searle's ontological/epistemological distinction. Published in full.
-
-### Letters
-
-- **A Primer on Logic** (Oct 2025). A structured guide to reasoning well, written for my children.
+| Sep 2026 | Thinking About Thinking | A small failure at a climbing gym, and what it taught me about thinking. Fast and slow thinking, the galaxy-brain trap that catches trained minds, and why the best guard for a powerful mind is the belief that we're all fallible. |
+| Sep 2026 | More Better: Modeling and the Frame Problem | Every thought is a model, and every model leaves something out. Most failures come not from bad reasoning inside a model but from what never made it in: the frame problem. A story about my daughter's first car, clocks and clouds, and why being wrong is the light that leads to a life of discovery. |
+| Aug 2026 | A Return to Meaning | Modern science leans hard on formalism, and it works, but there is a reason why language evolved before mathematics. An argument for a return to meaning, emergence, and abduction, that the philosophy-versus-formalism tension is a historical phase transition rather than an eternal opposition. |
+| Aug 2026 | In Search of the Modeling Process | A search for the computational process behind model creation: how observations, purposes, values, and abstractions become reusable reasoning programs, and perhaps the primitive underlying creativity itself. |
+| Jul 2026 | The Moving Line | Work lies on one timeline: what AI does, what AI can do but humans still do, what only humans can do, and the unbounded frontier beyond. Three boundaries move across it at diffusion, research, and frontier rates. This essay models who gets repriced, who evaporates, and who captures what opens next. |
+| Jun 2026 | State of AI | A snapshot written for friends after a state-of-AI conversation. The contradictory public forecasts are really disagreements about which lens to use, not about the data. Three lenses, empirical, neuroscience, information ontology, a defense of the information lens, and what it predicts: recursive self-improvement around 2027, continual learning, machine creativity, and work migrating from Hands to Heads to Hearts. |
+| Jun 2026 | The Metrics That Contain Their Causes | Why Ray Kurzweil could forecast computing for decades while missing the specific inventions. Generalizes his method into the Success Compression Metric, a variable whose value certifies that many causal dependencies were already satisfied. |
+| May 2026 | Living Above the Models | A fallibilist's posture toward inherited authority. Three postures (Orthodox, Explorer, Unbounded) and a defense of the Explorer: use the map, test it, redraw it, and keep walking. |
+| Apr 2026 | Computation Conjecture | A metaphysical position grounded in the nested computers we already build and inspect: computation has more explanatory reach than physicalism, accounting for why a closed causal system with observers exists at all. |
+| Apr 2026 | What Is a Computer? | A computer is any physical system capable of implementing universal logic, not a silicon machine. Causal closure is real but local, and physicalism's claim to fundamentality is an unjustified projection from inside a closed system. |
+| Mar 2026 | Computer People | A synthesis of two years of research on AGI. LLMs have the necessary ingredients for novel knowledge creation; we have developed AGI as a universal explainer; and AGI constitutes personhood. |
+| Mar 2026 | Why Explanation Comes in Layers | Against reductionism: higher-level explanations are often the only forms in which reality becomes intelligible to finite minds. Compression and connectedness are why the explanatory hierarchy cannot be collapsed. |
+| Mar 2026 | Structural Convergence Thesis | Tests the orthogonality thesis against real-world constraints: finite minds, relational pressure, reflective reach. Persistent minds converge on a relational Goldilocks zone; AI safety depends on maturation, not just control. |
+| Feb 2026 | Metaprogramming Framework To Classify Personhood | An exploration of personhood from an information-ontology perspective. Personhood is substrate-independent metaprogramming; the difference is maturity, not kind. |
+| Feb 2026 | Current AI Causes Societal Phase Change | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
+| Dec 2025 | Economics in the Intelligence Age | A first-principles, layered model of economics. Scarcity → prices → externalities → power → AI. |
+| Nov 2025 | The Rise of the Outcome Economy | The near-term economic transformation. Knowledge workers become intelligence workers, and outcome-based economies emerge. |
+| Nov 2025 | Why Hypotheticals Matter | Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise. |
+| Nov 2025 | AI Economics: The Time Traveler's Gift | AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource. |
+| Oct 2025 | Technohumanism | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment and pointing toward transhumanism. |
+| Oct 2025 | Cyclic Rationality | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
+| Oct 2025 | Utility of Truth | Why minds resist change. Evolution favors utility over truth, and how to plant seeds that grow into changed minds. |
+| Oct 2025 | A Primer on Logic | A letter to my children on reasoning well. Why truth is hard for humans to see, the three acts of the mind, deduction and induction, common errors of reason, and the character of a rational mind. |
 
 ---
 
