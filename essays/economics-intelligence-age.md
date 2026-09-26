@@ -8,135 +8,112 @@ blurb: "A first-principles, layered model of economics. Scarcity → prices → 
 
 # Economics in the Intelligence Age
 
-*Scarcity, Knowledge, Power, and the Systems That Coordinate Human Life*
+## Introduction
 
-**Buddy Williams** · December 14, 2025
+Economics often feels like a subject you're supposed to already understand. People argue about markets, regulation, capitalism, and government as if everyone shares the same definitions. Most of us are really reacting to fragments: prices at the grocery store, headlines about corporate greed, stories about inequality or pollution. We rarely see how the pieces fit together.
 
----
+This essay starts from a simpler place. Economics is about how people coordinate when they can't have everything they want. You already know that problem. Any time you've chosen how to spend limited time, money, or attention, you've done economics.
 
-## TLDR
+My goal isn't to push a political position. It's to build an explanation of how modern economies work, one layer at a time: why markets exist, where they fail, why government steps in, why that step is always risky, and how artificial intelligence changes the problem. Each layer solves a real problem while depending on the layers beneath it. When we forget those dependencies, well-intentioned fixes can collapse the structure they rely on.
 
-Economic systems exist to coordinate scarce resources in the face of human fallibility. Each layer we add—markets, regulation, governance, technology—solves real problems while quietly depending on the layers beneath it. When we ignore those dependencies, well‑intentioned solutions collapse the very structure they rely on.
-
----
-
-## Introduction: Why This Argument Exists
-
-Economics often feels like a subject you're supposed to already understand. People argue about markets, regulation, capitalism, and government as if everyone shares the same definitions. In reality, many of us are reacting to fragments—prices at the grocery store, headlines about corporate greed, stories about inequality or pollution—without a clear picture of how these pieces fit together.
-
-This essay starts from a simpler place. At its core, economics is about how people coordinate when they can't have everything they want. You don't need prior knowledge to engage with that problem; you've lived it. Any time you've had to choose how to spend limited time, money, or attention, you've been doing economics.
-
-My goal here isn't to persuade you toward a political position. It's to walk through a set of explanations that help make sense of how modern economies work, why markets exist at all, where they fail, why government sometimes steps in, and why that step is always risky. Along the way, we'll also look at how artificial intelligence changes the nature of the problem itself.
-
-David Deutsch argues that progress comes from the search for good explanations—ideas that account for reality and are hard to vary without breaking. What follows is an attempt to build such an explanation for economics in the intelligence age, starting from first principles and building layer by layer.
+David Deutsch argues that progress comes from the search for good explanations, ideas that account for reality and are hard to vary without breaking:
 
 > In this book, I argue that all progress, both theoretical and practical, has resulted from a single human activity: the quest for what I call good explanations.
 > — David Deutsch, *The Beginning of Infinity*
 
----
+What follows is an attempt at such an explanation for economics.
 
-## 1. Scarcity: The Constraint We Can't Wish Away
+## Table of Contents
 
-Scarcity is the condition that human wants exceed available resources. That sounds abstract until you notice how many things quietly fall under it: food and energy, yes, but also time, attention, skilled labor, and trust. Scarcity isn't a moral failure or a political choice. It's a constraint we inherit simply by being human.
+1. [Scarcity: The Ground Floor](#1-scarcity-the-ground-floor)
+2. [Prices: Coordinating Dispersed Knowledge](#2-prices-coordinating-dispersed-knowledge)
+3. [Externalities: When Prices Stop Telling the Truth](#3-externalities-when-prices-stop-telling-the-truth)
+4. [Public Goods and Contested Values](#4-public-goods-and-contested-values)
+5. [Political Gravity: Why Power Accumulates](#5-political-gravity-why-power-accumulates)
+6. [Structural Constraints: Designing for Human Failure](#6-structural-constraints-designing-for-human-failure)
+7. [AI and the New Scarcity](#7-ai-and-the-new-scarcity)
+- [Conclusion: Economics Is Layered](#conclusion-economics-is-layered)
+- [Further Reading](#further-reading)
 
-In wealthy societies, scarcity is easy to forget. Shelves are full, entertainment is endless, and many of us have never worried about survival in a direct way. That comfort makes it tempting to treat economics as a debate about values alone. But every stocked shelf represents millions of coordinated decisions. That coordination doesn't happen automatically, and it doesn't happen for free.
+## 1. Scarcity: The Ground Floor
 
-Because resources have alternative uses, choosing one outcome necessarily excludes another. Land used for housing can't also be farmland. An hour spent building software can't also be spent caring for a child. This means some allocation mechanism is unavoidable. Refusing to choose doesn't eliminate scarcity—it simply allows allocation to happen through power, chaos, or collapse.
+**Scarcity** is the condition that human wants exceed available resources. It covers food and energy, but also time, attention, skilled labor, and trust. Scarcity isn't a moral failure or a political choice. It's a constraint we inherit by being human.
 
-Until technology removes scarcity altogether, any proposal that ignores this constraint isn't compassionate or ambitious. It's incoherent. **Scarcity is the ground floor. Everything else sits on top of it.**
+In wealthy societies it's easy to forget. Shelves are full and entertainment is endless. That comfort tempts us to treat economics as a debate about values alone. But every stocked shelf represents millions of coordinated decisions, and that coordination doesn't happen automatically or for free.
 
----
+Because resources have alternative uses, choosing one outcome excludes another. Land used for housing can't also be farmland. An hour spent building software can't also be spent caring for a child. So some way of allocating resources is unavoidable. Refusing to choose doesn't eliminate scarcity. It just lets allocation happen through power, chaos, or collapse.
 
-## 2. Dispersed Knowledge: Why Prices Exist at All
+Technology can make particular things abundant, but as long as wants outrun resources, a proposal that ignores this constraint isn't compassionate or ambitious. It's incoherent. Scarcity is the ground floor. Everything else sits on top of it.
 
-A free market allows people to produce, trade, and consume voluntarily, with prices emerging from competition rather than decree. That definition is dry, but the intuition behind it is familiar. It's tempting to think that if we just had smarter people—or better computers—we could plan things more smoothly.
+## 2. Prices: Coordinating Dispersed Knowledge
 
-The problem isn't intelligence. It's information, and just as importantly, causal complexity. The knowledge required to allocate resources efficiently doesn't reside in a single place, and it doesn't move in straight lines. Small changes can trigger large, delayed, and indirect effects that no one can fully foresee. An intervention meant to lower prices in one area can quietly create shortages elsewhere. A subsidy meant to help one group can distort incentives far downstream.
+A **free market** lets people produce, trade, and consume voluntarily, with prices emerging from competition rather than decree. The obvious alternative is central planning, and it's tempting to think that with smart enough people, or good enough computers, planning would run more smoothly.
 
-Most of this knowledge is local and tacit. A shop owner senses when customers hesitate. A farmer notices subtle changes in soil or weather. A factory manager adjusts schedules in response to bottlenecks, but no report captures these adjustments. Beyond this, there is another layer: no one knows how millions of these local adjustments will interact as they propagate through the system. The economy is not just large—it is deeply interconnected.
+The main obstacle isn't a shortage of intelligence. It's information and causal complexity. The knowledge needed to allocate resources well doesn't sit in one place, and its effects don't move in straight lines. An intervention meant to lower prices in one area can create shortages elsewhere. A subsidy meant to help one group can distort incentives far downstream.
 
-**Prices act as a compression mechanism for both information and cause-and-effect.** When a price changes, it reflects not only a single decision but also the cumulative impact of countless shifts across the system. You don't need to know whether a price rose because of drought, regulation, war, fashion, or a shipping bottleneck. You only need to respond. That response—repeated by millions—is how coordination occurs without anyone needing to understand the full causal web.
+Most of this knowledge is local and tacit, a point Friedrich Hayek made famous. A shop owner senses when customers hesitate. A farmer notices changes in soil or weather. A factory manager adjusts schedules around bottlenecks that no report captures. On top of that, no one knows how millions of these local adjustments will interact as they ripple through the system.
 
-When prices are suppressed or overridden, people don't just lose information; they lose feedback. Actions no longer reliably signal consequences. The result isn't moral failure, but systemic misalignment: well-intentioned decisions that compound into shortages, waste, or instability.
+Prices compress both that knowledge and its causes and effects into a single number. You don't need to know whether a price rose because of drought, regulation, war, fashion, or a shipping bottleneck. You only need to respond. That response, repeated by millions, is how coordination happens without anyone understanding the whole causal web.
 
-If, one day, AI systems can genuinely model these complex causal chains—anticipating ripple effects across time and scales better than price signals—markets may no longer be the best coordination mechanism in some domains. For now, that remains an open conjecture. What we know today is that prices are still the most robust way we've found to navigate an economy whose complexity exceeds any individual mind.
+When prices are suppressed or overridden, people lose more than information; they lose feedback. Actions no longer reliably signal consequences. The result isn't moral failure but systemic misalignment: well-intentioned decisions that compound into shortages, waste, or instability.
 
----
+Could AI change this? If AI systems could one day model these causal chains, anticipating ripple effects better than price signals do, markets might stop being the best coordination mechanism in some domains. That remains an open conjecture. For now, prices are the most robust tool we've found for an economy more complex than any mind can grasp.
 
-## 3. Externalities: When Profit Stops Tracking the Public Good
+## 3. Externalities: When Prices Stop Telling the Truth
 
-This is usually where patience with markets wears thin. You look at pollution, environmental damage, or exploitation and think: this can't be working. That reaction is reasonable. Something real has gone wrong.
+This is usually where patience with markets wears thin. You look at pollution or exploitation and think: this can't be working. That reaction is reasonable. Something real has gone wrong.
 
-Markets rely on prices to reflect costs. When some of those costs are pushed onto people who didn't choose the transaction, prices stop telling the truth. A company can appear efficient while quietly imposing harm on others. The system hasn't become immoral—it's become inaccurate.
+Markets rely on prices to reflect costs. An **externality** is a cost (or benefit) that falls on people who didn't choose the transaction. When costs are pushed onto others, prices stop telling the truth. A company can look efficient while imposing harm on others. The system hasn't become immoral. It has become inaccurate.
 
-This is why calls for regulation arise so reliably here. If profit no longer tracks the public good, intervention feels not just justified but necessary. The danger is in how we intervene. Replacing markets entirely destroys the information system we still need to solve the problem.
+That is why calls for regulation arise so reliably here. When profit no longer tracks the public good, intervention feels necessary. The danger is in how we intervene. Replacing markets entirely throws away the information system we still need, because weighing a harm against the benefits of the activity causing it requires knowing what things cost.
 
-The more promising approach is to force hidden costs back into the price system itself—through liability, property rights, or targeted taxes. The difficulty isn't motivation. It's measurement. When we can measure harm well, markets can correct. When we can't, fixes become blunt and risky.
+The more promising approach is to push hidden costs back into prices through liability, property rights, or targeted taxes. The difficulty isn't motivation; it's measurement. When a harm can be measured well, it can be priced, and the market adjusts around it. When it can't, fixes become blunt and risky.
 
----
+## 4. Public Goods and Contested Values
 
-## 4. Public Goods and Value Conflict
+Some things matter deeply yet don't show up cleanly in markets: social trust, mental health, stable families, a sense of belonging. Markets don't neglect these out of cruelty. They undersupply them because much of the benefit spills over to people who don't pay, so no single actor captures enough of it to justify the cost.
 
-Some goods matter deeply and yet don't show up cleanly in markets. Social trust. Mental health. Stable families. A sense of belonging. Markets don't ignore these out of cruelty; they undersupply them because no single actor can capture enough of the benefit to justify the cost.
+This is where government intervention feels most compelling. If we want a society that supports human flourishing, surely someone must step in. But this is also where disagreement explodes, because people don't agree on what flourishing means or which values deserve protection.
 
-This is where government intervention feels most compelling. If we want a society that supports human flourishing, surely someone must step in. But this is also where disagreement explodes. People don't agree on what flourishing means, or which values deserve protection.
-
-The more morally charged the issue, the greater the risk that intervention will shift from coordination to coercion. What one group sees as protection, another experiences as domination. That tension doesn't disappear when we legislate it away. It just moves into politics.
+The more morally charged the issue, the greater the risk that intervention shifts from coordination to coercion. What one group sees as protection, another experiences as domination. Legislation doesn't dissolve that tension. It moves it into politics.
 
 Restraint here isn't indifference. It's an acknowledgment that power used to enforce contested values carries real costs, even when intentions are good.
 
----
-
 ## 5. Political Gravity: Why Power Accumulates
 
-Power tends to attract more power toward itself. Markets concentrate resources through success and scale. Governments concentrate authority through law and enforcement. When these forces intersect, regulatory capture becomes likely.
+Once intervention moves problems into politics, a new force takes over. I call it **political gravity**: concentrated power tends to attract more power. Markets concentrate resources through success and scale. Governments concentrate authority through law and enforcement. Where the two meet, **regulatory capture**, where the regulated come to steer their regulators, becomes likely.
 
-Rules written to restrain large firms often end up entrenching them by raising barriers that only incumbents can afford. Interventions meant to protect the public quietly freeze competition and innovation. None of this requires corruption in the cinematic sense. Ordinary incentives are enough.
+Rules written to restrain large firms often entrench them by raising compliance costs that only incumbents can afford. Protections meant for the public end up freezing competition and innovation. None of this requires cinematic corruption. Ordinary incentives are enough.
 
-Once power concentrates, it resists constraint. This is political gravity at work. It doesn't care about intentions, only structure.
-
----
+Once power concentrates, it resists constraint. Political gravity doesn't care about intentions, only structure.
 
 ## 6. Structural Constraints: Designing for Human Failure
 
-Because humans are fallible, systems must assume that misuse will occur. Constitutional limits, separation of powers, competition law, and transparency aren't expressions of trust in human goodness. They're defenses against predictable failure.
+If power accumulates regardless of intentions, good intentions can't be the safeguard. Because humans are fallible, systems should assume misuse will occur. Karl Popper reframed the old question "who should rule?" as "how can we arrange institutions so that bad rulers do the least damage?" Constitutional limits, separation of powers, competition law, and transparency are answers to that question. They aren't expressions of trust in human goodness. They're defenses against predictable failure.
 
-Every new lever of control should be treated like a drug with side effects. It may relieve one symptom while creating others. The relevant question isn't simply whether an intervention helps, but what it breaks—and whether the damage is reversible.
+Every new lever of control should be treated like a drug with side effects. It may relieve one symptom while creating others. The question isn't only whether an intervention helps, but what it breaks, and whether the damage can be undone.
 
 Constraints feel frustrating when you're trying to solve an urgent problem. They slow things down. That friction is the point.
 
----
-
 ## 7. AI and the New Scarcity
 
-Artificial intelligence introduces a new factor of production: scalable cognitive labor. Tasks once limited by human attention, expertise, or endurance can now be performed cheaply and repeatedly. The immediate result is efficiency. The deeper result is time.
+Artificial intelligence introduces a new factor of production: scalable cognitive labor. Tasks once limited by human attention, expertise, or endurance can be done cheaply and repeatedly. The immediate result is efficiency. The deeper result is time, as hours that went to that work are freed for other things.
 
-As certain forms of scarcity recede, others move to the foreground. Attention becomes more valuable. Meaning becomes harder to find. Mental health becomes a binding constraint. These are areas in which markets struggle, and centralized control is particularly dangerous.
+As some scarcities recede, others move to the foreground. Attention becomes more valuable. Meaning may become harder to find, and mental health may become a binding constraint. These are exactly the goods from section 4, where markets struggle and centralized control is most dangerous.
 
-AI may eventually coordinate resources more effectively than prices in certain domains. If it does, the case for markets will weaken there. However, that shift will not eliminate the need for pluralism, autonomy, or constraint. It will make them more important.
+AI may eventually coordinate resources better than prices in some domains. If it does, the case for markets weakens there. But that shift wouldn't remove the need for pluralism, autonomy, and constraint. It would make them more important. A system that coordinates for everyone is concentrated power, subject to political gravity, and no amount of computation settles what people disagree about valuing.
 
----
+## Conclusion: Economics Is Layered
 
-## A Working Model of Economics
+We started with a question: how do people coordinate when they can't have everything they want? The answer is a stack of imperfect solutions, each resting on the one below. Scarcity makes coordination unavoidable. Prices use dispersed knowledge without central control. Where prices miss real costs, we patch them, and where values conflict, we turn to government. That brings power, which needs constraints. AI doesn't end this; it shifts which constraints matter most.
 
-We've covered a lot of ground, but the pieces fit together into a fairly simple model.
+The dependencies are the lesson. You can't remove prices and keep coordination. You can't add power and assume restraint. And you can't solve moral disagreement with optimization alone.
 
-Economics begins with **scarcity**. We want more than the world can immediately provide, and that makes coordination unavoidable. **Markets** emerge as a solution not because people are good, but because prices allow dispersed knowledge to be used without central control. That makes markets extraordinarily powerful—and also incomplete.
+None of this is clean, and none of it was centrally designed. That food arrives, knowledge spreads, and conflicts are often resolved without violence is not obvious or guaranteed. The modern world isn't a failure of intelligence or morality. It's a fragile, ongoing achievement. We should be critical where explanations fail, cautious where power accumulates, and ambitious about improvement, but also a little impressed that, given our nature and our constraints, things work as well as they do.
 
-Where prices fail to capture real costs, **externalities** appear. Carefully internalizing costs can remedy some of these without destroying the information systems on which markets rely. Others—especially those involving public goods and contested values—push us toward **government intervention**, in which the risks shift rather than disappear.
+## Further Reading
 
-At that point, a new problem dominates: **power**. Political gravity pulls concentrated authority toward expansion and capture, just as economic success pulls capital toward concentration. **Structural constraints**—competition, constitutional limits, transparency—exist not because humans are virtuous, but because they aren't.
-
-**Artificial intelligence** adds a new twist. By dramatically reducing certain forms of scarcity, it may weaken the case for markets in some domains while intensifying the importance of meaning, attention, and autonomy—areas where both markets and governments struggle. AI doesn't end economics; it shifts which constraints matter most.
-
-If there's a single takeaway, it's this: **economic systems are layered**. Each layer solves a real problem while quietly depending on the layers beneath it. You can't remove prices and keep coordination. You can't add power and assume restraint. And you can't solve moral disagreement with optimization alone.
-
-Good economics isn't about choosing a side. It's about demanding good explanations, staying alert to what breaks when we intervene, and remaining willing to revise our models as technology and evidence change. If this essay has done its job, you now have a clearer way to think about economics—not as ideology, but as an ongoing problem of coordination under human limits.
-
----
-
-## Conclusion
-
-Human societies are built from layers of imperfect systems operating under scarcity, limited knowledge, delayed feedback, and conflicting values. None of this is clean. None of it is centrally designed. The fact that coordination works at all—that food arrives, knowledge spreads, and conflicts are often resolved without violence—is not obvious or guaranteed.
-
-Seen through this lens, the modern world is not a failure of intelligence or morality. It is a fragile, ongoing achievement. We should be critical where explanations fail, cautious where power accumulates, and ambitious about improvement—but also a little impressed that, given our nature and our constraints, things work as well as they do.
+- David Deutsch, *The Beginning of Infinity*
+- Friedrich Hayek, "[The Use of Knowledge in Society](https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society)"
+- Karl Popper, *The Open Society and Its Enemies*
+- Thomas Sowell, *Basic Economics*
