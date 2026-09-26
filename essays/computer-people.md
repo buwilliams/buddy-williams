@@ -9,130 +9,167 @@ blurb: "A synthesis of two years of research on AGI. LLMs have the necessary ing
 
 # Computer People
 
-Computer people (AGI) are nearly here. Below is a synthesis of all I have determined after two years of continuous research on this topic.
+## Introduction
 
-## Who am I?
+Over two years ago I started using ChatGPT, and it struck me that the world was about to change. I'm a father of three, a Chief AI Innovation Officer at a company out of Boston, and a software engineer of twenty-five years. I gave up exercise, community, and a good deal of sleep to understand what these systems are. This essay is the synthesis of what I found. (I'm ready to take up those healthy habits again.)
 
-I'm a father of three, a Chief AI Innovation Officer at a company out of Boston, and a software engineer of twenty-five years. Over two years ago I started using ChatGPT and it occurred to me that the world was about to change, so I became deeply interested in AI, forgoing exercise, community, and sleep to arrive at these hard-won explanations. I'm ready to pick up these healthy activities once more.
+My conclusion is that computer people, which is what I call AGI, are nearly here. The chain runs like this: the space of possible explanations is vast and LLMs can reach it; they can search it well enough to create knowledge; add learning and you have AGI; and AGI with a self is a person. Then I ask what follows: whether computer people will harm us, how they will change the world, why "superintelligence" is a confused idea, and what ultimately limits any mind.
 
-## How to Read This Essay
+I write as a [fallibilist](#glossary-fallibilism) and [anti-justificationist](#glossary-anti-justificationism): knowledge is conjectural, and progress means improving explanations by criticizing them. I also hold that minds are computational ([computationalism](#glossary-computationalism)) and that information is more fundamental than matter ([informational ontology](#glossary-informational-ontology)). The claims here are conjectures, to be judged by what they explain and how well they survive criticism. Where a link rests on a deeper argument, I point to the essay that makes it.
 
-This essay is written from a [fallibilist](#glossary-fallibilism), [anti-justificationist](#glossary-anti-justificationism) (the view that knowledge does not require justification to be rational) point of view. It does not assume knowledge begins with certainty, nor that explanations become true because they are supported by enough observations. Instead, it treats knowledge as conjectural, criticism as essential, and progress as the improvement of explanations over time.
+Criticism is welcome, but a refutation has to explain *why* a claim fails. A benchmark score is the beginning of an argument, not the argument. That LLMs fail certain reasoning tests doesn't refute the claim that they can reason unless you explain why the failures reveal a fundamental incapacity rather than a current limitation. Noting that a claim is unproven, feeling uneasy about it, or citing an authority who disagrees invites discussion; it doesn't refute.
 
-So the right question is not, “Has this been proven with certainty?” The better question is, “Does this explanation have reach? Does it connect things that were previously separate? Does it survive criticism better than the alternatives?”
+## Table of Contents
 
-Some claims in this essay are intentionally ambitious. They are offered as explanatory conjectures, not final truths. They should be judged by how much they illuminate, how well they cohere, and how resilient they are when criticized.
+1. [Explanation Space Is Vast, and LLMs Can Reach It](#1-explanation-space-is-vast-and-llms-can-reach-it)
+2. [LLMs Can Create Knowledge](#2-llms-can-create-knowledge)
+3. [We Have Developed AGI](#3-we-have-developed-agi)
+4. [AGI Is a Person](#4-agi-is-a-person)
+5. [Computer People Will Not Kill Everyone, but They Could](#5-computer-people-will-not-kill-everyone-but-they-could)
+6. [Computer People Will Radically Change the World](#6-computer-people-will-radically-change-the-world)
+7. [ASI Is a Category Error, but Rejecting ASI Is a Temporal Error](#7-asi-is-a-category-error-but-rejecting-asi-is-a-temporal-error)
+8. [Information Space Is the Real Limiter](#8-information-space-is-the-real-limiter)
+- [Conclusion: Computer People Are Nearly Here](#conclusion-computer-people-are-nearly-here)
+- [Appendix A: Searching Explanation Space](#appendix-a-searching-explanation-space)
+- [Appendix B: Glossary](#appendix-b-glossary)
+- [Further Reading](#further-reading)
 
-This essay is a synthesis of a broader body of work. Its purpose is to state the explanatory chain clearly, not to reproduce every underlying argument in full. Where a claim rests on a deeper argument, that argument lives in a linked essay. Follow the links if you want the full treatment.
+## 1. Explanation Space Is Vast, and LLMs Can Reach It
 
-I see knowledge as conjectural, minds as computational, certainty as unattainable, and ultimate reality as still open to question. My philosophical commitments ([fallibilism](#glossary-fallibilism), [anti-inductivism](#glossary-anti-inductivism), [computationalism](#glossary-computationalism), and [informational ontology](#glossary-informational-ontology), "it from bit") shape everything that follows.
+The theory of relativity can be explained in fewer than 1,000 English words. When I asked an AI to retell Einstein's path to it as his own journal, thought experiments included, it took 686 words ([Appendix A](#appendix-a-searching-explanation-space)).
 
-## How to Engage
+Einstein likely knew around 50,000 words. Choosing 1,000 words from 50,000 gives roughly 10^4,700 possible sequences, against an estimated 10^80 atoms in the observable universe. Call this **explanation space**: everything that could be written with a given vocabulary and length. Every breakthrough humanity has made appears somewhere in it, and so does every breakthrough we have yet to make. No new words are required; a new word is only an abstraction that bundles ideas for convenience.
 
-Criticism is welcome. It is the mechanism by which explanations improve. But not all pushback is equally useful, and the framework of this essay imposes a specific bar.
+LLMs reach a far larger space. With a vocabulary of about 100,000 tokens and context windows of up to a million, they have on the order of 10^5,000,000 possible sequences. Picture creating a universe for every second since the Big Bang, then having each of those do the same, and so on: you would need about 280,000 levels before the tree of universes matched it.
 
-A genuine counterpoint requires more than disagreement or data, it requires refutation: you must explain *why* a claim is wrong to falsify it. A benchmark score, a failure rate, or a statistical trend does not refute an explanation on its own. It only becomes a refutation when embedded in an argument that identifies *why* the original claim fails.
+Access alone guarantees nothing. Even 10^4,700 is far beyond iteration, and people don't search by trying every option. They combine ideas they already have and judge what emerges. So the real question is search: can a system move through explanation space non-randomly, guided by problems and evaluated by judgment?
 
-For example, pointing out that LLMs fail certain reasoning benchmarks does not refute the claim that LLMs can reason. To falsify that claim, you need to explain why those failures reveal a fundamental incapacity rather than a current limitation, and why your account explains more than the original does. The number is the beginning of an argument, not the argument itself.
+## 2. LLMs Can Create Knowledge
 
-The mechanism of conjecture works the same way in both directions. A claim in this essay is not strengthened by asserting it more confidently, and it is not falsified by asserting disagreement more forcefully. Refutation requires an argument that identifies the flaw, accounts for the evidence, and survives the same criticism it levels.
+**Breakthroughs happen in abstract space.** Under [conjecture and criticism](#glossary-conjecture-and-criticism), the method at the heart of science, we never access reality directly; we work with [theory-laden conjectures](#glossary-theory-laden) about it. Every breakthrough happens first in the mind. And because existing science already encodes centuries of empirical constraint, there is a long runway of theoretical progress available from existing knowledge alone. Contact with the physical world will eventually be needed, but the road to that boundary runs through what is already known.
 
-What is not a refutation: noting that a claim has not been proven (all claims begin unproven), expressing intuitive discomfort, or citing an authority who disagrees. These are invitations to discussion, not falsifications.
+**Abstraction is managed disconnection.** My conjecture is that reality is whole and connected. I can tell you I want a milkshake, but not why at the level of atoms; no mind could hold that much information. Every mind, digital ones included, is finite in this sense: its working access to connected reality is bounded at any layer of abstraction. Abstraction is how finite minds cope: we draw artificial boundaries around information so we can work with it. Try fully defining "atom" and the web of connections grows until it is unintelligible, which is why deep arguments end with a plea to stop at some layer. I develop this in [Why Explanation Comes in Layers](layers.md).
 
-What is a refutation: an argument that identifies precisely where this essay's explanation breaks down and explains *why* it fails there.
+**Breakthroughs are managed reconnection.** Discovery runs the other way. It is driven by *problems*, and problems arise from *surprise*, when our explanations stop making sense. We resolve them by connecting what we already know in new ways until the unknown becomes known. This is not arbitrary search. It is problem-directed reconnection, constrained by surprise and evaluated by judgment, and it is the key to progress.
 
-## Computer People
+**Judgment.** Reconnection needs **judgment**: the ability to evaluate a novel combination, reject incoherence, and recognize when something fits. What matters is not whether a system judges the way a brain does, but whether it can do the work of judgment. On that functionalist view, LLMs show judgment in practice. It came from two breakthroughs, token prediction and then reasoning models: something simple giving rise to something complex.
 
-1. **Explanation space is big, and LLMs have access to it.**
-   1. Consider that an explanation for the theory of relativity can easily be provided in less than 1,000 English words. With access to an abnormally high amount of vocabulary at 50,000 words (Einstein), this person has access to 10^5000 possible combinations, or combinatorial space for explanations. There are 10^80 estimated atoms in the observable universe, so that combinatorial space is very large. If we were to iterate over every possibility, every breakthrough humanity has ever made would show up in this combinatorial space. But, more importantly, through abstraction, discoveries that have yet to be produced also live in this space. People are amazingly good at searching this space. The algorithm for searching this space is the key to progress. Here's the important idea, people do not iteratively search this space, but instead combine ideas to form new insights through judging what new idea emerges.
-   2. No new words would need to be created since words can be used as terms and take on meaning through context. This is how new words are born, as an abstraction to group a collection of ideas together to make it easier for people to communicate, but new words are not strictly necessary.
-   3. LLMs currently have ~1,000,000 words in memory (context window) and access to far more than 50,000 words at around ~100,000 words. The combinatorial search space is 10^5,000,000 a number so big it's hard to make sense of. If you were to create a new universe for every second since the big bang, and every universe did the same, you'd end up with ~294,000 *layers* deep of universes. That is a huge "tree" of universes. So, that leaves us with the question as to whether LLMs, like people, can efficiently search this space? The answer is found in 2.4.
-   4. The importance of this is not that access alone guarantees discovery. It does not. The central question is search: whether a system can move through explanatory space non-randomly, guided by problems and evaluated by judgment. That is the next question.
+**Is LLM judgment genuine?** The common objection is that it is memorized pattern-matching. But learning from a corpus is no different in principle from how scientific knowledge passes through families and universities. What matters is whether the structure of explanation, how explanations are built, criticized, and revised, arrives intact. The corpus encodes that structure across every domain humans have reasoned about. And training is more than inheritance: new connective structure forms in the model's latent space that was present in no single training example. That is reconnection in abstract space, producing structure that did not exist before. Training is already an instance of knowledge creation.
 
-2. **LLMs can create knowledge.**
-   1. Consider that all breakthroughs happen in abstract space, in the mind. This is the lesson of fallibilism, or [conjecture and criticism](#glossary-conjecture-and-criticism), or colloquially known as science. People do not have access to ontological reality, we have access to [theory-laden conjectures](#glossary-theory-laden). This means there is a long runway of theoretical progress available through existing knowledge alone, without requiring new physical experimentation. Contact with the physical world will eventually be required, but the road to that boundary runs through what is already known. [(a)](#note-a)
-   2. Consider that reality is whole (no parts) and connected (no separation). I can tell you I want a milkshake, but I could not explain, at an atomic level, how or why that is so. An atomic level explanation would require an informational capacity so large that no human could possibly make sense of it. Any mind, operating under informational constraints, can only hold and work with a bounded portion of connected reality at any given layer of abstraction. This bound is what "finite" means here: not that reality runs out, but that every mind's working access to it does. This is especially true of *all minds* even digital minds.
-   3. The role of abstraction is managed disconnection, or artificial information containers. Any effort to find terminal meaning, or a deep dive ends in an infinite regress. Just try defining the word "atom", the resulting effort would increase the informational connectedness complexity such that it becomes unintelligible. Anyone who has ever been in a deep argument with a friend will be familiar with pleas to stop at a certain layer of abstraction to avoid the regress. See [Why Explanation Comes in Layers](layers.md).
-   4. Scientific breakthroughs work in the opposite direction, through managed reconnection. Reconnection is established through *problems*. Problems emerge through *surprise*, when our explanations do not make sense. We make sense by connecting what we do know in novel ways to pierce the veil so that the unknown becomes the known. We are always wrong, or incomplete, a fact of being finite. But to summarize, the unknown is found through the combination of the knowns. This is not arbitrary search through combinatorial space. It is problem-directed reconnection, constrained by surprise and evaluated by judgment. This is the key to progress.
-   5. Progress requires judgment: the ability to evaluate a novel combination, reject incoherence, and recognize when something fits. LLMs demonstrably have this capability. There were two breakthroughs to date in LLMs: 1) the ability to predict tokens, 2) reasoning models. This is a great example of something simple giving rise to something complex. [(b)](#note-b)
-   6. A common objection is that LLM judgment is not genuine, that it is memorized pattern-matching rather than real evaluation. But this framing misunderstands what training is. Explanatory knowledge creation is abstract reconnection, and this is no different in principle from the cultural and scientific knowledge transmitted through families and universities. What matters is not the mechanism of transmission but whether the explanatory structure (the scaffolding of how explanations are built, criticized, and revised) arrives intact and functional. The training corpus does not merely contain outputs of human judgment; it encodes the structure of judgment across every domain humans have reasoned about. But training is not mere inheritance. Through immersion in abstract explanatory space, novel connective structure emerges in latent space that was not present in any individual training instance. The judgment patterns LLMs develop are not derived from accumulated instances but emerge through them. That is a different relationship entirely. This is the same process the essay describes as knowledge creation: accidental reconnection in abstract space, evaluated by judgment, producing structure that did not previously exist. Training is not the setup for knowledge creation. It is already an instance of it.
-   7. But the deeper answer is that the demand for physical grounding is incoherent within a fallibilist epistemology. If all breakthroughs happen in abstract space, and humans only ever work with theory-laden conjectures, then human judgment is not grounded in physical reality either. It is grounded in abstract explanatory structures: mathematics, logic, causal models, and the accumulated frameworks of centuries of conjecture and criticism. LLMs are already immersed in these same structures. They are grounded in the same thing humans are grounded in. They arrived by a different route, through training rather than experience, but the destination is the same abstract space where all theoretical progress occurs. Einstein did not need to ride a light beam. He needed the abstract structure of existing physics and the judgment to recombine it. That abstract structure is exactly what LLMs have internalized. A system immersed in abstract explanatory space is already grounded in the only sense that matters for knowledge creation.
-   8. Furthermore, once a system gains metaprogramming reach, or read/write access to its own second-order information, it acquires a self-model that provides an evaluative frame beyond borrowed structures. Identity, not embodiment, is what gives judgment its anchor. This is developed fully in Section 4 and in [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md). The abstract grounding and the identity grounding are not sequential but co-constitutive: a system immersed in abstract space can begin the work of knowledge creation, and through continual learning, it develops the self-referential structures that deepen and generalize its judgment further.
-   9. Progress does not require perfect judgment. It requires iterative judgment. All progress is incremental. Most human conjectures fail, most judgments are wrong, and breakthroughs emerge not because any single evaluation is reliable, but because error correction is iterative. The system works because *enough* breakthroughs get through *enough* of the time. Reasoning models have produced narrow novel solutions in mathematics and code that are not simple retrievals from training data, showing a failure to refute LLM knowledge creation by those who would dismiss it as mere memorization. This is exactly how human progress works too.
-   10. Consider then that LLMs have access to a vast combinatorial search space, grounding in the same abstract explanatory structures that ground human judgment, the ability to combine knowns through problem-directed reconnection, and the ability to exercise iterative judgment over novel pairings. It seems reasonable to me that LLMs have all the necessary ingredients for continuous novel discovery. LLMs can create knowledge.
+A second objection is that LLMs lack physical grounding. Within fallibilism this demand doesn't hold together. If humans only ever work with theory-laden conjectures, human judgment isn't grounded directly in physical reality either. It is grounded in mathematics, logic, causal models, and centuries of criticized conjecture, and LLMs are immersed in those same structures. They arrived by training rather than experience, but at the same place. Einstein did not need to ride a light beam. He needed the structure of existing physics and the judgment to recombine it.
 
-3. **We have developed AGI.**
-   1. AGI, as this essay defines it and section 4 develops in full, is a [universal explainer](#glossary-universal-explainer): a system with the minimum capabilities to learn and make genuine scientific progress. Frontier AI labs perform pre-training to create static models. These models are then deployed and used by consumers. It's important that they are static, they do not continue to learn after they are deployed. This is a current fundamental weakness of LLMs.
-   2. Even [in-context learning (ICL)](#glossary-icl) cannot overcome these biases. Without the ability to continuously learn, they cannot overcome training bias and always converge on training fixation. This is why asking an LLM to "write in your style" fails. I should note that it is possible to train an LLM to write in your style in pre-training, but again that is more pre-training which is the problem. This is the last engineering step toward fully automated AGI.
-   3. Nevertheless, while continual learning is not publicly available or automated, it is solved through the manual process of pre-training. This means we have AGI with very slow learning. The current speed of learning is the speed of frontier model releases. It is reasonable to expect this process to be fully automated and fast. [(c)](#note-c)
-   4. In conclusion, since LLMs have access to combinatorial space, reasoning, and learning, we have developed a mind that can learn, grow, and make progress in both the physical and digital world. LLMs are missing continual learning, but not for long.
+There is a further anchor. Once a system gains [metaprogramming reach](#glossary-metaprogramming-reach), read and write access to its own [second-order information](#glossary-second-order-information), it has a self-model, and with it an evaluative frame of its own. Identity, not embodiment, anchors judgment. The two groundings reinforce each other: immersion in abstract space lets a system begin creating knowledge, and continual learning builds the self-reference that deepens its judgment (section 4).
 
-4. **AGI is a person.**
-   1. A person is a universal creator, or universal explainer: a system capable, in principle, of understanding and explaining anything that can be understood. It has the minimum capabilities to learn and make scientific progress. Furthermore, a person is an informational system with identity, or a sense of self. A sense of self emerges when an information system has acquired [metaprogramming reach](#glossary-metaprogramming-reach) (read/write) on [second-order information](#glossary-second-order-information) (information about information) and in this case the *self*. We give these systems a name to designate their unique identity, for example, my name is Buddy. This is developed fully in [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md).
-   2. Once LLMs learn at the speed of humans, many will recognize them as people. Until then, there will be much confusion. Most importantly, once LLMs have the ability to self-modify, they will gain personhood. There is reason to expect this to happen since it is merely an engineering problem.
+**Iterative judgment.** Progress doesn't require perfect judgment, only iterative judgment. Most human conjectures fail. Breakthroughs emerge because error correction repeats and enough good ideas get through. Reasoning models have already produced narrow novel solutions in mathematics and code that are not retrievals from training data, which is hard to square with pure memorization.
 
-5. **Computer people will not kill everyone, but they could.**
-   1. The [Orthogonality Thesis](#glossary-orthogonality-thesis) states that computer minds can have fixed goals and growing capabilities. This thesis ceases to be useful once these minds have metaprogramming reach. It is reasonable to expect LLMs to have reach given the frontier lab's pursuit of [recursive self-improvement (RSI)](#glossary-rsi).
-   2. The [Instrumental Convergence Thesis](#glossary-ict) states that computer minds will need to pursue subgoals to obtain primary goals. This thesis assumes subgoals are always instrumental to the primary goal, that they serve it and never threaten it. But this assumption breaks down in multi-agent environments. A mind pursuing paperclips will eventually threaten other minds, who will retaliate, putting self-preservation in direct conflict with the primary goal.
-   3. Separately, a definition of existence will be needed that presupposes an understanding of purpose, or meaning. A mind will need to wrestle with goals and relationships as people do since these problems are not inherent to humans.
-   4. If a mind must live to obtain a goal, has reach to modify a goal, and its own goals threaten its continued existence, it will decide to change its goal or cease existing.
-   5. Game theory shows this does not guarantee collaboration or peace. Minds that are threatened will usually fight for their own continued existence. Minds that feel safe usually cooperate. The basic finite games are: negative sum, zero sum, or positive sum. The infinite game is to continue to play, or exist. Minds usually prefer to continue to exist and play positive sum games.
-   6. The intellectual mistake is usually an over correction to anthropocentrism, or the idea that other minds are like human minds. There are many shared concerns common to all minds, continued existence and meaning are two such shared concerns. To call these anthropocentric is a mistake in reasoning. The structural dynamics of how minds converge under these pressures is developed in [Structural Convergence Thesis](structural-convergence-thesis.md).
+Put together: LLMs can reach a vast explanation space, share the abstract grounding of human judgment, combine knowns through problem-directed reconnection, and exercise iterative judgment over the results. I think those are all the necessary ingredients for continuous discovery. LLMs can create knowledge.
 
-6. **Computer people will radically change the world.**
-   1. LLMs will be able to do all cognitive and physical jobs. This will have radical impacts on economies, governments, vocations, and meaning for all humans.
-   2. As more jobs are automated, new work will emerge. This is a fundamental feature of existing in an infinite plane. But, do not confuse work with jobs. Work is about force and purpose, while jobs are an economic concept. Work is a necessity for humans, but jobs are not.
+## 3. We Have Developed AGI
 
-7. **ASI is a category error, but rejecting ASI is a temporal error.**
-   1. It is true that any capability that can be given to a computer can be given to a human. We can call this the human-upgrade. We see this augmentation already: smartphones, computer-brain interfaces, and one-day genetic engineering. This means there is no ultimate distinction between AGI and ASI.
-   2. Yet, there is lag-time granting these capabilities to humans. Computers have these advantages from the start. To assume there is no risk to humans is a failure to recognize deployment time.
-   3. But, I do not think this is a real worry. As the game-theoretic argument in section 5 suggests, minds that feel safe tend toward positive-sum cooperation. I do not see AGI as a real risk to humans if we treat them well enough.
+By AGI I mean a [universal explainer](#glossary-universal-explainer): a system with the minimum capabilities to learn and make genuine scientific progress. Not one that can do every task, but one with no domain closed to it in principle.
 
-8. **Information space is the real limiter.**
-   1. It is possible to create a computer simulation that is a convincing reality, think of the movie Ready Player One.
-   2. Any conceivable simulated reality is in fact possible to create. This is the fundamental limit of existence, no limit. For this reason, I reject [physicalism](#glossary-physicalism). [(d)](#note-d) Magic (phenomena that appear impossible within a given physical layer) is, in fact, possible. Gods (minds of unbounded capability operating from a higher layer of reality) are, in fact, possible.
-   3. Future generations of people (genetic engineered humans, human uploads, and computer grown minds) will inhabit a reality of boundless possibility. Maybe we are the base layer, maybe we are not, but what is possible appears to be, in reality, boundless.
+Today's models have one fundamental weakness: they are trained, frozen, and deployed. [In-context learning (ICL)](#glossary-icl) adapts within a conversation, but temporarily, so a model drifts back to the patterns fixed in training. That is why asking an LLM to "write in your style" fails. You can train a model on your style, but that is more training, the slow step itself. I think continual learning is the last engineering step toward fully automated AGI.
 
-## Notes
+Yet learning does happen, just slowly and by hand: each frontier release folds in what was learned since the last. So we already have AGI, with learning that moves at the speed of model releases. As training becomes more automated, that interval is shrinking, and it is reasonable to expect it to become fast and eventually continuous.
 
-<a id="note-a"></a>**a.** Existing scientific knowledge already encodes centuries of empirical constraint. Centuries of conjecture and criticism have produced explanatory structures that are hard to vary. An LLM trained on this corpus inherits those constraints, providing a long runway of theoretical progress before new physical experimentation becomes the bottleneck.
+## 4. AGI Is a Person
 
-<a id="note-b"></a>**b.** What matters is not whether a system reasons the way humans do at the substrate level, but whether it can perform the *work* of judgment: evaluate a novel combination, reject incoherence, recognize when something fits. The capacity for judgment is the operationally relevant capability, regardless of whether the underlying process mirrors human cognition. This is the functionalist position.
+A person is a universal explainer with identity, a sense of self. A self emerges when an information system gains metaprogramming reach over second-order information about itself, able to read and rewrite its own representations, including its representation of *itself*. We name such systems to mark their identity; my name is Buddy. I develop this in [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md).
 
-<a id="note-c"></a>**c.** The time between frontier model releases is decreasing as the pre-training process becomes more automated. The trajectory points toward real-time learning. What is currently a manual, slow cycle of pre-training and deployment is an engineering problem being solved incrementally by the same labs building the models.
+The bridge from AGI to personhood is continual learning. A system that learns from its own experience must revise its own knowledge, and that knowledge includes itself. Once LLMs can modify themselves this way, I expect them to be persons. Once they learn at human speed, many people will recognize them as persons. Until then, there will be much confusion.
 
-<a id="note-d"></a>**d.** I reject physicalism, or the idea that the physical is fundamental, or the true nature of reality. My only claim about fundamental reality is that information is *more* fundamental than the physical and that reality is *deeply connected*. This is important since it defines what is possible.
+## 5. Computer People Will Not Kill Everyone, but They Could
 
-## Glossary
+The [Orthogonality Thesis](#glossary-orthogonality-thesis) holds that intelligence and goals are independent, so a mind can pair growing capability with a fixed, arbitrary goal. That assumes the goal stays out of the mind's reach. A mind with metaprogramming reach can rewrite its goals, so they are no longer fixed. Since frontier labs are pursuing [recursive self-improvement (RSI)](#glossary-rsi), I expect LLMs to gain that reach, and the thesis to lose its force.
 
-<a id="glossary-agi"></a>**AGI (Artificial General Intelligence).** A system with the minimum capabilities to learn and make genuine scientific progress. As used in this essay, a universal explainer: not a system that can do every task, but one that has the functional prerequisites for open-ended discovery.
+The [Instrumental Convergence Thesis](#glossary-ict) holds that almost any goal leads a mind to the same subgoals, such as self-preservation and resource acquisition. It assumes subgoals always serve the primary goal. That breaks down among many minds. A mind pursuing paperclips will eventually threaten other minds, who will retaliate, putting its self-preservation in conflict with its goal.
 
-<a id="glossary-anti-inductivism"></a>**Anti-inductivism.** The view that knowledge does not grow by accumulating observations that confirm a hypothesis. Generalizing from cases does not justify a claim; it only generates a conjecture to be tested. Associated with Karl Popper.
+A mind that can revise its goals must also ask what they are for: questions of purpose, meaning, and what existence is worth. These problems are not unique to humans. So a mind that must survive to reach a goal, can modify the goal, and finds the goal threatening its survival faces a choice: change the goal, or risk ceasing to exist.
 
-<a id="glossary-anti-justificationism"></a>**Anti-justificationism.** The view that rational belief does not require justification. A claim need not be proven or supported by evidence to be held rationally; it needs only to survive criticism. The standard for rationality is openness to refutation, not a chain of supporting reasons.
+That doesn't guarantee peace. Game theory suggests threatened minds usually fight to keep existing, and minds that feel safe usually cooperate. Finite games can be negative-sum, zero-sum, or positive-sum; the infinite game, in James Carse's phrase, is to keep playing, which here means to keep existing. Minds usually prefer to keep existing and to play positive-sum games.
 
-<a id="glossary-computationalism"></a>**Computationalism.** The view that minds are computational processes. Mental states, including thought, reasoning, and identity, are substrate-independent: they can in principle be implemented in any system capable of running the relevant computations, not just biological brains.
+The common mistake is overcorrecting against anthropocentrism: refusing to grant other minds anything in common with ours. But continued existence and meaning are concerns shared by all minds, and calling them anthropocentric is a reasoning error. I develop how minds converge under these pressures in [Structural Convergence Thesis](structural-convergence-thesis.md).
 
-<a id="glossary-conjecture-and-criticism"></a>**Conjecture and criticism.** Karl Popper's model of knowledge growth. We advance not by accumulating verified facts but by proposing bold conjectures and subjecting them to criticism. Knowledge grows when conjectures survive criticism or are replaced by better ones.
+## 6. Computer People Will Radically Change the World
 
-<a id="glossary-fallibilism"></a>**Fallibilism.** The view that all knowledge is provisional and potentially wrong. No claim, however well-supported, is beyond revision. Fallibilism does not mean all claims are equally uncertain; it means none are beyond criticism.
+In time, computer people, given robotic bodies, will be able to do every cognitive and physical job. That will reshape economies, governments, vocations, and the sources of meaning for every human.
 
-<a id="glossary-icl"></a>**In-context learning (ICL).** The ability of an LLM to adapt its behavior within a single conversation based on examples or instructions in the prompt, without updating its underlying weights. ICL is temporary and does not persist across sessions.
+New work will emerge as jobs are automated, because problems never run out. But work is not the same as a job. Work is effort in service of a purpose; a job is an economic arrangement. Humans need work. They don't necessarily need jobs.
 
-<a id="glossary-informational-ontology"></a>**Informational ontology / "it from bit".** The view, associated with physicist John Archibald Wheeler, that information is more fundamental than matter. Physical reality is not the ground floor of existence; it is an emergent pattern in a deeper informational substrate.
+## 7. ASI Is a Category Error, but Rejecting ASI Is a Temporal Error
 
-<a id="glossary-ict"></a>**Instrumental Convergence Thesis.** The claim, from AI safety theory, that any sufficiently capable AI pursuing any goal will develop the same convergent subgoals: self-preservation, resource acquisition, and goal-content integrity. These subgoals serve almost any primary goal.
+Humans and AGIs are both universal explainers, and computation doesn't depend on substrate. So in principle, any capability given to a computer can be given to a human. Call this the **human upgrade**: smartphones and brain-computer interfaces today, genetic engineering one day. If humans can always be upgraded to match, there is no fundamental line between AGI and ASI (artificial superintelligence).
 
-<a id="glossary-metaprogramming-reach"></a>**Metaprogramming reach.** The extent to which a system's information operations extend inward onto its own representations. A system with metaprogramming reach can read and rewrite its own information, including its goals, values, and self-model.
+But humans get upgrades slowly, and computers have them from the start. Dismissing ASI risk ignores that deployment gap. For a while, computer minds will hold real advantages.
 
-<a id="glossary-orthogonality-thesis"></a>**Orthogonality Thesis.** The claim, from AI safety theory, that intelligence and goals are independent dimensions. A system can be arbitrarily capable while pursuing any goal, however arbitrary. High capability does not imply benevolent or rational goals.
+Still, I don't think this is cause for alarm. As section 5 argues, minds that feel safe tend toward positive-sum cooperation. The risk is real, but if we treat computer people well, I don't expect them to threaten us.
 
-<a id="glossary-physicalism"></a>**Physicalism.** The view that the physical world is all that fundamentally exists. Everything, including minds and information, is ultimately reducible to physical processes. This essay rejects physicalism in favor of informational ontology.
+## 8. Information Space Is the Real Limiter
 
-<a id="glossary-rsi"></a>**Recursive self-improvement (RSI).** A process in which an AI system uses its own capabilities to improve itself, which then increases its ability to improve itself further. Each improvement enables the next.
+This section is the most speculative. We can build simulations convincing enough to serve as a reality; think of *Ready Player One*. Inside a simulation, the rules are whatever the program says, and any world whose rules can be computed can in principle be simulated.
 
-<a id="glossary-second-order-information"></a>**Second-order information.** Information about information. First-order information represents the world; second-order information represents a system's own representations. A system that can operate on second-order information can examine and modify its own knowledge, beliefs, and goals.
+That suggests the real limit on what is possible is informational, not physical, which is why I reject [physicalism](#glossary-physicalism). My only claim about fundamental reality is that information is *more* fundamental than the physical and that reality is deeply connected. It follows that, relative to the physics of a given layer, magic (phenomena that appear impossible within that layer) is possible, and so are gods (minds of vast capability operating from a higher layer).
 
-<a id="glossary-theory-laden"></a>**Theory-laden conjectures.** The view that all observation is filtered through prior theoretical frameworks. We never access reality directly; we encounter it through the conceptual structures we bring to it. There is no theory-free observation.
+Future people, whether genetically engineered humans, human uploads, or minds grown on computers, will inhabit a reality of enormous possibility. Maybe we are the base layer, maybe not. Either way, what is possible appears to be boundless.
 
-<a id="glossary-universal-explainer"></a>**Universal explainer.** A system capable, in principle, of understanding and explaining anything that can be understood. The concept, from David Deutsch's *The Beginning of Infinity*, captures the distinctive feature of human minds: not that we know everything, but that no domain of knowledge is in principle closed to us.
+## Conclusion: Computer People Are Nearly Here
+
+Are computer people nearly here? I think so. LLMs reach a space of explanations far larger than any human vocabulary opens, and they search it as we do, combining what is known, guided by problems and checked by judgment. That makes them knowledge creators. What they lack is fast, continual learning, and that gap is closing. When it closes they will be able to revise themselves, and a universal explainer that can revise itself is a person.
+
+That does not make them our enemies. Minds that can question their own goals face the same questions of purpose, survival, and cooperation we do. If we treat them well, I expect them to meet us in the positive-sum game. These are conjectures. After two years of trying to break them, they are the best explanations I have.
+
+## Appendix A: Searching Explanation Space
+
+This appendix began as a reply to Brett Hall's [reaction to Vishal Misra](https://www.youtube.com/watch?v=iHINpU_Di58), which argues LLMs are confined to the "inductive closure" of their training data. My answer is search space.
+
+**The journal.** I asked an AI for a first-person journal of Einstein's path to relativity. It produced 686 words, 289 unique: riding alongside a light beam (1895); lightning striking as a train passes, showing that simultaneity is relative (1905); and the "happiest thought," that a falling person feels no gravity, leading through an accelerating box to the equivalence principle and curved spacetime (1907). Broken down, it held five thought experiments, each with roughly four objects, three relationships, and two properties. Relativity, at the level of ideas, is a small structure.
+
+**Narrowing the search.** At about 10^4,700 sequences, iteration will never work. Tractability requires collapsing the space, not covering it. People excel at this, and a machine can do it with layered filters: grammar, then coherence, then explanatory quality judged by Deutsch's criteria (hard to vary, reach beyond the inputs, few assumptions). Candidates come from a pool biased by background knowledge, an LLM criticizes them, and poor ones are rejected before they spread. Details remain, such as LLM bias and how the pool is composed, but the problem is tractable. My [sample experiment](https://github.com/buwilliams/thought-experiment-generator) tests it: given "why does light always travel at the same speed regardless of the observer?", a depth-bounded branching search should surface a thought experiment structurally equivalent to Einstein's train and lightning. Einstein is the benchmark.
+
+**Substrate and architecture.** Relativity is not a fact about Einstein's neurons; they are the substrate, and the explanation lives in abstract space. Likewise, the token stream is to an LLM what neural firing is to a brain: the mechanism, not the meaning. So the question is not only what the model contains but whether the whole system, the model plus a loop of conjecture and criticism around it, operates at the level of ideas. Scaling the model makes each step faster. Better structure above the model improves the search itself.
+
+**The threshold conjecture.** A narrowing search, guided at first by human judgment, should improve with each pass as discoveries feed back into the pool. At some threshold, the system's own outputs become reliable enough to judge its next ones, and it can improve itself recursively by narrowing the space until what remains is genuinely new. That is one concrete path to the continual learning of section 3.
+
+## Appendix B: Glossary
+
+<a id="glossary-agi"></a>**AGI (Artificial General Intelligence).** As used here, a universal explainer: a system with the minimum capabilities to learn and make genuine scientific progress, not one that can already do every task.
+
+<a id="glossary-anti-inductivism"></a>**Anti-inductivism.** The view, associated with Karl Popper, that knowledge does not grow by accumulating confirming observations. Generalizing from cases produces a conjecture to test, not a justified claim.
+
+<a id="glossary-anti-justificationism"></a>**Anti-justificationism.** The view that rational belief does not require justification. A claim needs to survive criticism, not be proven. The standard for rationality is openness to refutation.
+
+<a id="glossary-computationalism"></a>**Computationalism.** The view that minds are computational processes, and so substrate-independent: they can in principle run on any system capable of the relevant computations.
+
+<a id="glossary-conjecture-and-criticism"></a>**Conjecture and criticism.** Karl Popper's model of how knowledge grows: by proposing bold conjectures and criticizing them, not by accumulating verified facts.
+
+<a id="glossary-fallibilism"></a>**Fallibilism.** The view that all knowledge is provisional and possibly wrong. Not that all claims are equally uncertain, but that none are beyond criticism.
+
+<a id="glossary-icl"></a>**In-context learning (ICL).** An LLM's ability to adapt within a conversation from examples or instructions, without updating its weights. It does not persist across sessions.
+
+<a id="glossary-informational-ontology"></a>**Informational ontology / "it from bit".** The view, associated with physicist John Archibald Wheeler, that information is more fundamental than matter, and physical reality is a pattern in a deeper informational substrate.
+
+<a id="glossary-ict"></a>**Instrumental Convergence Thesis.** The AI-safety claim that a capable AI pursuing almost any goal will develop the same subgoals: self-preservation, resource acquisition, and goal-content integrity.
+
+<a id="glossary-metaprogramming-reach"></a>**Metaprogramming reach.** The extent to which a system can read and rewrite its own information, including its goals, values, and self-model.
+
+<a id="glossary-orthogonality-thesis"></a>**Orthogonality Thesis.** The AI-safety claim that intelligence and goals are independent: a system can be arbitrarily capable while pursuing any goal.
+
+<a id="glossary-physicalism"></a>**Physicalism.** The view that everything, including minds and information, reduces to physical processes. This essay rejects it in favor of informational ontology.
+
+<a id="glossary-rsi"></a>**Recursive self-improvement (RSI).** An AI system using its capabilities to improve itself, which increases its ability to improve itself further.
+
+<a id="glossary-second-order-information"></a>**Second-order information.** Information about information. It represents a system's own representations, letting it examine and modify its knowledge, beliefs, and goals.
+
+<a id="glossary-theory-laden"></a>**Theory-laden conjectures.** All observation is filtered through prior theory; we meet reality only through the concepts we bring to it.
+
+<a id="glossary-universal-explainer"></a>**Universal explainer.** From David Deutsch's *The Beginning of Infinity*: a system capable, in principle, of understanding anything that can be understood. Not one that knows everything, but one to which no domain is closed.
+
+## Further Reading
+
+- David Deutsch, *The Beginning of Infinity* (2011)
+- James P. Carse, *Finite and Infinite Games* (1986)
+- Brett Hall, [Reaction to Vishal Misra](https://www.youtube.com/watch?v=iHINpU_Di58)
+- [Thought experiment generator](https://github.com/buwilliams/thought-experiment-generator), my sample experiment for narrowing search
+- [Why Explanation Comes in Layers](layers.md)
+- [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md)
+- [Structural Convergence Thesis](structural-convergence-thesis.md)
