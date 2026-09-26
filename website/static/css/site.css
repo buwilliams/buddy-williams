@@ -1206,6 +1206,11 @@ p {
   transform: translateY(-18px);
 }
 
+/* hidden panels must never catch clicks, hovers, or text selection */
+.stage.is-pinned .stage-panel:not(.is-active) {
+  pointer-events: none;
+}
+
 /* tabs: only the active panel / slide is in the flow, so the page stays short */
 .stage.is-tabs .stage-panel + .stage-panel {
   margin-top: 0;
@@ -1289,7 +1294,7 @@ p {
 .stage.is-measuring .work-slide.is-active,
 .stage.is-pinned .work-slide.is-active {
   opacity: 1;
-  visibility: visible;
+  visibility: inherit; /* stay hidden while its Work panel is hidden */
   transform: none;
   transition: opacity 0.45s ease 0.06s, transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) 0.06s, visibility 0s;
 }
