@@ -29,7 +29,7 @@ I don’t expect most readers to accept the conclusion. As I argued in [Utility 
 
 ## 1. Technology Turns Scarcity into Abundance
 
-Something is **scarce** when there isn’t enough of it to go around. Money, time, and time with the people we love are all scarce. Economics is the study of how we manage scarcity. It does a fair job, but no one is satisfied with managing it. We want to end it.
+Something is **scarce** when there isn’t enough of it to go around. Money, time, and time with the people we love are all scarce. Economics is the study of how we manage scarcity. It does a fair job, but no one is satisfied with managing it. We want to end it. We never quite do: each abundance uncovers a new scarcity, as the next section shows. But each round leaves us better off.
 
 Our prehistoric ancestors lived with scarcity of every kind. A cold season, a failed hunt, a disease, or a predator could wipe out a tribe. They weren’t content with sickness and death, and neither are we. They fought back with the one advantage evolution gave them: intelligence, turned into tools.
 
@@ -75,7 +75,7 @@ Follow the argument one more step. If technology creates abundance, abundance cr
 
 Here is where it starts to sound like science fiction. Consider space. Our bodies are poorly suited to exploring the cosmos. We may terraform a few planets, but it will often be easier to change ourselves than to change whole worlds.
 
-Or consider belonging. Jonathan Haidt’s work shows that people are loyal mostly to their own group. Yet MDMA, whatever its problems, can make people feel connected to everyone. Imagine a safe treatment that strengthened our sense of belonging without clouding judgment. It might soften our political divides. To some readers this will sound dystopian, and I understand that fear.
+Or consider belonging. Jonathan Haidt’s work shows that people are loyal mostly to their own group. Yet MDMA, whatever its problems, can make people feel connected to everyone. Imagine a safe treatment that strengthened our sense of belonging without clouding judgment. It might soften our political divides. To some readers this will sound dystopian, and I understand that fear: anything that changes how people feel about each other must be chosen by the person, never administered for political ends.
 
 Our present selves find these ideas unnatural, and by definition they are. But I doubt our descendants will feel that way. Their bodies will feel as natural to them as ours feel to us.
 

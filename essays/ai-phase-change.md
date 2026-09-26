@@ -49,7 +49,7 @@ Earlier tools amplified human action, but a human initiated each step. The print
 
 AI differs because it combines three properties:
 
-- **Learning.** AI systems improve from data and experience. Through pre-training, reinforcement learning, and in-context learning, they get better at tasks without being reprogrammed for each one. They are sample-inefficient today, but improving steadily.
+- **Learning.** AI systems improve from data, through pre-training, reinforcement learning, and in-context learning, without being reprogrammed for each task. They don't yet learn continuously from deployment, but they learn enough between releases to keep getting better.
 - **Exploring.** AI systems search spaces of possible solutions and test options no human specified. Systems like AlphaEvolve have found solutions humans hadn't considered, by exploring rather than following instructions.
 - **Acting.** AI systems don't stay in a sandbox. They write code, execute trades, and manage workflows, with less human oversight each year.
 
@@ -63,7 +63,7 @@ What does a societal phase change look like? People have announced a revolution 
 
 AI is reorganizing society along three dimensions.
 
-**Personal meaning.** For most of modern history, what you do has been central to who you are. What happens when the thing that made you economically valuable can be done by a system that never sleeps? Last week I built a consumer application in a single day: not a prototype, a working product. That isn't a faster version of the old workflow. It raises a different question about what human contribution means.
+**Personal meaning.** For most of modern history, what you do has been central to who you are. What happens when the thing that made you economically valuable can be done by a system that never sleeps? In early 2026 I built a consumer application in a single day: not a prototype, a working product. That isn't a faster version of the old workflow. It raises a different question about what human contribution means.
 
 **Social status.** Status has always been tied to scarce competence. When a competence stops being scarce, everything built on it has to reorganize: professional identity, institutional hierarchies, who gets listened to and why. The printing press did this to knowledge, industrial machines to artisan skill, and the internet to distribution. AI does it to cognition itself.
 
@@ -73,7 +73,7 @@ These shifts reinforce each other. When work changes, status changes. When statu
 
 ## 4. The Map Isn't the Territory
 
-Smart people fall into a subtle trap here. They set a clean criterion, such as "show me real autonomous self-improvement," and then declare "not yet" indefinitely while the world reorganizes underneath them. As Alfred Korzybski put it, [the map is not the territory](https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation). The trap is mistaking the elegance of your model for the completeness of reality.
+Smart people fall into a subtle trap here. They set a clean criterion, such as "show me real autonomous self-improvement," and then declare "not yet" indefinitely while the world reorganizes underneath them. That criterion matters for whether we have automated AGI. It doesn't settle whether society has already changed phase, which needs only humans-in-the-loop systems that are good enough to rely on. As Alfred Korzybski put it, [the map is not the territory](https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation). The trap is mistaking the elegance of your model for the completeness of reality.
 
 Societal phase changes don't wait for definitions to be settled. They are driven by effective capability and economic selection. The question isn't whether AI meets a philosopher's standard for autonomy. It's whether society is already behaving as if the rules have changed.
 
