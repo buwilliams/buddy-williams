@@ -184,9 +184,7 @@ Published writing in the Buddy Williams Writings repository. The essays below fo
 | Feb 2026 | Metaprogramming Framework To Classify Personhood | An exploration of personhood from an information-ontology perspective. Personhood is substrate-independent metaprogramming; the difference is maturity, not kind. |
 | Feb 2026 | Current AI Causes Societal Phase Change | Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening. |
 | Dec 2025 | Economics in the Intelligence Age | A first-principles, layered model of economics. Scarcity → prices → externalities → power → AI. |
-| Nov 2025 | The Rise of the Outcome Economy | The near-term economic transformation. Knowledge workers become intelligence workers, and outcome-based economies emerge. |
 | Nov 2025 | Why Hypotheticals Matter | Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise. |
-| Nov 2025 | AI Economics: The Time Traveler's Gift | AI as time travel. When material goods become abundant, meaning becomes the scarce resource. |
 | Oct 2025 | Technohumanism | Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment and pointing toward transhumanism. |
 | Oct 2025 | Cyclic Rationality | A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination. |
 | Oct 2025 | Utility of Truth | Why minds resist change. Evolution favors utility over truth, and how to plant seeds that grow into changed minds. |
