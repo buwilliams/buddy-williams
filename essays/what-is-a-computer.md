@@ -29,7 +29,6 @@ This essay starts by stripping computation of its association with any particula
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
 - [Appendix A: Related Thinkers](#appendix-a-related-thinkers)
-- [Appendix B: Glossary](#appendix-b-glossary)
 
 ## 1. What Is a Computer?
 
@@ -78,7 +77,7 @@ Notice what this doesn't require: silicon, electricity, or any particular materi
 
 This isn't just theory. Charles Babbage designed a computer of brass gears and rods in the nineteenth century. People have built computers from water flowing through pipes, where junctions act as gates, and from chains of falling dominoes. Inside the video game Minecraft, players have built working computers from redstone, a game mechanic with no counterpart outside the game. Biological neurons implement logic through patterns of firing and inhibition.
 
-The material, the physics, and the engineering differ in every case. The computation is the same. That is the first and most important observation: computation doesn't belong to any substrate. Substrates can support it, but it isn't made of what they are made of.
+The material, the physics, and the engineering differ in every case. The computation is the same. That is the first and most important observation: computation doesn't belong to any substrate, the physical medium it runs on. Substrates can support it, but it isn't made of what they are made of.
 
 Alan Turing gave this a mathematical footing in 1936. He described a Universal Turing Machine that can simulate any other Turing machine. Because his definition of computation mentions no material at all, anything that can realize it, in any medium, is a universal computer, and any universal computer can simulate any other, given enough memory and time. The Church-Turing thesis goes further: anything that can be computed at all can be computed by such a machine. It is a thesis, not a theorem, but no counterexample has ever been found.
 
@@ -90,11 +89,11 @@ People have built working computers inside Minecraft: a computer running inside 
 
 What universal computation permits gives nesting several properties:
 
-- **Arbitrary depth.** A **nested world** can contain computers that run their own nested worlds, as long as universal computation holds at each level. The only limit is the resources of the **containing world**.
+- **Arbitrary depth.** A **nested world** can contain computers that run their own nested worlds, as long as universal computation holds at each level. The only limit is the resources of the **containing world**, the world that runs it and supplies its resources.
 - **Independent rules.** A nested world's rules need not mirror those of the world containing it. One world can forbid faster-than-light travel while the world it contains permits it. The containing world limits a nested world's resources, not its physics.
 - **Relative time.** Inhabitants of a nested world run on the same clock as the world they perceive. If the simulation runs a trillion times slower than its host, so do their thoughts, and they notice nothing. Speed is relative to the observer's substrate, not to an absolute clock.
 - **Information transfer.** A containing world can inject information into a nested world and read its outputs. The boundary is permeable to information even when observers inside can't see across it.
-- **Epistemic containment.** An observer inside a nested world can't tell, from inside, whether their world is the **base layer** of reality or nested within another. The causal closure they observe is real, but it says nothing about whether something contains them. This isn't a failure of their intelligence or technology. It is a structural feature of their position, and it lifts only if the containing world lets information about itself through.
+- **Epistemic containment.** An observer inside a nested world can't tell, from inside, whether their world is the **base layer** of reality, a world not contained in any other, or nested within another. The causal closure they observe is real, but it says nothing about whether something contains them. This isn't a failure of their intelligence or technology. It is a structural feature of their position, and it lifts only if the containing world lets information about itself through.
 
 If these properties apply to us, here is a fun thing to wonder about: could the speed of light be our world's processing limit? Every substrate has a throughput ceiling. In our physics, the speed of light is an absolute limit that no information or causal influence can exceed, which is just what a processing constraint would look like from inside. This is speculation, not a claim. But it's the kind of question that opens up once you take nesting seriously.
 
@@ -189,13 +188,7 @@ The question was never whether computers are interesting machines. It is whether
 
 ## Appendix A: Related Thinkers
 
-**Alan Turing.** Described the Universal Turing Machine (1936), which can simulate any other Turing machine, laying the theoretical foundation for substrate-independent computation.
-
-**Charles Babbage.** Designed the Analytical Engine in the nineteenth century, a mechanical computer of brass gears. An early sign that computation needs no electricity.
-
-**Baruch Spinoza.** Proposed in the seventeenth century that mind and matter are two attributes of one substance, neither reducible to the other, working from the single example of human experience.
-
-**John Wheeler.** Physicist who coined "it from bit," proposing that every physical quantity derives its meaning from information, and that information is prior to matter.
+**John Wheeler.** Physicist who coined "it from bit," proposing that every physical quantity derives its meaning from information.
 
 **Konrad Zuse.** Proposed in *Rechnender Raum* (1969) that the universe is a cellular automaton, arguably the first serious proposal that the universe is literally a computer.
 
@@ -206,29 +199,3 @@ The question was never whether computers are interesting machines. It is whether
 **David Deutsch.** Strengthened the Church-Turing thesis into a physical principle: every finitely realizable physical system can be perfectly simulated by a universal computer. That is the formal support for nesting. His constructor theory recasts physics in terms of which transformations are possible and impossible, an inherently informational framing.
 
 **Stephen Wolfram.** His Physics Project tries to derive the laws of physics from simple computational rules, asking what "program" generates our observed physics.
-
-## Appendix B: Glossary
-
-**Base layer.** A world not contained in any other.
-
-**Causal closure.** Every physical event has a sufficient physical cause. No gaps in the physical causal chain need non-physical entities to fill them.
-
-**Containing world.** A world that runs a nested world and supplies its resources.
-
-**Epistemic containment.** An observer inside a world can't determine from inside whether it is the base layer or a nested world, unless the containing world lets information through.
-
-**Functional universality.** The property of a gate type that lets it implement any logical operation. NAND and NOR are each functionally universal.
-
-**Local physicalism.** This essay's claim that physicalism correctly describes a world's causal closure but doesn't establish that world as fundamental.
-
-**Managed disconnection.** Deliberately setting aside relations that don't matter to a phenomenon, treating everything outside the explanatory boundary as fixed background. Developed in [Why Explanation Comes in Layers](layers.md).
-
-**Metaprogramming.** A system operating on its own information: its capacity to acquire, modify, or create turned inward on its own representations. Proposed in [the personhood framework](framework-of-personhood.md) as the mechanism of personhood.
-
-**NAND gate.** A logic gate that outputs false only when both inputs are true. Functionally universal.
-
-**Nested world.** A computational world running within another, with its own rules and causal closure.
-
-**Substrate.** The physical or computational medium in which information is instantiated and operated on.
-
-**Universal computation.** The capacity, described by Turing, to simulate any other computational system given enough memory and time. It is what permits nested worlds and what stays invariant across them.
