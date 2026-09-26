@@ -38,8 +38,7 @@ I am not a disinterested observer. I run delivery teams at an enterprise softwar
 10. [What Remains Executable](#10-what-remains-executable)
 - [Conclusion](#conclusion)
 - [Appendix A: The Repricing Arithmetic](#appendix-a-the-repricing-arithmetic)
-- [Appendix B: Key Terms](#appendix-b-key-terms)
-- [Appendix C: Open Problems](#appendix-c-open-problems)
+- [Appendix B: Open Problems](#appendix-b-open-problems)
 
 ## 1. Rates, Not States
 
@@ -71,7 +70,7 @@ Does the research boundary ever stop? Is anything permanently human-only? I thin
 
 Contingent work is human-only because the models have not reached it yet. Verification was contingent all along, however permanent it looked. Constitutive obligations are different in kind: they are not computations at all, but social or legal relations. Liability is the clearest case. "Someone must be accountable when the system fails" is not a task a better model performs. It is a fact about courts, insurance, and the human need to trust before depending. Even where law adapts to machine-made decisions, the accountability does not vanish; it relocates to whoever deploys, insures, or certifies the system. Trust between institutions, the legitimacy of a consequential decision, the assignment of responsibility: a model can *inform* these relations, but it cannot *be* a party to them. Call this set of relations the **constitutive core**.
 
-There are two opposite ways to get this wrong. Mistaking contingent work for constitutive fills the graveyard of "AI will never X" predictions. Mistaking constitutive obligations for contingent work turns law, trust, and accountability into engineering problems, which they are not. How much of today's human-only work is truly constitutive is, I think, the most important open question in this subject (Appendix C). Every "non-compressible" claim ahead either names a relation or names a place the tide has not reached yet.
+There are two opposite ways to get this wrong. Mistaking contingent work for constitutive fills the graveyard of "AI will never X" predictions. Mistaking constitutive obligations for contingent work turns law, trust, and accountability into engineering problems, which they are not. How much of today's human-only work is truly constitutive is, I think, the most important open question in this subject (Appendix B). Every "non-compressible" claim ahead either names a relation or names a place the tide has not reached yet.
 
 ## 3. The Repricing Mechanism
 
@@ -87,7 +86,7 @@ The first casualty of the interregnum is not the consultancy but the *pricing mo
 
 ## 4. The Amdahl Inversion
 
-Amdahl's Law comes from parallel computing. It says the total speedup of a system is limited by the fraction of work that cannot be parallelized. If half the work is inherently serial, infinite processors buy at most a 2× speedup.
+Amdahl's Law comes from parallel computing. It says the total speedup of a system is limited by the fraction of work that cannot be parallelized, its **serial fraction**. If half the work is inherently serial, infinite processors buy at most a 2× speedup.
 
 Applied to consulting, the standard move is reassuring. Coding compresses 20×, but discovery, stakeholder alignment, verification, and deployment do not, so the engagement as a whole speeds up far less than the headline number. The revenue collapse is overstated.
 
@@ -121,7 +120,7 @@ Evaporation is why the right historical comparison for consulting is travel agen
 
 One refinement matters for reconciling the three original claims. Repricing and evaporation hit the *same* firms, but the volume, when elasticity delivers it, goes to *different* parties, and much of it goes to no outside firm at all: work clients now do internally never re-enters the external market. The recovery is real for the economy and partly illusory for the industry. That is how Bezos can be right about labor in aggregate while the consulting industry has a very bad decade. The two are the same event seen from different distances.
 
-How high the floor sits, and how it moves, is uncertain; research may compress transaction costs too (Appendix C). Whatever its height, a firm's ability to stay above it depends on what kind of advantages it holds.
+How high the floor sits, and how it moves, is uncertain; research may compress transaction costs too (Appendix B). Whatever its height, a firm's ability to stay above it depends on what kind of advantages it holds.
 
 ## 6. Advantage as Distance from the Line
 
@@ -164,7 +163,7 @@ Christensen's own cases point the same way. Incumbents rarely reposition their c
 
 This leads to a conjecture I will call, half-seriously, the **insight-irrelevance theorem**: *in identity-bound transitions, insight is not the missing ingredient, and supplying more of it does not unblock the transition.* The constraint is on the firm's diffusion rate, not on what anyone knows, so better analysis and more conviction do not fix it through the existing identity's normal ways of allocating people and money, at any level of seniority.
 
-This does not make leadership irrelevant. Leadership can create and protect a genuinely autonomous identity. What it cannot do, on this view, is reason the existing organization into diffusing at research speed. This is one of the boldest conjectures in the essay, and it is a claim about a strong tendency, not a proof. Perhaps some mechanism can speed identity change without autonomy or near-death (Appendix C). But I have watched enough transformation initiatives to believe the tendency.
+This does not make leadership irrelevant. Leadership can create and protect a genuinely autonomous identity. What it cannot do, on this view, is reason the existing organization into diffusing at research speed. This is one of the boldest conjectures in the essay, and it is a claim about a strong tendency, not a proof. Perhaps some mechanism can speed identity change without autonomy or near-death (Appendix B). But I have watched enough transformation initiatives to believe the tendency.
 
 If the overwhelming majority of transformations keep failing even as technical understanding spreads, identity explains what a capability account cannot: research is advancing while the organization's diffusion boundary stays put. Lee's point that much of existing leadership is unequipped may then understate the problem. These organizations need new identities, and leadership swaps are attempted because identity swaps are rarely on the menu.
 
@@ -256,47 +255,13 @@ The compression figures used in the essay, for a representative engagement and d
 
 **Revenue exposure.** A team of 10, at about 60% billable utilization over a 48-week, 40-hour-week year, at $250/hour: 10 × 0.60 × 48 × 40 × $250 ≈ $2.9M a year. Under full 20× compression of the billable work at unchanged hourly pricing, the same delivered scope yields about $144K.
 
-Two corrections from the essay apply. First, compression applies to the share of work in the AI-capable segment, not to whole engagements. Section 4 argues, though, that for implementation-pure firms that share approaches the entire book, so the naive figure is closer to right than the standard Amdahl objection suggests. Second, the arithmetic assumes hourly pricing survives the transition. Section 3 argues it does not, which makes this a statement about the instability of the pricing model, not a forecast of any firm's revenue.
+Two caveats apply. Compression applies only to the share of work in the AI-capable segment, which for implementation-pure firms approaches the entire book (Section 4). And the arithmetic assumes hourly pricing survives the transition, which Section 3 argues it does not, so the figure measures the instability of the pricing model, not any firm's future revenue.
 
-## Appendix B: Key Terms
+## Appendix B: Open Problems
 
-**Work timeline.** The ordered model: work AI does; work AI can do, but humans do; work only humans do; and the unbounded frontier. Three moving boundaries (diffusion, research, frontier) divide the four segments.
+**The size of the constitutive core.** How much of the human-only segment (diffusion, trust work, accountability, judgment) is constitutively human rather than merely unreached by research? Every durability claim in the model depends on this. The strongest candidate for a genuinely constitutive *skill*, as opposed to a relation, is taste under uncertainty: judgment about which conjectures are worth the compute. I hold it loosely, because it may only be contingent work farther right on the timeline.
 
-**Diffusion boundary.** Separates work AI actually does from work AI can do but humans still do. Its rate is how fast capability becomes production.
-
-**Research boundary.** Separates work AI can do from work only humans can do. Its rate is how fast human-only work becomes technically compressible; it currently favors specifiable, bounded, verifiable work.
-
-**Frontier boundary.** Separates defined human work from the unbounded frontier. Its rate is how fast unformulated possibility becomes concrete problems, products, and roles.
-
-**Unbounded frontier.** The open-ended domain of problems and possibilities not yet formulated as work. It is a segment beyond the frontier boundary, not a stock of existing tasks.
-
-**Contingent work.** Work that is human-only because the research boundary has not reached it yet (for example, verification until recently, and likely much of diffusion work).
-
-**Constitutive obligation.** An obligation that persists because it is a social or legal relation rather than a computation: liability, accountability, trust between institutions, the legitimacy of consequential decisions. The **constitutive core** is the set of such relations. Their persistence does not guarantee how much labor or value stays attached to them.
-
-**Interregnum.** The interval between fast price compression and slow volume arrival, when the old revenue model is dead and the new demand has not yet arrived.
-
-**Serial fraction.** The share of work that does not compress. At the firm level it is endogenous, chosen by the firm's contracting history. Within a given transformation at a given moment it binds, as Amdahl's Law says. Across the economy and over time it keeps changing.
-
-**Residual-concentration conjecture.** As contingent work is compressed, the remaining economic value tends to gather around constitutive obligations. The obligations persist; the labor and revenue attached to them are not conserved.
-
-**Coasean floor (transaction-cost floor).** The roughly fixed per-engagement cost of using an outside firm (procurement, contracting, security review, onboarding). Work whose production cost falls far enough below it leaves the market entirely, which the essay calls **evaporation**, rather than repricing. An established relationship lowers the floor within its trusted mandate.
-
-**Advantage half-life.** An ordering heuristic: an advantage lasts longer the farther it stands from the boundary that can erase it and the slower that boundary moves. The durable advantages (proprietary context, liability and trust, organizational position, distribution) are relations rather than skills.
-
-**Value network.** A firm's existing customers, pricing structures, sales motions, and margin expectations, which together judge its strategic options (from Christensen).
-
-**Identity.** A firm's brand (the compressed prior in the client's mind about what the firm is for) and culture (the selection function that determines who is hired, promoted, and retained). Identity constrains the firm's diffusion rate and its ability to reposition as research advances.
-
-**Identity-speed-of-one.** An individual's ability to reposition through an employer change in months, while a firm's selection function takes years to change. The new employer applies a new prior, repricing the person around the role they were hired to perform rather than the function they used to perform.
-
-**Insight-irrelevance theorem.** A conjecture, not a proof: in identity-bound transitions, insight is not the missing ingredient, and the transition is not executable through the existing identity's normal mechanisms, however well anyone understands it. Leadership can still create and protect a genuinely autonomous identity.
-
-## Appendix C: Open Problems
-
-**The size of the constitutive core.** How much of the human-only segment (diffusion, trust work, accountability, judgment) is constitutively human rather than merely unreached by research? Every durability claim in the model depends on this. Mistaking contingent for constitutive repeats the "AI will never X" error; mistaking constitutive for contingent treats law, trust, and institutional legitimacy as engineering problems. The strongest candidate for a genuinely constitutive *skill*, as opposed to a relation, is taste under uncertainty: judgment about which conjectures are worth the compute. I hold it loosely, because it may only be contingent work farther right on the timeline.
-
-**The path of the Coasean floor.** The market-structure predictions, and the choice between the two executable paths, depend on whether research compresses transaction costs (procurement, verification, trust between firms) as fast as production costs. If transaction costs and identity priors fall together, small-scale exchange survives and implementation work becomes gig work. If trust and liability keep transaction costs rigid, in-housing dominates. The answer likely differs by industry. This is the constitutive-core question in disguise: transaction costs are rigid exactly to the extent that they are constitutive.
+**The path of the Coasean floor.** The market-structure predictions, and the choice between the two executable paths, depend on whether research compresses transaction costs (procurement, verification, trust between firms) as fast as production costs. If transaction costs and identity priors fall together, small-scale exchange survives and implementation work becomes gig work. If trust and liability keep transaction costs rigid, in-housing dominates. This is the constitutive-core question in disguise: transaction costs are rigid exactly to the extent that they are constitutive.
 
 **The speed and shape of the research boundary.** The model treats research as advancing along a single gradient, from specifiable to ambiguous. Is that right, or does it advance unevenly, leaping past work assumed safe while stalling on work assumed doomed? An uneven research boundary would complicate even the rough ordering of advantage half-lives and would call for a richer geometry.
 
