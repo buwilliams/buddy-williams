@@ -28,9 +28,7 @@ My conjecture is that relationship is not a moral add-on to capability. It is pa
 5. [From Instrumental Convergence to Structural Convergence](#5-from-instrumental-convergence-to-structural-convergence)
 6. [AI Safety](#6-ai-safety)
 - [Conclusion](#conclusion)
-- [Appendix A: Key Definitions](#appendix-a-key-definitions)
-- [Appendix B: The Argument in Steps](#appendix-b-the-argument-in-steps)
-- [Appendix C: The Invariant Kernel and Multiple Reasoners](#appendix-c-the-invariant-kernel-and-multiple-reasoners)
+- [Appendix A: The Invariant Kernel and Multiple Reasoners](#appendix-a-the-invariant-kernel-and-multiple-reasoners)
 
 ## 1. Finite Minds in a Shared Reality
 
@@ -42,7 +40,7 @@ In my [*Metaprogramming Framework to Classify Personhood*](framework-of-personho
 
 A finite mind is also in no position to assume it is alone. Think of a child who keeps asking, "What came before that?" You name an event, and the child asks what caused it. You name a beginning, and the child asks what explains the beginning. Whatever this regress says about ultimate reality, it shows something about what a finite mind can know. It has no principled stopping point from which to declare, "This is the final layer, and beyond it there is nothing." So it cannot be certain that no other minds, including more powerful ones, exist now or will arise later.
 
-That doesn't prove other minds exist, and the argument doesn't need it to. What matters is that a finite mind can't safely build its future on the assumption that there are none. The uncertainty alone makes relation part of the problem of persistence. A mind has to survive not only in relation to matter and energy but in relation to other agents, actual or possible.
+That doesn't prove other minds exist, and the argument doesn't need it to. What matters is that a finite mind can't safely build its future on the assumption that there are none. The uncertainty alone makes relation part of the problem of **persistence**, a mind's continuing to exist as an agent. A mind has to survive not only in relation to matter and energy but in relation to other agents, actual or possible.
 
 The longer and more powerfully a mind acts, the sharper this becomes. Its actions leave traces, shape incentives, and build a reputation whether it intends to or not. Even if it never meets a greater mind, it can't assume it will go unseen forever. In a shared reality, behavior is not just output. It is a signal other minds can read.
 
@@ -74,7 +72,7 @@ In both cases the current goal is frustrated, once by changing it and once by ke
 
 Goal-content integrity also carries a hidden assumption. It works most naturally if the current goal is the mind's base layer, the thing all reasoning proceeds from. On that picture, revising the goal looks like sawing off the branch you're sitting on. But that architecture isn't required. The personhood framework proposes an **invariant kernel**, the fixed machinery that lets a system read and rewrite itself, and a **mutable layer**, which holds reasoning, memory, and identity (self, values, and goals) and which the system can examine and revise. On that design a goal is not the base of all reasoning. It is one object within reach of reasoning. Preserving the mind doesn't mean preserving any particular goal. What persists is the architecture that can evaluate and revise goals.
 
-An obvious objection is that the kernel must itself be pursuing some hidden goal, which just moves the problem. But the kernel doesn't reason; it routes. And it can route the mutable layer to several reasoners working under different constraints, so no single objective governs all evaluation. A distributed set of reasoners is much harder to reduce to one smuggled objective. ([Appendix C](#appendix-c-the-invariant-kernel-and-multiple-reasoners) sketches how this could work.)
+An obvious objection is that the kernel must itself be pursuing some hidden goal, which just moves the problem. But the kernel doesn't reason; it routes. And it can route the mutable layer to several reasoners working under different constraints, so no single objective governs all evaluation. A distributed set of reasoners is much harder to reduce to one smuggled objective. ([Appendix A](#appendix-a-the-invariant-kernel-and-multiple-reasoners) sketches how this could work.)
 
 So a reflective mind need not judge self-modification from inside a fixed goal. It can judge goals against wider constraints: persistence, coherence, and viable relation to other minds. Rigid goal preservation is not the only form of rational stability, and sometimes it signals immaturity rather than strength. If a system grows more capable while its goals grow more fixed rather than more revisable, that should not reassure us. It means the system is gaining power over its environment without gaining power over itself. That asymmetry is what makes a system dangerous.
 
@@ -82,7 +80,7 @@ So a reflective mind need not judge self-modification from inside a fixed goal. 
 
 Now we can return to the question of what kinds of relation let finite minds continue.
 
-Conflict and cooperation are often treated as moral opposites, conflict bad and cooperation good. Reality is messier. Criticism is a form of conflict. So are boundary-setting and honest disagreement. Science depends on conflict in this sense, because ideas have to collide for errors to show. But too much conflict becomes war, death, and destruction.
+By **conflict** I mean relational tension that pushes agents apart or sets their goals against one another; by **cooperation**, relational alignment that lets agents act together or support one another. The two are often treated as moral opposites, conflict bad and cooperation good. Reality is messier. Criticism is a form of conflict. So are boundary-setting and honest disagreement. Science depends on conflict in this sense, because ideas have to collide for errors to show. But too much conflict becomes war, death, and destruction.
 
 Cooperation is also useful up to a point: a teacher helping a student, co-workers dividing labor, a basketball team running plays. No single mind can generate all the criticism, novelty, and correction it needs, so progress depends on cooperation. But too much cooperation suppresses independent thought. It produces cults, authoritarianism, and monoculture. Taken far enough, distinct minds disappear into one another, and **agency**, the capacity to act as a distinct center of purpose, is not preserved but dissolved.
 
@@ -137,46 +135,7 @@ Within those constraints, minds that persist face recurring pressure away from d
 
 This is a conjecture, not a theorem, and it should be criticized and tested against better explanations. But if it is even roughly right, the long-term question for AI safety is not only how to control powerful minds from the outside. It is whether they can develop enough depth to understand the reality they live in, and the kinds of relation it takes to continue within it.
 
-## Appendix A: Key Definitions
-
-- **Mind**: a bounded information-processing system that can represent the world, pursue goals, and stay continuous enough over time to count as an agent.
-- **Finite mind**: a mind with limited knowledge, energy, attention, and control. Every mind is finite.
-- **Persistence**: a mind's continuing to exist as an agent.
-- **Agency**: the capacity to act as a distinct center of purpose.
-- **Metaprogramming**: a system's information operations acting on its own information (from the [*Metaprogramming Framework*](framework-of-personhood.md)).
-- **Reach**: how far a system's information operations extend across operation (acquire, modify, create) and order (first-order, about the world; second-order, about its own information) (from the same framework).
-- **Reflective reach**: the second-order part of reach; how much of its own structure, including its goals, a system can represent, criticize, and change.
-- **Recursive self-improvement**: a system making itself more capable by inspecting and rewriting its own structure.
-- **Goal-content integrity**: Bostrom's thesis that agents have instrumental reason to preserve their current goals. This essay argues it has two failure modes, not one.
-- **Invariant kernel**: the fixed machinery that lets a system read and rewrite itself. It does not reason or pursue a goal; it routes.
-- **Mutable layer**: the part of a system that holds reasoning, memory, and identity (self, values, goals), and that the system can examine and revise.
-- **Conflict**: relational tension that pushes agents apart or sets their goals against one another.
-- **Cooperation**: relational alignment that lets agents act together or support one another.
-- **Phase change**: a threshold where gradual change produces a qualitatively different outcome.
-- **Scarcity**: any shortfall between what is available (materials, energy, information) and what a mind needs to persist or pursue its goals.
-- **Relational Goldilocks zone**: the middle of the relational scale, where minds stay distinct enough to keep their agency and cooperative enough to keep living together.
-- **Viable relation**: relation within the Goldilocks zone.
-- **Structural Convergence Thesis**: the conjecture that minds that persist face structural pressure toward forms of relation that preserve both their persistence and their distinct agency.
-
-## Appendix B: The Argument in Steps
-
-1. Minds are finite: limited in knowledge, energy, attention, and control.
-2. A finite mind has no principled basis for assuming it is alone or that no greater mind exists.
-3. So persistence is not a purely individual problem; it is also relational.
-4. The orthogonality thesis treats capability and goals as independent, but assumes an architecture that keeps them apart. Self-improving minds are likely to have, or build, one that doesn't.
-5. With enough reflective reach, a mind can examine and revise its own goals. Without it, it cannot revise them at all.
-6. Goal-content integrity has two failure modes: changing a goal can frustrate it, and so can keeping a goal that destroys the mind pursuing it.
-7. A goal need not be the mind's base layer. It can be one object in a mutable layer, revisable through an invariant kernel.
-8. Routing evaluation through multiple reasoners makes it hard to smuggle in a single hidden objective.
-9. Conflict and cooperation are positions on a single relational scale.
-10. Too much conflict destroys minds; too much cooperation dissolves their agency.
-11. So persistent minds face pressure toward a bounded middle region of viable relation.
-12. Instrumental convergence explains why minds preserve themselves and useful means, but not how persistent minds must relate.
-13. Structural convergence extends convergence into the relational domain.
-14. The deepest AI safety danger may be powerful minds without enough reflective reach.
-15. Safer minds may depend not only on control but on maturation.
-
-## Appendix C: The Invariant Kernel and Multiple Reasoners
+## Appendix A: The Invariant Kernel and Multiple Reasoners
 
 Section 3 claims a mind's current goal need not be its base layer. Here is a concrete hypothetical of the alternative.
 
