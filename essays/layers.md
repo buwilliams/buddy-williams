@@ -27,7 +27,6 @@ My conjecture has two parts. The first is **compression**: finite minds cannot r
 5. [Why Higher-Level Explanations Are Real](#5-why-higher-level-explanations-are-real)
 6. [The Reductionist Mistake](#6-the-reductionist-mistake)
 - [Conclusion](#conclusion)
-- [Appendix: Working Definitions](#appendix-working-definitions)
 - [Further Reading](#further-reading)
 
 ## 1. The Temptation of Reductionism
@@ -105,20 +104,6 @@ So why does explanation come in layers? Because finite minds cannot reason over 
 That is why higher-level explanations are not mere conveniences. For finite knowers they are often the only forms in which reality becomes intelligible. They don't float free of lower-level reality, but they aren't dissolved by it either.
 
 Components matter, and mechanisms matter. But explanation is not a contest to find the smallest pieces. It is the search for the right managed disconnection in a deeply connected world. The hierarchy of explanation is not an embarrassment to be eliminated. It is one of the ways truth becomes knowable.
-
-## Appendix: Working Definitions
-
-**Compression**: representing a phenomenon with less information while preserving the structure relevant to explanation.
-
-**Connectedness**: the degree to which a phenomenon depends for its intelligibility on relations to other things, conditions, histories, or environments.
-
-**Explanatory reach**: an explanation's ability to illuminate many related phenomena, answer why-questions, and preserve counterfactual structure without reconstructing the full substrate each time.
-
-**Level of emergence**: a set of phenomena that can be explained well in terms of each other without being analyzed into their constituents (after Deutsch).
-
-**Managed disconnection**: the deliberate severing of relations that are not relevant to a phenomenon, treating everything outside the explanatory boundary as fixed background. The mechanism by which higher-level layers make tractable explanation possible in a deeply connected world.
-
-**Reductionism**: the view that the best explanation must always come from analyzing things into components, so that lower-level explanations are more fundamental or more real. This essay argues it is self-undermining: pushed down far enough, decomposition arrives not at simple, isolated units but at total interconnection, and its successes at higher levels depend on managed disconnection that abstraction has already performed.
 
 ## Further Reading
 
