@@ -61,11 +61,9 @@
                   </div>
                 </div>
                 <div class="work-visual">
-                  <ol class="cycle" aria-label="Growth Lab's three mandates">
-                    {% for p in cfg.growth_lab.points %}
-                    <li class="cycle-step"><span class="cycle-num">{{ loop.index }}</span>{{ p }}</li>
-                    {% endfor %}
-                  </ol>
+                  <a class="work-shot" href="{{ cfg.growth_lab.url }}" target="_blank" rel="noopener">
+                    <img src="/static/img/growth-lab.png" alt="Growth Lab home page: Multiply today. Build what's next." loading="lazy" />
+                  </a>
                 </div>
               </article>
 

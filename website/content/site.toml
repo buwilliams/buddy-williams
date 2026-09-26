@@ -44,12 +44,6 @@ A human-multiplier operating system I built and run at Insurity. Growth Lab \
 trains Growth Leaders to use frontier AI to multiply what people can do, while \
 staying accountable for the outcomes. It improves the business we have today \
 and explores the products and services of tomorrow."""
-points = [
-  "Train Growth Leaders — develop judgment and capability",
-  "Build immediate solutions — better products and client outcomes now",
-  "Explore the future — new business models and offerings",
-]
-
 # Featured video
 [video]
 name = "The Moving Line"
