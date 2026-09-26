@@ -20,6 +20,8 @@ Each piece has a status in the README table: **Draft** (AI-assisted sketch), **W
 
 The `style-guide.md` is the authoritative reference. Key points:
 
+- **Model essay**: `essays/thinking-about-thinking.md`. Match its plain language, brevity, and structure.
+- **Brevity**: Every sentence earns its place. Cut restated theses, recaps, slogan stacks, and filler, but never a step the argument depends on.
 - **Voice**: Clear, serious, exploratory, intellectually alive. Think Thomas Sowell's clarity meets David Deutsch's explanatory ambition. Not academic, not performative.
 - **Structure**: Essays follow Introduction → Table of Contents → Arguments/Explanations → Conclusion → Appendices. The Introduction opens the essay (no separate "Abstract" section); it does the work an abstract would, but in a motivating voice rather than a detached summary.
 - **Terminological consistency**: When a term is defined in an essay, use it precisely throughout. Do not swap in near-synonyms that blur distinctions.
