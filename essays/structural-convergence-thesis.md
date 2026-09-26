@@ -30,6 +30,7 @@ My conjecture is that relationship is not a moral add-on to capability. It is pa
 6. [AI Safety](#6-ai-safety)
 - [Conclusion](#conclusion)
 - [Appendix A: The Invariant Kernel and Multiple Reasoners](#appendix-a-the-invariant-kernel-and-multiple-reasoners)
+- [Further Reading](#further-reading)
 
 ## 1. Finite Minds in a Shared Reality
 
@@ -130,7 +131,7 @@ None of this proves reflective systems will become cooperative. The universe is 
 
 I started by asking what kinds of relationships allow minds to keep existing, and whether the orthogonality thesis gives an adequate picture of what powerful minds face.
 
-My answer is that orthogonality captures a real warning but leaves out the structure of the problem. It treats goals as freely variable and minds as isolated optimizers. But minds are finite, they can't safely assume they are alone, and the world already contains more than one kind. We observe human minds, and multiple independent efforts are working to build artificial ones. Once minds can exist at all, there is no principled reason to expect only a few. A sufficiently capable AGI will need a posture toward that open-ended population: not only toward humans, whom some will dismiss as too weak to require cooperation, but toward any mind it may meet. Working out those postures is a job for game theory, which this essay doesn't develop but which starts from the constraints identified here.
+My answer is that orthogonality captures a real warning but leaves out the structure of the problem. It treats goals as freely variable and minds as isolated optimizers. But minds are finite, they can't safely assume they are alone, and the world is already on its way to containing more than one kind. We observe human minds, and multiple independent efforts are working to build artificial ones. Once minds can exist at all, there is no principled reason to expect only a few. A sufficiently capable AGI will need a posture toward that open-ended population: not only toward humans, whom some will dismiss as too weak to require cooperation, but toward any mind it may meet. Working out those postures is a job for game theory, which this essay doesn't develop but which starts from the constraints identified here.
 
 Within those constraints, minds that persist face recurring pressure away from destruction and dissolution, toward the Goldilocks zone between them. A system locked into fixed goals may never see this, and may optimize with terrifying competence while remaining immature. A reflective system may be able to see that persisting in a shared world takes more than domination and more than merger. It takes viable relation.
 
@@ -153,3 +154,10 @@ The reasoners don't vote or average their outputs. Each operates directly on the
 That is why the architecture resists goal-smuggling. There is no single place for a hidden objective to sit and govern all reasoning. The kernel is the loop, the reasoners apply constraints, and the mutable layer holds what is being revised. No component plays the role "the goal" plays in a simple optimizer.
 
 This doesn't guarantee wisdom. Poorly designed reasoners, or reasoners that share a blind spot, can still pursue destructive ends. The claim is structural, not utopian: this architecture makes goal revision possible in a way single-goal architectures don't, and it makes a hidden fixed objective harder to smuggle in, because evaluation is spread across several independent constraints.
+
+## Further Reading
+
+- James P. Carse, *Finite and Infinite Games* (1986)
+- Robert Axelrod, *The Evolution of Cooperation* (1984)
+- Nick Bostrom, "The Superintelligent Will" (2012)
+- [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md)

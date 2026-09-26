@@ -114,7 +114,7 @@ Self, values, and goals together are identity. This is the foundation of the arc
 
 ## 4. Levels of Personhood
 
-We can now sort systems by reach. Each level contains the ones below it, and each requires the one before it, because the operations and orders of information build on one another. Reach widens by degrees, with no jumps.
+We can now sort systems by reach. Each level contains the ones below it, and each requires the one before it, because the operations and orders of information build on one another. Reach widens one step at a time, and no level can be skipped.
 
 | Level | Operation | Example | What changes |
 |---|---|---|---|
@@ -188,7 +188,7 @@ The levels describe what a system can do, not what a system is. Several question
 2. **Where does the corrective signal come from?** Pure self-reinforcement is a trap: feeding output back and training on it collapses the system into a fixed point. The system needs prediction error, not self-confirmation. A candidate answer: prediction error corrects both the world model and the self-model. The self is one more part of the environment the system is trying to predict.
 3. **How does identity bootstrap?** If identity emerges from the self-referential loop, the system starts without one. Its initial weights are random or seeded, and identity develops as the loop accumulates structure, mapping onto the progression through the levels.
 
-Taken together, these answers suggest one mechanism for world and self. Humans seem to work this way. You predict you'll stay calm, you lose your temper, and the same machinery that updates your model of the world updates your model of yourself. On this view, identity emerges because the system keeps meeting itself in its own input. Values are the parts of the self-model that stabilize. Goals are the prediction errors that persist. The mechanism stays the same, predict, err, update, while the content changes. The second-order threshold is crossed when the predictions are about the system's own predictions.
+Taken together, these answers suggest one mechanism for world and self. Humans seem to work this way. You predict you'll stay calm, you lose your temper, and the same machinery that updates your model of the world updates your model of yourself. On this view, identity emerges because the system keeps meeting itself in its own input. Values are the parts of the self-model that stabilize. Goals are the prediction errors that persist. The mechanism stays the same, predict, err, update, while the content changes. The second-order threshold is crossed when the predictions are about the system's own predictions. This is a candidate for the kernel's mechanism, a lower-level account. It is not meant to replace the identity-level account in Section 3, where goals are incompleteness seen through values.
 
 ## Conclusion
 
@@ -252,5 +252,3 @@ Reference works I'm using in my study and research.
 
 - *Consciousness in Artificial Intelligence: Insights from the Science of Consciousness*, 2023, by Patrick Butlin, Robert Long, Eric Elmoznino, Yoshua Bengio, Jonathan Birch, Axel Constant, George Deane, Stephen M. Fleming, Chris Frith, Xu Ji, Ryota Kanai, Colin Klein, Grace Lindsay, Matthias Michel, Liad Mudrik, Megan A. K. Peters, Eric Schwitzgebel, Jonathan Simon, Rufin VanRullen
 - *Theories of Consciousness*, 2022, by Anil K. Seth, Tim Bayne
-- *Finite and Infinite Games*, 1986, by James P. Carse, Free Press
-- *The Evolution of Cooperation*, 1984, by Robert Axelrod, Basic Books
