@@ -13,7 +13,7 @@ blurb: "A search for the computational process behind model creation: how observ
 
 For several years I've been trying to teach AI to do something I can't fully explain, even to myself. I call it **modeling**. The difficulty of explaining it is the problem itself: if I could spell the process out precisely, I could probably build it.
 
-This essay is a research journal, not a finished theory: the ground I've covered, the pieces I think I've found, and the one that still eludes me. I don't think that missing piece is a larger language model. I think it's a process.
+This essay is a research journal, not a finished theory: the ground I've covered, the pieces I think I've found, and the one that still eludes me. I don't think that missing piece is only a larger language model; I think it is also a process around the model.
 
 ## Table of Contents
 
@@ -30,7 +30,7 @@ This essay is a research journal, not a finished theory: the ground I've covered
 
 Every discipline has structure. Science has the scientific method, mathematics has proofs, economics has supply and demand, and software engineering has design patterns and algorithms. Someone had to invent these: to find where one concept ends and another begins, and to decide that certain observations belong together under a new abstraction.
 
-A **model** is a representational structure like these. **Modeling** is the process that creates one before it exists. (I use both terms the same way in [More Better: Modeling and the Frame Problem](frame-problem.md).)
+A **model** is a representational structure like these. **Modeling** is the process that creates one before it exists. Every thought is a model, in the broad sense I use in [More Better](frame-problem.md). What I'm after here is the harder case: **model creation**, building a representation for which no template exists.
 
 Map making is a useful analogy. Walk into unexplored territory and the land could hold anything: mountains, rivers, cities, or nothing. As you explore, the possibilities shrink. You notice patterns, measure, compare, and find relationships, until you step back and see that this isn't a pile of observations. It's a forest. Or a market. Or natural selection. A new category is born, and the map becomes simpler than the territory while keeping what matters. That act is modeling.
 
@@ -46,7 +46,7 @@ This mattered to me: there are endlessly many possible observations, and endless
 
 This led me to what I currently believe is the central structure. Every model is a **bridge**. On one side are observations; on the other, a purpose. The bridge is the abstraction that compresses the observations into a representation useful for that purpose. It is what makes information meaningful.
 
-Some bridges are better than others. They explain more with fewer concepts, compress better, transfer more easily into other minds, or survive criticism longer. Others collapse almost at once. Making sense of anything, on this view, means building bridges and criticizing them.
+Some bridges are better than others. They explain more with fewer concepts, compress better, transfer more easily into other minds, or survive criticism longer. Others collapse almost at once. Making sense of anything, on this view, means building bridges and evaluating them.
 
 There is one more layer. If purposes are endless, how do we choose among them? With **values**. A business can make money through fraud or by creating value; our ethics rule out whole regions of possibility before we start modeling the problem in front of us. Values shape purpose, purpose shapes representation, and representation shapes action.
 
@@ -54,7 +54,9 @@ There is one more layer. If purposes are endless, how do we choose among them? W
 
 For years I've tried to teach language models this process. One experiment used a deliberately underspecified request: *Make me money.*
 
-A thoughtful person sees at once how incomplete that is. Who is asking? How much, and by when? Under what ethical constraints, with what skills and resources, in what country and decade? The request opens into a large modeling exercise. Current language models rarely do this. They answer immediately, jumping to execution before building an adequate representation of the problem. What they lack isn't knowledge or skill at carrying out a plan; it's modeling. Execution is downstream of representation.
+A thoughtful person sees at once how incomplete that is. Who is asking? How much, and by when? Under what ethical constraints, with what skills and resources, in what country and decade? The request opens into a large modeling exercise. Current language models rarely do this on their own. Even when they reason at length, they work inside the frame they're given, heading toward execution before building an adequate representation of the problem. What they lack isn't knowledge or skill at carrying out a plan; it's model creation. Execution is downstream of representation.
+
+That is a narrower gap than it sounds. Inside a frame, language models already create knowledge: they conjecture and evaluate, and with humans supplying and revising the frames, the combined system is already a general intelligence, what I call humans-in-the-loop AGI in [Computer People](computer-people.md). What automated AGI still lacks is the ability to build and revise its own frames. That is model creation, and it is plausibly what online learning plus recursive self-improvement amount to.
 
 The closest architecture I've found is neuro-symbolic AI. The probabilistic side does the observing; the symbolic side supplies structure. Together they resemble the two halves of modeling. I've built several such systems, including Harmoniq Work and Refine, and they work surprisingly well. But they share one limitation: I built the symbolic structure, and the AI only operated inside it. Today's agent frameworks are similar. The harness is fixed, and the model fills in the gaps.
 
@@ -64,7 +66,7 @@ What interests me is the level above the harness. Can a system build the harness
 
 This is where philosophy becomes indispensable. AI research rightly invests in verification: benchmarks, evaluation, ground truth. But verification comes after a model exists. Before it comes concept formation, deciding what things exist and how to carve them up.
 
-Karl Popper's idea of conjectures and refutations has shaped my thinking here. No amount of evidence proves a general explanation true, so progress comes from proposing better explanations and criticizing them hard. Criticism tells us how to weed out bad explanations. It leaves open how we come up with good candidates in the first place. That question is the modeling problem.
+Karl Popper's idea of conjectures and refutations has shaped my thinking here. In a possibility space this large, certainty is out of reach, so progress comes from proposing better explanations and criticizing them hard. That shifts the question: how do we generate better explanations? That is the modeling problem.
 
 ## 6. Reasoning Programs
 
@@ -74,9 +76,9 @@ A reasoning program is a bridge that has become reusable. Later problems can ret
 
 ## 7. Creativity and the Missing Primitive
 
-Here is my boldest conjecture, and the one I'm least sure of: **creativity is the construction of new bridges between observations and purposes.** A system becomes creative when it can change its purposes freely and generate new abstractions that connect them to observations, bridges that then hold up under criticism. Creativity isn't randomness or novelty for its own sake. If the conjecture is right, modeling is the computational process underlying creativity.
+Here is my boldest conjecture, and the one I'm least sure of: **creativity is the construction of new bridges between observations and purposes.** A system becomes creative when it can change its purposes freely and generate new abstractions that connect them to observations. Creativity is successful bridge construction, not randomness or novelty for its own sake. If the conjecture is right, model creation is the computational process underlying creativity.
 
-That leaves the question I can't yet answer: what is the primitive operation beneath all this? I can tell an AI to make observations, build a model, or compare explanations. Telling it to do those things isn't the same as implementing observation, model construction, or comparison.
+That leaves the question I can't yet answer: what is the primitive operation beneath all this? I can tell an AI to make observations, build a model, or compare explanations. Telling it to do those things isn't the same as implementing observation, model creation, or comparison.
 
 I suspect there is a smaller computational process underneath: something recursive and reusable, a primitive that generates reasoning programs the way reasoning programs generate models. I suspect today's language models already hold nearly all the knowledge needed to run it. What they lack is the process.
 
@@ -84,4 +86,4 @@ I suspect there is a smaller computational process underneath: something recursi
 
 If this primitive exists, it would change how we think about intelligence. Today's AI systems execute remarkably well inside representations someone else built. I think the frontier is shifting from execution to representation: building better models, better abstractions, better bridges.
 
-Perhaps this process is the missing ingredient for recursive scientific discovery, or for recursive self-improvement. Perhaps it underlies creativity itself. I don't know; it remains a conjecture. But until I either find the primitive or show that it can't exist, I won't be satisfied. That has become the research.
+Perhaps this process is the missing ingredient for recursive scientific discovery, or for recursive self-improvement. Perhaps it is the algorithm underlying creativity itself. I don't know; it remains a conjecture. But until I either find the primitive or show that it can't exist, I won't be satisfied. That has become the research.

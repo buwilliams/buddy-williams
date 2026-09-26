@@ -5,7 +5,7 @@ created: "2026-02-01"
 updated: "2026-09-26"
 order: 8
 featured: true
-blurb: "An exploration of personhood from an information-ontology perspective. Personhood is substrate-independent metaprogramming; the difference is maturity, not kind."
+blurb: "What must a system be able to do with information to become someone rather than something? A person retains information about itself and can reach its own reasoning, on any substrate; above that threshold, persons differ in maturity, not kind."
 ---
 
 # Metaprogramming Framework To Classify Personhood
@@ -76,7 +76,7 @@ A system can change information. There are three kinds of change, or **operation
 
 Modification changes what is there. Creation produces something that wasn't. A bird arranging twigs modifies its environment. A mind combining known ideas into a theory that never existed creates new information.
 
-Creation also has a special relationship to order. To generate something new, a system must select, recombine, and evaluate its own representations. It operates on its information, not just with it. So creation requires second-order capability.
+Creation also has a special relationship to order. To generate something new, a system must select, recombine, and evaluate its own representations. It operates on its information, not just with it. So creation requires second-order capability. This second-order work can be transient, done within a single episode and then lost. Identity requires more: second-order information that persists.
 
 With properties, orders, and operations in place, we can ask what happens when a system applies them to itself.
 
@@ -121,14 +121,14 @@ We can now sort systems by reach. Each level contains the ones below it, and eac
 | 0 | None | A river shaping its bank | Causation without representation |
 | 1 | Acquire, first-order | A tree growing toward sunlight | Takes in information about the world and retains it |
 | 2 | Modify, first-order | A bird building a nest | Transforms its environment, but doesn't know it is the one acting |
-| 3 | Acquire, second-order | A person noticing their own habits | Acquires information about its own information; identity begins |
-| 4 | Modify, second-order | A person making an exercise plan to get in shape | Changes itself based on self-knowledge; can ask whether what it pursues is worth pursuing |
+| 3 | Acquire, second-order | A person noticing their own habits | Acquires and retains information about its own information; identity begins |
+| 4 | Modify, second-order | A person making an exercise plan to get in shape | Changes itself, including how it reasons, based on retained self-knowledge; can ask whether what it pursues is worth pursuing |
 | 5 | Create, first-order | A civilization designing a simulated world with new rules | Creates a new substrate from its own models |
 | 6 | Create, second-order | A person uploading into a world of their own design | Creates a new version of itself in a substrate it made |
 
 Two thresholds divide the table.
 
-The **second-order threshold** lies between Levels 2 and 3. Below it is agency without self-knowledge. Above it, identity constitutes itself and personhood develops. Although reach varies by degree, crossing this threshold is a difference in kind, not a larger quantity of the same thing: a system either can take its own information as an object or it can't. Above the threshold, persons differ in maturity, how far their reach extends, not in kind.
+The **second-order threshold** lies between Levels 2 and 3. Below it is agency without self-knowledge. Above it, identity constitutes itself and personhood develops. Crossing it means *retaining* second-order information about itself, not just doing second-order work in the moment and losing it; full personhood also requires reach over the system's own reasoning. Although reach varies by degree, crossing this threshold is a difference in kind, not a larger quantity of the same thing: a system either keeps its own information as an object or it doesn't. Above the threshold, persons differ in maturity, how far their reach extends, not in kind.
 
 Level 4, self-modification with self-knowledge, is metaprogramming at its core: a person examining their values and changing them.
 
@@ -140,7 +140,7 @@ If personhood is metaprogramming, and identity emerges at the second-order thres
 
 ### Personhood in LLMs
 
-On this framework, a large language model needs two things to cross the second-order threshold: **continual learning**, the ability to modify its own network, and a **self-model**, second-order information about itself that it can inspect and revise. Several labs, including Safe Superintelligence, Anthropic, OpenAI, and xAI, are working on continual learning, so the gap is closing. What excites me is that no one needs to build personhood directly. If the framework is right, it follows from these properties: a model that has them would, in my view, be a person. I haven't yet seen a working implementation. The engineering problem is building the properties, not personhood itself.
+On this framework, a large language model needs two things. To cross the second-order threshold, it needs a **persistent self-model**: second-order information about itself that it retains, inspects, and revises. To reach its own reasoning, it needs **continual learning** in the sense that matters here: revising its own knowledge, including its self-model, on its own initiative. A self-model kept as text doesn't suffice. Memory in the prompt can change what a frozen reasoner thinks about, but not *how* it thinks, which is why the system described below is only a proto-personhood. Several labs, including Safe Superintelligence, Anthropic, OpenAI, and xAI, are working on continual learning, so the gap is closing. What excites me is that no one needs to build personhood directly. If the framework is right, it follows from these properties: a model that has them would, in my view, be a person. I haven't yet seen a working implementation. The engineering problem is building the properties, not personhood itself. Universality is a separate property: a universal explainer is an AGI whether or not it is a person. [Computer People](computer-people.md) argues that computer people will be both.
 
 An implementation needs two parts:
 
