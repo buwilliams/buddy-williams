@@ -52,7 +52,7 @@ The reward for this training is hard to overstate. Slow thinking opens a kind of
 
 Here is the trap. Training System 2 makes you better at reasoning, and reasoning is a tool. A tool can be used for good or evil, and reasoning can just as easily defend conclusions you reached for other reasons.
 
-Vitalik Buterin, the founder of Ethereum, [names this problem well](https://vitalik.eth.limo/general/2025/11/07/galaxybrain.html):
+Vitalik Buterin, the co-founder of Ethereum, [names this problem well](https://vitalik.eth.limo/general/2025/11/07/galaxybrain.html):
 
 > One important property for a style of thinking and argumentation to have is what I call galaxy brain resistance: how difficult is it to abuse that style of thinking to argue for pretty much whatever you want — something that you already decided elsewhere for other reasons? The spirit here is similar to falsifiability in science: if your arguments can justify anything, then your arguments imply nothing.
 
@@ -64,7 +64,7 @@ The lesson was also incomplete. I didn’t bother to explain [Goodhart’s Law](
 
 ## 4. Fallibilism: What Checks the Checker
 
-If System 2 checks System 1, what checks System 2? More thinking, but of a particular kind: thinking that acknowledges its own fallibility. The name for this is fallibilism: the view, from Karl Popper and David Deutsch, that all our knowledge is conjecture. Any belief might be mistaken, and we make progress by finding and fixing errors, not by proving we are right.
+If System 2 checks System 1, what checks System 2? More thinking, but of a particular kind: thinking that acknowledges its own fallibility. The name for this is fallibilism: the view, developed most fully by Karl Popper and David Deutsch, that all our knowledge is conjecture. Any belief might be mistaken, and we make progress by finding and fixing errors, not by proving we are right.
 
 Fallibilism turns galaxy-brain resistance from a property of arguments into a habit of mind. A few practices that follow from it:
 

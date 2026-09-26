@@ -101,10 +101,10 @@ Watch out for arguments that only look valid. “All cats are animals, so all an
 
 ## 4. The Kinds of Reasoning
 
-**Deduction** [from general to particular] gives certainty, if the premises are true.
+**Deduction** [reasoning where the conclusion must be true if the premises are] gives certainty, if the premises are true.
 (All phones need batteries. My iPhone is a phone. So my iPhone needs a battery.)
 
-**Induction** [from particular to general] gives likelihood, not certainty.
+**Induction** [expecting unobserved cases to resemble observed ones] gives likelihood, not certainty.
 (My dog has barked at the mail carrier every day this week, so he’ll probably bark tomorrow.)
 
 **Abduction** [reasoning to the best explanation] proposes what might explain what we see.

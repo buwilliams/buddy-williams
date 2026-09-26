@@ -38,7 +38,7 @@ Our mental models behave much like those trails. A belief that pays off gets rei
 
 The cognitive scientist Donald Hoffman argues that evolution tunes perception for fitness, not accuracy. A creature that sees only what is useful can outcompete one that sees reality in more detail than it needs.
 
-Beliefs were shaped the same way. Ancestors whose beliefs kept them alive passed those beliefs on, accurate or not. So it helps to separate two things we usually lump together:
+Beliefs were shaped the same way. Ancestors whose ways of forming beliefs kept them alive passed those tendencies on, and their cultures passed on the beliefs themselves, accurate or not. So it helps to separate two things we usually lump together:
 
 - **Utility**: does this belief get results?
 - **Truth**: does this belief match reality?
@@ -73,7 +73,7 @@ So why is it so hard to change a mind? Because minds were built to keep what wor
 
 This has changed how I approach disagreement. Winning the argument rarely matters. What matters is planting a seed: an idea that is already there when someone’s old model stops working. I can’t choose when that happens for anyone else. I can make sure a better explanation is waiting.
 
-How the seed is offered matters too. History is hard on pioneers. Alan Turing and Kurt Gödel answered two of the deepest questions in mathematics, and both suffered terribly at the hands of the societies around them. But some pioneers found a shield. Galileo framed disruption as dialogue. Richard Feynman used humor. Carl Sagan wrapped truth in wonder. Each offered truth in a form people could take in, even when it undercut what they believed.
+How the seed is offered matters too. History is hard on pioneers. Alan Turing answered one of the deepest questions in mathematics and was prosecuted by the country he helped save. But some pioneers found a shield. Richard Feynman used humor. Carl Sagan wrapped truth in wonder. Each offered truth in a form people could take in, even when it undercut what they believed.
 
 It has also changed how I read my own discomfort. When the world stops fitting my model, that isn’t failure. It may be a sign that truth is near. [Cyclic Rationality](cyclic-rationality.md) is my attempt at a method for going looking before the failure arrives.
 

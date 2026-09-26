@@ -55,7 +55,7 @@ I suspect this is one of the most underexamined divides in public life, deeper t
 
 I am a fallibilist. Knowledge claims are conjectural, incomplete, and open to revision, and no model commands final authority. I take this from the critical rationalism of Karl Popper and David Deutsch.
 
-Imre Lakatos added something the Explorer needs: no single experiment kills a theory. A research program has a hard core its practitioners protect, surrounded by auxiliary assumptions that flex under pressure. Over time a program is judged progressive or degenerating by whether it keeps producing new predictions. So inherited models are not idols to be smashed by one counterexample. They are working programs to be carried, tested, extended, and replaced when something better comes along.
+Imre Lakatos added something the Explorer needs: no single experiment kills a theory. A research program has a hard core its practitioners protect, surrounded by auxiliary assumptions that flex under pressure. Over time a program is judged progressive or degenerating by whether it keeps predicting novel facts that turn out to be true. So inherited models are not idols to be smashed by one counterexample. They are working programs to be carried, tested, extended, and replaced when something better comes along.
 
 For me, then, open-mindedness is neither credulity nor relativism. I welcome other people’s models. I listen carefully, argue seriously, and adopt what looks like the best explanation at the time, using logic, criticism, probability, systems thinking, and evidence. But a sure way to provoke my resistance is to insist that I live inside someone else’s model. I will inhabit it long enough to understand it, but not so long that I forget how to leave.
 
@@ -95,7 +95,7 @@ This is not permissiveness. It replaces arbitrary authority with structure a chi
 
 ## 6. Personhood and the Capacity to Revise
 
-The posture reaches all the way to what a person is. In [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md), I argue that personhood emerges when a system operates on its own information: identity arises from finitude, values from persistence, and goals from incompleteness. The framework doesn’t depend on substrate. On that view, a person is not the current contents of a model, nor obedience to a fixed authority. A person is a system that can revise its own maps.
+The posture reaches all the way to what a person is. In [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md), I argue that personhood emerges when a system operates on its own information: a self arises from finitude, values from persistence, and goals from incompleteness seen through those values. The framework doesn’t depend on substrate. On that view, a person is not the current contents of a model, nor obedience to a fixed authority. A person is a system that can revise its own maps.
 
 This is why fallibilism is more than an epistemology for me. It is an architecture for agency. A mind grows more alive as it becomes able to notice the models it inhabits, criticize them, and revise itself without dissolving into chaos. Thinking, in this sense, is not rule-following but metaprogramming: reflecting on and rewriting one’s own models.
 

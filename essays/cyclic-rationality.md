@@ -30,7 +30,7 @@ But prediction can only work with possibilities we have already imagined. This e
 
 ## 1. The Problem: Closed Minds
 
-The idea came to me while reading *Bernoulli's Fallacy* by Aubrey Clayton. I had started to see a problem in how the rationalist community thinks. Effective Altruism, LessWrong, AI safety researchers, and the existential- and suffering-risk communities were making grand projections, especially about AI, that didn't add up.
+The idea came to me while reading *Bernoulli's Fallacy* by Aubrey Clayton. Clayton shows that probability is only as good as the hypotheses and background information you bring to it. If you haven't imagined the right possibility, no amount of careful updating will find it. I had started to see a problem in how the rationalist community thinks. Effective Altruism, LessWrong, AI safety researchers, and the existential- and suffering-risk communities were making grand projections, especially about AI, that didn't add up.
 
 Closer to home, when I shared exploratory ideas with peers, I got blank faces and narrow, closed questions. Why couldn't they see what I was seeing?
 
@@ -92,7 +92,7 @@ I began by asking why my peers couldn't see what I was seeing. My answer is that
 
 Two practices follow. When you meet someone you disagree with, perhaps someone who seems a bit woo-woo, exercise your imagination before you judge. In my experience I often disagree with their methods, but I find real insight in their conclusions surprisingly often.
 
-And when you think about the future, use your imagination to design inspiring visions, not only to quantify likely ones. I find it more inspiring to be a pioneer than a mere explorer, and we really can be both.
+And when you think about the future, use your imagination to design inspiring visions, not only to quantify likely ones. I find it more inspiring to be a pioneer than a mere forecaster, and we really can be both.
 
 > If understanding is prediction, then imagination is the courage to predict the impossible.
 
