@@ -4,7 +4,7 @@ status: "Final"
 created: "2026-08-01"
 updated: "2026-09-26"
 order: 0
-blurb: "Modern science leans hard on formalism, and it works, but there is a reason why language evolved before mathematics. An argument for a return to meaning, emergence, and abduction—that the philosophy-versus-formalism tension is a historical phase transition rather than an eternal opposition."
+blurb: "Modern science leans hard on formalism, and it works. But language came before mathematics for a reason. Why meaning, emergence, and abduction are coming back, not in place of formalism but after it."
 ---
 
 # A Return to Meaning
@@ -123,7 +123,7 @@ A pattern that exists only in the interaction between parts, and in no part by i
 
 This is why the frame question can't be answered by computing harder. More precision inside a frame will never tell you the frame is wrong. That information isn't in there.
 
-So how does anyone get a new frame? Not by deduction, which works out what follows from what you already hold. Not by induction, which expects an observed pattern to continue. The move is a third one: proposing the best available explanation before the evidence is in, then testing it. That is **abduction**, and it is close to what Popper called conjecture. A doctor facing symptoms that match no familiar disease does it. So does a mechanic hearing an unfamiliar noise, or a detective with too few facts. Each proposes a frame and tests it against what happens next. Nearly everyone does this constantly, and almost nobody has a name for it, which is itself a sign of how far this layer was pushed out of view.
+So how does anyone get a new frame? Deduction works out what follows from what you already hold. Induction extends the regularities you've already seen, and most of what we know rests on it. But a new frame needs a third move: proposing the best available explanation before the evidence is in, then testing it. That is **abduction**, and it is close to what Popper called conjecture. A doctor facing symptoms that match no familiar disease does it. So does a mechanic hearing an unfamiliar noise, or a detective with too few facts. Each proposes a frame and tests it against what happens next. Nearly everyone does this constantly, and almost nobody has a name for it, which is itself a sign of how far this layer was pushed out of view.
 
 It is tempting to think machines will automate the problem away: a system good enough at calculation might pick its own frames as a side effect. But logic decides nothing on its own. Anything that acts must act on values, and values are what say which frame is worth having. A machine that can choose frames is a machine with something to care about. That doesn't retire the problem of meaning. It gives the problem another mind to live in, and then many, each with its own reading of what matters.
 

@@ -4,7 +4,7 @@ status: "Final"
 created: "2026-04-01"
 updated: "2026-09-26"
 order: 4
-blurb: "A computer is any physical system capable of implementing universal logic, not a silicon machine. Causal closure is real but local — and physicalism's claim to fundamentality is an unjustified projection from inside a closed system."
+blurb: "A computer is any physical system that can run universal logic, not just a silicon machine. If our world could be running inside a larger one, the physics we see is local, and treating it as the bottom layer may be a mistake."
 ---
 
 # What Is a Computer?
@@ -108,6 +108,8 @@ So computation is the **invariant** across nested worlds. Not matter, not energy
 
 If **physicalism**, the view that everything is fundamentally physical, were the deepest account of reality, we would expect what is most basic to be tied to one set of physical laws. Instead we find a property that each world's physics supports but none defines. A physicalist can reply that arithmetic works the same with pebbles or fingers. True, but that grants the point: something real is fixed by logical structure rather than by any particular physics.
 
+This much is not new. David Deutsch treats computation as physical: every computation is carried out by some physical system, and the laws of physics decide what can be computed. Functionalists in philosophy of mind already accept that the same computation can run on different materials. I don't deny that each realization of a computation is physical. What I deny is that our physics is the only possible host of universality, or the bottom of the stack.
+
 My conjecture is that this is what we should expect if computation is what every world in the stack has in common. The invariant isn't matter. It is the logical structure of information and its operations. (Section 6 asks whether that makes information more fundamental than matter. My answer is more cautious.)
 
 ## 4. Local Physicalism
@@ -122,7 +124,7 @@ The usual objection is that this is like solipsism: irrefutable and useless, so 
 
 That objection is pragmatic, not ontological. "I can't learn from that, so I'll focus on my local reality" is a sensible research strategy. It isn't a claim about what is fundamental. Every chain of explanation either regresses forever, stops at a brute fact, or loops. Physicalism stops at a brute fact: these laws just are. The possibility of containing worlds regresses. Neither is more satisfying as a final foundation; they put the mystery in different places. Saying "local reality is fundamental because it's where I focus" assumes the very thing in question.
 
-The argument also differs from solipsism in what it explains. Solipsism explains nothing. Epistemic containment explains why every observer, contained or not, would find their physics closed and see no direct sign of a containing world. The missing evidence is predicted by the view rather than an embarrassment to it. It cannot be refuted by observation from inside, but it can be criticized as an explanation, and information from a containing world could, in principle, get through. It is also consistent with what we see: wherever we build a world that can host computers, universal computation carries over unchanged.
+The argument also differs from solipsism. Solipsism predicts nothing. Epistemic containment makes a structural prediction: every observer will find their physics closed and see no direct sign of a containing world. The missing evidence is predicted, not an embarrassment. The prediction could in principle fail, if information from a containing world got through. And there is positive evidence already: wherever we build a world that can host computers, universal computation carries over unchanged. That is a structural signature of what stays the same across worlds.
 
 Then there is the burden of proof. "We are the base layer" is a positive claim. What property does our world have that no containing world could have? "We might not be the base layer" needs only the observation that nothing rules it out and everything about universal computation is consistent with it. Our world already supports nested worlds with their own local rules. Assuming the capacity to host worlds begins with us needs a justification I haven't seen.
 
@@ -134,7 +136,7 @@ This argument has a companion in the structure of explanation itself, which I de
 
 That essay argues that explanatory layers exist because finite minds can't reason over uncompressed reality, and because going downward doesn't lead to simpler, separable pieces. It leads toward holism: the lower the level, the more of reality you have to carry along. A weather forecast doesn't improve by tracking every air molecule, and an explanation of grief doesn't improve by listing every neuron that fires. Higher-level explanations work through **managed disconnection**: deliberately setting aside relations that don't matter to the phenomenon while keeping those that do.
 
-That makes physicalism local in a second sense. It describes the rules of a particular world, and it also works at a particular explanatory layer. The physicist's account of molecular interactions is itself a managed disconnection: it works because most of the connectedness has been screened off, and that screening is something a mind does, not the discovery of a bottom layer. The reductionist instinct that deeper always means more fundamental is the same instinct that makes physicalism feel like the final word. Higher-level explanations, including informational ones, aren't convenient summaries of a more basic physical story. They are the forms in which a deeply connected reality becomes intelligible to finite knowers.
+That makes physicalism local in a second sense: its explanatory primacy is local too. It describes the rules of a particular world, and it also works at a particular explanatory layer. The physicist's account of molecular interactions is itself a managed disconnection: it works because most of the connectedness has been screened off, and that screening is something a mind does. The reductionist instinct that deeper always means more explanatory is the same instinct that makes physicalism feel like the final word. Higher-level explanations, including informational ones, aren't convenient summaries of a more basic physical story. They are the forms in which a deeply connected reality becomes intelligible to finite knowers.
 
 ## 6. Substrate and Program
 

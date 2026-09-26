@@ -4,7 +4,7 @@ status: "Final"
 created: "2026-04-01"
 updated: "2026-09-26"
 order: 3
-blurb: "A metaphysical position grounded in the nested computers we already build and inspect: computation has more explanatory reach than physicalism, accounting for why a closed causal system with observers exists at all."
+blurb: "A bolder conjecture built on What Is a Computer?: computation reaches further than physicalism, explaining why a world's rules feel necessary and closed to the observers inside it, whether or not that world is fundamental."
 ---
 
 # Computation Conjecture
@@ -15,7 +15,9 @@ My children love Minecraft. Some players have built working computers inside it,
 
 People disagree deeply about what reality is made of. For some, matter is all there is. For others, mind is fundamental. For others still, God answers the final question. I want to offer a position that can make room for all three, and I want to build it from something ordinary: the computers we already make, run, and inspect.
 
-I call it the **Computation Conjecture**. A conjecture is a bold guess, offered for criticism. This one says that computation has more explanatory reach than physicalism. Physicalism describes the rules of our world well. Computation also explains how a world with its own rules and its own observers can exist at all, and how such worlds can host one another.
+I call it the **Computation Conjecture**. A conjecture is a bold guess, offered for criticism. This one says that computation has more explanatory reach than physicalism. Physicalism describes the rules of our world well. Computation also explains why a world's rules feel necessary and closed to the observers inside it, whether or not that world is fundamental, and how such worlds can host one another.
+
+This essay builds on [What Is a Computer?](what-is-a-computer.md), which makes the cautious case: a closed physics is not evidence of a fundamental one, and from inside we can't tell whether our world is contained by another. Here I go further, as a bolder conjecture about what is fundamental.
 
 The path goes like this. First, a few thinking tools. Then what computers teach us: they can nest, they can host observers, and those observers experience their rules as physics. Then I turn the argument around and ask what stops the nesting from going up as well as down. Finally, I compare computation with physicalism and God as candidates for what is fundamental.
 
@@ -39,7 +41,7 @@ An **explanatory layer** is a level of description matched to a question. Thermo
 
 A **perspective layer** is the viewpoint of an observer. Imagine a character inside Pong: it sees physics. The player sees a game. The programmer sees code. The same system reads differently depending on where you stand.
 
-A **substrate layer** is what something else depends on to exist. Energy is a substrate for humans; the electrical grid is a substrate for our homes. We can go deeper: humans exist atop matter, so matter is a substrate too. The thing to notice is the dependency. Whatever sits atop a substrate cannot exist without it. This is the layer that matters most for what follows.
+A **substrate layer** is the medium something runs on and cannot exist without. Energy is a substrate for humans; the electrical grid is a substrate for our homes. We can go deeper: humans exist atop matter, so matter is a substrate too. The thing to notice is the dependency. This is the layer that matters most for what follows.
 
 ## 2. Computers Inside Computers
 
@@ -55,11 +57,13 @@ Three lessons follow.
 
 **A program can be a computer.** Minecraft is a program, and it contains a working processor.
 
-**Computation is substrate independent.** Computers don't need silicon. They have been built from water and pipes, dominoes, and gears. What makes a mechanical computer and an electrical one both computers is the same thing: logical information processing. From here on I'll call that **computation**. The information is what stays constant across these implementations, so the deeper substrate of computation is information, not any particular material.
+**Computation is substrate independent.** Computers don't need silicon. They have been built from water and pipes, dominoes, and gears. What makes a mechanical computer and an electrical one both computers is the same thing: logical information processing. From here on I'll call that **computation**. What stays constant across these implementations is the logical structure of information processing, not any particular material.
 
 **Hosting and nested computers can exchange information.** A hosting computer can read and change the programs it runs. A nested program can watch for changes and respond. So two-way communication between layers is possible. Possible, not guaranteed. This will matter later.
 
-A note for the physicalist. None of this is a thought experiment. The game your children play contains a working processor, and that processor is physical. If you take the physical seriously, you already take nested computation seriously, because it is part of the physical world. The rest of this essay asks what follows from that fact.
+A note for the physicalist. None of this is a thought experiment. The game your children play contains a working processor, and that processor is physical. If you take the physical seriously, you already take nested computation seriously, because it is part of the physical world.
+
+Nor is substrate independence itself new. David Deutsch treats computation as physical: every computation is carried out by some physical system. Functionalists in philosophy of mind already accept that the same computation can run on different materials. I agree that every computer we have built is physical. What I deny is narrower: that *our* physics is the only possible host of universality, or the bottom of the stack. The rest of this essay asks what follows.
 
 ## 3. Simulations and Observer Locality
 
@@ -89,7 +93,7 @@ This closes a gap in the previous section. The observer is not a mysterious extr
 
 ## 5. Closed Causal Systems
 
-We need a name for what a simulation is from the inside. I'll call it a **closed causal system**: a ruleset in which every event can be explained by the rules acting on the current state. Pong is one. The ball bounces off the paddle because the program says it does. The player's button press comes from outside, but it enters only through the program's rules, and from inside it is just another event those rules process. From inside Pong, there is no outside.
+We need a name for what a simulation is from the inside. I'll call it a **closed causal system**: a ruleset in which every event follows from the rules acting on the current state, absent input from outside. Pong is one. The ball bounces off the paddle because the program says it does. The player's button press is different. It comes from outside, and it is a real opening in the system: from inside, the paddle simply moves, and nothing in the rules explains why. A host changing the rules mid-game would look the same way. So a closed causal system is closed only while nothing arrives from outside, and when something does, it shows up inside as an event the rules can't account for.
 
 Mechanically, this is what a program is: a loop that reads state, applies rules, updates state, catches errors, and runs again. The rules are the program's physics. The loop is its time. The state is its matter.
 
@@ -99,7 +103,7 @@ Apply this to our own universe. At the scales we live in, it behaves as a closed
 
 So the fact that our physics feels necessary is not evidence that it is fundamental. It is exactly how physics would feel to anyone inside a closed causal system.
 
-I want to be careful here. I'm not claiming we are in a simulation. I'm claiming that the category "closed causal system with consistent rules that supports observers" includes both programs and our universe. I conjecture that this shared structure is not a coincidence, and that it is what makes worlds with observers possible at all.
+I want to be careful here. I'm not claiming we are in a simulation. I'm claiming that the category "closed causal system with consistent rules that supports observers" includes both programs and our universe. I conjecture that this shared structure is not a coincidence, and that it may be part of what makes worlds with observers possible.
 
 Observer locality applies to time too. If a hosting computer runs slowly, the simulation it runs is slow from the host's perspective. But inside the simulation, time feels normal. A Minecraft computer running at a thousandth of its host's speed still takes its own tick as the basic unit of time. The observer inside has no access to the host's clock. Time inside a closed causal system is always measured by that system's own processing.
 
@@ -111,15 +115,17 @@ Now turn the argument around. (I'll call a world contained by nothing the base l
 
 I don't know of one, and I think the reason is structural. The observer locality that keeps a character in Pong from detecting the Atari cabinet would keep us from detecting a hosting layer, if one exists. From inside a closed causal system, the system looks fundamental. So when we see consistent physics, supporting observers, with no detectable leaks, we are seeing what an observer inside any closed causal system would see. That tells us we are inside a closed causal system. It says nothing about whether we are at the base or anywhere in particular.
 
-Consider what it would take to prove our layer is the base. You would need an experiment that detects the *absence* of a hosting layer. But every experiment we can run is run from inside, with the system's own instruments, producing results by the system's own rules. A hosting layer could reveal itself by passing information down; its absence could never be confirmed from inside. This is not a technological limit. The observer in Pong can't build an instrument that detects the missing Atari, not because the instrument is hard to build, but because every instrument it builds is made of Pong.
+Consider what it would take to prove our layer is the base. You would need an experiment that detects the *absence* of a hosting layer. But every experiment we can run is run from inside, with the system's own instruments, producing results by the system's own rules. A hosting layer could reveal itself by passing information down, which from inside would look like an event our rules can't explain, as the button press does in Pong. But finding no such events could never confirm the host's absence, because a host need not intervene. This is not a technological limit. The observer in Pong can't build an instrument that detects the missing Atari, not because the instrument is hard to build, but because every instrument it builds is made of Pong.
 
 Here is the symmetry. Looking down, we see nested computation. We build it and watch it work. Looking up, we see our own closed causal system with consistent rules. The structure on both sides matches. To say nesting is real going down but impossible going up is to give our layer a special status without an argument. That's a preference, not a principled position. Symmetry should be the default until someone gives a reason to break it, and the burden falls on whoever wants to stop the graph at our layer.
 
+The symmetry isn't perfect. Each nested layer runs on its host's resources, so a stack shrinks going down, and an endless stack going up would need ever-larger hosts. That counts against an endless stack above us. It doesn't count against there being a host above us, and it says nothing about whether our layer is the base.
+
 The strongest physicalist reply is parsimony: stopping at our layer keeps the picture simple, while positing layers we can't observe multiplies entities. I take this seriously, but I think it cuts the other way. Nested computation isn't posited from nothing. We have built it, inspected it, and seen that the pattern has no natural stopping point. The graph view extends a pattern we already verify. The physicalist view claims an exception to that pattern, that our layer alone is the base, without evidence for the exception. Parsimony favors the pattern.
 
-So we arrive at a graph. Computation nests downward without a principled limit, and nothing we can observe caps it upward. My conjecture is that reality is best modeled as a rootless, unbounded **graph** of closed causal systems, each with observers who experience their local rules as physics. Some systems host others; some are hosted. Every observer sits somewhere in the graph and can't see past their own layer except where information is passed to them.
+So we arrive at a graph. Computation nests downward without a principled limit, and nothing we can observe caps it upward. My conjecture is that reality is better modeled as a **graph** of closed causal systems than as a line with us at the bottom. Each system has observers who experience their local rules as physics. Some systems host others; some are hosted. Whether the graph has a root, or ends anywhere, can't be checked from inside, so the conjecture doesn't assert either. Its default is that no node is special. Every observer sits somewhere in the graph and can't see past their own layer except where information is passed to them.
 
-This is the claim I'm asking you to take seriously. Not that we are simulated. Not that we aren't. But that reality is better pictured as a graph than as a line with physical matter at the bottom, and a graph has no special nodes unless someone gives a reason.
+This is the claim I'm asking you to take seriously. Not that we are simulated. Not that we aren't. But that reality is better pictured as a graph than as a line with us at the bottom, and that by default no node in it is special.
 
 ## 7. Why Computation Reaches Further Than Physicalism
 
@@ -127,31 +133,33 @@ We began with a question about what is fundamental. Three candidates compete: Go
 
 Each runs into a regress. God explains God; the chain stops with the divine, by fiat. Physicalism explains physicalism; matter is what there is, and asking what lies beneath it is treated as a confused question. Computation faces the same challenge: what runs the computation? If the answer is "another layer of computation," we have a regress too.
 
-The difference is how each handles it. God and physicalism stop the regress by decree. Computation treats it as structure. The graph has no root because nothing in the view requires one. A computational world is defined by its rules and its observers, not by its position in a hierarchy. The regress isn't a flaw in the view. It is the shape of reality under the view.
+The difference is how each handles it. God and physicalism stop the regress by decree. Computation doesn't stop it either. It places the regress in a pattern we can observe: hosts running worlds that host worlds, which we build and inspect every day. That is a modest advantage, not a win. On the regress itself, I call it a draw; every fundamental account leaves something unexplained. The case for computation has to rest on what it positively explains.
 
-That brings us to the thesis: **computation has more explanatory reach than physicalism.** By reach I mean, following Deutsch, an explanation's ability to account for more than it was designed to explain, using mechanisms it already contains.
+That brings us to the thesis: **computation has more explanatory reach than physicalism.** By reach I mean a framework's ability to explain what other frameworks can't, using mechanisms it already contains.
 
-Physicalism explains our local rules, and it does so well: how a ball moves, how a star burns, how a cell divides. What it doesn't explain is why there is a closed causal system at all, why that system supports observers, why its rules hang together, or why observers inside experience those rules as necessary. Its answer is some version of "that's just how it is." That's not an explanation; it's a full stop.
+Physicalism explains our local rules, and it does so well: how a ball moves, how a star burns, how a cell divides. What it can't explain is why its own closure and necessity should count as evidence that it is fundamental. It takes the sense that "that's just how it is" as a finding about reality.
 
-The Computation Conjecture offers an explanation for each. If our universe is the kind of thing we've been describing, then closed causal systems exist because they are programs. They support observers because observers are computational patterns inside the program. The rules feel necessary because of observer locality. We see no leak to a higher layer because a hosting layer need not pass information down. And nesting is an observed phenomenon, not a puzzle. These explanations use only mechanisms we already know, from systems we build, watch, and spend part of our lives inside. The "if" matters: this is a conjecture about our universe, supported by structural resemblance, not a proof.
+The Computation Conjecture explains that sense. Closed causal systems are something we know how to build. Observers inside them are computational patterns, and observer locality means they experience their rules as necessary and closed whether or not anything contains them. We see no leak to a higher layer because a hosting layer need not pass information down. So our sense that physics is necessary and closed is just what the conjecture predicts, and it is not evidence that physics is fundamental. These explanations use only mechanisms we already know, from systems we build, watch, and spend part of our lives inside.
+
+The view also reframes deeper questions it doesn't fully answer. Why is there a closed causal system at all? Why does it support observers? Why do its rules hang together? Physicalism treats these as brute facts. The conjecture turns them into questions about hosts and programs, the kind we already ask about worlds we build. Whether that is progress or only moves the mystery up a layer is what the regress leaves open. This is a conjecture about our universe, supported by structural resemblance, not a proof.
 
 Physicalism isn't wrong. It is a correct description of our layer. If we live in a computational world, physicalism is simply the ruleset of our program. It stays true. It stops being fundamental. So I propose computation, not physicalism, as the base assumption: not as a certainty, but as the better starting point, one that includes physicalism as a local description and reaches further.
 
-At the start I said I wanted to make room for matter, mind, and God. Here is how the conjecture does it. Matter is the substrate of our layer, real and binding for us. Mind is the second-order pattern, information turned inward, that becomes a person able to observe, reason, and create. God is not fully addressed. The question of the divine is located within the regress, because every fundamental account, computation included, faces the question of what explains it. The conjecture treats that regress as structure rather than scandal. Whether anything lies beyond the graph is a question it leaves open.
+At the start I said I wanted to make room for matter, mind, and God. Here is how the conjecture does it. Matter is the substrate of our layer, real and binding for us. Mind is the second-order pattern, information turned inward, that becomes a person able to observe, reason, and create. God is not fully addressed. The question of the divine is located within the regress, because every fundamental account, computation included, faces the question of what explains it. The conjecture doesn't escape that regress; it places it in a pattern we can observe. Whether anything lies beyond the graph is a question it leaves open.
 
 ## Conclusion
 
 What is reality, at bottom? My answer is that it is best modeled as a graph of nested closed causal systems. Simulation theory is one possible instance of this view, not the view itself.
 
-We have no access to any world that might contain ours. But we can learn about containing worlds by being one. We host simulations and study what holds across those layers: observers, rules, closed causality, substrate independence, nesting. Those same properties hold in our own world. That is not proof, but it is the kind of reason a fallibilist takes seriously. Computation doesn't refute physicalism; it places physicalism as the ruleset of our layer in a graph with no root. Anyone who wants to stop the graph at our layer owes an argument, and I have not yet seen one.
+We have no access to any world that might contain ours. But we can learn about containing worlds by being one. We host simulations and study what holds across those layers: observers, rules, closed causality, substrate independence, nesting. Those same properties hold in our own world. That is not proof, but it is the kind of evidence a fallibilist takes seriously. Computation doesn't refute physicalism; it places physicalism as the ruleset of our layer in a graph where no node is special. Anyone who wants to stop the graph at our layer owes an argument, and I have not yet seen one.
 
-I began by saying that computers hold a lesson about the nature of reality. I now think they are the clearest view we have of what reality might be: nested, rule-bound, full of observers, and unbounded. The lessons are already in our hands.
+I began by saying that computers hold a lesson about the nature of reality. I now think they are the clearest view we have of what reality might be: nested, rule-bound, and full of observers. The lessons are already in our hands.
 
 This is a conjecture. I don't need you to believe it. I need you to take it seriously enough to push back. If it survives, it gets stronger. If it doesn't, we both learn something.
 
 ## Further Reading
 
-- [What Is a Computer?](what-is-a-computer.md), the companion essay, on computation as universal logic and why physicalism looks fundamental from inside a closed system.
+- [What Is a Computer?](what-is-a-computer.md), the more cautious companion essay this one builds on, on computation as universal logic and why physicalism looks fundamental from inside a closed system.
 - [Metaprogramming Framework to Classify Personhood](framework-of-personhood.md), on personhood as metaprogramming.
 - [Why Explanation Comes in Layers](layers.md), on explanatory layers and why they can't be collapsed.
 - David Deutsch, *The Beginning of Infinity* (2011)
