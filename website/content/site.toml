@@ -39,9 +39,9 @@ url = "https://growthlab.team"
 school_url = "https://growthlab.team/school"
 tagline = "Multiply today. Build what's next."
 description = """
-A human-multiplier operating system I built and run at Insurity. Growth Lab \
-trains Growth Leaders to use frontier AI to multiply what people can do, while \
-staying accountable for the outcomes. It improves the business we have today \
+A program I built and run at Insurity that trains Growth Leaders to use frontier \
+AI to multiply what people can do, while staying accountable for the outcomes. \
+It improves the business we have today \
 and explores the products and services of tomorrow."""
 # Featured video
 [video]
@@ -51,15 +51,14 @@ youtube_id = "U0Ww9_pw6v8"
 youtube_url = "https://www.youtube.com/watch?v=U0Ww9_pw6v8"
 essay_slug = "moving-line"
 description = """
-AI is changing business incredibly fast. Real transformation takes decades. These \
-claims sound contradictory — but both are true. The Moving Line is a model of the \
-three boundaries shaping the intelligence era. They move at different rates, and \
-businesses live in the gap between what AI can do and what they've actually \
-adopted. That gap feels comfortable — until capability becomes competition."""
+AI is changing business fast, yet real transformation takes decades. Both claims \
+are true. The Moving Line explains why: three boundaries move across work at \
+different rates, and businesses live in the gap between what AI can do and what \
+they've adopted. That gap feels safe until a competitor closes it."""
 points = [
-  "Diffusion — how AI capability spreads into everyday business",
-  "Research — how new AI capabilities are created",
-  "The Problem Frontier — how technology and knowledge reveal new problems and markets",
+  "Diffusion boundary — how fast AI capability becomes AI in production",
+  "Research boundary — how fast human-only work becomes AI-capable",
+  "Frontier boundary — how new problems and markets open up",
 ]
 
 # Featured product
@@ -68,14 +67,13 @@ name = "Refine"
 url = "https://getrefine.dev"
 tagline = "Your team's agentic software delivery system"
 description = """
-Refine turns product feedback into structured work, guides AI agents through \
-planning and implementation, and keeps files, terminals, nodes, processes, \
-review, and Git close to your local workflow. Built in Rust, local-first, and \
-running in production today."""
+Refine turns product feedback into structured work and guides AI agents through \
+planning and implementation, all inside your local workflow. Built in Rust, \
+local-first, and in production today."""
 points = [
-  "Empower your whole team — not just engineers — to shape the product",
-  "Coordinate a fleet of AI agents across repos, branches, and machines",
-  "Governance that keeps agent work aligned with intent before it merges",
+  "Let the whole team, not just engineers, shape the product",
+  "Run many AI agents across repos, branches, and machines",
+  "Review agent work against intent before it merges",
 ]
 
 [[refine.screenshots]]
@@ -124,7 +122,7 @@ body = "Where agents and AI actually create leverage in your product — beyond 
 [[projects]]
 name = "Growth Lab"
 period = "2026 · Insurity"
-blurb = "A human-multiplier operating system that trains Growth Leaders to use frontier AI, builds immediate solutions, and explores new business models."
+blurb = "A program I built and run at Insurity that trains Growth Leaders to use frontier AI to multiply what people can do, while staying accountable for the outcomes. It also builds immediate solutions and explores new business models."
 url = "https://growthlab.team"
 
 [[projects]]

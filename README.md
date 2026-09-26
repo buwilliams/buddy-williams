@@ -39,9 +39,9 @@ Each published essay carries its own metadata in a frontmatter block at the top 
 the file (title, status, created and updated dates, blurb). The site reads that to build the index, so
 the writing and its catalog entry never drift apart.
 
-**Status** moves through three stages: *Draft* (an AI-assisted sketch, not meant
-for public criticism) → *Working* (rewritten by hand) → *Final* (complete, no
-further updates intended).
+**Status** moves through three stages: *Draft* (an AI-assisted sketch) →
+*Working* (rewritten by hand) → *Final* (complete; I revise when I find a
+better explanation).
 
 ---
 

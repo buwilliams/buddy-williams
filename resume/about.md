@@ -41,6 +41,6 @@ I'm drawn to thinkers who revealed limits, like Gödel, Turing, and Haidt, and t
 
 ## Contact
 
-The best way to reach me is on X: [@BuddyIterate](https://x.com/BuddyIterate). I read everything, and I respond to thoughtful engagement.
+Email me at hello@buddy-williams.com, or find me on X at [@BuddyIterate](https://x.com/BuddyIterate). If you're building something, you can [book a free intro call](https://cal.com/buddy-williams-1qvgvh/30min).
 
 *Last updated: September 2026*
