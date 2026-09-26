@@ -1,1 +1,0 @@
-How executives can know if an AI investment is good?

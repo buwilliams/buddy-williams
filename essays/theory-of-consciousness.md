@@ -1,3 +1,0 @@
-# Metaprogramming Theory of Consciousness
-
-This essay has been renamed twice. It is now [Metaprogramming Framework To Classify Personhood](framework-of-personhood.md). The original title overclaimed what the essay delivers. It is not a theory that solves consciousness but an exploration of personhood from an information ontology perspective — one that proposes metaprogramming as a mechanism, derives identity from information properties, and offers a taxonomy of cognitive reach with practical consequences for AI safety and architecture. The rename from "consciousness" to "personhood" reflects the essay's actual subject: the informational conditions for personhood, not a resolution of the hard problem of consciousness.
