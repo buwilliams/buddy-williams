@@ -9,164 +9,91 @@ blurb: "Humanity's past, present, and future. Technology transforms scarcity int
 
 # Technohumanism
 
-*Humanity's past, present, and future.*
+## Introduction
 
-**Buddy Williams** · October 23, 2025
+We have never had more. More food, more medicine, more comfort, more ways to reach each other. And yet we are lonelier, heavier, more anxious, and less sure of our purpose than we should be. If technology has made life so abundant, why does it so often feel so bad?
 
----
+This essay offers an explanation I call **Technohumanism**. It runs from our prehistoric past to a future that will sound like science fiction. In short: technology turns scarcity into abundance, abundance puts our environment out of step with our biology, and the only lasting fix for that mismatch is to change our biology. That last step is transhumanism.
 
-## Soft Launch
+I don’t expect most readers to accept the conclusion. As I argued in [Utility of Truth](utility-of-truth.md), minds rarely change because of a good argument. They change when their current beliefs stop working. So my aim is to plant a seed. If your picture of the future stops making sense someday, I hope this one is waiting.
 
-What kind of emotions do the stick figures above evoke? Do you feel disgusted? Some of you may feel excited. Perhaps you think the image is unethical. Maybe it conjures words like 'unnatural' or 'dystopian'. Whatever your reaction, I'm going to do my best to show you that this picture is the most accurate idea model I've seen. I did, after all, discover and design it! Some of you may conclude, "he's high on his own supply." I will not be surprised if the majority of you walk away thinking, "nonsense." That's okay, I only wish to plant the seeds. I believe that at some point, your worldview will fail, and maybe then you'll remember this blog post—the one with the science fiction claims.
+## Table of Contents
 
-We underestimate sci-fi writers. Consider the analogy between the world's major religions, which have, for thousands of years, imagined the peak of human existence in Heaven, Paradise, Dar al-Salam, Olam Ha-Ba, Moksha, Nirvana, Deva-loka, and Tian, and how sci-fi writers have imagined possible futures for humanity. These stories are presented to us as musings of the imagination, but I ask you, is existence really so careless? There is a kernel of truth in them all. If a sci-fi book holds the attention of many, it's likely to be at least a little prophetic. I can think of no better example of this than *The Singularity Trap* by Dennis E. Taylor.
+1. [Technology Turns Scarcity into Abundance](#1-technology-turns-scarcity-into-abundance)
+2. [Abundance Creates Misalignment](#2-abundance-creates-misalignment)
+3. [Three Places to Look](#3-three-places-to-look)
+4. [Where This Leads: Transhumanism](#4-where-this-leads-transhumanism)
+- [Conclusion: Aligned Abundance](#conclusion-aligned-abundance)
+- [Further Reading](#further-reading)
 
-In this book, a space crew is mining asteroids when they come across a mysterious gray goo. I won't spoil the book for you, but I will say it involves uploads, artificial intelligence, and difficult choices for humanity. This book whispers to many of us, a feeling deep in our bones… the future will be radical.
+## 1. Technology Turns Scarcity into Abundance
 
-In this post, which marks 25 years of pursuing truth, I aim to give you a new narrative—an idea model—one that promises to explain the unease we feel, why things are happening the way they are, the silly ideas people have, and what the future is likely to be. This model is named Technohuman. With it, I hope to provide you with more peace through understanding. After all, understanding is simply prediction. I wish to make the future feel a little more predictable and a little safer.
+Something is **scarce** when there isn’t enough of it to go around. Money, time, and time with the people we love are all scarce. Economics is the study of how we manage scarcity. It does a fair job, but no one is satisfied with managing it. We want to end it.
 
-We will examine human history through this thesis:
+Our prehistoric ancestors lived with scarcity of every kind. A cold season, a failed hunt, a disease, or a predator could wipe out a tribe. They weren’t content with sickness and death, and neither are we. They fought back with the one advantage evolution gave them: intelligence, turned into tools.
 
-> **The purpose of technology is to transform scarcity into abundance.**
+The history of technology is the history of that fight. Fire gave us more calories and safer food. Farming and domesticated animals gave us steady food supplies. Writing gave us memory beyond a single lifetime. Steam and electricity gave us energy beyond our muscles. Vaccines and antibiotics gave us protection from invisible killers. Computers and the internet gave us knowledge beyond any one mind.
 
----
+Look across that history and a pattern appears: **technology turns scarcity into abundance.** Each invention answers a specific shortage.
 
-## Left on Read
+Take medicine. The scarcity it fights is time: both how long we live and how well. In the limit, medicine is the fight against death, the ultimate source of time scarcity.
 
-It is tough to change someone's mind. I can present a beautiful argument and back it up with loads of data, but this doesn't guarantee anything. It might even be impossible to change someone's mind under normal circumstances. I've written about Logic and Cyclic Rationality to help people think and see more clearly, and about the Utility of Truth to explain why people will not change their minds. There is much more to write on the topic of good thinking. So, I've adopted a posture of planting seeds. My goal is not to change your mind, since that would fail, but instead to expose you to a series of ideas that may, in time, grow.
+Try the exercise with any technology you like: name the shortage it answers. Seen this way, technology stops looking cold. Behind most inventions is someone watching a person they love suffer and wishing there were a way to help. The machines have no heart, but the reasons we build them do.
 
-So, if you wish to 'leave me on read' as my teens like to say, that's okay. All I ask is that you open your mind. Maybe you'll find it helpful to treat this as a work of fiction to be enjoyed rather than a truth to be discerned.
+## 2. Abundance Creates Misalignment
 
----
+If technology keeps giving us abundance, why doesn’t it feel better?
 
-## Low-key Dry (Scarcity)
+Because our bodies and minds were shaped for scarcity. Evolution tuned us for a world where food was hard to get, danger was close, and survival depended on the tribe. Abundance changes the environment faster than evolution can change us. The result is a **misalignment**: a mismatch between the world we live in and the one our biology expects.
 
-Economics can be described simply as the study of managing scarce resources.
+Hunger shows it plainly. Body fat exists to carry us through times without food. But a person with plenty of stored energy will still wake up hungry tomorrow. There is no off switch, because in the world we evolved in, we never needed one. Food took great effort to get and never lasted.
 
-I encourage you not to feel offended by simple explanations. Simple ideas are easier to follow and discuss. When reduced to only those meaningful parts, simple ideas are easier to digest. Simple ideas provide an introduction to complicated ideas—those who wish to dig deeper will.
+Loneliness shows it too. We used to need each other in a literal sense: you lived or died with your tribe. Today most of us have our own homes, cars, and paychecks. We barely need each other to survive, but we still evolved to live together, so we feel the absence.
 
-When something is scarce, it means there isn't enough of it to go around. Do you have enough money to buy everything you want? Do you have enough time with your friends? These are relatable examples. I think we all wish we had more of the good things in life. This is the point of economics. It's all about managing scarcity, and it does a pretty okayish job. Of course, we are not satisfied with this reality.
+Notice what happened in both cases. Abundance of food created a new scarcity, of health. Abundance of independence created a new scarcity, of belonging. Misalignment is a form of scarcity, one that technology itself created.
 
-### Prehistoric Hunter-Gatherers
+The biologist E. O. Wilson put it well:
 
-When we reflect on our distant prehistoric ancestors, what was their environment like? Did they have enough food, health, safety, or shelter? No, they did not. They suffered from many threats. A cold season, bad weather, disease, famine, or predators could spell doom for a tribe. What would you do? How would you handle these challenges? Would you be satisfied with sickness and death? Would you want to fight the predators and win? I hope it's obvious: that's exactly what they wanted to, because here we all are, alive and well, hundreds of thousands of years later, at the top of the food chain.
+> The real problem of humanity is the following: we have Paleolithic emotions, medieval institutions, and god-like technology.
 
-### History of Technology
+## 3. Three Places to Look
 
-How did we do it? How did we win? Again, I hope it's obvious, we used our intelligence to forge technology. We used our evolutionary advantage, our smart smarts. Let's take a look back at the development of technology. It's breathtaking!
+If the problem is a mismatch between environment and biology, there are only three places to look for a fix: the environment, our choices, and our biology.
 
-**Prehistoric Era (before 10,000 BCE):** We developed stone tools. We harnessed fire to eat more safely and extract more calories from food. We developed language for better collaboration. We made clothes to keep us warm and protect our bodies. We made art to record ideas.
+**The environment.** We could bring back scarcity. Some people do, buying land and going off the grid. But they still depend on the grid for seeds, tools, plastics, and medicine. Those who truly cut themselves off take on the old dangers of scarcity: sickness, hunger, and injury. Turning back the clock trades one problem for an older and worse one.
 
-**Neolithic Revolution (10,000 - 3,000 BCE):** We developed farms [agriculture]. We domesticated animals. We make pottery, weaves, and wheels. We moved on to metalworking and writing systems.
+**Willpower.** We could simply choose better: eat less, spend more time together. This works for some people some of the time. But willpower is not always on, and our environment and biology are. They push on us every hour of every day. That’s why most diets fail. And even when willpower wins, the prize is a life of constant self-denial. Shouldn’t life be enjoyable?
 
-**Classical & Medieval Eras (3,000 BCE - 1,500 CE):** We developed stronger tools through the smelting of iron. We developed mathematics and geometry. We learned to sail and navigate. We made paper, gunpowder, clocks, and eyeglasses.
+**Biology.** That leaves our bodies. GLP-1 drugs, the new weight-loss medications, show what this looks like. In effect, they give the body the off switch for hunger that evolution never installed. Many people who take them describe a new feeling: food freedom. They no longer have to fight their environment or their appetite, because their body is aligned with the world they live in.
 
-**Industrial Revolution (1700 - 1900):** We made steam engines, discovered electricity, and made telegraphs and telephones. We made vaccines and discovered germ theory.
+Of the three, biology is the only lever that stays pulled. The environment keeps getting more abundant, and willpower keeps running out. That’s why I expect biology to be where the lasting solutions come from.
 
-**Modern Technological Era (1900 - 2000):** We built electronics, computers, nuclear energy, antibiotics, satellites, the internet, and genetic engineering.
+## 4. Where This Leads: Transhumanism
 
-**Digital & Emerging Era (2000 - Present):** We've made smartphones, cloud computing, artificial intelligence, renewable energy, blockchain & cryptography, CRISPR gene editing, quantum computing, and space technology & reusable rockets.
+Follow the argument one more step. If technology creates abundance, abundance creates misalignment, and the lasting fix is to change our biology, then we will keep changing it. That path has a name: **transhumanism**, the use of technology to overcome our biological limits, including aging and disease, and eventually to go beyond the human form itself.
 
-*Wow.*
+Here is where it starts to sound like science fiction. Consider space. Our bodies are poorly suited to exploring the cosmos. We may terraform a few planets, but it will often be easier to change ourselves than to change whole worlds.
 
----
+Or consider belonging. Jonathan Haidt’s work shows that people are loyal mostly to their own group. Yet MDMA, whatever its problems, can make people feel connected to everyone. Imagine a safe treatment that strengthened our sense of belonging without clouding judgment. It might soften our political divides. To some readers this will sound dystopian, and I understand that fear.
 
-## The Purpose of Technology
+Our present selves find these ideas unnatural, and by definition they are. But I doubt our descendants will feel that way. Their bodies will feel as natural to them as ours feel to us.
 
-Looking at the history of technology makes one thing crystal clear: **the purpose of technology is to transform scarcity into abundance.** Think about it, what does medicine do? What form of scarcity is it seeking to transform? Time scarcity. Yes, medicine addresses time scarcity in two ways: quality and quantity of time. Medicine helps you live longer and live healthier. That's the point of medicine: to give you an abundance of time. Since I promised there'd be sci-fi, here's your first taste: in the limit, medicine is about overcoming death, the ultimate source of time scarcity.
+> Whether we call a technology progress or hubris depends on where we stand in time.
 
-> The purpose of technology is to transform scarcity into abundance.
+## Conclusion: Aligned Abundance
 
-If you end up reading this post multiple times, as an experiment, try pairing each technology above with the form of scarcity it is transforming. When you see technology this way, it starts to feel a lot less inhuman and much more heartfelt. You can imagine (or remember) a loved one suffering and wishing there was a way to help. It might even be that you are in a hospital in this scenario, and you would be standing in the very place where technology is giving expression to your heartfelt emotional desire. Technology may be emotionless and heartless, but its purpose is the exact opposite: full of heart and love.
+So why does abundance feel so bad? Because we built a world our biology wasn’t made for. Technology turned scarcity into abundance, abundance put our environment out of step with our biology, and that mismatch is itself a new kind of scarcity. Changing the environment or relying on willpower won’t fix it for long. Changing our biology can.
 
----
+What strikes me most about this story is that it doesn’t need a movement to make it happen. It runs on the same drive that produced fire, farming, and medicine: people refusing to accept scarcity. Scarcity has never worked for us, and unaligned abundance isn’t working either. Out of that tension, I expect transhumanism to become the next chapter of the human story.
 
-## Not Vibing (Misalignment & Technohistory)
+I hold this conjecture with an open hand. There are other possible futures, some of them dark, and my work in AI means I wrestle with them often. I find this one the most likely because it follows the pattern we can already see across all of human history, rather than one invented in pure thought. But every model is a map, and maps can be wrong.
 
-Transforming scarcity to abundance seems like it should feel really good, but surprisingly, it doesn't. We're lonely. We have rising mental health issues. Many of us feel purposeless and directionless. We are overweight. If we live in abundance, why does it feel so shit?
+I hope you come away with wonder rather than fear. The future I see is one of aligned abundance for all.
 
-Here's the answer: Technohistory makes two claims:
-1. The purpose of technology is to transform scarcity into abundance
-2. Abundance creates a misalignment between our environment and our biology
+## Further Reading
 
-**Misalignment is the reason we feel so shit.** What is this misalignment? Consider a person who is morbidly obese. Why is it that tomorrow morning, they will still feel hungry? Clearly, they do not need to eat, since their bodies have plenty of stored energy. We all carry some amount of fat; otherwise, we risk our health. The purpose of body fat is to protect you when there isn't enough food, but here's the rub: there is no off switch. We didn't evolve to have one. Why? Because we evolved in a scarce environment where eating required a whole lot of effort, and the food you got wasn't going to last.
-
-We can see these misalignments everywhere, from social media and news to everyday conversations. We used to need each other for survival. As in, we actually NEEDED each other—not some sort of preference for community—but if we were going to survive, we lived or died by our tribe. Now, people are sovereign; everyone has their own house, car, and office. We barely need each other anymore. So, we are lonely because we evolved to live together.
-
----
-
-## Ain't No Plan B (Three Choices)
-
-Now, we've come to the heart of the matter. We've got amazing technology transforming our world from scarcity to abundance, but we also have this fundamental misalignment problem. What are we to do?
-
-> "The real problem of humanity is the following: we have Paleolithic emotions, medieval institutions, and god-like technology." — E.O. Wilson
-
-When you think about it, there are really only three places to look: our environment, our choices, and our biology.
-
-### Environment
-
-We can create artificial scarcity in our environment, and people do. They buy a plot of land and go off the grid. Of course, they haven't fixed anything. They rely on those on the grid to provide seeds, plastics, electricity, and various tools. For the really ambitious who shun all forms of external reliance, they suffer the plagues of sickness and disease. If you rewind time, you may risk encountering the downsides of scarcity: sickness, famine, and safety. Not a solution.
-
-### Willpower
-
-Okay, so you see that obesity is a problem, what do you do? You go on a diet! Miracle of miracles, you have a solution. Well, not so fast. There's a problem with the choice; it's not always on. You know what is always on? Your environment. Your biology. Always pushing and nudging you in a direction. Your body tells you to eat when you know you shouldn't. Your environment says, 'Hey, look at all this delicious food!' Willpower is unreliable at best, which is why most diets fail.
-
-That's not even the worst part; you enter a lifestyle of brutal asceticism [strict self-denial and discipline involving the rejection of physical pleasures and material possessions]. I mean, shouldn't life be enjoyable?
-
-### Biology
-
-We know we cannot rely on our willpower. We don't want to live in a world of scarcity. What are we to do? There's one last place to look: our bodies. Consider the popularity of the latest weight loss drugs [GLP-1 receptor antagonists]. What do they do in principle? They give the body an off switch for hunger. Many people on GLP-1s describe a new experience: food freedom. They no longer need to worry about willpower or their environment. They now experience an aligned body.
-
-**Biology is the clear winning choice. This is the future: alignment. There ain't no plan B.**
-
----
-
-## Endgame (Transhumanism)
-
-Now, we enter the part of the post where I go all sci-fi on you. Buckle up. If we know that technology transforms scarcity into abundance, that abundance creates misalignment, and that the solution for misalignment is technology to align our bodies, then where does this all lead? Welcome to our future: Transhumanism.
-
-> **Transhumanism** — a philosophical movement advocating for the use of technology to enhance human physical and intellectual capabilities, overcome human limitations like aging and disease, and eventually transcend the human condition itself
-
-There are so many examples, but let's limit ourselves to one: when you think about the cosmos, how utterly big it is, it's clear that our human bodies are not ideal to explore it. Do we really want to terraform every planet? I suspect some will try to terraform a few, but that's a lot of effort. I'm not saying we won't have time or the capability to do it; I'm just saying that altering our form is more beneficial.
-
-One more example. People are communal, it's true, but not universally. People are really only loyal to their tribe; people are locally loyal (see the work of Jonathan Haidt). Yet, there exists an illegal drug today that makes you feel one with the whole world: MDMA. While this drug is problematic, imagine a new drug, one that regulates hormones and helps provide a sense of belonging and collaboration, one that doesn't create a haze, but a clarity. People may find themselves more cooperative. Imagine what that would do to our political divides. For some, this will seem dystopian, and that's okay. I understand that fear.
-
-Here's the deal: **modifying our bodies is a necessity.** Regardless of how you feel about it, I believe that's our future. Obviously, our current selves do not like this idea. It is by definition unnatural. But, how will our future selves feel about these bodies? I believe their vessels will be just as natural for them as our bodies are for us. There is really no reason I see to believe otherwise.
-
-> Technology fulfills a function. Whether we label it progress or hubris depends on where we stand in time.
-
----
-
-## Lore Drop (Conclusion)
-
-To me, the really interesting thing about the Technohuman story is that it doesn't depend on anyone believing it. It's not a cause or a social movement. This is an evolutionary mechanism at work. It doesn't depend on our willful actions, ethics, or political affiliations. No social cause will stop it. Instead, it is a train that we are all aboard, choo-choo.
-
-Rather than encouraging fear, I hope instead that you feel a sense of deep wonder and excitement. Imagine aligned abundance for all. As explained in The Utility of Truth, people change their minds when their beliefs stop working. Well, the reality is that scarcity doesn't work for people (it hasn't worked for millions of years), nor does abundance (biological misalignment). Out of this conflict, Transhumanism will emerge as the next stage of our human story.
-
----
-
-## Technohumanism Thesis
-
-1. Humans, by nature, cannot accept scarcity. Pursuing abundance has been the primary human activity throughout history, as seen through the lens of technological development.
-
-2. Technology's purpose is to transform scarcity into abundance.
-
-3. Humans evolved in a scarce environment, not an abundant one; therefore, abundance leads to biological misalignment, which is a form of functional scarcity.
-
-4. Technology will be used to align human nature with abundance, leading to transhumanism.
-
-5. **Our future is one of aligned abundance for all.**
-
----
-
-## Real Talk (Disclaimer)
-
-Some of you may view my conclusion as overly optimistic, fantastical, or unlikely. I am well aware of other possible scenarios. My work in AI demands wrestling with such scenarios. Some of these scenarios are undesirable, dystopian, or even catastrophic. I have argued against these views elsewhere (mainly in posts on X.com) and present my view here as the most likely outcome. My view is predicated on a careful analysis of human nature, human history, and its relationship to technology. My main objection to other models is that they are created in "pure thought land," removed from the complexity of reality, and miss essential priors. While my model suffers from the same "map is not the territory" fallacy, I believe it is much closer to reflecting reality than the other models I have researched and, therefore, find my model more reliable. I leave it to the reader to make their own judgments about my argument's soundness. If nothing else, I hope I have planted a seed or two.
-
----
-
-## To Be Continued…
-
-I see so many confused people. Why wouldn't we be? There are so many questions flying around. It's difficult to hear ourselves think with all the noise. I believe Technohumanism can be a guide. The way we consider mental and physical health. The businesses we support. The social causes we engage in. Strategies for a transition period. How wealth could be or should be distributed. What people might do for work and pleasure. Ethics. Government. The development of advanced artificial intelligence. I hope to continue writing about all of these topics.
-
-In the meantime, I hope that Technohumanism provides something solid to hold on to—a compass to guide us—as we think through these very complex and often difficult choices that we and our children will navigate.
+- E. O. Wilson, *The Social Conquest of Earth* (2012)
+- Jonathan Haidt, *The Righteous Mind* (2012)
+- Dennis E. Taylor, *The Singularity Trap* (2018), a novel that captures how radical the future may be
+- [Utility of Truth](utility-of-truth.md), on why minds change only when beliefs stop working
+- [Cyclic Rationality](cyclic-rationality.md), my method for recovering imagination before verification
