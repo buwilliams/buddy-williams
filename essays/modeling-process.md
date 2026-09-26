@@ -8,486 +8,79 @@ blurb: "A search for the computational process behind model creation: how observ
 
 # In Search of the Modeling Process
 
-For the last several years, I've been trying to teach AI to do something that I haven't been able to fully explain, even to myself.
+## Introduction
 
-I call it **modeling**.
+For several years I've been trying to teach AI to do something I can't fully explain, even to myself. I call it **modeling**. The difficulty of explaining it is the problem itself: if I could spell the process out precisely, I could probably build it.
 
-Ironically, the difficulty of explaining it is precisely the problem I'm trying to solve.
+This essay is a research journal, not a finished theory: the ground I've covered, the pieces I think I've found, and the one that still eludes me. I don't think that missing piece is a larger language model. I think it's a process.
 
-This essay isn't a proof. It isn't even a finished theory. It's a research journal—a map of the territory I've explored, the pieces I believe I've found, and the missing piece that continues to elude me.
+## Table of Contents
 
-I don't think the missing piece is another larger language model.
+1. [What Is Modeling?](#1-what-is-modeling)
+2. [Observation and Purpose](#2-observation-and-purpose)
+3. [The Bridge](#3-the-bridge)
+4. [Why Current AI Falls Short](#4-why-current-ai-falls-short)
+5. [Philosophy Before Verification](#5-philosophy-before-verification)
+6. [Reasoning Programs](#6-reasoning-programs)
+7. [Creativity and the Missing Primitive](#7-creativity-and-the-missing-primitive)
+- [Conclusion: Why This Matters](#conclusion-why-this-matters)
 
-I think it's a process.
+## 1. What Is Modeling?
 
-----------
+Every discipline has structure. Science has the scientific method, mathematics has proofs, economics has supply and demand, and software engineering has design patterns and algorithms. Someone had to invent these: to find where one concept ends and another begins, and to decide that certain observations belong together under a new abstraction.
 
-## What is modeling?
+A **model** is a representational structure like these. **Modeling** is the process that creates one before it exists. (I use both terms the same way in [More Better: Modeling and the Frame Problem](frame-problem.md).)
 
-Every discipline has structure.
+Map making is a useful analogy. Walk into unexplored territory and the land could hold anything: mountains, rivers, cities, or nothing. As you explore, the possibilities shrink. You notice patterns, measure, compare, and find relationships, until you step back and see that this isn't a pile of observations. It's a forest. Or a market. Or natural selection. A new category is born, and the map becomes simpler than the territory while keeping what matters. That act is modeling.
 
-Science has the scientific method.
+## 2. Observation and Purpose
 
-Mathematics has proofs.
+I increasingly think observation is itself a computational operation. Before we observe, the possibilities are effectively unbounded, and each observation rules some out. But the work isn't just collecting facts. It's discovering which constraints matter, and that takes questions. When I study a flower, I don't just record its color. I ask why it grows here, what surrounds it, what predators shape it, and how rainfall matters. The questions decide what I look for, and the model can only be as good as the observations they produce.
 
-Economics has supply and demand.
+Observation alone isn't enough, because every model exists for a **purpose**. A road map, a topographical map, and a political map of the same region are all correct; each is built for a different purpose. Or take a pot of boiling water. Why is it boiling? Because a heating element is transferring energy into it. Or: because someone wanted ramen. Same event, same observations. What differs is the purpose behind the question, and so which answer is useful. Purpose also decides which details count as relevant at all, which is the heart of the [frame problem](frame-problem.md#2-the-frame-problem).
 
-Software engineering has architectures, design patterns, and algorithms.
+This mattered to me: there are endlessly many possible observations, and endlessly many possible purposes. Both sides of modeling are open-ended.
 
-Someone had to invent these.
+## 3. The Bridge
 
-Someone had to discover where one concept ended and another began.
+This led me to what I currently believe is the central structure. Every model is a **bridge**. On one side are observations; on the other, a purpose. The bridge is the abstraction that compresses the observations into a representation useful for that purpose. It is what makes information meaningful.
 
-Someone had to decide that these observations belonged together under a new abstraction.
+Some bridges are better than others. They explain more with fewer concepts, compress better, transfer more easily into other minds, or survive criticism longer. Others collapse almost at once. Making sense of anything, on this view, means building bridges and criticizing them.
 
-That activity—the process that creates the model before the model exists—is what I mean by **modeling**.
+There is one more layer. If purposes are endless, how do we choose among them? With **values**. A business can make money through fraud or by creating value; our ethics rule out whole regions of possibility before we start modeling the problem in front of us. Values shape purpose, purpose shapes representation, and representation shapes action.
 
-A useful analogy is map making.
+## 4. Why Current AI Falls Short
 
-Imagine walking into completely unexplored territory.
+For years I've tried to teach language models this process. One experiment used a deliberately underspecified request: *Make me money.*
 
-Before you begin, the land could contain anything.
+A thoughtful person sees at once how incomplete that is. Who is asking? How much, and by when? Under what ethical constraints, with what skills and resources, in what country and decade? The request opens into a large modeling exercise. Current language models rarely do this. They answer immediately, jumping to execution before building an adequate representation of the problem. What they lack isn't knowledge or skill at carrying out a plan; it's modeling. Execution is downstream of representation.
 
-Mountains.
+The closest architecture I've found is neuro-symbolic AI. The probabilistic side does the observing; the symbolic side supplies structure. Together they resemble the two halves of modeling. I've built several such systems, including Harmoniq Work and Refine, and they work surprisingly well. But they share one limitation: I built the symbolic structure, and the AI only operated inside it. Today's agent frameworks are similar. The harness is fixed, and the model fills in the gaps.
 
-Rivers.
+What interests me is the level above the harness. Can a system build the harness itself, revise its own representations, and invent better abstractions?
 
-Cities.
+## 5. Philosophy Before Verification
 
-Nothing.
+This is where philosophy becomes indispensable. AI research rightly invests in verification: benchmarks, evaluation, ground truth. But verification comes after a model exists. Before it comes concept formation, deciding what things exist and how to carve them up.
 
-Everything is possible.
+Karl Popper's idea of conjectures and refutations has shaped my thinking here. No amount of evidence proves a general explanation true, so progress comes from proposing better explanations and criticizing them hard. Criticism tells us how to weed out bad explanations. It leaves open how we come up with good candidates in the first place. That question is the modeling problem.
 
-As you observe, the infinite possibility space begins collapsing.
+## 6. Reasoning Programs
 
-You notice patterns.
+One idea I keep returning to is thinking in programs rather than workflows. Not programs as code, but as executable reasoning structures. Logic, mathematics, physics, and economics are reusable reasoning programs built over centuries. Facing a new problem, people don't reason from scratch. They retrieve and adapt existing programs, sometimes compose several, and occasionally invent new ones.
 
-You measure.
+A reasoning program is a bridge that has become reusable. Later problems can retrieve it, adapt it, criticize it, and improve it. Over time a library grows: not of answers, but of ways of thinking.
 
-You compare.
+## 7. Creativity and the Missing Primitive
 
-You identify relationships.
+Here is my boldest conjecture, and the one I'm least sure of: **creativity is the construction of new bridges between observations and purposes.** A system becomes creative when it can change its purposes freely and generate new abstractions that connect them to observations, bridges that then hold up under criticism. Creativity isn't randomness or novelty for its own sake. If the conjecture is right, modeling is the computational process underlying creativity.
 
-Eventually you step back and realize:
+That leaves the question I can't yet answer: what is the primitive operation beneath all this? I can tell an AI to make observations, build a model, or compare explanations. Telling it to do those things isn't the same as implementing observation, model construction, or comparison.
 
-> "This isn't just a collection of observations. It's a forest."
+I suspect there is a smaller computational process underneath: something recursive and reusable, a primitive that generates reasoning programs the way reasoning programs generate models. I suspect today's language models already hold nearly all the knowledge needed to run it. What they lack is the process.
 
-Or:
+## Conclusion: Why This Matters
 
-> "This is a market."
+If this primitive exists, it would change how we think about intelligence. Today's AI systems execute remarkably well inside representations someone else built. I think the frontier is shifting from execution to representation: building better models, better abstractions, better bridges.
 
-Or:
-
-> "This is natural selection."
-
-A new category is born.
-
-A new compression appears.
-
-The map becomes simpler than the territory while preserving what matters.
-
-That act is modeling.
-
-----------
-
-## Observation is constraint
-
-I increasingly think observation itself is a computational operation.
-
-Before observation there exists an effectively unbounded possibility space.
-
-Observation constrains it.
-
-Every observation rules out possibilities.
-
-More importantly, the constraints themselves have structure.
-
-The process isn't simply collecting facts.
-
-It is discovering which constraints matter.
-
-When studying a flower, I don't merely record its color.
-
-I begin asking questions.
-
-Why does it grow here?
-
-What surrounds it?
-
-What predators influence it?
-
-How does rainfall matter?
-
-What causal relationships shape its existence?
-
-The quality of the eventual model depends on the quality of these observations.
-
-Modeling is therefore not passive observation.
-
-It is active exploration of structure.
-
-----------
-
-## Models require purpose
-
-Observation alone is insufficient.
-
-Every model exists for a reason.
-
-Maps illustrate this beautifully.
-
-A road map is not a topographical map.
-
-Neither is a political map.
-
-None of them are wrong.
-
-They simply optimize for different purposes.
-
-The same reality can produce infinitely many representations.
-
-Consider boiling water.
-
-Why is it boiling?
-
-One explanation says:
-
-The heating element transfers energy into the water through molecular interactions.
-
-Another says:
-
-Someone wanted ramen.
-
-Both explanations describe exactly the same physical event.
-
-The observations haven't changed.
-
-Only the purpose has.
-
-This realization became important for me.
-
-Not only are there infinitely many observations.
-
-There are infinitely many purposes.
-
-Both sides of the modeling process are effectively open-ended.
-
-----------
-
-## The bridge
-
-This led me to what I currently believe is the central structure.
-
-Every model is a bridge.
-
-On one side:
-
-Observations.
-
-On the other:
-
-Intent.
-
-The bridge between them is the abstraction.
-
-It compresses the observations into a representation useful for achieving the intent.
-
-This bridge is what makes information meaningful.
-
-Not all bridges are equally good.
-
-Some explain more with fewer concepts.
-
-Some compress better.
-
-Some transfer more effectively into other minds.
-
-Some survive criticism longer.
-
-Others collapse almost immediately.
-
-The entire activity of sense-making is the construction and evaluation of these bridges.
-
-----------
-
-## Values constrain purposes
-
-There is another layer.
-
-If purposes are infinite, how do we choose between them?
-
-Values.
-
-Values constrain which purposes are even worth pursuing.
-
-A business can make money through fraud.
-
-Or by creating value.
-
-Our ethical values eliminate entire regions of the possibility space before modeling even begins.
-
-Values therefore shape intent.
-
-Intent shapes representation.
-
-Representation shapes action.
-
-Modeling operates across all three.
-
-----------
-
-## Why current AI falls short
-
-For years I've tried teaching language models to perform this process.
-
-One experiment was built around an intentionally underspecified request.
-
-> Make me money.
-
-Humans immediately recognize how incomplete this request is.
-
-Who is asking?
-
-How much money?
-
-By when?
-
-Under what ethical constraints?
-
-What skills exist?
-
-What resources exist?
-
-What country?
-
-What decade?
-
-What opportunities?
-
-The request explodes into an enormous modeling exercise.
-
-Current LLMs rarely do this.
-
-Instead they tend to answer immediately.
-
-The model jumps directly toward execution before constructing an adequate representation of the problem.
-
-This isn't a capability problem.
-
-It is a modeling problem.
-
-Execution is downstream of representation.
-
-The representation comes first.
-
-----------
-
-## Neuro-symbolic AI is pointing in the right direction
-
-The closest architecture I've found is neuro-symbolic AI.
-
-The probabilistic side performs observation.
-
-The symbolic side provides structure.
-
-Together they resemble the two halves of modeling.
-
-I've built multiple neuro-symbolic systems myself.
-
-Harmoniq Work.
-
-Refine.
-
-Others.
-
-They work surprisingly well.
-
-But every one of them shares the same limitation.
-
-The symbolic structure was created by me.
-
-The AI merely operated inside it.
-
-Today's agent frameworks do much the same thing.
-
-The harness is fixed.
-
-The model fills in the gaps.
-
-What interests me is the level above the harness.
-
-Can the system create the harness itself?
-
-Can it revise its own representational structures?
-
-Can it invent better abstractions?
-
-----------
-
-## Philosophy before verification
-
-This is where I increasingly believe philosophy becomes indispensable.
-
-Modern AI research understandably focuses on verification.
-
-Benchmarks.
-
-Evaluation.
-
-Ground truth.
-
-Empirical performance.
-
-These are enormously valuable.
-
-But they occur after the model already exists.
-
-Before verification comes concept formation.
-
-Before experiments comes ontology.
-
-Before mathematics comes representation.
-
-Before algorithms comes philosophy.
-
-Karl Popper's framework of conjectures and refutations has become increasingly influential in my thinking.
-
-In an effectively infinite possibility space, certainty is unattainable.
-
-Progress comes through proposing better explanations and criticizing them relentlessly.
-
-The question therefore shifts.
-
-How do we generate better explanations?
-
-That question is exactly the modeling problem.
-
-----------
-
-## Creativity
-
-Here is my boldest conjecture.
-
-I'm least certain of it.
-
-But it increasingly feels true.
-
-Creativity is the process of constructing new bridges between observations and intentions.
-
-Once a system can freely change its intentions while generating new abstractions that effectively connect those intentions to observations, it has become creative.
-
-Creativity is not randomness.
-
-It is not novelty for its own sake.
-
-It is successful bridge construction.
-
-If this conjecture is correct, then modeling is the computational process underlying creativity itself.
-
-----------
-
-## Programs instead of workflows
-
-One idea I've become increasingly interested in is thinking in terms of programs rather than workflows.
-
-Not programs as code.
-
-Programs as executable reasoning structures.
-
-Every scientific discipline can be viewed this way.
-
-Logic.
-
-Mathematics.
-
-Physics.
-
-Economics.
-
-These are reusable reasoning programs built over centuries.
-
-When encountering a new problem, humans don't invent reasoning from scratch.
-
-They retrieve and adapt existing programs.
-
-Sometimes they compose several.
-
-Sometimes they invent entirely new ones.
-
-The important point is that these reasoning programs themselves become reusable bridges.
-
-Future problems can retrieve them, adapt them, criticize them, and improve them.
-
-Eventually a library of reasoning programs emerges.
-
-Not answers.
-
-Ways of thinking.
-
-----------
-
-## The primitive I'm searching for
-
-This leaves me with one unanswered question.
-
-What is the primitive operation behind all of this?
-
-I can tell an AI to make observations.
-
-That is not the same as operationalizing observation.
-
-I can tell it to build a model.
-
-That is not the same as operationalizing model construction.
-
-I can tell it to compare explanations.
-
-That is not the same as implementing comparison itself.
-
-Somewhere beneath all of these lies a smaller computational process.
-
-Something recursive.
-
-Something reusable.
-
-A primitive that generates reasoning programs the way reasoning programs generate models.
-
-I suspect it exists.
-
-I suspect it is computational.
-
-I suspect today's language models already possess nearly all of the knowledge required to execute it.
-
-What they lack is the process.
-
-----------
-
-## Why this matters
-
-If this primitive exists, I believe it changes how we think about intelligence.
-
-Today's AI systems execute remarkably well inside existing representations.
-
-The frontier is no longer execution.
-
-The frontier is representation itself.
-
-The ability to construct better models.
-
-Better abstractions.
-
-Better bridges.
-
-Perhaps this process becomes the missing ingredient for recursive scientific discovery.
-
-Perhaps it becomes the missing ingredient for recursive self-improvement.
-
-Perhaps it becomes the algorithm underlying creativity itself.
-
-I don't know.
-
-That remains a conjecture.
-
-But until I either discover the primitive or prove that it cannot exist, I don't think I'll be satisfied.
-
-That has become the research.
+Perhaps this process is the missing ingredient for recursive scientific discovery, or for recursive self-improvement. Perhaps it underlies creativity itself. I don't know; it remains a conjecture. But until I either find the primitive or show that it can't exist, I won't be satisfied. That has become the research.
