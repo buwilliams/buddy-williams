@@ -4,7 +4,7 @@ status: "Final"
 created: "2025-12-14"
 updated: "2026-09-26"
 order: 10
-blurb: "A first-principles, layered model of economics. Scarcity → prices → externalities → power → AI."
+blurb: "A layered model of economics, built from the ground up: scarcity, prices, externalities, public goods, political power, and what AI changes about each."
 ---
 
 # Economics in the Intelligence Age
@@ -58,7 +58,7 @@ Prices compress both that knowledge and its causes and effects into a single num
 
 When prices are suppressed or overridden, people lose more than information; they lose feedback. Actions no longer reliably signal consequences. The result isn't moral failure but systemic misalignment: well-intentioned decisions that compound into shortages, waste, or instability.
 
-Could AI change this? If AI systems could one day model these causal chains, anticipating ripple effects better than price signals do, markets might stop being the best coordination mechanism in some domains. That remains an open conjecture. For now, prices are the most robust tool we've found for an economy more complex than any mind can grasp.
+Could AI change this? If AI systems could one day model these causal chains, anticipating ripple effects better than price signals do, markets might stop being the best coordination mechanism in some domains, most plausibly those where the relevant knowledge is stable. That remains an open conjecture. One limit won't yield to computation: prices don't only transmit existing knowledge; they call forth knowledge no one has yet created, and no model can include what hasn't been discovered. For now, prices are the most robust tool we've found for an economy more complex than any mind can grasp.
 
 ## 3. Externalities: When Prices Stop Telling the Truth
 
@@ -100,9 +100,9 @@ Constraints feel frustrating when you're trying to solve an urgent problem. They
 
 Artificial intelligence introduces a new factor of production: scalable cognitive labor. Tasks once limited by human attention, expertise, or endurance can be done cheaply and repeatedly. The immediate result is efficiency. The deeper result is time, as hours that went to that work are freed for other things.
 
-As some scarcities recede, others move to the foreground. Attention becomes more valuable. Meaning may become harder to find, and mental health may become a binding constraint. These are exactly the goods from section 4, where markets struggle and centralized control is most dangerous.
+As some scarcities recede, others move to the foreground. Attention becomes more valuable. Meaning may become harder to find, and mental health may become a binding constraint. Belonging and meaning may become the scarce goods, which is why work built on relationships with particular people gains value, the "Hearts" work described in [State of AI](state-of-ai-june-2026.md). These are exactly the goods from section 4, where markets struggle and centralized control is most dangerous.
 
-AI may eventually coordinate resources better than prices in some domains. If it does, the case for markets weakens there. But that shift wouldn't remove the need for pluralism, autonomy, and constraint. It would make them more important. A system that coordinates for everyone is concentrated power, subject to political gravity, and no amount of computation settles what people disagree about valuing.
+AI may eventually coordinate resources better than prices in some domains, where the relevant knowledge is stable enough to model. If it does, the case for markets weakens there. Where knowledge is still being created, prices keep a job no model can take over, for the reason given in section 2. But that shift wouldn't remove the need for pluralism, autonomy, and constraint. It would make them more important. A system that coordinates for everyone is concentrated power, subject to political gravity, and no amount of computation settles what people disagree about valuing.
 
 ## Conclusion: Economics Is Layered
 

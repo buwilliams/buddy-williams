@@ -4,7 +4,7 @@ status: "Final"
 created: "2026-02-01"
 updated: "2026-09-26"
 order: 9
-blurb: "Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening."
+blurb: "Why AI is a phase change, not just another point on a continuum. Three questions people keep mixing up (speed, granularity, and whether the rules change), and the map-territory trap that lets people hide from what's already happening."
 ---
 
 # Current AI Causes Societal Phase Change
