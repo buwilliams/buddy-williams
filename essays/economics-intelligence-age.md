@@ -1,7 +1,8 @@
 ---
 title: "Economics in the Intelligence Age"
 status: "Final"
-date: "Dec 2025"
+created: "2025-12-14"
+updated: "2026-09-26"
 order: 10
 blurb: "A first-principles, layered model of economics. Scarcity → prices → externalities → power → AI."
 ---

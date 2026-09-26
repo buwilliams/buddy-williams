@@ -1,7 +1,8 @@
 ---
 title: "Thinking About Thinking"
 status: "Final"
-date: "Sep 2026"
+created: "2026-09-01"
+updated: "2026-09-26"
 order: 0
 featured: true
 blurb: "A small failure at a climbing gym, and what it taught me about thinking. Fast and slow thinking, the galaxy-brain trap that catches trained minds, and why the best guard for a powerful mind is the belief that we're all fallible."

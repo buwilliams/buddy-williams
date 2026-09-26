@@ -1,7 +1,8 @@
 ---
 title: "In Search of the Modeling Process"
 status: "Final"
-date: "Aug 2026"
+created: "2026-08-01"
+updated: "2026-09-26"
 order: 1
 blurb: "A search for the computational process behind model creation: how observations, purposes, values, and abstractions become reusable reasoning programs—and perhaps the primitive underlying creativity itself."
 ---

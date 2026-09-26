@@ -102,7 +102,15 @@ pub struct WritingMeta {
     pub slug: String,
     pub title: String,
     pub status: String,
+    /// When the essay was first written, `YYYY-MM-DD`.
+    pub created: String,
+    /// When the essay was last substantively revised, `YYYY-MM-DD`.
+    pub updated: String,
+    /// Display label for `created`, e.g. "Oct 2025".
     pub date: String,
+    /// Display label for `updated` ("Sep 2026") when it falls in a later month
+    /// than `created`; empty otherwise.
+    pub updated_label: String,
     pub blurb: String,
     #[serde(default)]
     pub featured: bool,
@@ -116,7 +124,8 @@ pub struct WritingMeta {
 struct FrontMatter {
     title: String,
     status: String,
-    date: String,
+    created: String,
+    updated: String,
     blurb: String,
     #[serde(default)]
     featured: bool,
@@ -131,8 +140,8 @@ pub fn load_site(root: &Path) -> Result<SiteConfig, BoxErr> {
 
 /// Load published writings by scanning `<root>/essays/*.md`. An essay is published
 /// iff it opens with a `---` YAML frontmatter block; files without one (raw drafts,
-/// working notes) are skipped. Sorted newest to oldest by publication month, with
-/// `order` as the tie-breaker for writings published in the same month.
+/// working notes) are skipped. Sorted newest to oldest by the month in `created`,
+/// with `order` as the tie-breaker for writings created in the same month.
 pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
     let mut list = Vec::new();
     for entry in std::fs::read_dir(root.join("essays"))? {
@@ -151,64 +160,86 @@ pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
             .to_string();
         let meta: FrontMatter = serde_yaml::from_str(fm)
             .map_err(|e| format!("frontmatter in {}: {e}", path.display()))?;
-        list.push(WritingMeta {
-            slug,
-            title: meta.title,
-            status: meta.status,
-            date: meta.date,
-            blurb: meta.blurb,
-            featured: meta.featured,
-            order: meta.order,
-        });
+        list.push(writing_meta(slug, meta)?);
     }
     sort_writings_newest_first(&mut list)?;
     Ok(list)
 }
 
+fn writing_meta(slug: String, meta: FrontMatter) -> Result<WritingMeta, BoxErr> {
+    let bad = |field: &str, value: &str| -> BoxErr {
+        format!("unsupported {field} date {value:?} in {slug}; expected YYYY-MM-DD")
+            .into()
+    };
+    let created = parse_date(&meta.created).ok_or_else(|| bad("created", &meta.created))?;
+    let updated = parse_date(&meta.updated).ok_or_else(|| bad("updated", &meta.updated))?;
+    if updated < created {
+        return Err(format!("updated date precedes created date in {slug}").into());
+    }
+    let updated_label = if (updated.0, updated.1) > (created.0, created.1) {
+        month_label(updated)
+    } else {
+        String::new()
+    };
+    Ok(WritingMeta {
+        date: month_label(created),
+        updated_label,
+        created: meta.created,
+        updated: meta.updated,
+        slug,
+        title: meta.title,
+        status: meta.status,
+        blurb: meta.blurb,
+        featured: meta.featured,
+        order: meta.order,
+    })
+}
+
 fn sort_writings_newest_first(list: &mut [WritingMeta]) -> Result<(), BoxErr> {
     for writing in list.iter() {
-        if publication_month(&writing.date).is_none() {
+        if parse_date(&writing.created).is_none() {
             return Err(format!(
-                "unsupported publication date {:?} in {}; expected Month YYYY",
-                writing.date, writing.slug
+                "unsupported created date {:?} in {}; expected YYYY-MM-DD",
+                writing.created, writing.slug
             )
             .into());
         }
     }
 
     list.sort_by(|a, b| {
-        publication_month(&b.date)
-            .cmp(&publication_month(&a.date))
+        created_month(b)
+            .cmp(&created_month(a))
             .then_with(|| a.order.cmp(&b.order))
             .then_with(|| a.slug.cmp(&b.slug))
     });
     Ok(())
 }
 
-fn publication_month(date: &str) -> Option<(i32, u8)> {
-    let mut parts = date.split_whitespace();
-    let month = parts.next()?.trim_end_matches('.').to_ascii_lowercase();
-    let year = parts.next()?.parse().ok()?;
-    if parts.next().is_some() {
+fn created_month(w: &WritingMeta) -> Option<(i32, u8)> {
+    parse_date(&w.created).map(|(y, m, _)| (y, m))
+}
+
+/// Parse a `YYYY-MM-DD` date into (year, month, day).
+fn parse_date(date: &str) -> Option<(i32, u8, u8)> {
+    let [year, month, day] = date.split('-').collect::<Vec<_>>()[..] else {
+        return None;
+    };
+    if year.len() != 4 || month.len() != 2 || day.len() != 2 {
         return None;
     }
+    let (year, month, day): (i32, u8, u8) =
+        (year.parse().ok()?, month.parse().ok()?, day.parse().ok()?);
+    if !(1..=12).contains(&month) || !(1..=31).contains(&day) {
+        return None;
+    }
+    Some((year, month, day))
+}
 
-    let month = match month.as_str() {
-        "jan" | "january" => 1,
-        "feb" | "february" => 2,
-        "mar" | "march" => 3,
-        "apr" | "april" => 4,
-        "may" => 5,
-        "jun" | "june" => 6,
-        "jul" | "july" => 7,
-        "aug" | "august" => 8,
-        "sep" | "sept" | "september" => 9,
-        "oct" | "october" => 10,
-        "nov" | "november" => 11,
-        "dec" | "december" => 12,
-        _ => return None,
-    };
-    Some((year, month))
+fn month_label((year, month, _): (i32, u8, u8)) -> String {
+    const MONTHS: [&str; 12] = [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+    ];
+    format!("{} {year}", MONTHS[month as usize - 1])
 }
 
 /// A short hash of the CSS + JS contents, appended to asset URLs as `?v=...`.
@@ -249,12 +280,15 @@ pub fn build_env(root: &Path) -> Result<minijinja::Environment<'static>, BoxErr>
 mod tests {
     use super::*;
 
-    fn writing(slug: &str, date: &str, order: i64) -> WritingMeta {
+    fn writing(slug: &str, created: &str, order: i64) -> WritingMeta {
         WritingMeta {
             slug: slug.into(),
             title: slug.into(),
             status: "Draft".into(),
-            date: date.into(),
+            created: created.into(),
+            updated: created.into(),
+            date: String::new(),
+            updated_label: String::new(),
             blurb: String::new(),
             featured: true,
             order,
@@ -264,10 +298,10 @@ mod tests {
     #[test]
     fn writings_sort_newest_first_with_order_as_same_month_tiebreaker() {
         let mut writings = vec![
-            writing("october", "Oct 2025", 0),
-            writing("june-second", "Jun 2026", 2),
-            writing("july", "July 2026", 9),
-            writing("june-first", "June 2026", 1),
+            writing("october", "2025-10-21", 0),
+            writing("june-second", "2026-06-01", 2),
+            writing("july", "2026-07-11", 9),
+            writing("june-first", "2026-06-03", 1),
         ];
 
         sort_writings_newest_first(&mut writings).unwrap();
@@ -281,10 +315,41 @@ mod tests {
 
     #[test]
     fn writings_reject_dates_that_cannot_be_sorted() {
-        let mut writings = vec![writing("undated", "Coming soon", 0)];
+        let mut writings = vec![writing("undated", "Oct 2025", 0)];
 
         let error = sort_writings_newest_first(&mut writings).unwrap_err();
 
-        assert!(error.to_string().contains("expected Month YYYY"));
+        assert!(error.to_string().contains("expected YYYY-MM-DD"));
+    }
+
+    fn front(created: &str, updated: &str) -> FrontMatter {
+        FrontMatter {
+            title: "T".into(),
+            status: "Final".into(),
+            created: created.into(),
+            updated: updated.into(),
+            blurb: String::new(),
+            featured: false,
+            order: 0,
+        }
+    }
+
+    #[test]
+    fn dates_must_be_yyyy_mm_dd() {
+        assert_eq!(parse_date("2025-10-08"), Some((2025, 10, 8)));
+        for bad in ["2026-03", "2026-13-01", "2026-03-00", "26-03-01", "Mar 2026", "2026-03-1"] {
+            assert_eq!(parse_date(bad), None, "{bad}");
+        }
+    }
+
+    #[test]
+    fn labels_show_created_month_and_later_updates_only() {
+        let m = writing_meta("a".into(), front("2025-10-21", "2026-09-26")).unwrap();
+        assert_eq!((m.date.as_str(), m.updated_label.as_str()), ("Oct 2025", "Sep 2026"));
+
+        let m = writing_meta("b".into(), front("2026-09-01", "2026-09-26")).unwrap();
+        assert_eq!((m.date.as_str(), m.updated_label.as_str()), ("Sep 2026", ""));
+
+        assert!(writing_meta("c".into(), front("2026-09-26", "2026-01-01")).is_err());
     }
 }

@@ -1,7 +1,8 @@
 ---
 title: "Living Above the Models"
 status: "Final"
-date: "May 2026"
+created: "2026-05-23"
+updated: "2026-09-26"
 order: 2
 blurb: "A fallibilist's posture toward inherited authority. Three postures — Orthodox, Explorer, Unbounded — and a defense of the Explorer: use the map, test it, redraw it, and keep walking."
 ---

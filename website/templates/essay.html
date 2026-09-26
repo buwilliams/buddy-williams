@@ -4,7 +4,7 @@ content %}
 <main class="reader-shell">
   <article class="reader">
     <a class="reader-back" href="/writings">← All writing</a>
-    <span class="badge badge-{{ meta.status|lower }}">{{ meta.status }} · {{ meta.date }}</span>
+    <span class="badge badge-{{ meta.status|lower }}">{{ meta.status }} · {{ meta.date }}{% if meta.updated_label %} · Updated {{ meta.updated_label }}{% endif %}</span>
     <h1>{{ meta.title }}</h1>
     <p class="reader-blurb">{{ meta.blurb }}</p>
 

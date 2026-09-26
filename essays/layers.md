@@ -1,7 +1,8 @@
 ---
 title: "Why Explanation Comes in Layers"
 status: "Final"
-date: "Mar 2026"
+created: "2026-03-01"
+updated: "2026-09-26"
 order: 6
 blurb: "Against reductionism: higher-level explanations are often the only forms in which reality becomes intelligible to finite minds. Compression and connectedness are why the explanatory hierarchy cannot be collapsed."
 ---

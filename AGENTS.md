@@ -21,14 +21,17 @@ An essay is published on the site if and only if it begins with a YAML frontmatt
 ---
 title: "Thinking About Thinking"
 status: "Final"        # Draft | Working | Final
-date: "Sep 2026"       # Month YYYY; the index sorts newest first
-order: 0               # tie-breaker within a month, lower first
+created: "2026-09-01"  # YYYY-MM-DD when first written; use the 1st if the day is unknown
+updated: "2026-09-26"  # YYYY-MM-DD of the last substantive revision
+order: 0               # tie-breaker within a month, lower first; the index sorts newest first by created month
 featured: true         # optional
 blurb: "One or two sentences for the index."
 ---
 ```
 
 Status: **Draft** (AI-assisted sketch, not ready for public criticism) → **Working** (rewritten by hand) → **Final** (complete, no further updates intended). Files without frontmatter are unpublished drafts.
+
+When you substantively revise an essay, set `updated` to today. Leave `created` alone. Essay pages show "Updated <Mon YYYY>" when `updated` falls in a later month than `created`.
 
 ## Mechanics
 

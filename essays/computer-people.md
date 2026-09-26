@@ -1,7 +1,8 @@
 ---
 title: "Computer People"
 status: "Final"
-date: "Mar 2026"
+created: "2026-03-01"
+updated: "2026-09-26"
 order: 5
 featured: true
 blurb: "A synthesis of two years of research on AGI. LLMs have the necessary ingredients for novel knowledge creation; we have developed AGI as a universal explainer; and AGI constitutes personhood."

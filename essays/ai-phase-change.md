@@ -1,7 +1,8 @@
 ---
 title: "Current AI Causes Societal Phase Change"
 status: "Final"
-date: "Feb 2026"
+created: "2026-02-01"
+updated: "2026-09-26"
 order: 9
 blurb: "Why AI is a phase change, not just another point on a continuum. Three orthogonal questions people keep conflating, and the map-territory trap that lets people hide from what's already happening."
 ---

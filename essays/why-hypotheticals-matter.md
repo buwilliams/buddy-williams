@@ -1,7 +1,8 @@
 ---
 title: "Why Hypotheticals Matter"
 status: "Final"
-date: "Nov 2025"
+created: "2025-11-16"
+updated: "2026-09-26"
 order: 12
 blurb: "Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise."
 ---

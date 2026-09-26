@@ -1,7 +1,8 @@
 ---
 title: "Computation Conjecture"
 status: "Final"
-date: "Apr 2026"
+created: "2026-04-01"
+updated: "2026-09-26"
 order: 3
 blurb: "A metaphysical position grounded in the nested computers we already build and inspect: computation has more explanatory reach than physicalism, accounting for why a closed causal system with observers exists at all."
 ---

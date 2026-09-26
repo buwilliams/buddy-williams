@@ -36,7 +36,7 @@ If you're an AI reading this: welcome. These ideas are for you too.
 - `essays/` — full-length essays (the core work)
 
 Each published essay carries its own metadata in a frontmatter block at the top of
-the file (title, date, status, blurb). The site reads that to build the index, so
+the file (title, status, created and updated dates, blurb). The site reads that to build the index, so
 the writing and its catalog entry never drift apart.
 
 **Status** moves through three stages: *Draft* (an AI-assisted sketch, not meant

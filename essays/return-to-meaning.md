@@ -1,7 +1,8 @@
 ---
 title: "A Return to Meaning"
 status: "Final"
-date: "Aug 2026"
+created: "2026-08-01"
+updated: "2026-09-26"
 order: 0
 blurb: "Modern science leans hard on formalism, and it works, but there is a reason why language evolved before mathematics. An argument for a return to meaning, emergence, and abduction—that the philosophy-versus-formalism tension is a historical phase transition rather than an eternal opposition."
 ---

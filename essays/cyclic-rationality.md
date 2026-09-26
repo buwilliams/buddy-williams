@@ -1,7 +1,8 @@
 ---
 title: "Cyclic Rationality"
 status: "Final"
-date: "Oct 2025"
+created: "2025-10-16"
+updated: "2026-09-26"
 order: 15
 blurb: "A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination."
 ---
