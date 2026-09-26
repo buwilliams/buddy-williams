@@ -10,154 +10,118 @@ blurb: "Against reductionism: higher-level explanations are often the only forms
 
 ## Introduction
 
-Why are there layers of explanation? Why is it possible to explain a pot of boiling water in one moment by molecular motion, in another by vapor pressure and atmospheric conditions, and in another by saying that someone wanted ramen?
+Why does a pot of boiling water have more than one explanation? You can explain it by molecular motion. You can explain it by vapor pressure and the air pressure above the pot. Or you can say that Buddy wanted ramen and turned on the stove. All three are true, and none cancels the others.
 
-That question matters because our answer shapes how we think about knowledge itself. If every higher-level explanation is merely a shorthand for a deeper one, then explanation is fundamentally a matter of reduction. We may speak in terms of agents, goals, organisms, markets, or ideas, but only as a temporary convenience. On that view, real understanding always lies below.
+The question matters because our answer shapes how we think about knowledge. One common answer is that every higher-level explanation is shorthand for a deeper one. On that view we talk about agents, goals, organisms, and markets only for convenience, and real understanding always lies further down.
 
-I think that view is mistaken.
+I think that view is mistaken. Lower-level mechanisms are real, of course. The mistake is assuming that lower means more explanatory. A more fundamental description is not automatically a more illuminating one.
 
-The mistake is not in thinking that lower-level mechanisms are real. Of course they are. The mistake is in assuming that lower means better explanatorily. That assumption often feels natural because deeper descriptions seem more fundamental. But explanatory depth and ontological depth are not the same thing. A more fundamental description is not automatically a more illuminating one.
-
-My conjecture is that explanatory layers exist because finite minds cannot use reality in its fully uncompressed form. Reality, as encountered by a knower, is too informationally dense and too relationally entangled to be directly intelligible. Explanation therefore requires compression. But compression does not merely shorten a description. It selects structure. It throws away vast amounts of information while preserving what matters for understanding. That is what allows higher-level explanatory objects to appear: pots, ants, colonies, goals, markets, reasons, selves.
-
-There is a second conjecture that goes with this one. As we move lower in the explanatory hierarchy, the burden of connectedness does not merely increase. It regresses toward holism. Lower-level descriptions are not merely more detailed. They are more dependent on wider relations, more sensitive to context, and less separable into self-contained units. Going lower demands more of reality, not less, until at the deepest levels the context implicates the whole.
-
-If that is right, then reductionism misses something central. It carries the higher-level practice of dividing phenomena into neat components down into levels where connectedness matters more than separation. In doing so, it can destroy the very relations required to understand the phenomenon at all.
-
-## A Note on Method
-
-Explanation and causation are not opposites, and this essay does not treat them as such. Tracing causes is frequently how we explain things. The essay does not deny this.
-
-The more precise point is that causation operates at multiple levels. Molecules cause phase transitions. Intentions cause actions. Markets cause prices. All of these are genuine causal claims. The question the essay is asking is not whether causation is real at each level. It is which level of causal description makes a given phenomenon intelligible.
-
-Reductionism assumes the answer is always the substrate level. This essay argues that it is not. The most illuminating causal description is frequently at a higher level, and the hierarchy of explanation exists precisely because finite minds must select the level at which to describe the causes that matter.
-
-One term needs flagging before proceeding. "Level of emergence" is used here in Deutsch's sense: an explanatory domain where phenomena explain one another without requiring reduction to constituent parts. This differs from the standard complexity-theory usage, which refers specifically to bottom-up causal emergence. The two are independent concepts. Conflating them is one of the easier ways to misread what follows.
+My conjecture has two parts. The first is **compression**: finite minds cannot reason over reality in its full detail, so explanation must throw away most of that detail while keeping the structure that matters. Higher-level objects like pots, colonies, goals, and markets are what successful compression produces. The second is **connectedness**: as descriptions go lower, they do not become simpler and more separable. They become more dependent on their surroundings, until at the bottom the context implicates everything. Together, these two reasons explain why the layers of explanation can't be collapsed into the lowest one.
 
 ## Table of Contents
 
-1. The Temptation of Reductionism
-2. Compression and the Problem of Finite Minds
-3. Connectedness and the Cost of Going Lower
-4. Why Higher-Level Explanations Are Real
-5. From Boiling Water to Wanting Ramen
-6. The Reductionist Mistake
-7. Conclusion
-8. Appendix A: Working Definitions
-9. Appendix B: A Short Conjecture
+1. [The Temptation of Reductionism](#1-the-temptation-of-reductionism)
+2. [Compression](#2-compression)
+3. [Connectedness](#3-connectedness)
+4. [From Boiling Water to Wanting Ramen](#4-from-boiling-water-to-wanting-ramen)
+5. [Why Higher-Level Explanations Are Real](#5-why-higher-level-explanations-are-real)
+6. [The Reductionist Mistake](#6-the-reductionist-mistake)
+- [Conclusion](#conclusion)
+- [Appendix: Working Definitions](#appendix-working-definitions)
+- [Further Reading](#further-reading)
 
-## The Temptation of Reductionism
+## 1. The Temptation of Reductionism
 
-Reductionism, as I am using the term, is not simply the claim that things have parts. Of course they do. Nor is it the claim that lower-level processes are real. They are. Reductionism is the epistemological mistake of assuming that the best explanation must come from analyzing things into components, and that higher-level explanations are therefore less fundamental or less real.
+**Reductionism**, as I use the term, is not the claim that things have parts, or that lower-level processes are real. Both are true. It is the view that the best explanation of anything must come from analyzing it into components, so that higher-level explanations are less fundamental or less real.
 
-That view has intuitive appeal. If a thing is made of parts, then surely understanding the parts should explain the whole. If water is made of molecules, then molecular description seems closer to the truth than talking about boiling pots or people making dinner. If an ant colony is made of individual ants, then it seems that the real explanation must be the behavior of the ants themselves. The higher-level description can appear secondary, as though it were only a verbal summary of what is really happening underneath.
+The view has real appeal. If water is made of molecules, molecular description seems closer to the truth than talk of pots and dinner. If a colony is made of ants, the real explanation seems to be the ants. The higher-level story looks like a verbal summary of what is really happening underneath.
 
-But this view quietly assumes something that is not obviously true. It assumes that breaking a thing into components reveals the explanatory structure relevant to the phenomenon. That is precisely what needs to be argued, not assumed.
+But this quietly assumes that breaking a thing into parts reveals the structure that explains it. That needs to be argued, not assumed. The structure that matters may live in patterns among the parts, in history, in boundary conditions, or in how a system interacts with its environment. Decomposition can keep every causal ingredient and still destroy the explanatory form.
 
-A thing can be composed of lower-level parts without being best explained at the level of those parts. In fact, once we care about understanding rather than mere inventory, the opposite is often true. The relevant structure may exist in patterns among the parts, in relations across time, in boundary conditions, in collective behavior, in history, or in the interaction between a system and its environment. In such cases, decomposition may preserve causal ingredients while destroying explanatory form.
+None of this is a rejection of causal explanation. Tracing causes is often how we explain things. But causation operates at many levels. Molecules cause phase transitions, intentions cause actions, markets cause prices. The question is not whether causation is real at each level. It is which level of causal description makes a given phenomenon intelligible. Reductionism assumes the answer is always the bottom. I will argue that it often isn't.
 
-That is the pressure point. Reductionism often mistakes explanatory decomposition for the structure of reality itself.
+## 2. Compression
 
-## Compression and the Problem of Finite Minds
+**Compression** is representing a phenomenon with less information while preserving what matters for explanation. It is not mere abbreviation. It selects structure.
 
-Compression is not mere abbreviation. It is the act of representing a phenomenon with less information while preserving what matters for explanation.
+Finite minds need it because a complete microphysical description of even a mundane event would be hopelessly vast. But size is not the deepest problem. A microphysical description does not interpret itself. It does not mark which cluster of particles is a pot, which pattern is a person, which sequence of events counts as cooking, or which behavior expresses a goal. Those are not written on the microstate. They are abstractions over it.
 
-This matters because finite minds cannot reason over reality in fully uncompressed detail.
+So knowledge does not grow simply by accumulating detail. A complete inventory is not yet an explanation. It becomes one only when structure is selected and organized into a form a mind can use. We do not start with reality in its full detail and then choose to simplify it. We start with no understanding at all, and we reach reality through abstraction. Compression is not a stylistic aid added after understanding. It is part of what understanding is.
 
-A complete microphysical description of even a mundane event would be hopelessly vast. But the problem is not only size. The deeper problem is that a microphysical description is not self-interpreting. It does not arrive with its important abstractions already marked. It does not tell us which cluster of particles is a pot, which pattern is a person, which temporal sequence counts as cooking, or which behavior expresses a goal. Those are not written on the microstate. They are abstractions over it.
+This is also why higher-level objects are not illusions produced by laziness. A higher-level object earns its place when it captures stable structure better than an ocean of lower-level detail does.
 
-That means knowledge does not arise simply by accumulating more detail. A complete inventory is not yet an explanation. It becomes explanatory only when structure is selected, compressed, and organized into a form a finite mind can use.
+## 3. Connectedness
 
-This is why layers of explanation are not optional conveniences. They are what explanation looks like for finite knowers in a connected world. We do not first possess reality in its pure informational fullness and then choose whether to simplify it. We begin in the opposite condition. Reality must be made intelligible through abstraction. Compression is not a stylistic aid added after understanding. It is part of what understanding is.
+Compression explains why we need abstractions, but not why they can't be traded for lower-level ones given enough effort. For that we need a second idea: **connectedness**, the degree to which a phenomenon depends for its intelligibility on relations to other things, conditions, histories, or environments.
 
-This also explains why higher-level explanatory objects are not unreal. They are not hallucinations produced by laziness. They are the result of successful compression. A higher-level object is real in the explanatory sense when it preserves stable structure better than an ocean of lower-level detail does for the task at hand.
+At higher levels, things look fairly separable: the pot, the stove, the ant, the kitchen. That separability is useful and often deeply explanatory. But it is an achievement of abstraction, not a basic feature of reality.
 
-## Connectedness and the Cost of Going Lower
+Go lower and the dependencies multiply. To describe a molecule in boiling water, you must specify temperature and pressure, which are collective properties of enormous numbers of molecules. You must specify the container, the atmosphere, the heat source, the gravitational field. At the quantum level, particles can be entangled so that no particle's state can be described on its own, whatever the distance between them. In general relativity, the geometry of spacetime in one region depends on mass and energy elsewhere. Each attempt to isolate a local description pulls in more of the world.
 
-Compression alone does not complete the picture. Another idea is needed: connectedness.
+Here is the second conjecture. Following this descent to its end, you do not arrive at simple, self-sufficient units. You arrive at a description in which nothing can be specified without specifying more, until the context implicates the whole. The lower limit of reductionism is not simplicity. It is holism.
 
-At higher levels of explanation, things appear fairly separable. The pot, the stove, the ant, the colony, the person, the kitchen. That separability is useful and often profoundly explanatory. But it is an achievement of abstraction, not a primitive feature of reality.
+One clarification keeps this from being misread. The fundamental *laws* of physics may well be simple. The claim is about *describing a particular event* at that level. A simple law applied to one pot of water still needs the state of everything that pot is connected to.
 
-As we move lower in the explanatory hierarchy, the burden of connectedness does not merely increase. It regresses toward holism. To describe a molecule in boiling water, you must specify temperature and pressure, which are collective properties of millions of molecules. You must specify container geometry, atmospheric pressure, the external heat source, the gravitational field. Go lower still, to quantum mechanics, and the situation deepens. Particles are entangled across arbitrary distances. The wave function of a system is global, not local. You cannot describe a particle in isolation without reference to relations that may span large regions of space. In general relativity, local spacetime geometry is determined by the distribution of mass and energy across the entire universe. Every boundary condition expands. Every attempt to isolate a local description pulls in more of the world.
+That is what higher-level explanation does for us. Each layer draws a boundary around what is relevant and treats everything outside it as fixed background. I call this **managed disconnection**: the deliberate severing of relations that don't matter to the phenomenon at hand. It is what makes tractable explanation possible in a deeply connected world. Lower-level description does not only add detail. It undoes the managed disconnection and restores the dependencies the higher layer had screened off.
 
-Following this descent to its conclusion, you do not arrive at simple, self-sufficient units. You arrive at a description in which nothing can be specified without specifying more, until the context implicates the whole of reality. The lower limit of reductionism is not simplicity. It is total interconnection.
+## 4. From Boiling Water to Wanting Ramen
 
-Lower-level description does not only add detail. It restores dependence. It reintroduces the relations that higher-level abstraction had screened off. And at the deepest levels, those relations are not merely numerous. They are non-local, historical, and in some cases unbounded.
+Return to the pot. One explanation says the water boils because its molecules have enough energy to escape into the gas phase. Another says it boils when its vapor pressure equals the surrounding atmospheric pressure. A third says Buddy wanted ramen and turned on the stove.
 
-This is why higher-level explanation is not merely convenient. Each explanatory layer draws a boundary around what is relevant and treats everything outside that boundary as fixed background. That severing of connections, managed disconnection, is what makes tractable explanation possible at all. Compression is not just shortening a description. It is actively quarantining the vast web of relations that would otherwise make every local event dependent on the state of the universe.
+These are not rivals. They sit at different **levels of emergence**, a term I take from David Deutsch: a set of phenomena that can be explained well in terms of each other without being analyzed into their constituents. (This is different from the complexity-science use of "emergence" for bottom-up causal patterns; the two ideas are independent, and confusing them is an easy way to misread this essay.) Vapor pressure, boiling point, and atmospheric pressure explain one another without forcing us down to atoms. Wanting, planning, cooking, and eating form another such domain. Neither is made illusory by the existence of molecules.
 
-## Why Higher-Level Explanations Are Real
+What would it take to derive "Buddy wanted ramen" from a pure microphysical description? Far more than a snapshot of matter. You would need a long stretch of time, a way to track the same entities across it, concepts for persons, beliefs, intentions, and artifacts, and a way to tell relevant structure from meaningless detail. In other words, you would need much of the world and its history already organized into higher-level concepts. The lower-level account can't produce this explanation without first borrowing the higher level.
 
-At this point a natural objection arises. If higher-level explanations are products of how minds must engage with reality, does that not make them less real, artifacts of cognition rather than features of the world?
+The higher-level account is not a lapse in rigor. It compresses what is central and ignores oceans of irrelevant variation. That is what rigor looks like when explanation is the goal.
 
-No. But the objection points toward a clarification worth making explicitly.
+## 5. Why Higher-Level Explanations Are Real
 
-Layers of explanation are required by minds. They are not features of reality that would exist whether or not any mind encountered it. A hypothetical intellect without the limitations of finite minds, with unlimited processing, unlimited memory, and the ability to hold all relations simultaneously, would not need layers. It would encounter reality as one connected whole.
+A natural objection arises here. If layers exist because of how minds must engage with reality, aren't they artifacts of cognition rather than features of the world?
 
-But minds are real features of reality. Humans are minds. The structures that minds must impose to make reality intelligible are therefore real features of how reality is encountered. Not fundamental to the substrate, but not invented or arbitrary either. This is a more modest claim than saying higher-level objects exist independently of all minds. It is also the more defensible one, and it follows directly from the essay's own starting premises.
+Part of the answer is yes: the *need* for layers comes from minds. An intellect with unlimited memory and processing might track every particle and predict every event without them. But the structure a good layer captures does not come from minds. Vapor pressure does predict boiling, whoever is watching. Intentions do organize behavior. A layer is useful only because there is a real regularity there to compress.
 
-What makes a higher-level explanation real in the relevant sense is that it has explanatory reach: it illuminates multiple related phenomena, answers why-questions, preserves counterfactual structure, and does so without requiring the full lower-level substrate to be reconstructed each time. That reach is not illusory. It is a genuine property of the explanation, grounded in genuine structure.
+And minds are themselves part of reality. The layers they need are real features of how reality can be understood: not fundamental to the substrate, but not invented or arbitrary either. That is a more modest claim than saying higher-level objects exist apart from all minds, and a more defensible one.
 
-This is why “Buddy wanted ramen” is a valid explanation of boiling water. It is not a denial of physics. It is an explanation at a level where agency, preference, and intention organize the event more economically and more informatively than a particle-by-particle history would. To reject it because it is not microphysical is not rigor. It is a confusion about what explanation is for.
+What makes a higher-level explanation real in this sense is **explanatory reach**: it illuminates many related phenomena, answers why-questions, and tells us what would have happened otherwise, without rebuilding the whole substrate each time. That reach is a genuine property of the explanation, and it is grounded in genuine structure.
 
-A colony is not unreal because it is made of ants. A market is not unreal because it is made of transactions. A self is not unreal because it is implemented in matter. Higher-level explanations are real when they carve reality at joints that matter for understanding, and minds are real enough to make that mattering real.
+That is why "Buddy wanted ramen" is a valid explanation of boiling water. It doesn't deny physics. It explains at a level where agency, preference, and intention organize the event more economically and more informatively than a particle-by-particle history could. Rejecting it for not being microphysical is not rigor. It is a confusion about what explanation is for.
 
-## From Boiling Water to Wanting Ramen
+A colony is not unreal because it is made of ants. A market is not unreal because it is made of transactions. A self is not unreal because it is implemented in matter.
 
-Consider again the familiar example of boiling water.
+## 6. The Reductionist Mistake
 
-One explanation says that water boils because molecules have enough energy to enter the gas phase. Another says that water boils when the vapor pressure of the liquid equals the surrounding atmospheric pressure. A third says that Buddy wanted ramen and turned on the stove.
+We can now state the mistake plainly. Reductionism expects that breaking a phenomenon into components will bottom out in simple, separable units that explain everything above them. The connectedness argument says it won't. Descriptions of particular events, pushed downward, lead toward holism, where nothing can be specified without specifying more. The reductionist pursues simplicity and finds its opposite.
 
-These are not rival explanations in the sense of mutually exclusive competitors. They are explanations at different levels of emergence.
+That makes reductionism, as a method of explanation, self-undermining. Decomposition works well at higher levels because managed disconnection has already done the hard part. We can isolate a pot from a kitchen, an ant from a colony, or a buyer from a market because abstraction has made those isolations tractable. The success of decomposition up there is not evidence that reality is made of separable units. It is evidence that higher-level abstraction has done its job. Carried downward, into domains where connectedness has not been screened off, decomposition strips away the very relations the phenomenon depends on.
 
-A level of emergence, in the Deutschian sense, is a set of phenomena that can be explained well in terms of each other without being analyzed into their constituent entities. That matters because it identifies a real explanatory domain. Vapor pressure, boiling point, and atmospheric pressure belong together in a way that supports explanation without forcing us down to atomic detail. Human wanting, planning, cooking, and eating belong together in another such domain. Neither is made illusory by the existence of molecules.
+Ant colonies make this vivid. Individual ants follow local rules, many mediated by pheromones. But the colony finds food, builds bridges, defends itself, and adapts in ways no ant plans or understands. The colony-level pattern has explanatory autonomy. Insisting that only the ant is explanatorily real means missing the phenomenon entirely.
 
-What would it take to derive “Buddy wanted ramen” from a pure microphysical description? Far more than a snapshot of matter. One would need a large temporal window, stable identification of entities across time, abstractions for persons, beliefs, intentions, and artifacts, and a way of distinguishing relevant structure from meaningless detail. In other words, one would need a great deal of the world and its history already organized conceptually.
-
-That is why reductionist triumphalism here is misplaced. The lower-level account is not automatically the superior explanation simply because it sits closer to the substrate. The higher-level account may preserve the structure that matters far better. It compresses what is explanatorily central while ignoring oceans of irrelevant microvariation.
-
-This is not a failure of rigor. It is what rigor looks like when explanation is the goal.
-
-## The Reductionist Mistake
-
-We can now state the reductionist mistake more clearly.
-
-Reductionism assumes that going lower means breaking a phenomenon into components and explaining the whole from them. But this program does not terminate where reductionism expects. It does not arrive at simple, separable units that explain everything above them. As the connectedness argument shows, it arrives at holism, a description of total interconnection where nothing can be specified without specifying more. The reductionist pursues simplicity and finds its opposite.
-
-This is the deepest problem. Reductionism is not merely incomplete. It is self-undermining. It promises a foundation and delivers an infinite regress. The practice of decomposition works well at higher levels precisely because abstraction has already screened off most connectedness. We can isolate a pot from a kitchen, an ant from a colony, a buyer from a market, because managed disconnection has already made those isolations tractable. The success of decomposition at higher levels is not evidence that reality is fundamentally composed of separable units. It is evidence that higher-level abstraction has done its job.
-
-Carrying decomposition downward, into domains where connectedness has not been screened off, destroys the structure required to make the event intelligible. This is the epistemological error: treating decomposition as a universal method even in domains where it strips away the very relations the description depends on.
-
-Ant colonies make this vivid. Individual ants follow local behavioral rules, many mediated by pheromones. But the colony exhibits food-finding, bridge-building, collective defense, and adaptive organization that no individual ant plans or understands. The colony-level pattern has explanatory autonomy. Insisting that only the ant is real in the explanatory sense, and the colony merely derivative, means missing the phenomenon entirely.
-
-The same mistake occurs in discussions of mind. Predictive processing may describe something real about lower-level cognitive architecture. But it does not follow that creative explanation, abstraction, criticism, or agency are reducible to it in the explanatory sense. A lower-level mechanism can be real without supplying the best explanation at a higher level.
-
-The broader lesson: components matter, mechanisms matter, but explanation is not a contest to find the smallest pieces. It is the search for the right managed disconnection in a deeply connected reality.
+The same mistake shows up in discussions of mind. Predictive processing may describe something real about the lower-level architecture of cognition. It does not follow that creative explanation, criticism, or agency are best explained by it. A lower-level mechanism can be real without supplying the best explanation at a higher level.
 
 ## Conclusion
 
-Explanations come in layers because finite minds cannot reason over uncompressed reality directly, and because deeper descriptions do not lead to simpler, more separable units. They lead toward holism. A complete lower-level inventory is not yet an explanation. It becomes explanatory only through compression, managed disconnection, and the selective preservation of structure that matters.
+So why does explanation come in layers? Because finite minds cannot reason over uncompressed reality, and because going deeper does not lead to simpler, more separable units. It leads toward holism. A complete lower-level inventory is not yet an explanation. It becomes one only through compression and managed disconnection, which keep the structure that matters and set the rest aside.
 
-This is why higher-level explanations are not merely conveniences. They are the only forms in which reality becomes intelligible to finite knowers. They do not float free of lower-level reality, but neither are they dissolved by it. They are real, not because they exist independently of minds, but because the minds that require them are real features of the world.
+That is why higher-level explanations are not mere conveniences. For finite knowers they are often the only forms in which reality becomes intelligible. They don't float free of lower-level reality, but they aren't dissolved by it either.
 
-Reductionism misses this by assuming that breaking things into components is always the path to better understanding. But the deeper we go, the more connectedness must be preserved. Decomposition, carried far enough, erases what matters and arrives at the holism it sought to escape.
+Components matter, and mechanisms matter. But explanation is not a contest to find the smallest pieces. It is the search for the right managed disconnection in a deeply connected world. The hierarchy of explanation is not an embarrassment to be eliminated. It is one of the ways truth becomes knowable.
 
-If this is right, then the hierarchy of explanation is not an embarrassment to be eliminated. It is a feature of reality as encountered by finite knowers. The world is not given to us as explanation-ready. Explanation requires compression and managed disconnection. Together they create layers. And those layers are not a retreat from truth. They are among the forms in which truth becomes knowable.
-
-## Appendix A: Working Definitions
+## Appendix: Working Definitions
 
 **Compression**: representing a phenomenon with less information while preserving the structure relevant to explanation.
 
-**Connectedness**: the extent to which a phenomenon depends for its intelligibility on relations to other entities, conditions, histories, or environments.
+**Connectedness**: the degree to which a phenomenon depends for its intelligibility on relations to other things, conditions, histories, or environments.
 
-**Explanatory reach**: the ability of an explanation to illuminate many related phenomena, answer why-questions, and preserve relevant counterfactual structure without reconstructing the full substrate each time.
+**Explanatory reach**: an explanation's ability to illuminate many related phenomena, answer why-questions, and preserve counterfactual structure without reconstructing the full substrate each time.
 
-**Level of emergence**: a set of phenomena that can be explained well in terms of each other without being analyzed into their constituent entities.
+**Level of emergence**: a set of phenomena that can be explained well in terms of each other without being analyzed into their constituents (after Deutsch).
 
-**Managed disconnection**: the active severing of relations that are not relevant to a phenomenon, treating everything outside the explanatory boundary as fixed background. The mechanism by which higher-level layers make tractable explanation possible in a deeply connected world.
+**Managed disconnection**: the deliberate severing of relations that are not relevant to a phenomenon, treating everything outside the explanatory boundary as fixed background. The mechanism by which higher-level layers make tractable explanation possible in a deeply connected world.
 
-**Reductionism**: the epistemological mistake of assuming that explanations must always come from analyzing things into components, and that lower-level explanations are therefore more fundamental or more real. Reductionism is self-undermining: followed to its conclusion, the program of decomposition does not arrive at simple, isolated units but at total interconnection. Its apparent successes at higher levels are products of the managed disconnection that higher-level abstraction has already performed.
+**Reductionism**: the view that the best explanation must always come from analyzing things into components, so that lower-level explanations are more fundamental or more real. This essay argues it is self-undermining: pushed down far enough, decomposition arrives not at simple, isolated units but at total interconnection, and its successes at higher levels depend on managed disconnection that abstraction has already performed.
 
-## Appendix B: A Short Conjecture
+## Further Reading
 
-Reality is deeply connected, and that connectedness does not diminish as descriptions go lower. It intensifies, regressing toward holism. Finite minds cannot reason over that full connectedness directly. Explanation therefore depends on compression and managed disconnection: abstractions that sever most relations while preserving those relevant to the phenomenon. Higher-level explanatory layers are real because the minds that require them are real. Reductionism fails not merely because it mistakes decomposition for understanding, but because it is self-undermining: followed honestly, it does not arrive at the simple foundation it promises. It arrives at the holism it sought to escape.
+- David Deutsch, *The Fabric of Reality* (1997).
+- David Deutsch, *The Beginning of Infinity* (2011), especially the chapter "The Reality of Abstractions."
+- [What Is a Computer?](what-is-a-computer.md), a companion essay that draws on the same ideas.
