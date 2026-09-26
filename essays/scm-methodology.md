@@ -26,8 +26,7 @@ My answer is that he had a method, and the method is worth more than the forecas
 6. [A Method for Finding an SCM](#6-a-method-for-finding-an-scm)
 7. [Where the Idea Breaks Down](#7-where-the-idea-breaks-down)
 - [Conclusion](#conclusion)
-- [Appendix A: Working Definitions](#appendix-a-working-definitions)
-- [Appendix B: Worked Examples](#appendix-b-worked-examples)
+- [Appendix A: Worked Examples](#appendix-a-worked-examples)
 
 ## 1. Forecasting Capacity, Not Inventions
 
@@ -105,7 +104,7 @@ If the idea is real, it should yield a procedure. Here is a first pass, offered 
 
 2. **Assemble the causal bag.** List every plausible influence on the outcome, without worrying about structure or overlap. For AI progress: energy, manufacturing, capital, demand, algorithms, researchers, education, supply chains, regulation, scientific knowledge. For fitness: sleep, diet, motivation, stress, exercise, social support, environment, time, recovery. Aim for coverage, not accuracy. A long, messy list is better than a short, tidy one.
 
-3. **Generate candidate compressions.** Ask what single measurable variable might absorb many items at once. For AI progress, compute per dollar. For wealth, savings rate. For fitness, minutes in active environments. For learning, hours engaged with genuinely difficult material. For software delivery, the time from idea to deployed change. Expect to generate several per outcome and discard most.
+3. **Generate candidate compressions.** Ask what single measurable variable might absorb many items at once. For AI progress, compute per dollar. For wealth, savings rate. For fitness, minutes in active environments. For learning, hours engaged with genuinely difficult material. For software delivery, feedback-loop time: the time from a proposed change to its observed effect in production. Expect to generate several per outcome and discard most.
 
 4. **Test dependency absorption.** For each item in the bag, ask whether a rise in the candidate implies that dependency was satisfied. Mark it absorbed, partly absorbed, or not absorbed. Compute per dollar scores well: a rise implies energy, manufacturing, capital, and demand were handled, and partly implies talent and algorithms.
 
@@ -135,29 +134,11 @@ How could Kurzweil be so right about the long run while so often wrong about the
 
 The general lesson is that the most valuable metrics aren't measurements of one thing but compressions of many. Most of what we track are gauges that report a state without containing it. Occasionally a variable contains its causes. So for any goal you care about, in your work or your life, it's worth asking: is there one number that, if you pulled it, would drag enough of the causal structure along to bring the outcome closer? Find it, confirm that pulling it actually pulls the outcome, keep checking that it still does, and much of the rest follows.
 
-## Appendix A: Working Definitions
+## Appendix A: Worked Examples
 
-**Success Compression Metric (SCM).** A single measurable variable that absorbs enough of the causal dependencies of a desired outcome that intervening on it reliably moves the outcome, while freeing you from modeling most of the dependencies separately.
+Brief notes on three candidates the body names but doesn't work through. Each still needs the intervention test applied honestly before being trusted as a target.
 
-**Dependency absorption.** The property by which a metric's value implies that certain causal prerequisites were satisfied, so they need not be tracked independently.
-
-**Upstream absorption.** Absorption backward: a high value implies the metric's causes were satisfied.
-
-**Downstream absorption.** Absorption forward: a high value makes desirable consequences more likely.
-
-**Compression ratio.** An informal measure of an SCM's strength: how many causal variables you can stop actively managing if you commit to watching and moving the metric.
-
-**Intervention test.** The requirement that deliberately increasing the metric tends to produce the outcome, which separates a causal SCM from a merely correlated proxy.
-
-## Appendix B: Worked Examples
-
-These are candidate SCMs, not confirmed ones. Each shows the shape of the reasoning, and each needs the intervention test applied honestly before being trusted as a target.
-
-**Technological progress: compute per dollar.** Strong upstream absorption (energy, manufacturing, capital, demand) and strong downstream absorption (more automation, faster scientific search). Caveat: weakening as the binding constraints broaden beyond chips.
-
-**Wealth: savings rate.** Absorbs income exceeding spending, spending discipline, and delayed gratification. Passes the intervention test reasonably well, since raising the rate generally requires the underlying behaviors rather than allowing them to be faked.
-
-**Fitness: minutes in active environments.** Absorbs access, low friction, social support, and sustained motivation. Plausibly passes the intervention test where a bare count of active minutes doesn't, because the environment is part of the mechanism rather than a side effect of it.
+**Wealth: savings rate.** Passes the intervention test reasonably well, since raising the rate generally requires the underlying behaviors rather than allowing them to be faked.
 
 **Learning: hours engaged with genuinely difficult material.** Absorbs attention, challenge, and persistence. The word "difficult" is load-bearing: easy hours inflate the count without absorbing the causes that make learning happen.
 
