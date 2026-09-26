@@ -31,8 +31,6 @@ Two things are changing. The scarcity that justified the trade is lifting. And t
 7. [The Cost of Formalism](#7-the-cost-of-formalism)
 8. [Why Meaning Comes Back](#8-why-meaning-comes-back)
 - [Conclusion](#conclusion)
-- [Appendix A: The Argument in Thirteen Steps](#appendix-a-the-argument-in-thirteen-steps)
-- [Appendix B: Key Terms](#appendix-b-key-terms)
 
 ## 1. What Reason Is
 
@@ -137,51 +135,3 @@ The claim is narrower. Formalism was never self-sufficient. It always depended o
 We won't face it alone. The minds we are building differ from us in substrate, but that is the shallow difference. Every finite mind meets more than it can hold and has to decide what is worth keeping, and that deciding is meaning-making. Greater capability moves the threshold without removing the condition. Meaning doesn't retire; it gains more minds that need it.
 
 Working on it means working where meaning, emergence, and abduction live, and that work has an instrument. Language is how a mind holds meaning, intent, and the terms it cooperates on. Philosophy is that instrument handled with care. It was never the immature phase of mathematics. It is the layer the rest stands on, and we return to it now not in place of formalism but after it.
-
-## Appendix A: The Argument in Thirteen Steps
-
-The spine of the essay, stated compactly so any step can be attacked on its own.
-
-1. Minds are at least computational systems: signals operating over elementary gates (NAND and equivalents).
-2. A finite system facing more information than it can hold needs labels that convey more with less. This is compression, and stacked compressions form layers of abstraction, suited to different observers (scientists and laypeople alike).
-3. An extra layer of compression appeared between minds: natural language.
-4. Language compresses not only the world but the work of other minds: their goals, hoped-for futures, limits, and ways of seeing. A physical description of boiling water compresses the process superbly, yet says nothing about the fact that someone wanted soup.
-5. What survives compression is useful only if it helps an agent decide and act. Decision theory calls that usefulness utility, and an agent's utility is grounded in its values. Values are the source of meaning.
-6. Numbers and formal symbols travel well once minds share a frame. They travel poorly when the frame itself must still be shared or revised between minds that don't fully match.
-7. Mathematics is reduction at its strongest: once a frame is held fixed, the regularities inside it can be compressed with great power.
-8. Science has leaned hard into this move, treating the resulting formal structures as the main object of attention.
-9. The price is that inventing and choosing frames was pushed outside the formal systems into informal judgment. As Lakatos showed in *Proofs and Refutations*, the polished final form hides the meaning-making that produced it.
-10. As the systems we build grow larger, more independent, and more tightly linked, which frames to use begins to matter more than the calculations inside any single frame.
-11. That higher layer is emergent: it can't be found by looking harder inside any one system; it appears only in the interaction between them.
-12. Proposing candidate frames when the evidence is incomplete is abduction.
-13. Therefore the next useful compressions will require an explicit return to meaning, emergence, and abduction after this long period of intense reductionism.
-
-## Appendix B: Key Terms
-
-**Rationality.** Logic operating over norms and values. Logic alone decides nothing.
-
-**Values.** What an agent cares about: what it is trying to get, avoid, protect, or become. The ground of its utility and the source of meaning.
-
-**Norms.** What an agent will accept as a reason: what counts as evidence, a good argument, or enough to change its mind.
-
-**Agent.** Anything that has goals and acts to pursue them.
-
-**Logic gate.** A switch that produces an output from inputs by a fixed rule. NAND gates alone suffice to build any digital circuit.
-
-**Compression.** Replacing a large amount of detail with a smaller label that keeps the part you need.
-
-**Layers of abstraction.** A stack of compressions describing the same thing, each discarding what the others keep. Which is right depends on who is asking and why.
-
-**Language.** The compression of experience, values, and intent: the compression of minds, as distinct from layers of abstraction that compress the world.
-
-**Utility.** The worth of an outcome to a particular agent, given what it is trying to accomplish. A relationship between information and goals, not a property of the information.
-
-**Meaning.** What information becomes when it meets an agent with values.
-
-**Reduction.** Explaining something by breaking it into smaller parts and the rules those parts follow.
-
-**Frame.** The choices about what to keep and what to discard: what is being measured, why it matters, and what counts as the thing being counted. Formalism compresses inside a frame. It cannot choose one.
-
-**Emergent.** A pattern that exists only in the interaction between parts, and in no part by itself.
-
-**Abduction.** Proposing the best available explanation before the evidence is in, then testing it. Distinct from deduction (what follows from what is already held) and induction (expecting an observed pattern to continue).
