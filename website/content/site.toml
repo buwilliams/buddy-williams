@@ -1,14 +1,14 @@
 # Structured site content. Edit copy here — no Rust changes needed.
 
 name = "Buddy Williams"
-role_title = "Explorer · Builder · Writer"
-tagline = "Build a future worth exploring."
-positioning = "I explore what's new, build the first version, and write about what it means."
+role_title = "Pioneer · Builder · Writer"
+tagline = "Exploring minds and meaning."
+positioning = "I go where there's no map yet, build the first version, and write about what I find."
 hero_sub = """
 For 25 years I've followed ideas to the edge of what's new and built the first \
 version. Low-code before it had a name. AI strategy before it was on every \
 roadmap. Now: Growth Lab, where I help people multiply what they can do with \
-frontier AI, and essays on what that means for how we think and live."""
+frontier AI, and essays on minds and meaning."""
 bio = """
 I've founded four companies and worked every stage of a product, from the first \
 customer conversation to architecture, production, and the tools that make the \
@@ -25,7 +25,7 @@ repo_url = "https://github.com/buwilliams/buddy-williams-writings"
 # Booking — drop in your Cal.com / Calendly link. The site links straight to it
 # now (free intro call); a paid event type slots in here later with no rework.
 scheduler_url = "https://cal.com/buddy-williams-1qvgvh/30min"
-scheduler_label = "Book a free intro call"
+scheduler_label = "Talk with me"
 # Cal.com event slug (username/event) — drives the inline embed + popup buttons.
 cal_link = "buddy-williams-1qvgvh/30min"
 
@@ -87,33 +87,33 @@ caption = "Turn feedback into Gaps and move them through review"
 
 # Consulting offer (free now; paid tiers later, à la handsonangel.com)
 [consulting]
-headline = "Free consulting for builders"
+headline = "Free calls for people building something new"
 intro = """
-I'm offering free intro calls to builders working in the technology space. No \
-pitch, no catch — I've been on every side of the table (sales, architecture, \
-implementation, production) and I'd rather help you avoid the expensive mistakes \
-than watch you make them. Book a call and bring your hardest problem."""
+I offer free intro calls to people building something new in technology. I've \
+worked on every side of a product: sales, architecture, implementation, and \
+production. Many of the expensive mistakes I've seen could have been avoided, and \
+I'd like to help you avoid them. Bring a real problem and we'll think it through \
+together."""
 note = """
-This is free while I build out the practice. Paid ongoing advisement — a booked \
-strategy session plus monthly 1:1 support — is coming for builders who want to go \
-deeper."""
+The intro call is free. Ongoing advising, a strategy session plus monthly \
+one-on-one support, is coming for people who want to go further."""
 cta = "Book a free intro call"
 
 [[consulting.covers]]
 title = "First principles & the road ahead"
-body = "Step back from the roadmap. What thinking machines actually change about your product, your team, and the people they touch — reasoned from the ground up, not the hype cycle."
+body = "Step back from the roadmap and reason from the ground up about what thinking machines change for your product, your team, and the people they touch."
 
 [[consulting.covers]]
 title = "Narrative & positioning"
-body = "Sharpen the story — what you're building, why now, and why anyone should care."
+body = "Sharpen the story: what you're building, why now, and why anyone should care."
 
 [[consulting.covers]]
 title = "Architecture & technical strategy"
 body = "Pressure-test the build. What to own, what to buy, and what will break at scale."
 
 [[consulting.covers]]
-title = "AI strategy that ships"
-body = "Where agents and AI actually create leverage in your product — beyond the demo."
+title = "Where AI actually helps"
+body = "Where agents and AI create real leverage in your product, and where they don't yet."
 
 # Founder credibility — selected work (sourced from resume)
 [[projects]]

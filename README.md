@@ -1,8 +1,10 @@
 # Buddy Williams — Writings
 
+Pioneer, builder, and writer. Exploring minds and meaning.
+
 For 25 years I've followed ideas to the edge of what's new and built the first version. Low-code before it had a name. AI strategy before it was on every roadmap.
 
-Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on what that means for how we think and live.
+Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on minds and meaning.
 
 **Author:** Buddy Williams
 **Read everything:** [buddy-williams.com](https://buddy-williams.com)
