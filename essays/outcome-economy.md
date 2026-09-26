@@ -8,232 +8,145 @@ blurb: "The near-term economic transformation. Knowledge workers become intellig
 
 # The Rise of the Outcome Economy
 
-*Exploring the Near-term Impacts of AI on Knowledge Workers*
+## Introduction
 
-**Buddy Williams** · November 7, 2025
+When people read [Technohumanism](technohumanism.md), their first question is usually the same: *What will happen to jobs?*
 
----
+The question lingers because it is personal, and the answers people hear come in two extremes: "AI will end all jobs" and "AI will create more jobs than it destroys." Who's right?
 
-> Knowledge advances through bold conjectures and rigorous attempts to falsify them.
-> —Inspired by Karl Popper
+This essay builds a model for thinking about that question. It starts with what AI is, follows that to what it does to work, and then follows the changes in work to what they do to the economy. Where it ends up is what I call the **outcome economy**: an economy organized around the results people want rather than the effort it takes to produce them.
 
----
+I've spent 25 years in software development and now lead AI initiatives, but that isn't a reason to believe me. Truth can come from anyone. Think of this as two strangers reasoning together, and judge the model on whether it holds up.
 
-## A Common Question
+## Table of Contents
 
-When people read Technohumanism, often their first question is:
+1. [What AI Is](#1-what-ai-is)
+2. [Three Kinds of Workers](#2-three-kinds-of-workers)
+3. [Two Deflations](#3-two-deflations)
+4. [The Intelligence Worker](#4-the-intelligence-worker)
+5. [The Economics of Abundance](#5-the-economics-of-abundance)
+6. [The Outcome Economy](#6-the-outcome-economy)
+7. [How This Model Could Fail](#7-how-this-model-could-fail)
+8. [Early Evidence](#8-early-evidence)
+9. [Advice for the Transition](#9-advice-for-the-transition)
+- [Conclusion: From Knowledge to Outcome](#conclusion-from-knowledge-to-outcome)
+- [Appendix A: Tracking AI Progress](#appendix-a-tracking-ai-progress)
+- [Appendix B: Is AI an Effective Teacher?](#appendix-b-is-ai-an-effective-teacher)
 
-*"What will happen to jobs?"*
+## 1. What AI Is
 
-It's an understandable question. AI feels both thrilling and threatening—a force poised to reshape everything. My goal in writing Technohumanism was to explore humanity's relationship with technology more broadly, but the jobs question lingers because it's deeply personal.
+To reason about jobs, we first need a working picture of what AI is, because that tells us what it will tend to automate.
 
-Like you, I've heard both extremes:
-- "AI will end all jobs."
-- "AI will create more jobs than it destroys."
-
-Who's right?
-
-This essay builds a model to think clearly about that question. The test of any good model is whether it helps us navigate reality. So, let's explore this together.
-
-**AI → Work → Impacts → Economy → Abundance**
-
----
-
-## About Me
-
-You might be wondering who I am and why you should believe what I have to say. That's an entirely fair question. Pursuing truth is my passion. Truth can come from anyone. So, let's frame this as two agreeable strangers thinking together.
-
-I'm a leader with 25 years of experience in software development. I lead AI initiatives that span research, product delivery, and strategy.
-
-In the end, I don't think you should listen to me because of who I am or what I do; judge for yourself whether what I have to say is worthwhile. Primarily, I want to encourage you to think for yourself. Let's begin.
-
----
-
-## Nature of AI
-
-Before we can reason about jobs, we have to understand what AI actually is. We do this by making observations. This is the first step of reason. I try my best to see the nature of the thing I'm observing. What are its fundamental properties? What makes it unique or distinct?
-
-- Large language models like ChatGPT are **prediction engines** — they predict the next word or token based on probabilities derived from vast patterns of data.
+- Large language models like ChatGPT are **prediction engines**. They predict the next word, or token, from probabilities learned across vast amounts of data.
 - They are **lossy compressions of collective human knowledge**: not perfect memories, but flexible reconstructions of patterns.
 - They can **generalize, generate, and reason** across domains.
-- They increasingly use **tools, planning, and multi-step reasoning** over long time horizons.
+- They increasingly use **tools, planning, and multi-step reasoning** over long stretches of time.
 
-Understanding what AI is reveals what it naturally tends to automate.
+In practice, today's systems can work with text, images, audio, and video; explain and converse; do research; write and debug complex software; and assist scientific work such as designing new materials.
 
-### Capabilities
+Put simply, AI is a thought calculator. The Industrial Revolution automated muscle. AI automates much of knowledge work: finding, applying, and producing what is already known.
 
-Today, AI systems can:
-
-- Generate, translate, and classify text, images, audio, and video.
-- Explain, reason, and converse naturally.
-- Use tools, browse data, and perform research.
-- Write, test, and debug complex software.
-- Support scientific inquiry and design novel materials.
-
-Summed simply: **AI automates thinking.** Where the Industrial Revolution automated muscle, AI automates knowledge work.
-
-> AI is a thought calculator — automated intelligence.
-
----
-
-## Three Worker Classes
+## 2. Three Kinds of Workers
 
 Jobs can be roughly divided into three economic categories:
 
-1. **Field Workers** – Physical labor (construction, repair, logistics).
-2. **Knowledge Workers** – Intellectual labor (medicine, law, engineering, software).
-3. **Asset Workers** – Capital labor (finance, investing, ownership).
+1. **Field workers** do physical labor: construction, repair, logistics.
+2. **Knowledge workers** do intellectual labor: medicine, law, engineering, software.
+3. **Asset workers** do capital labor: finance, investing, ownership.
 
-AI touches all three, but the knowledge worker is most directly impacted. The expertise moat is draining fast. AI can already perform most forms of informational labor and will soon do so faster, cheaper, and better.
+AI touches all three, but it hits knowledge workers hardest, because their work is the kind AI does. Their moat is expertise, and AI is draining it: it already does much informational labor, and keeps getting faster, cheaper, and better.
 
----
+## 3. Two Deflations
 
-## Low-level Impacts
+Comparing work before and after AI shows two specific changes. Both follow from the capabilities above: AI supplies knowledge, and it supplies implementation.
 
-Comparing before AI and after shows what might change, specifically, specialization and implementation. These flow directly out of the AI capabilities above: knowledge, reason, and implementation.
+**The deflation of specialization.** Before AI, writing software took days of study for the simplest tasks and years for complex ones. Now we can ask AI to write the code, explain it, and compare it with other approaches, with no programming expertise required. The same thing is happening across knowledge work: the specialized knowledge that used to be the price of entry is becoming cheap.
 
-### Deflation of Specialization
+**The deflation of implementation.** Before AI, building a complex software system took a team of developers, architects, and coordinators doing the work by hand. Every field spends much of its time finding the right information in the right context. Now we can spin up agents that work around the clock, and in software development we already see implementation speeding up.
 
-**Before:** If you wanted to write computer software, you'd need days of study to do the most basic tasks and years to perform complex assignments.
+## 4. The Intelligence Worker
 
-**After:** We ask AI to write code for us, explain it to us, and compare it with other possible approaches — no programming expertise required. It is a calculator for thinking. A tangential scenario plays out across all knowledge work — no specific knowledge is needed.
+If AI does much of the knowledge work, what is left for people? My conjecture: knowledge workers become **intelligence workers**, people who extend their thinking through AI. Their craft has three parts:
 
-### Deflation of Implementation
+1. **Bold conjectures**: generating new ideas that push past what is known.
+2. **Orchestration**: directing AI workers.
+3. **Evaluation**: judging what is valuable, true, and meaningful in what comes back.
 
-**Before:** If you wanted to build a complex software system, you'd need a team of developers, architects, and coordinators to perform manual implementation. Every field has time spent searching and deriving the correct information in the proper context.
+These are the parts AI does not do well on its own. It is very good at applying existing knowledge, but it does not decide which problems are worth solving or take responsibility for judging the answers. Knowledge work applied existing understanding. Intelligence work explores the unknown. It is a shift from execution to exploration.
 
-**After:** Spin up a number of agents with higher-quality capabilities who will work 24/7 on implementation. Agents will speed up every field. In my field, software development, we are already seeing this implementation speed up.
+Multiply that across millions of people working with AIs, each building on the others' output, and you get what I call an **idea frontier expansion**: a global acceleration of discovery.
 
----
+## 5. The Economics of Abundance
 
-## The Rise of the Intelligence Worker
+An economy is a system for organizing effort toward desired outcomes. When the cost of effort falls sharply, the system's structure changes. In the Industrial Age, value came from machines amplifying muscle; in the Information Age, from computers amplifying knowledge. In the Outcome Age, it comes from AI amplifying human direction and creativity.
 
-AI automates knowledge work, but it doesn't make humans obsolete. Knowledge workers become **intelligence workers** — collaborators in a new creative discipline that extends human thought through AI. Their craft centers on three primary functions:
+I expect companies to shrink in size but grow in number and capability, competing on clarity of mission rather than headcount. Many will be small mission pods: humans and AIs aligned around a single objective.
 
-1. **Bold Conjectures** — generating ideas that push boundaries.
-2. **Orchestration** — managing AI workers.
-3. **Evaluation** — interpreting what's valuable, true, and meaningful.
+At the level of the whole economy, I expect three results, roughly in sequence:
 
-Where knowledge work applied existing understanding, intelligence work explores the unknown. It's the shift from execution to exploration.
+1. **Capital concentration.** At first, the owners of productive AI systems capture most of the value, and wealth inequality rises sharply.
+2. **Redistribution**, through mechanisms such as compute dividends or universal income paid for by taxes. I expect this to follow for two reasons. Businesses need customers, and customers need money to spend. And people want a shared dignity; a society that leaves most of its members behind will not tolerate it for long.
+3. **Outcome economies.** Capital flows toward exploring the idea frontier. Success is measured by problems solved and a more abundant world. Money becomes a tool for directing intelligence.
 
-The outcome is an **Idea Frontier Expansion** — a global acceleration of discovery as millions of humans and AIs co-create, each building on the other's output.
+## 6. The Outcome Economy
 
----
+As AI automates the *how*, the value of implementation falls, and the value of direction rises. What matters is less the ability to produce and more the ability to define, explore, and evaluate outcomes worth pursuing. When knowledge is nearly free and implementation is fast, the scarce resource is **direction**: knowing what is worth doing, and judging whether it was done well. Intelligence workers supply it.
 
-## Falsification
+The outcome economy is an economy organized around goals rather than implementation. Intelligence workers drive it, turning intelligence into progress on three frontiers of abundance:
+
+- **Biological**: health, longevity, and genetics. The abundance it produces is *time*, more life to live.
+- **Material**: energy, robotics, and materials. The abundance it produces is goods and physical prosperity.
+- **Social**: play, competition, and connection. The abundance it produces is *meaning*: fun, richer lives, and deeper relationships.
+
+We are moving from economies of effort to economies of direction, from managing people to managing intelligence.
+
+This changes identity too. Imagine a world where no one asks, "What do you do for a living?" but "What outcome are you working toward?" With an AI expert alongside, a generalist can reach into any specialty, and small groups can organize around missions and causes. You won't be a graphic designer. You'll be a cancer-cure maker. Many people will enjoy their work more, because they'll have more say in where they find meaning.
+
+It's often said that the future of work belongs to entrepreneurship. That's close, but the focus will be causes more than businesses. We see hints of this in Balaji Srinivasan's *The Network State*, where people organize around a shared moral cause, and in what John Wentworth, writing on LessWrong, calls "orienting toward wizard power."
+
+The transition won't be frictionless. The challenge isn't whether AI can create abundance, but whether we can share it ethically.
+
+## 7. How This Model Could Fail
 
 > Science must begin with myths, and with the criticism of myths.
+> —Karl Popper
 
-Above, I've argued that knowledge and implementation are being commoditized, transforming knowledge workers into intelligence workers, leading to outcome economies. I've only presented logical arguments, no evidence. I've hoped you would suspend your inner critic. This is entirely on purpose. People are addicted to data. Actors weaponize data to justify their positions. At the same time, people are not working through hypotheticals. Our reasoning habits have been bifurcated. When it comes to data, we really want a range of tools to explore truth.
+So far I've given arguments, not evidence. That was deliberate. Many people reach for data first, and data is easily selected to justify a position already held; far fewer work through a hypothetical to see what a model claims. We need both tools, and a model should be understood before it is tested.
 
-All models should invite challenge. This one fails if any of the following prove true:
+Every model should say how it could be wrong. This one fails if any of the following turn out to be true:
 
-- **AI does not deflate knowledge work.** Data showing that while AI can provide knowledge, it cannot do so satisfactorily, so the need for specialized knowledge workers will continue.
-- **AI does not deflate implementation effort.** Data showing that while AI can do some tasks, a human-in-the-loop will persist.
-- **Reallocation to outcomes-style businesses fails.** You could show that reallocation will flow more naturally into field and asset work, or even some new form of work.
-- **Society rejects or limits AI deployment** through regulation or collapse.
+- **AI does not deflate specialization.** AI can supply knowledge, but not well enough, so demand for specialized knowledge workers continues.
+- **AI does not deflate implementation.** AI helps with tasks, but people remain necessary to carry out the work, not just to direct and evaluate it.
+- **Work does not reallocate toward outcomes.** Freed effort flows mainly into field or asset work, or into some new kind of work this model doesn't anticipate.
+- **Society rejects or limits AI**, through regulation or collapse.
 
-Let's test this model against emerging signals.
+## 8. Early Evidence
 
----
+Evidence can't prove a model, but it can test one. So far the signals are consistent with this one:
 
-## Evidence
+- **ChatGPT**, with hundreds of millions of users, has normalized thinking with machines. Roughly half of its conversations are "asking" (seeking information or advice) rather than "doing" (producing output).
+- **AI-led schools** like Alpha School and Khan World School show that structured, individualized instruction delivered with AI is workable.
+- **Autonomous software agents** like Blitzy, Claude Code, and Codex show implementation deflating: some complex products are built in days rather than months.
+- **AI scientist systems** such as Kosmos and AlphaEvolve are reporting novel findings; AlphaEvolve, for example, found improved algorithms for matrix multiplication.
+- **GDPval**, a benchmark of real work tasks across dozens of occupations, shows frontier models approaching expert quality on many of them.
 
-Signals supporting this transformation already appear:
+None of these settles the question, but none yet matches a failure condition, and together they point toward rapid change.
 
-- **ChatGPT**, with hundreds of millions of users, has normalized thinking with machines. Roughly half of interactions are exploratory ("asking"), not just productive ("doing").
-- **AI-led education models** like Alpha School and Khan World School demonstrate structured, individualized instruction at scale — bespoke intelligence amplification.
-- **Autonomous software agents** like Blitzy, Claude Code, and Codex show implementation deflation: complex products built in days, not months.
-- **AI Scientist agents**, such as Kosmos and AlphaEvolve, are emerging with novel discoveries.
-- **GDPval benchmarks** reveal that frontier models now perform near-expert levels across dozens of knowledge industries.
-- **McKinsey and MIT research** show AI doubling innovation rates in R&D-driven sectors — the measurable birth of the Frontier Idea Explosion.
+## 9. Advice for the Transition
 
-These signals point in one direction: rapid transformation.
-
----
-
-## Economics of Abundance
-
-An economy is a system for organizing effort toward desired outcomes. When the cost of effort collapses, the system's structure must change. In the Industrial Age, value came from machines amplifying muscle. In the Information Age, it came from computers amplifying knowledge. In the Outcome Age, it comes from intelligence amplifying creativity.
-
-Companies will shrink in size but grow in both numbers and capability. Their competitive edge will no longer be manpower, but clarity of mission. Most organizations will look like small mission pods — humans and AIs aligned around a single objective, coordinating through shared intelligence networks.
-
-At the macro level, three results emerge:
-
-1. **Capital Concentration** — Owners of productive AI systems initially capture most value, and wealth inequality skyrockets.
-
-2. **Redistribution** — such as compute dividends and universal income through taxes. This is inevitable for two reasons:
-   - Businesses need consumers, and consumers need capital.
-   - People have a desire to have collective dignity.
-
-3. **Outcome Economies** — Capital flows to exploring the idea frontier of abundance progress. Success is measured by solved problems and a more abundant world. Money becomes a tool for directing intelligence; the scarce resource becomes human meaning.
-
----
-
-## The Outcome Economy
-
-As AI systems automate the "how," the value of implementation collapses — but the value of direction explodes. What matters is no longer the ability to produce, but the ability to define, explore, and evaluate outcomes worth pursuing.
-
-**Intelligence workers drive the Outcome Economy** — a system organized not around implementation, but around goals.
-
-They convert intelligence into progress across three frontiers of abundance:
-
-- **Biological** — The domain of health, longevity, and genetics. The resulting abundance is *time*, more life to live.
-- **Material** — The domain of energy, robotics, and materials. The resulting abundance is more goods and physical prosperity.
-- **Social** — The domain of play, competition, and connection. The resulting abundance is *meaning*, fun, richer lives, morality, and connection.
-
-When knowledge is free and implementation is instant, the scarce resource becomes insight. Intelligence workers supply it — framing questions, steering exploration, and synthesizing value. The old economy was built on labor power. The new one is built on intelligence power.
-
-> We are moving from economies of effort to economies of direction — from managing people to managing intelligence.
-
----
-
-## A New Identity
-
-Imagine a world where no one asks, 'What do you do for a living?' but instead, 'What outcome are you working toward?' This is where AI is taking us, to outcome economies. Many will enjoy their work more because of greater control over where to find meaning.
-
-As the barrier for knowledge work vanishes, the generalist will be empowered to leverage any specialty field by having an AI expert work alongside them. The future will belong to quests, missions, and goals. There will be an explosion of accomplishments as smaller groups of people organize to pursue causes. You won't be a graphic designer. You'll be a cancer-cure maker.
-
-I've heard it said that the future of work belongs to entrepreneurship. This is not far from the truth. Instead of focusing on building a business, the focus will be on causes. We see hints of this in The Network State, where people organize around a moral cause. John, a contributor to the popular rationality website LessWrong, describes this as Orienting Toward Wizard Power.
-
-The transition to outcome economies won't be frictionless. People need new forms of economic dignity. Some form of universal income or compute dividends. The challenge ahead isn't whether AI can create abundance, but whether we can redistribute ethically.
-
-> We may be wrong, and even the best-tested theory is only a conjecture.
-
----
-
-## Advice for Navigating the Transition
-
-### 1. Use AI to Think Better
-Don't just use AI to produce output; use it to expand understanding. Collaborate with it as a partner in reasoning, reflection, and creativity.
-
-### 2. Think in Outcomes, Not Jobs
-If your income depends on hours billed or narrow expertise, you're standing on melting ice. Explore ideas you find interesting, and let AI implement them.
-
-### 3. Invest in Coordination and Meaning
-When intelligence is abundant, purpose is scarce. The rarest and most valuable skill will be aligning humans around shared goals.
-
-### 4. Build a Nest Egg
-Keep your fixed costs low and be flexible. In a volatile world, adaptability is wealth.
-
-### 5. Cultivate Falsifiability
-Treat every belief as a working hypothesis. Knowing how your worldview could be wrong is the surest way to stay adaptive.
-
----
+1. **Use AI to think better.** Don't use it only to produce output. Use it to expand your understanding, as a partner in reasoning, reflection, and creativity.
+2. **Think in outcomes, not jobs.** If your income depends on hours billed or narrow expertise, you're standing on melting ice. Explore ideas you find interesting, and let AI help implement them.
+3. **Invest in coordination and meaning.** When intelligence is abundant, direction is scarce. The rarest and most valuable skill will be aligning people around shared goals.
+4. **Build a nest egg.** Keep your fixed costs low and stay flexible. In a volatile world, adaptability is wealth.
+5. **Cultivate falsifiability.** Treat every belief as a working hypothesis. Knowing how your worldview could be wrong is the surest way to stay adaptive.
 
 ## Conclusion: From Knowledge to Outcome
 
-The future is uncertain, but I believe we are witnessing the next major transition in the story of work: **Knowledge → Intelligence.**
+So what will happen to jobs? Neither extreme has it right. My conjecture is that AI won't end work or simply add more of the same jobs; it will change what work is, from knowledge to intelligence. In outcome economies, wealth flows to those who direct intelligence toward meaningful ends, and the question becomes not "What do you do?" but "What outcome are you helping to create?"
 
-Knowledge workers evolve into intelligence workers — people who generate conjectures, orchestrate AI workers, and evaluate meaning. Their work fuels a global idea explosion, leading to biological, material, and social abundance.
+I may be wrong. Even the best-tested theory is only a conjecture, and I've named the conditions under which this one fails. But if it holds, this is not the end of work. It is the beginning of intelligence work.
 
-In outcome economies, wealth flows to those who direct intelligence toward meaningful ends. This is not the end of work — it's the beginning of intelligence work. And it's the dawn of an age where the question is no longer "What do you do?" but "What outcome are you helping to create?"
-
----
-
-## Appendices
-
-### Appendix A: Tracking AI Progress
+## Appendix A: Tracking AI Progress
 
 - [METR: Measuring AI Ability to Complete Long Tasks](https://metr.org)
 - [OpenAI Evals (including GDPval)](https://github.com/openai/evals)
@@ -242,26 +155,22 @@ In outcome economies, wealth flows to those who direct intelligence toward meani
 - [ARC Prize](https://arcprize.org)
 - [Humanity's Last Exam](https://lastexam.ai)
 
-### Appendix B: Is AI an Effective Teacher?
+## Appendix B: Is AI an Effective Teacher?
 
-By default, large language models offer unstructured learning: you ask a question, get an answer, and move on. Used alone, this approach risks shallow understanding — leading to traps like focalism, Maslow's hammer, or centrality bias. Unstructured learning can produce confidence without comprehension — the illusion of understanding.
+By default, language models offer unstructured learning: you ask a question, get an answer, and move on. Used alone, this risks shallow understanding and traps like focalism, Maslow's hammer, and centrality bias. It can produce confidence without comprehension, the illusion of understanding.
 
-Fortunately, AI is already moving beyond this. Systems like Alpha School and Khan World School show how AI can deliver structured, personalized learning — meeting students where they are and guiding them to where they need to be.
+AI is already moving past this. Programs like Alpha School and Khan World School use it to deliver structured, personalized learning: just-enough, just-in-time education that meets students where they are. It also lets generalists compete with specialists, handing detailed expertise to AI while they focus on reasoning and direction. So AI need not make us dumber. Used well, it frees people to spend less time memorizing and more time thinking.
 
-This shift enables bespoke education: "just-enough" and "just-in-time" learning tailored to the individual. It empowers generalists to compete with specialists by outsourcing detailed expertise to AI while focusing on creative reasoning and direction.
+**Sample AI education programs:**
 
-In short, AI won't make us dumber; it can make learning adaptive. It replaces rote accumulation with continuous, context-aware understanding — freeing humans to spend less time memorizing and more time thinking.
-
-**Sample AI Education Programs:**
-
-- **Alpha School** — private K-12 network where students do core academics in ~2 hours via AI/adaptive software
-- **Unbound Academy** — model explicitly prioritizing AI to deliver core academics
-- **Khan World School @ ASU Prep** — online high school integrating Khanmigo AI tutoring
-- **2-Hour Learning** — AI-tutor framework marketed as "crush academics in 2 hours"
-- **Super Teacher** — low-cost AI tutor for elementary schools
-- **Khanmigo (Khan Academy)** — AI tutor & teacher assistant deployed across districts
-- **Kira Learning** — AI co-teacher agents for one-on-one guidance
-- **Kyron Learning** — AI-driven interactive lessons and conversational video tutors
-- **Knewton Alta (Wiley)** — adaptive courseware with AI-personalized pacing
-- **Alice.Tech** — "Duolingo for exams" with AI-generated personalized study plans
-- **MagicSchool** — widely adopted AI platform with student tools and tutors
+- **Alpha School**: private K-12 network where students complete core academics in about two hours a day with AI and adaptive software
+- **Unbound Academy**: model that explicitly prioritizes AI to deliver core academics
+- **Khan World School @ ASU Prep**: online high school integrating Khanmigo AI tutoring
+- **2-Hour Learning**: AI-tutor framework marketed as "crush academics in 2 hours"
+- **Super Teacher**: low-cost AI tutor for elementary schools
+- **Khanmigo (Khan Academy)**: AI tutor and teacher assistant deployed across districts
+- **Kira Learning**: AI co-teacher agents for one-on-one guidance
+- **Kyron Learning**: AI-driven interactive lessons and conversational video tutors
+- **Knewton Alta (Wiley)**: adaptive courseware with AI-personalized pacing
+- **Alice.Tech**: "Duolingo for exams" with AI-generated personalized study plans
+- **MagicSchool**: widely adopted AI platform with student tools and tutors
