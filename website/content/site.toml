@@ -1,21 +1,18 @@
 # Structured site content. Edit copy here — no Rust changes needed.
 
 name = "Buddy Williams"
-role_title = "Explorer · Builder · Philosopher"
+role_title = "Explorer · Builder · Writer"
 tagline = "Build a future worth exploring."
-positioning = "I help you explore what's possible."
+positioning = "I explore what's new, build the first version, and write about what it means."
 hero_sub = """
-I'm an explorer first and a builder second. For 25+ years, founding four \
-companies, I've followed ideas to the edge of what's new and built the first \
-version: low-code before it had a name, AI strategy before it was on every \
-roadmap. Now I run Growth Lab, where leaders learn to multiply what people can \
-do with frontier AI, and I write about how we think, how knowledge grows, and \
-what it means to be human among thinking machines."""
+For 25 years I've followed ideas to the edge of what's new and built the first \
+version. Low-code before it had a name. AI strategy before it was on every \
+roadmap. Now: Growth Lab, where I help people multiply what they can do with \
+frontier AI, and essays on what that means for how we think and live."""
 bio = """
-I'm a builder who designs futures. I own the full arc — first customer \
-conversation through architecture, production deployment, and the tooling that \
-makes the next build faster. Low-code before it had a name. AI strategy before it \
-was on every roadmap. Now: what happens when cognitive work becomes nearly free."""
+I've founded four companies and worked every stage of a product, from the first \
+customer conversation to architecture, production, and the tools that make the \
+next build faster."""
 
 # Contact + social
 email = "hello@buddy-williams.com"

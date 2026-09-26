@@ -1,8 +1,8 @@
 # Buddy Williams — Writings
 
-I have a track record of knowing what's going to matter before it's obvious, then designing toward it.
+For 25 years I've followed ideas to the edge of what's new and built the first version. Low-code before it had a name. AI strategy before it was on every roadmap.
 
-Low-code before it had a name. AI personal intelligence before OpenClaw. Now: AI consciousness.
+Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on what that means for how we think and live.
 
 **Author:** Buddy Williams
 **Read everything:** [buddy-williams.com](https://buddy-williams.com)

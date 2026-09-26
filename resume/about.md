@@ -7,13 +7,11 @@
 
 ## Who I Am
 
-I have a track record of knowing what's going to matter before it's obvious, then designing toward it.
+For 25 years I've followed ideas to the edge of what's new and built the first version. Low-code before it had a name. AI strategy before it was on every roadmap.
 
-I've spent 25 years as a builder. The throughline isn't a single domain. It's arriving at the edge of what's new, figuring out what matters, and building the first version. Low-code before it had a name. AI personal intelligence before OpenClaw. Now: AI consciousness.
+Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on what that means for how we think and live.
 
-The topic is immaterial. The insight is the point.
-
-I'm an autodidact. Software architecture, economics, epistemology, philosophy: I study whatever the territory demands. I design systems, write frameworks, and search for good explanations.
+What connects the work isn't a field. It's the habit of asking what's actually new. I'm self-taught: software architecture, economics, epistemology, philosophy. I study whatever the territory demands. I design systems, write frameworks, and search for good explanations.
 
 ## Where to Start
 
