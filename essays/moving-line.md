@@ -3,7 +3,6 @@ title: "The Moving Line"
 status: "Final"
 date: "July 2026"
 order: 0
-featured: true
 blurb: "Work lies on one timeline: what AI does, what AI can do but humans still do, what only humans can do, and the unbounded frontier beyond. Three boundaries move across it at diffusion, research, and frontier rates. This essay models who gets repriced, who evaporates, and who captures what opens next."
 ---
 

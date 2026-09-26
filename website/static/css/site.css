@@ -163,29 +163,40 @@ p {
   font-size: 1.05rem;
 }
 
-/* ---------- Hero ---------- */
-.hero {
+/* ---------- Stage (hero with Intro · Work · Writing) ---------- */
+/* Three modes:
+   - no JS:          panels and work slides stack (plain long page)
+   - .is-tabs:       panels share one grid cell; tabs / arrows / swipe switch them
+   - .is-pinned:     the stage is tall, the inner frame sticks, scroll drives steps */
+.stage {
+  position: relative;
+  border-bottom: 1px solid var(--line);
+  --header-h: 64px;
+}
+.stage-sticky {
   position: relative;
   isolation: isolate;
-  padding: clamp(56px, 9vw, 120px) clamp(18px, 4vw, 48px) clamp(48px, 7vw, 96px);
+  display: flex;
+  flex-direction: column;
+  padding: clamp(24px, 4vw, 44px) clamp(18px, 4vw, 48px) clamp(40px, 6vw, 72px);
   background:
     linear-gradient(
       100deg,
       rgba(5, 10, 28, 0.94) 0%,
-      rgba(6, 12, 32, 0.78) 42%,
-      rgba(7, 15, 38, 0.4) 100%
+      rgba(6, 12, 32, 0.8) 42%,
+      rgba(7, 15, 38, 0.5) 100%
     ),
     url("/static/img/background.png") center/cover no-repeat;
-  border-bottom: 1px solid var(--line);
+  overflow: hidden;
 }
-.hero::after {
-  /* deepen the bottom so the proof bar blends in */
+.stage-sticky::after {
   content: "";
   position: absolute;
   inset: auto 0 0 0;
-  height: 38%;
+  height: 28%;
   background: linear-gradient(to bottom, rgba(7, 15, 36, 0), var(--night));
   z-index: -1;
+  pointer-events: none;
 }
 .hero-inner {
   max-width: var(--maxw);
@@ -203,7 +214,7 @@ p {
   color: var(--amber);
   margin-bottom: 16px;
 }
-.hero h1 {
+.stage h1 {
   font-family: var(--serif);
   font-weight: 600;
   font-size: clamp(2.5rem, 6vw, 4.6rem);
@@ -241,39 +252,6 @@ p {
   border-radius: 50%;
   border: 1px solid rgba(207, 224, 255, 0.35);
   box-shadow: 0 0 0 8px rgba(79, 143, 247, 0.08), 0 30px 70px rgba(2, 8, 23, 0.6);
-}
-
-/* ---------- Proof bar ---------- */
-.proof {
-  margin-top: clamp(32px, 5vw, 60px);
-  padding: 0 clamp(18px, 4vw, 48px) clamp(40px, 6vw, 72px);
-}
-.proof-grid {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
-}
-.proof-item {
-  padding: 24px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: linear-gradient(180deg, var(--panel), var(--night-2));
-}
-.proof-value {
-  display: block;
-  font-family: var(--serif);
-  font-size: clamp(1.8rem, 3vw, 2.5rem);
-  font-weight: 600;
-  color: #fff;
-  line-height: 1;
-}
-.proof-label {
-  display: block;
-  margin-top: 10px;
-  color: var(--muted);
-  font-size: 0.92rem;
 }
 
 /* ---------- Sections ---------- */
@@ -1077,9 +1055,6 @@ p {
   .hero-portrait img {
     width: 160px;
   }
-  .proof-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .showcase-body,
   .card-grid,
   .covers-grid,
@@ -1090,9 +1065,6 @@ p {
 @media (max-width: 620px) {
   .site-nav a:not(.nav-cta) {
     display: none;
-  }
-  .proof-grid {
-    grid-template-columns: 1fr;
   }
   .writing-row {
     flex-direction: column;
@@ -1110,4 +1082,406 @@ p {
     max-width: 100%;
     text-align: left;
   }
+}
+
+/* ---------- Stage: tabs, panels, work carousel ---------- */
+.stage-bar {
+  display: none; /* tabs only exist once JS runs */
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto clamp(18px, 3vh, 36px);
+}
+.stage.is-tabs .stage-bar,
+.stage.is-measuring .stage-bar,
+.stage.is-pinned .stage-bar {
+  display: block;
+}
+.stage-tabs {
+  position: relative;
+  display: inline-flex;
+  gap: 4px;
+  padding: 5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: rgba(7, 15, 36, 0.55);
+  backdrop-filter: blur(10px);
+}
+.stage-tab {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 9px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.25s ease;
+}
+.stage-tab:hover,
+.stage-tab[aria-selected="true"] {
+  color: var(--night);
+}
+.stage-tab:hover:not([aria-selected="true"]) {
+  color: var(--text);
+}
+.stage-tab:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+.stage-tab-num {
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  opacity: 0.7;
+}
+/* the amber pill that glides under the active tab (positioned by JS) */
+.stage-tab-glow {
+  position: absolute;
+  z-index: 0;
+  top: 5px;
+  bottom: 5px;
+  left: 0;
+  width: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--amber), var(--amber-2));
+  box-shadow: 0 6px 22px rgba(246, 180, 110, 0.35);
+  transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1), width 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.stage-progress {
+  display: none;
+  height: 2px;
+  margin-top: 14px;
+  max-width: 320px;
+  border-radius: 2px;
+  background: var(--line);
+  overflow: hidden;
+}
+.stage.is-pinned .stage-progress {
+  display: block;
+}
+.stage-progress span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform-origin: left;
+  transform: scaleX(0);
+  background: linear-gradient(90deg, var(--blue), var(--amber));
+}
+
+.stage-panels {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.stage-panel + .stage-panel {
+  margin-top: clamp(56px, 8vw, 96px); /* stacked (no JS) */
+}
+.stage.is-measuring .stage-panels,
+.stage.is-pinned .stage-panels {
+  display: grid;
+}
+.stage.is-measuring .stage-panel,
+.stage.is-pinned .stage-panel {
+  grid-area: 1 / 1;
+  margin-top: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(18px);
+  transition: opacity 0.5s ease, transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0s linear 0.5s;
+}
+.stage.is-measuring .stage-panel.is-active,
+.stage.is-pinned .stage-panel.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity 0.5s ease 0.08s, transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0.08s, visibility 0s;
+}
+.stage.is-measuring .stage-panel.is-before,
+.stage.is-pinned .stage-panel.is-before {
+  transform: translateY(-18px);
+}
+
+/* tabs: only the active panel / slide is in the flow, so the page stays short */
+.stage.is-tabs .stage-panel + .stage-panel {
+  margin-top: 0;
+}
+.stage.is-tabs .work-slides {
+  gap: 0;
+}
+.stage.is-tabs .stage-panel:not(.is-active),
+.stage.is-tabs .work-slide:not(.is-active) {
+  display: none;
+}
+.stage.is-tabs .stage-panel.is-active,
+.stage.is-tabs .work-slide.is-active {
+  animation: stage-in 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes stage-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* pinned: tall stage, sticky frame that fills the viewport under the header */
+.stage.is-pinned .stage-sticky {
+  position: sticky;
+  top: var(--header-h);
+  height: calc(100vh - var(--header-h));
+  height: calc(100svh - var(--header-h));
+  justify-content: center;
+}
+
+.stage-hint {
+  display: none;
+  margin-top: clamp(20px, 4vh, 40px);
+  color: var(--muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.stage.is-pinned .stage-hint {
+  display: block;
+}
+.stage-hint span {
+  display: inline-block;
+  margin-left: 6px;
+  animation: hint-bob 1.8s ease-in-out infinite;
+}
+@keyframes hint-bob {
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+/* Work carousel */
+.work-slides {
+  display: grid;
+  gap: clamp(56px, 8vw, 96px); /* stacked (no JS) */
+}
+.stage.is-measuring .work-slides,
+.stage.is-pinned .work-slides {
+  gap: 0;
+}
+.work-slide {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: clamp(24px, 4vw, 56px);
+  align-items: center;
+}
+.stage.is-measuring .work-slide,
+.stage.is-pinned .work-slide {
+  grid-area: 1 / 1;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(40px);
+  transition: opacity 0.45s ease, transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1), visibility 0s linear 0.45s;
+}
+.stage.is-measuring .work-slide.is-before,
+.stage.is-pinned .work-slide.is-before {
+  transform: translateX(-40px);
+}
+.stage.is-measuring .work-slide.is-active,
+.stage.is-pinned .work-slide.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: opacity 0.45s ease 0.06s, transform 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) 0.06s, visibility 0s;
+}
+.work-copy h2,
+.writing-head h2 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  margin-bottom: 14px;
+}
+.work-copy .section-sub {
+  font-size: 1rem;
+}
+.work-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+.work-visual .gallery-dots {
+  margin-top: 10px;
+}
+.work-controls {
+  display: none;
+  align-items: center;
+  gap: 14px;
+  margin-top: clamp(18px, 3vh, 32px);
+}
+.stage.is-tabs .work-controls,
+.stage.is-measuring .work-controls,
+.stage.is-pinned .work-controls {
+  display: flex;
+}
+.work-nav {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: rgba(7, 15, 36, 0.6);
+  color: var(--text);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.work-nav:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+.work-dots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.work-dot {
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.work-dot[aria-current="true"] {
+  color: var(--amber);
+  border-color: rgba(246, 180, 110, 0.5);
+  background: rgba(246, 180, 110, 0.08);
+}
+
+/* Growth Lab: the three-mandate cycle */
+.cycle {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: clamp(22px, 3vw, 34px);
+  display: grid;
+  gap: 14px;
+  border: 1px solid var(--line-strong);
+  border-radius: 18px;
+  background:
+    radial-gradient(90% 120% at 100% 0%, rgba(79, 143, 247, 0.18), transparent 60%),
+    linear-gradient(180deg, var(--panel-2), var(--night-2));
+  box-shadow: var(--shadow);
+}
+.cycle::after {
+  content: "↻  and again";
+  justify-self: end;
+  color: var(--amber);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1rem;
+}
+.cycle-step {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 1.02rem;
+}
+.cycle-num {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--night);
+  background: radial-gradient(circle at 35% 30%, #fff, var(--amber) 60%, var(--amber-2));
+  box-shadow: 0 0 16px rgba(246, 180, 110, 0.45);
+}
+
+/* Writing panel */
+.writing-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: clamp(18px, 3vh, 30px);
+}
+.writing-head > div {
+  max-width: 64ch;
+}
+.writing-head .section-sub {
+  font-size: 1rem;
+}
+.writing-head .button {
+  flex: none;
+}
+.stage-cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+.stage-cards .essay-card {
+  padding: 18px 20px;
+  gap: 8px;
+}
+.stage-cards .essay-card h3 {
+  font-size: 1.18rem;
+}
+.stage-cards .essay-card p {
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 940px) {
+  .work-slide {
+    grid-template-columns: 1fr;
+  }
+  .stage-cards {
+    grid-template-columns: 1fr;
+  }
+  .writing-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 520px) {
+  .stage-tab {
+    padding: 8px 12px;
+  }
+  .stage-tab-num {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stage-panel,
+  .work-slide,
+  .stage-tab-glow {
+    transition: none !important;
+    transform: none !important;
+  }
+  .stage-hint span,
+  .stage-panel,
+  .work-slide {
+    animation: none !important;
+  }
+}
+.stage.is-pinned .stage-sticky,
+.stage.is-measuring .stage-sticky {
+  padding-bottom: clamp(24px, 4vh, 44px);
 }

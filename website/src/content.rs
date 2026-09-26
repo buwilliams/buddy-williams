@@ -7,15 +7,20 @@ use std::path::Path;
 type BoxErr = Box<dyn std::error::Error + Send + Sync>;
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
-pub struct Stat {
-    pub value: String,
-    pub label: String,
-}
-
-#[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Shot {
     pub src: String,
     pub caption: String,
+}
+
+#[derive(Debug, Clone, Deserialize, Serialize)]
+pub struct GrowthLab {
+    pub name: String,
+    pub url: String,
+    pub school_url: String,
+    pub tagline: String,
+    pub description: String,
+    #[serde(default)]
+    pub points: Vec<String>,
 }
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -84,8 +89,7 @@ pub struct SiteConfig {
     pub scheduler_url: String,
     pub scheduler_label: String,
     pub cal_link: String,
-    #[serde(default)]
-    pub stats: Vec<Stat>,
+    pub growth_lab: GrowthLab,
     pub video: Video,
     pub refine: Refine,
     pub consulting: Consulting,

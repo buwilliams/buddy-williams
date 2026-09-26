@@ -1,130 +1,164 @@
 {% extends "base.html" %} {% block content %}
 <main>
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-stars" aria-hidden="true"></div>
-    <div class="hero-inner">
-      <div class="hero-copy">
-        <p class="eyebrow">{{ cfg.role_title }}</p>
-        <h1>{{ cfg.positioning }}</h1>
-        <p class="hero-lede">{{ cfg.hero_sub }}</p>
-        <div class="hero-actions">
-          <a class="button primary" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
-            >{{ cfg.scheduler_label }}</a
-          >
-          <a class="button ghost" href="/writings">Read the writing</a>
+  <!-- Stage: one hero with three tabs (Intro · Work · Writing).
+       No JS: the panels simply stack. With JS on a roomy screen, the stage pins
+       and normal scrolling steps through Intro → the three Work slides → Writing;
+       elsewhere it becomes plain tabs (tap, arrow keys, swipe). -->
+  <section class="stage" data-stage aria-label="Introduction, work, and writing">
+    <div class="stage-sticky">
+      <div class="stage-bar">
+        <div class="stage-tabs" role="tablist" aria-label="Sections">
+          <button class="stage-tab" role="tab" id="tab-intro" aria-controls="panel-intro" aria-selected="true" data-tab="0">
+            <span class="stage-tab-num">01</span> Intro
+          </button>
+          <button class="stage-tab" role="tab" id="tab-work" aria-controls="panel-work" aria-selected="false" data-tab="1">
+            <span class="stage-tab-num">02</span> Work
+          </button>
+          <button class="stage-tab" role="tab" id="tab-writing" aria-controls="panel-writing" aria-selected="false" data-tab="2">
+            <span class="stage-tab-num">03</span> Writing
+          </button>
+          <span class="stage-tab-glow" aria-hidden="true"></span>
         </div>
-        <p class="hero-note">{{ cfg.tagline }}</p>
+        <div class="stage-progress" aria-hidden="true"><span></span></div>
       </div>
-      <div class="hero-portrait">
-        <img src="/static/img/profile.jpg" alt="Portrait of {{ cfg.name }}" />
-      </div>
-    </div>
-  </section>
 
-  <!-- Proof bar -->
-  <section class="proof">
-    <div class="proof-grid">
-      {% for s in cfg.stats %}
-      <div class="proof-item">
-        <span class="proof-value">{{ s.value }}</span>
-        <span class="proof-label">{{ s.label }}</span>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
+      <div class="stage-panels">
+        <!-- Intro -->
+        <div class="stage-panel is-active" role="tabpanel" id="panel-intro" aria-labelledby="tab-intro" data-panel="0">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <p class="eyebrow">{{ cfg.role_title }}</p>
+              <h1>{{ cfg.positioning }}</h1>
+              <p class="hero-lede">{{ cfg.hero_sub }}</p>
+              <div class="hero-actions">
+                <a class="button primary" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
+                  >{{ cfg.scheduler_label }}</a
+                >
+                <a class="button ghost" href="/writings">Read the writing</a>
+              </div>
+              <p class="hero-note">{{ cfg.tagline }}</p>
+            </div>
+            <div class="hero-portrait">
+              <img src="/static/img/profile.jpg" alt="Portrait of {{ cfg.name }}" />
+            </div>
+          </div>
+          <p class="stage-hint" aria-hidden="true">Scroll to explore <span>↓</span></p>
+        </div>
 
-  <!-- Moving Line video -->
-  <section class="section showcase video-feature" id="moving-line">
-    <div class="section-head">
-      <p class="eyebrow">The model, in four minutes</p>
-      <h2>{{ cfg.video.name }} — {{ cfg.video.tagline }}</h2>
-      <p class="section-sub">{{ cfg.video.description }}</p>
-    </div>
-    <div class="showcase-body">
-      <ul class="showcase-points">
-        {% for p in cfg.video.points %}
-        <li>{{ p }}</li>
-        {% endfor %}
-        <li class="showcase-link video-actions">
-          <a class="button primary small" href="/writings/{{ cfg.video.essay_slug }}"
-            >Read the essay →</a
-          >
-          <a class="button ghost small" href="{{ cfg.video.youtube_url }}" target="_blank" rel="noopener"
-            >Watch on YouTube →</a
-          >
-        </li>
-      </ul>
-      <div class="video-frame">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/{{ cfg.video.youtube_id }}"
-          title="{{ cfg.video.name }} — {{ cfg.video.tagline }}"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </div>
-  </section>
+        <!-- Work: carousel of three -->
+        <div class="stage-panel" role="tabpanel" id="panel-work" aria-labelledby="tab-work" data-panel="1">
+          <div class="work" data-work>
+            <div class="work-slides">
+              <!-- Growth Lab -->
+              <article class="work-slide is-active" data-slide="0" aria-roledescription="slide" aria-label="1 of 3: {{ cfg.growth_lab.name }}">
+                <div class="work-copy">
+                  <p class="eyebrow">What I'm building now</p>
+                  <h2>{{ cfg.growth_lab.name }} — {{ cfg.growth_lab.tagline }}</h2>
+                  <p class="section-sub">{{ cfg.growth_lab.description }}</p>
+                  <div class="work-actions">
+                    <a class="button primary small" href="{{ cfg.growth_lab.url }}" target="_blank" rel="noopener">Visit Growth Lab →</a>
+                    <a class="button ghost small" href="{{ cfg.growth_lab.school_url }}" target="_blank" rel="noopener">Explore Growth School →</a>
+                  </div>
+                </div>
+                <div class="work-visual">
+                  <ol class="cycle" aria-label="Growth Lab's three mandates">
+                    {% for p in cfg.growth_lab.points %}
+                    <li class="cycle-step"><span class="cycle-num">{{ loop.index }}</span>{{ p }}</li>
+                    {% endfor %}
+                  </ol>
+                </div>
+              </article>
 
-  <!-- Refine showcase -->
-  <section class="section showcase" id="refine">
-    <div class="section-head">
-      <p class="eyebrow">Shipping in production</p>
-      <h2>{{ cfg.refine.name }} — {{ cfg.refine.tagline }}</h2>
-      <p class="section-sub">{{ cfg.refine.description }}</p>
-    </div>
-    <div class="showcase-body">
-      <ul class="showcase-points">
-        {% for p in cfg.refine.points %}
-        <li>{{ p }}</li>
-        {% endfor %}
-        <li class="showcase-link">
-          <a class="button primary small" href="{{ cfg.refine.url }}" target="_blank" rel="noopener"
-            >Visit getrefine.dev →</a
-          >
-        </li>
-      </ul>
-      <div class="gallery" data-gallery>
-        <div class="gallery-viewport">
-          <div class="gallery-track">
-            {% for shot in cfg.refine.screenshots %}
-            <figure class="gallery-slide">
-              <img src="{{ shot.src }}" alt="{{ shot.caption }}" loading="lazy" />
-              <figcaption>{{ shot.caption }}</figcaption>
-            </figure>
+              <!-- The Moving Line -->
+              <article class="work-slide" data-slide="1" aria-roledescription="slide" aria-label="2 of 3: {{ cfg.video.name }}">
+                <div class="work-copy">
+                  <p class="eyebrow">The model, in four minutes</p>
+                  <h2>{{ cfg.video.name }} — {{ cfg.video.tagline }}</h2>
+                  <p class="section-sub">{{ cfg.video.description }}</p>
+                  <div class="work-actions">
+                    <a class="button primary small" href="/writings/{{ cfg.video.essay_slug }}">Read the essay →</a>
+                    <a class="button ghost small" href="{{ cfg.video.youtube_url }}" target="_blank" rel="noopener">Watch on YouTube →</a>
+                  </div>
+                </div>
+                <div class="work-visual">
+                  <div class="video-frame">
+                    <iframe
+                      src="https://www.youtube-nocookie.com/embed/{{ cfg.video.youtube_id }}"
+                      title="{{ cfg.video.name }} — {{ cfg.video.tagline }}"
+                      loading="lazy"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Refine -->
+              <article class="work-slide" data-slide="2" aria-roledescription="slide" aria-label="3 of 3: {{ cfg.refine.name }}">
+                <div class="work-copy">
+                  <p class="eyebrow">Shipping in production</p>
+                  <h2>{{ cfg.refine.name }} — {{ cfg.refine.tagline }}</h2>
+                  <p class="section-sub">{{ cfg.refine.description }}</p>
+                  <div class="work-actions">
+                    <a class="button primary small" href="{{ cfg.refine.url }}" target="_blank" rel="noopener">Visit getrefine.dev →</a>
+                  </div>
+                </div>
+                <div class="work-visual">
+                  <div class="gallery" data-gallery>
+                    <div class="gallery-viewport">
+                      <div class="gallery-track">
+                        {% for shot in cfg.refine.screenshots %}
+                        <figure class="gallery-slide">
+                          <img src="{{ shot.src }}" alt="{{ shot.caption }}" loading="lazy" />
+                          <figcaption>{{ shot.caption }}</figcaption>
+                        </figure>
+                        {% endfor %}
+                      </div>
+                      <button class="gallery-nav prev" type="button" aria-label="Previous screenshot">‹</button>
+                      <button class="gallery-nav next" type="button" aria-label="Next screenshot">›</button>
+                    </div>
+                    <div class="gallery-dots" aria-hidden="true"></div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="work-controls">
+              <button class="work-nav prev" type="button" aria-label="Previous project">‹</button>
+              <div class="work-dots">
+                <button type="button" class="work-dot" data-go="0" aria-current="true">{{ cfg.growth_lab.name }}</button>
+                <button type="button" class="work-dot" data-go="1" aria-current="false">{{ cfg.video.name }}</button>
+                <button type="button" class="work-dot" data-go="2" aria-current="false">{{ cfg.refine.name }}</button>
+              </div>
+              <button class="work-nav next" type="button" aria-label="Next project">›</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Writing -->
+        <div class="stage-panel" role="tabpanel" id="panel-writing" aria-labelledby="tab-writing" data-panel="2">
+          <div class="writing-head">
+            <div>
+              <p class="eyebrow">The writing</p>
+              <h2>Thinking carefully, in public</h2>
+              <p class="section-sub">
+                Essays on AI, economics, epistemology, and what it means to be human in an age of
+                thinking machines. No paywalls. Meant to be built on and argued with.
+              </p>
+            </div>
+            <a class="button ghost small" href="/writings">Browse all writing →</a>
+          </div>
+          <div class="card-grid stage-cards">
+            {% for w in featured %}
+            <a class="essay-card" href="/writings/{{ w.slug }}">
+              <span class="badge badge-{{ w.status|lower }}">{{ w.status }} · {{ w.date }}</span>
+              <h3>{{ w.title }}</h3>
+              <p>{{ w.blurb }}</p>
+            </a>
             {% endfor %}
           </div>
-          <button class="gallery-nav prev" type="button" aria-label="Previous screenshot">‹</button>
-          <button class="gallery-nav next" type="button" aria-label="Next screenshot">›</button>
         </div>
-        <div class="gallery-dots" aria-hidden="true"></div>
       </div>
-    </div>
-  </section>
-
-  <!-- Selected writing -->
-  <section class="section writing-feature" id="writing">
-    <div class="section-head">
-      <p class="eyebrow">The writing</p>
-      <h2>Thinking carefully, in public</h2>
-      <p class="section-sub">
-        Essays on AI, economics, epistemology, and what it means to be human in an age of thinking
-        machines. No paywalls. Meant to be built on and argued with.
-      </p>
-    </div>
-    <div class="card-grid">
-      {% for w in featured %}
-      <a class="essay-card" href="/writings/{{ w.slug }}">
-        <span class="badge badge-{{ w.status|lower }}">{{ w.status }} · {{ w.date }}</span>
-        <h3>{{ w.title }}</h3>
-        <p>{{ w.blurb }}</p>
-        <span class="card-more">Read →</span>
-      </a>
-      {% endfor %}
-    </div>
-    <div class="section-foot">
-      <a class="button ghost" href="/writings">Browse all writing →</a>
     </div>
   </section>
 

@@ -2,7 +2,7 @@
 title: "More Better: Modeling and the Frame Problem"
 status: "Final"
 date: "Sep 2026"
-order: 0
+order: 1
 featured: true
 blurb: "Every thought is a model, and every model leaves something out. Most failures come not from bad reasoning inside a model but from what never made it in: the frame problem. A story about my daughter's first car, clocks and clouds, and why being wrong is the light that leads to a life of discovery."
 ---

@@ -1,17 +1,16 @@
 # Structured site content. Edit copy here — no Rust changes needed.
 
 name = "Buddy Williams"
-role_title = "Chief AI Innovation Officer · Philosopher · Futurist"
+role_title = "Explorer · Builder · Philosopher"
 tagline = "Build a future worth exploring."
-positioning = "I think beyond the obvious — then I build it."
+positioning = "I help you explore what's possible."
 hero_sub = """
-Original thinker and end-to-end builder. Across 25 years and four companies, \
-I've turned first-principles ideas into working products for enterprises and \
-startups — from strategy and customer discovery through architecture and \
-production. I shipped Refine, a governed agentic software delivery system; built \
-HarmonicWork for human-AI orchestration; and created Forge and Corpus Council \
-for agentic execution and grounded deliberation. Right now I'm offering that \
-experience to you — free."""
+I'm an explorer first and a builder second. For 25 years, across four \
+companies, I've followed ideas to the edge of what's new and built the first \
+version: low-code before it had a name, AI strategy before it was on every \
+roadmap. Now I run Growth Lab, where leaders learn to multiply what people can \
+do with frontier AI, and I write about how we think, how knowledge grows, and \
+what it means to be human among thinking machines."""
 bio = """
 By title I'm Chief AI Innovation Officer at a software consulting firm. By nature \
 I'm a builder who designs futures. I own the full arc — first customer \
@@ -34,22 +33,22 @@ scheduler_label = "Book a free intro call"
 # Cal.com event slug (username/event) — drives the inline embed + popup buttons.
 cal_link = "buddy-williams-1qvgvh/30min"
 
-# Proof bar (show, don't tell)
-[[stats]]
-value = "0→1"
-label = "Product strategy through production"
-
-[[stats]]
-value = "4"
-label = "Companies founded"
-
-[[stats]]
-value = "Refine"
-label = "Shipped and running in production"
-
-[[stats]]
-value = "25 yrs"
-label = "Serving enterprises and startups"
+# Home "Work" carousel — Growth Lab first, then The Moving Line and Refine.
+[growth_lab]
+name = "Growth Lab"
+url = "https://growthlab.team"
+school_url = "https://growthlab.team/school"
+tagline = "Multiply today. Build what's next."
+description = """
+A human-multiplier operating system I built and run at Insurity. Growth Lab \
+trains Growth Leaders to use frontier AI to multiply what people can do, while \
+staying accountable for the outcomes. It improves the business we have today \
+and explores the products and services of tomorrow."""
+points = [
+  "Train Growth Leaders — develop judgment and capability",
+  "Build immediate solutions — better products and client outcomes now",
+  "Explore the future — new business models and offerings",
+]
 
 # Featured video
 [video]
@@ -129,6 +128,18 @@ title = "AI strategy that ships"
 body = "Where agents and AI actually create leverage in your product — beyond the demo."
 
 # Founder credibility — selected work (sourced from resume)
+[[projects]]
+name = "Growth Lab"
+period = "2026 · Insurity"
+blurb = "A human-multiplier operating system that trains Growth Leaders to use frontier AI, builds immediate solutions, and explores new business models."
+url = "https://growthlab.team"
+
+[[projects]]
+name = "Growth School"
+period = "2026"
+blurb = "Growth Lab's learning platform: a sequential path of courses, from the foundations of reasoning to AI capability to coordinating people and agents, each pairing learning, discussion, and application."
+url = "https://growthlab.team/school"
+
 [[projects]]
 name = "Refine"
 period = "2026 · In production"
