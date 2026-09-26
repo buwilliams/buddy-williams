@@ -8,155 +8,90 @@ blurb: "Even when they feel annoying. How thought experiments reveal what's hidd
 
 # Why Hypotheticals Matter
 
-*Even When They Feel Annoying*
+## Introduction
 
-**Buddy Williams** · November 16, 2025
-
----
-
-At our Saturday rationalist meet-up this week, we had a spirited conversation about health—why people struggle with weight, what actually works, and what we owe each other in terms of effort. It started practical and grounded, the kind of conversation you can have standing in a grocery aisle.
+At our Saturday rationalist meet-up this week, we had a spirited conversation about health: why people struggle with weight, what actually works, and what we owe each other in terms of effort. It started practical, the kind of conversation you could have standing in a grocery aisle.
 
 One participant made a thoughtful, straightforward case:
 
 > "We know what works. Don't bring junk food into the house. Don't keep tempting things around. Move your body regularly. Use small bursts of willpower. If people don't do these things, it isn't mysterious—it's avoidable."
 
-This position deserves respect. It works for many real people. It's not theoretical, it's practical. It's also emotionally honest—it expresses frustration at watching loved ones (or oneself) struggle when seemingly simple solutions exist, even if they are not easy.
+This view deserves respect. It works for many people, and it voices an honest frustration: watching loved ones, or yourself, struggle when the solutions seem simple, even if they aren't easy.
 
-I genuinely appreciated the clarity of their view.
+I offered a different angle, and to make my point I posed a hypothetical. It did not go over well. "I don't like hypotheticals," they said. "They don't seem practical."
 
-As the discussion went on, I offered a different angle—one shaped by Technohumanism, which is my attempt to understand human nature, scarcity, and the purpose of technology. The post you're reading isn't a full Technohumanism explanation—just enough of it to illuminate why hypotheticals matter more than they seem.
+I understand. When you're trying to solve a real problem, an imagined future can feel evasive. But I think hypotheticals aren't detours from real problems. They are one of our best tools for testing whether we understand a problem at all.
 
----
+## Table of Contents
 
-## Where Our Perspectives Diverged
+1. [Two Explanations of the Same Struggle](#1-two-explanations-of-the-same-struggle)
+2. [The Hypothetical as a Test](#2-the-hypothetical-as-a-test)
+3. [Perception Is a Construction](#3-perception-is-a-construction)
+4. [What the Hypothetical Revealed](#4-what-the-hypothetical-revealed)
+- [Conclusion: A Bold Conjecture](#conclusion-a-bold-conjecture)
+- [Further Reading](#further-reading)
 
-I argued that willpower is inconsistent, often fragile, and—crucially—not biologically "always on." Environment and biology constantly push us around. That's not a moral judgment; it's just how bodies work.
+## 1. Two Explanations of the Same Struggle
 
-I also said that, historically, the biggest improvements in human wellbeing have come not from heroic discipline but from better tools—medicine, agriculture, sanitation, refrigeration, vaccines. These aren't tiny tweaks to willpower. They're structural transformations of the environment and the body.
+My angle came from [Technohumanism](technohumanism.md), my attempt to explain human nature, scarcity, and the purpose of technology. Here is just enough of it. Technology turns scarcity into abundance. But our biology was shaped in scarcity, and our environment now offers abundance. The two don't match. I call this **misalignment**. Food is the clearest case: it is now cheap, everywhere, and engineered to exploit wiring from the Paleolithic era, while our hunger still behaves as though the next meal is uncertain.
 
-In Technohuman terms:
+Seen this way, the common-sense advice is rational: if abundance causes misalignment, add scarcity back into your own environment. Don't buy the chips. And willpower really has helped many people.
 
-> Technology exists to turn scarcity into abundance.
-> And when abundance creates misalignment with our biology—as with food today—the solution isn't self-privation forever. The solution is new technology that realigns us.
+The trouble is that the environment is always on, and biology is always on, but willpower isn't. It is inconsistent and often fragile. That is not a moral judgment; it's how bodies work. It's also why, I'd argue, the biggest gains in human wellbeing have come less from heroic discipline than from better tools: medicine, agriculture, sanitation, refrigeration, vaccines. These don't strengthen willpower. They change the environment and the body.
 
-To bridge our two perspectives, I offered a hypothetical:
+So the Technohumanist conjecture is that when abundance creates misalignment, the lasting fix isn't self-denial forever. It's new technology that realigns us.
+
+## 2. The Hypothetical as a Test
+
+To bridge our two perspectives, I asked:
 
 > "Imagine it's 15 years in the future and we have a safe, inexpensive drug that gives nearly everyone 'food freedom'—an internal off-switch for hunger. Would we still say that people who struggle today are failing morally?"
 
-This scenario did not go over well. The person I was speaking with admitted, candidly:
+This isn't fantasy for its own sake. The two explanations predict different things, so the hypothetical can test them:
 
-> "I don't like hypotheticals. They don't seem practical."
+- If weight struggles come mainly from a failure of character, taking away hunger shouldn't change much about who succeeds.
+- If they come mainly from biological misalignment, taking away hunger should change outcomes dramatically.
 
-And I get that. Truly. When you're trying to solve a real problem, a fictional future drug can feel irrelevant, even evasive.
+In the imagined future, most of us expect the second. And once we do, the moral framing loses most of its force. That is the point of the exercise. The hypothetical removed today's noise long enough for us to see the causal structure underneath.
 
-But this is exactly the moment where Technohumanism—and Popperian thinking—show why hypotheticals aren't distractions. They're instruments that reveal what's hidden by the noise of everyday life.
+## 3. Perception Is a Construction
 
-**With hypotheticals, we can peer into the true nature of our problems.** Common sense may be useful in today's situation, but hypotheticals let us check whether our explanation would hold up in a different one.
+Why should imagined worlds tell us anything about the real one? Because our perception of the real one isn't a direct view either.
 
----
+Perception is a model built by the brain: partial, fallible, and useful. So what feels true isn't always what is true. That isn't a criticism of anyone at the meet-up; it's how cognition works for all of us.
 
-## Why Hypotheticals Feel Like Detours
-
-When someone says, "Just stop buying junk food," that advice may fit in certain situations—where food is abundant, tempting, and engineered to exploit biological wiring from the Paleolithic era.
-
-Technohumanism calls this *misalignment*.
-Our biology was shaped in scarcity.
-Our environment now offers abundance.
-And the two don't match.
-
-From this lens, the common-sense advice is understandable: if abundance creates misalignment, then artificially adding scarcity back into your environment (don't buy the chips) seems like the rational fix. It's also true that exercising willpower has helped many.
-
-But here's the problem:
-**The environment is always on. Biology is always on. Willpower isn't.**
-
-A hypothetical future drug is not a fantasy in this context.
-It's a way to test the underlying explanation:
-
-- If the problem is truly moral failure, a drug shouldn't change outcomes.
-- If the problem is biological misalignment, a drug should change everything.
-
-And in our shared imaginary future, the entire moral framing collapses instantly. That collapse is the point. A hypothetical stripped away today's noise long enough for us to see the structure underneath.
-
-**A thought experiment isolates the causal story behind the effects we see.**
-
----
-
-## Perception is a Construction
-
-Here's the piece that explains why hypotheticals matter, even if you don't naturally enjoy them:
-
-Human perception isn't a direct view of reality.
-It's a model built by the brain—a fallible, partial, useful-but-imperfect construction.
-
-Because perception is limited, "what feels true" isn't always "what is true."
-This isn't a critique of anyone at the meet-up. It's simply how cognition works.
-
-Once you accept that our perception is a model—not the territory—then you need tools that help you check whether your model would still make sense outside the narrow slice of the world you've experienced.
-
-Enter: hypotheticals. They're how we ask:
+If perception is a model, we need ways to check whether the model would still make sense outside the narrow slice of the world we've experienced. Hypotheticals are how we ask:
 
 - Would this explanation still hold if the environment changed?
 - Would it survive under different constraints?
 - Would it apply to a future with new technology?
 
-Without hypotheticals, you can only test your beliefs against the present.
-And the present is a local maximum—a tiny ledge in a much larger landscape.
+Without hypotheticals, we can only test our beliefs against the present, and the present is one small corner of the possible. A hypothetical tests where our models fail.
 
-**If perception is a construction, hypotheticals test where our constructions fail.**
+## 4. What the Hypothetical Revealed
 
----
+Back to the conversation. Here is what the hypothetical showed that wasn't obvious in the moment:
 
-## How Thought Experiments Help Us Make Better Sense of Health
+1. **It isolated the causal factor.** Remove hunger from the picture, and the struggle largely disappears. That suggests biology, not virtue, was doing most of the work.
+2. **It exposed a hidden value judgment.** If a future drug would dissolve the shame attached to weight, the shame was never fundamental. It depended on the context.
+3. **It explored a counterfactual.** If changing biology changes behavior, that tells us something real about the structure of the problem.
+4. **It pointed toward a better explanation.** An explanation that holds across many imagined scenarios has more reach than one that only fits today.
 
-Let's return to the conversation. Here's what the hypothetical revealed that wasn't obvious in the moment:
+This is Popper's idea at work: we make progress by conjecturing explanations and trying to refute them, and we keep the ones that survive. A hypothetical is a cheap way to attempt that refutation before reality does it for us.
 
-1. **It isolates the actual causal factor.**
-   When willpower is removed as a variable, we see that biology—not virtue—was the driving force.
+None of this refutes the common-sense view. It puts it in context. Technohumanism explains why the advice works for many people, why it fails for many others, and how future tools might resolve the tension. You don't have to accept my further conjecture, that the lasting path to aligned abundance is changing our biology, to see that this is a more general explanation than the advice alone.
 
-2. **It reveals hidden value judgments.**
-   If a future drug dissolves the shame attached to weight struggle, then the shame wasn't fundamental—it was contextual.
+## Conclusion: A Bold Conjecture
 
-3. **It helps us explore counterfactuals.**
-   If biology changes, behavior changes. This tells us something real about the structure of the problem.
+So why do hypotheticals matter, even when they feel annoying? Because they test our explanations against worlds we haven't lived in, and that is where hidden assumptions show themselves. The drug hypothetical didn't dismiss the advice about junk food. It showed what the advice depends on.
 
-4. **It points us toward better explanations.**
-   A model that works across multiple imagined scenarios has more reach than one that only fits today.
-
-This is the heart of Popper's idea: progress happens when explanations survive attempted refutation. And it's the heart of Technohumanism: technology is the means by which we resolve the friction between biological limits and abundant environments.
-
-**Hypotheticals are not abstract—they're stress tests for our explanations.**
-
----
-
-## Where Technohumanism Fits Naturally
-
-Technohumanism says:
-
-- Humans evolved for scarcity.
-- We now live in an abundance that misaligns with our biology.
-- Willpower can't fix that misalignment since it's not always on.
-- The only long-term path to aligned abundance is biological augmentation.
-
-You don't have to accept the entire Technohumanism thesis to appreciate what it offers here:
-
-It gives a more universal explanation for why health struggles persist, and why technology—not discipline—has always been the force that frees us.
-
-This doesn't invalidate the common-sense view; it contextualizes it.
-
-The meet-up participant's advice works for many people today. Technohumanism explains why it works, why it fails for many others, and how future tools might resolve the tension entirely.
-
-That's not preachy. That's a better explanation.
-
----
-
-## A Bold Conjecture
-
-Let me close with the idea that ties all of this together:
+Here is the conjecture that ties this together:
 
 > A civilization's ability to reason well is proportional to its ability to inhabit hypothetical worlds.
 
-If we refuse to imagine alternatives, we stay trapped in the present. If we learn to inhabit alternatives, we discover better explanations—and better futures.
+My conversation at the meet-up taught me that common sense grounds us and hypotheticals expand us. We need both. But if we refuse to imagine different worlds, we lose the ability to choose better ones.
 
-My conversation at the meet-up taught me something valuable: common sense grounds us, and hypotheticals expand us. We need both.
+## Further Reading
 
-But without the ability to imagine different worlds, we lose the ability to choose better ones.
+- [Technohumanism](technohumanism.md), the fuller explanation of scarcity, abundance, and misalignment
+- [Cyclic Rationality](cyclic-rationality.md), my method for recovering imagination before verification
