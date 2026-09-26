@@ -1,6 +1,6 @@
 # Build context is the REPO ROOT (see fly.toml / deploy.yml), so this Dockerfile
 # can copy both the site app (under website/) and the canonical writing "data"
-# (essays/ and assets/ at the repo root) without duplicating the latter.
+# (essays/ at the repo root) without duplicating it.
 
 # ---- builder ----
 FROM rust:1-slim-bookworm AS builder
@@ -31,7 +31,6 @@ COPY website/static ./static
 COPY website/Buddy_Williams_Resume.pdf ./
 # Canonical writing data (single source of truth, rendered directly)
 COPY essays ./essays
-COPY assets ./assets
 
 EXPOSE 8080
 CMD ["site"]

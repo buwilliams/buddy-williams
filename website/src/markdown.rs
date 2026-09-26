@@ -9,12 +9,12 @@ use std::collections::HashSet;
 /// of truth (GitHub-native relative paths) renders correctly on the site.
 ///
 /// The essays are authored with relative links — `[x](other-essay.md)`,
-/// `[y](../resume/z.md)`, `![img](../assets/a/b.png)` — which resolve on
+/// `[y](../resume/z.md)`, `![img](../website/static/img/essays/a.png)` — which resolve on
 /// GitHub. On the site those same paths would 404, so we rewrite them:
 ///
 /// - a link to a *published* essay  → `/writings/<slug>`
 /// - a link to anything else (`.md`) → its canonical GitHub blob URL
-/// - a relative image                → root-absolute `/assets/...` (served)
+/// - a relative image under `website/static/` → `/static/...` (served)
 ///
 /// Absolute URLs, `mailto:`, in-page `#anchors`, and already-root-absolute
 /// paths are left untouched.
@@ -191,9 +191,10 @@ fn rewrite_link(url: &str, ctx: &RewriteCtx) -> Option<String> {
     })
 }
 
-/// Rewrite a relative image URL to a root-absolute path served from `/assets`
-/// (or wherever it lives in the repo). Absolute and root-absolute URLs are
-/// left untouched.
+/// Rewrite a relative image URL to a root-absolute path. Essay images live in
+/// `website/static/img/essays/`, which the site serves at `/static/...`; any
+/// other repo path is made root-absolute as-is. Absolute and root-absolute
+/// URLs are left untouched.
 fn rewrite_image(url: &str) -> Option<String> {
     if url.is_empty()
         || url.starts_with('/')
@@ -202,7 +203,11 @@ fn rewrite_image(url: &str) -> Option<String> {
     {
         return None;
     }
-    Some(format!("/{}", resolve_repo_path(url, "essays")))
+    let repo_path = resolve_repo_path(url, "essays");
+    Some(match repo_path.strip_prefix("website/static/") {
+        Some(rest) => format!("/static/{rest}"),
+        None => format!("/{repo_path}"),
+    })
 }
 
 pub fn render(md: &str, ctx: &RewriteCtx) -> Rendered {
@@ -329,11 +334,11 @@ mod tests {
     #[test]
     fn relative_images_become_root_absolute() {
         assert_eq!(
-            rewrite_image("../assets/state-of-ai/x.png").unwrap(),
-            "/assets/state-of-ai/x.png"
+            rewrite_image("../website/static/img/essays/x.png").unwrap(),
+            "/static/img/essays/x.png"
         );
         assert!(rewrite_image("https://cdn.example.com/x.png").is_none());
-        assert!(rewrite_image("/assets/x.png").is_none());
+        assert!(rewrite_image("/static/img/x.png").is_none());
     }
 }
 

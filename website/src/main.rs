@@ -18,8 +18,8 @@ async fn main() {
     // BW_SITE_ROOT lets the binary find templates/content/static regardless of CWD.
     let root = PathBuf::from(std::env::var("BW_SITE_ROOT").unwrap_or_else(|_| ".".into()));
 
-    // BW_WRITINGS_ROOT is the repo root that holds the canonical `essays/` and
-    // `assets/` — the writing "data". The site renders these directly; there is
+    // BW_WRITINGS_ROOT is the repo root that holds the canonical `essays/` —
+    // the writing "data". The site renders these directly; there is
     // no duplicated copy. It defaults to BW_SITE_ROOT so the flattened Docker
     // image works with one path; for local dev (running inside `website/`) point
     // it at the repo root, e.g. `BW_WRITINGS_ROOT=..`.
@@ -49,7 +49,6 @@ async fn main() {
         .route("/resume", get(routes::resume))
         .route("/healthz", get(|| async { "ok" }))
         .nest_service("/static", ServeDir::new(root.join("static")))
-        .nest_service("/assets", ServeDir::new(writings_root.join("assets")))
         .layer(CompressionLayer::new())
         .layer(TraceLayer::new_for_http())
         .with_state(state);

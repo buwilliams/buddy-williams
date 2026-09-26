@@ -17,7 +17,7 @@ pub struct AppState {
     pub writings: Arc<Vec<WritingMeta>>,
     pub env: Arc<Environment<'static>>,
     pub root: Arc<PathBuf>,
-    /// Repo root holding the canonical `essays/` and `assets/` (the writing data).
+    /// Repo root holding the canonical `essays/` (the writing data).
     pub writings_root: Arc<PathBuf>,
 }
 
