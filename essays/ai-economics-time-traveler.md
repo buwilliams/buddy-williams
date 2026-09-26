@@ -3,66 +3,69 @@ title: "AI Economics: The Time Traveler's Gift"
 status: "Final"
 date: "Nov 2025"
 order: 13
-blurb: "AI as time travel. When productivity becomes infinite, meaning becomes the scarce resource."
+blurb: "AI as time travel. When material goods become abundant, meaning becomes the scarce resource."
 ---
 
 # AI Economics: The Time Traveler's Gift
 
-*How Artificial Intelligence Accelerates Human Progress by Collapsing the Distance Between Present Effort and Future Abundance*
+## Introduction
 
-**Buddy Williams** · November 9, 2025
+Thomas Sowell described economics as "the study of how decisions affect the allocation of scarce resources in a way that raises or lowers the material standard of living of the people as a whole." So the economic question about AI is: will it raise or lower the standard of living for all of us?
 
----
+Imagine there were no AI, only human progress unfolding at its ordinary pace over the next fifty years. AI is a time machine that reaches into that future and brings its benefits into the present. Computers that think faster, longer, and better let us skip decades of ordinary innovation.
 
-Thomas Sowell described economics as "the study of how decisions affect the allocation of scarce resources in a way that raises or lowers the material standard of living of the people as a whole." So, we want to know how AI will impact the standard of living for us all.
+The time machine works through **production efficiency**, what Sowell called "the rate at which inputs are turned into outputs." All of this assumes reliable, highly capable AI. I think that is close, but the argument depends on it.
 
-**Artificial intelligence can be understood as a kind of time travel.** Imagine there were no AI, only human progress unfolding naturally over the next fifty years. AI is a time machine that lets us reach into that future and bring its benefits into the present. Through intelligence efficiency (computers that think faster, longer, and better), we leapfrog decades of regular innovation cycles. This assumes the existence of reliable, highly capable AI, which now seems imminent.
+Below I follow production efficiency through output, prices, and work, to a scarcity that isn't material at all.
 
-AI time travel manifests as production efficiency, what Sowell called "the rate at which inputs are turned into outputs."
+## Table of Contents
 
----
+1. [AI Raises Output and Expands What Can Be Made](#1-ai-raises-output-and-expands-what-can-be-made)
+2. [Efficiency Lowers Prices](#2-efficiency-lowers-prices)
+3. [Knowledge Work Loses Value](#3-knowledge-work-loses-value)
+4. [Meaning Becomes the Scarce Resource](#4-meaning-becomes-the-scarce-resource)
+- [Conclusion: A Higher Standard of Living, and a Harder Problem](#conclusion-a-higher-standard-of-living-and-a-harder-problem)
+- [Further Reading](#further-reading)
 
-## 1. AI raises the production of goods and services
+## 1. AI Raises Output and Expands What Can Be Made
 
-AI increases the total output of goods and services by vastly improving the efficiency of knowledge work. This new abundance cascades through every domain.
+By making knowledge work far more efficient, AI raises total output. In software, it produces more applications and often better ones, and better software means better decisions across the whole economy.
 
-**In software,** AI accelerates development, producing more and often better applications. Better software improves information quality and decision-making, thereby increasing productivity across the economy.
+In science, AI speeds up discovery in materials, energy, and biology, creating new goods, new industries, and new categories of human experience. Production efficiency doesn't just optimize what we already make. It expands the frontier of what can be made at all.
 
-**In science,** AI accelerates breakthroughs in materials, energy, and biology, creating new goods, new industries, and new forms of value.
+These gains compound: each improvement speeds up the next.
 
-Each improvement compounds into the following, amplifying global output through recursive efficiency.
+## 2. Efficiency Lowers Prices
 
----
+When it becomes cheaper to make something, competition tends to pass those savings on to buyers, so prices fall.
 
-## 2. Efficiency lowers the cost of goods and services
+A flat-screen TV cost several thousand dollars in 2000. Today a better one costs a few hundred. Adjusted for quality and inflation, TV prices have fallen by well over 90 percent since the 1960s. A luxury became ordinary.
 
-As productivity accelerates, prices fall.
+That came from better manufacturing, not AI, but the mechanism is the same. I expect AI to repeat it wherever expertise is the bottleneck: design, education, medicine, and expert advice of every kind.
 
-- A flat-screen TV cost around **$3,000 in 2000**. Today, the same quality costs roughly **$200–$300**, a 10X reduction.
-- Accounting for inflation since the 1960s, the real cost of TVs has dropped by more than **99%**. What was once luxury has become commonplace.
+## 3. Knowledge Work Loses Value
 
-AI will replicate this pattern across domains — expert knowledge, design, education, and medicine — moving from scarcity to abundance.
+The same efficiency that makes goods cheap makes some human labor cheap. As AI takes on more cognitive tasks, the market value of human effort in traditional knowledge work falls. I expect two responses, working together rather than as alternatives.
 
----
+**Moving to outcomes.** Work shifts toward what I call the [Outcome Economy](outcome-economy.md), where people are paid for goals and results rather than for effort or time. Human creativity, judgment, and ethics stay valuable wherever an outcome depends on meaning or trust.
 
-## 3. Efficiency expands the supply frontier
+**Redistribution.** Not everyone will find a place in that shift, and cheap goods don't help someone with no income. So I expect societies to share the gains, through universal income, equity in compute infrastructure, or something similar, to protect human dignity through the transition.
 
-AI's compounding effects extend beyond cost reduction to new creation. Accelerated discovery and design mean new products, new services, and entirely new categories of human experience. Efficiency doesn't merely optimize production—it expands the frontier of what can be produced at all.
+## 4. Meaning Becomes the Scarce Resource
 
----
+If this picture holds, material scarcity fades and psychological scarcity rises. For most of history, work and the struggle to get by gave people much of their purpose and their place among others. As machines take on that work, those sources weaken. Wealth and comfort can become abundant; purpose and belonging won't follow automatically.
 
-## 4. Labor value deflates as knowledge work is automated
+That leads to my conjecture: **the next major allocation problem, and perhaps the final economic problem, will be how to allocate meaning.**
 
-As more cognitive tasks are automated, the marginal value of human labor in traditional knowledge work declines. Two broad outcomes follow:
+## Conclusion: A Higher Standard of Living, and a Harder Problem
 
-**Outcome Reallocation:** Workers shift toward the "Outcome Economy," focusing on goals and results rather than effort or time. Human creativity, judgment, and ethics remain valuable where outcomes require meaning or trust.
+So will AI raise or lower the standard of living for all of us? If capable AI arrives, I expect it to raise the material standard of living dramatically, pulling future progress into the present.
 
-**Redistribution Mechanisms:** Societies deploy capital redistribution systems (universal income, equity in compute infrastructure, or similar) to sustain human dignity and enable transition as abundance spreads globally.
+But Sowell's definition speaks of the *material* standard of living, and that is where the story runs out. The time traveler can bring back goods. It cannot bring back a reason to get up in the morning. That is the problem left for us to solve.
 
----
+## Further Reading
 
-## 5. Meaning becomes the new scarce resource
-
-As material scarcity fades, psychological scarcity rises. Wealth and comfort will be abundant, but purpose and belonging will not. 
-
-**The next significant allocation problem (perhaps the final economic problem) will be how to allocate meaning.**
+- Thomas Sowell, *Basic Economics*
+- [The Rise of the Outcome Economy](outcome-economy.md)
+- [Economics in the Intelligence Age](economics-intelligence-age.md)
+- [Technohumanism](technohumanism.md), on how abundance creates new scarcities
