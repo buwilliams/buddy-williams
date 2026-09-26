@@ -1,6 +1,6 @@
 # Buddy Williams — Writings
 
-For 25 years I've followed ideas past the edge of the map and built the first version. Low-code before it had a name. AI strategy before it was on every roadmap.
+For 25 years I've followed ideas past the edge of the map and built the first version, trying to leave things better than I found them. Low-code before it had a name. AI strategy before it was on every roadmap.
 
 Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on minds, human and artificial, and what gives life meaning.
 

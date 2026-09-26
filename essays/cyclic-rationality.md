@@ -92,7 +92,7 @@ I began by asking why my peers couldn't see what I was seeing. My answer is that
 
 Two practices follow. When you meet someone you disagree with, perhaps someone who seems a bit woo-woo, exercise your imagination before you judge. In my experience I often disagree with their methods, but I find real insight in their conclusions surprisingly often.
 
-And when you think about the future, use your imagination to design inspiring visions, not only to quantify likely ones. I find it more inspiring to be a pioneer, going where no map exists yet, than a mere mapmaker, and we really can do both.
+And when you think about the future, use your imagination to design inspiring visions, not only to quantify likely ones. I find it more inspiring to be a pioneer than a mere mapmaker: to go where no map exists yet, try to make things better there, and come back to tell people what I found. We really can do both.
 
 > If understanding is prediction, then imagination is the courage to predict the impossible.
 

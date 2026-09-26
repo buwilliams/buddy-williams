@@ -1,12 +1,12 @@
 # Structured site content. Edit copy here — no Rust changes needed.
 
 name = "Buddy Williams"
-role_title = "Building and writing at the edge of AI"
+role_title = "Building a better future at the edge of AI"
 tagline = "Asking what minds are, human and artificial, and what gives a life meaning."
-positioning = "I go where there's no map yet, build the first version, and write about what I find."
+positioning = "I go where there's no map yet, build the first version, and tell people what I find."
 hero_sub = """
-For 25 years I've followed ideas to the edge of what's new and built the first \
-version. Low-code before it had a name. AI strategy before it was on every \
+For 25 years I've followed ideas past the edge of the map and built the first \
+version, trying to leave things better than I found them. Low-code before it had a name. AI strategy before it was on every \
 roadmap. Now: Growth Lab, where I help people multiply what they can do with \
 frontier AI, and essays on what thinking machines mean for how we think and live."""
 bio = """
