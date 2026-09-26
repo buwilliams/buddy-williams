@@ -4,7 +4,7 @@ status: "Final"
 created: "2025-11-16"
 updated: "2026-09-26"
 order: 12
-blurb: "Even when they feel annoying. How thought experiments reveal what's hidden by everyday noise."
+blurb: "Hypotheticals can feel like a dodge. A conversation about weight loss shows how they strip away today's noise so we can see the causes underneath."
 ---
 
 # Why Hypotheticals Matter
@@ -46,14 +46,18 @@ So the Technohumanist conjecture is that when abundance creates misalignment, th
 
 To bridge our two perspectives, I asked:
 
-> "Imagine it's 15 years in the future and we have a safe, inexpensive drug that gives nearly everyone 'food freedom'—an internal off-switch for hunger. Would we still say that people who struggle today are failing morally?"
+> "Imagine we had a safe, inexpensive drug that gave nearly everyone 'food freedom'—an internal off-switch for hunger. Would we still say that people who struggle today are failing morally?"
 
-This isn't fantasy for its own sake. The two explanations predict different things, so the hypothetical can test them:
+This isn't fantasy for its own sake. It's a consistency test. If the drug existed, nothing about anyone's character would change; only the difficulty would. So if we would stop blaming people once a cheap, universal hunger drug existed, then the blame never tracked character, only difficulty.
+
+The drug isn't pure fantasy, either. GLP-1 drugs, which I discuss in [Technohumanism](technohumanism.md), are an early, expensive version of it. The hypothetical only asks us to imagine the cheap, universal version.
+
+The two explanations also predict different outcomes, so the hypothetical tests them as well:
 
 - If weight struggles come mainly from a failure of character, taking away hunger shouldn't change much about who succeeds.
 - If they come mainly from biological misalignment, taking away hunger should change outcomes dramatically.
 
-In the imagined future, most of us expect the second. And once we do, the moral framing loses most of its force. That is the point of the exercise. The hypothetical removed today's noise long enough for us to see the causal structure underneath.
+That is the point of the exercise. The hypothetical removes today's noise long enough for us to see the causal structure underneath.
 
 ## 3. Perception Is a Construction
 
@@ -73,8 +77,8 @@ Without hypotheticals, we can only test our beliefs against the present, and the
 
 Back to the conversation. Here is what the hypothetical showed that wasn't obvious in the moment:
 
-1. **It isolated the causal factor.** Remove hunger from the picture, and the struggle largely disappears. That suggests biology, not virtue, was doing most of the work.
-2. **It exposed a hidden value judgment.** If a future drug would dissolve the shame attached to weight, the shame was never fundamental. It depended on the context.
+1. **It isolated the causal factor.** It asks what happens when hunger is removed and everything else stays the same. If the struggle largely disappears, biology, not virtue, was doing most of the work. Early GLP-1 results point the same way: many people who take them lose weight that years of effort didn't shift.
+2. **It exposed a hidden value judgment.** If we would stop blaming people once the drug existed, the moral framing depends on difficulty, not character. The shame attached to weight was never fundamental.
 3. **It explored a counterfactual.** If changing biology changes behavior, that tells us something real about the structure of the problem.
 4. **It pointed toward a better explanation.** An explanation that holds across many imagined scenarios has more reach than one that only fits today.
 

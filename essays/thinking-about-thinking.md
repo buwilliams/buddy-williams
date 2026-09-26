@@ -64,7 +64,7 @@ The lesson was also incomplete. I didn’t bother to explain [Goodhart’s Law](
 
 ## 4. Fallibilism: What Checks the Checker
 
-If System 2 checks System 1, what checks System 2? More thinking, but of a particular kind: thinking that acknowledges its own fallibility. The name for this is fallibilism: the view, developed most fully by Karl Popper and David Deutsch, that all our knowledge is conjecture. Any belief might be mistaken, and we make progress by finding and fixing errors, not by proving we are right.
+If System 2 checks System 1, what checks System 2? More thinking, but of a particular kind: thinking that acknowledges its own fallibility. The name for this is fallibilism: the view, developed most fully by Karl Popper and David Deutsch, that any of our knowledge might be mistaken. Even the regularities we rely on can be wrong or can change. We make progress by finding and fixing errors, not by proving we are right.
 
 Fallibilism turns galaxy-brain resistance from a property of arguments into a habit of mind. A few practices that follow from it:
 

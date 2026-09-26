@@ -4,7 +4,7 @@ status: "Final"
 created: "2025-10-16"
 updated: "2026-09-26"
 order: 15
-blurb: "A methodology for grounded open-mindedness. Qualitative dreaming before quantitative verification. Recovering imagination."
+blurb: "Prediction only works on possibilities we've already imagined. A method for recovering imagination before verification: dream, then test."
 ---
 
 # Cyclic Rationality
@@ -15,7 +15,7 @@ As a kid I took things apart and tried to put them back together. When my dad sh
 
 My childhood was also a bit of a disaster. My mom's and dad's families were at war, and the world was a scary, violent place that didn't make sense. I craved control, and I had the curiosity and drive to go after it. I left home early and taught myself instead of going to school and college. In hindsight that was fortunate: my mind was shaped less by the modern era than by ancient philosophers, biographies, and the logicians of the 1600s and 1700s, who thought differently than we do.
 
-Slowly I worked the world out: religion, philosophy, psychology, culture, politics, economics, computer science, and AI. I wanted reality to be safe, yet still surprising. That craving for control was really a craving for predictability, a small version of the universal human drive to reduce uncertainty, which Claude Shannon taught us to measure as entropy. I'm gripped by the idea that much of what we call understanding shows itself as prediction.
+Slowly I worked the world out: religion, philosophy, psychology, culture, politics, economics, computer science, and AI. I wanted reality to be safe, yet still surprising. That craving for control was really a craving for predictability, a small version of the universal human drive to reduce uncertainty, which Claude Shannon taught us to measure as entropy. I'm gripped by a simple idea: understanding is prediction.
 
 But prediction can only work with possibilities we have already imagined. This essay is about recovering the imagination that has to come before verification. I call the method **Cyclic Rationality**. I'll describe the problem that led me to it, trace where I think the problem came from, and lay out the method's principles.
 
@@ -38,7 +38,7 @@ So I set out to understand the difference between how we were thinking. Several 
 
 ## 2. How Reason Split
 
-Before the Scientific Revolution, speculation ran largely unchecked. I'll call that **delusion**: ideas held without any serious attempt to test them. Then came Galileo and his contemporaries, and a new rule took over: beliefs should be tested against evidence. Among educated elites, support for delusion died. People stopped seriously entertaining wild stories.
+Before the Scientific Revolution, authority, not evidence, decided which ideas survived. It allowed some wild speculation and forbade much that was sound. Much of what it allowed was what I'll call **delusion**: ideas held without any serious attempt to test them. Then came Galileo and his contemporaries, and a new rule took over: beliefs should be tested against evidence, not settled by authority. Among educated elites, delusion lost its standing. People stopped seriously entertaining wild stories.
 
 That was real progress, but it had a side effect: ideas that can't yet be tested now tend to be dismissed rather than explored. Stephen Wolfram's *A New Kind of Science* is a modern example. Its claims are vast but hard to verify, because breaking a system into parts, the usual way we check a theory, fails when the behavior only shows up in the whole. They remain unconfirmed. Even so, I think it's a live possibility that reality is, at bottom, computational.
 
@@ -48,11 +48,11 @@ The split was never absolute, but I think it helps explain what I saw in my peer
 
 ## 3. What We Lost
 
-Looking at the arc from delusion to evidence, I ask what we lost. My answer is that we lost much of our practice at creative thinking. We can crunch numbers with the best of them, but how good are our dreams? If you want inspiration, you may do better with a science fiction or fantasy novel than with a degree from MIT.
+Looking at the arc from authority to testing, I ask what we lost. My answer is that we lost much of our practice at creative thinking. We can crunch numbers with the best of them, but how good are our dreams? If you want inspiration, you may do better with a science fiction or fantasy novel than with a degree from MIT.
 
-For most of human history, we dreamed. We told stories and made up unbelievable things, but at least we dreamed. Creativity never died; it was blunted and discouraged, and with it our ability to explore the space of possibilities.
+For most of human history, we dreamed. We told stories and made up unbelievable things, but at least we dreamed. The dreaming was real; it was authority, not testing, that decided which dreams survived. When testing took over, creativity didn't die, but it was blunted and discouraged, and with it our ability to explore the space of possibilities.
 
-This matters because, as Karl Popper and David Deutsch argue, new knowledge begins as conjecture: a creative guess that criticism and evidence then test. Evidence can't propose the guess. A culture that trains only the testing half starves the source of its own discoveries.
+This matters because discovery needs both halves: imagination to widen the space of possibilities, and measurement to narrow it. A culture that trains only the measuring half starves the source of its own discoveries.
 
 Cyclic Rationality is my attempt to recover that ancestral capacity to dream without abandoning what science taught us. It doesn't dismiss measurement. It puts it in a more helpful place: after imagination rather than in front of it.
 
@@ -70,9 +70,9 @@ Some things are predictable and others aren't, and mistakes happen when we draw 
 
 Every description of reality is a reduction. Gödel showed that any consistent formal system rich enough for arithmetic contains truths it cannot prove. By analogy, no model can fully capture its territory. Taking systems apart and studying the pieces is powerful, but it works from the bottom up. Complex systems such as ant colonies, brains, and immune systems also need a top-down view that keeps the whole in sight.
 
-### We seek prediction because it makes us feel safe
+### Understanding is learned prediction
 
-Much of human understanding shows up as learned predictive patterns, and predictability feels safe because it enables control. So we try to forecast the future. Yet no one has found a pattern underlying all of reality, and Shannon entropy reminds us that surprise can be measured but not eliminated. The right posture is epistemic humility.
+Human understanding is the result of learning predictive patterns. Predictability feels safe because it enables control. So we try to forecast the future. Yet no one has found a pattern underlying all of reality, and Shannon entropy reminds us that surprise can be measured but not eliminated. The right posture is epistemic humility.
 
 ### There are two rationalities: qualitative and quantitative
 
@@ -92,7 +92,7 @@ I began by asking why my peers couldn't see what I was seeing. My answer is that
 
 Two practices follow. When you meet someone you disagree with, perhaps someone who seems a bit woo-woo, exercise your imagination before you judge. In my experience I often disagree with their methods, but I find real insight in their conclusions surprisingly often.
 
-And when you think about the future, use your imagination to design inspiring visions, not only to quantify likely ones. I find it more inspiring to be a pioneer than a mere forecaster, and we really can be both.
+And when you think about the future, use your imagination to design inspiring visions, not only to quantify likely ones. I find it more inspiring to be a pioneer, going where no map exists yet, than a mere mapmaker, and we really can do both.
 
 > If understanding is prediction, then imagination is the courage to predict the impossible.
 

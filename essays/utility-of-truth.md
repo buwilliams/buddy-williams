@@ -4,7 +4,7 @@ status: "Final"
 created: "2025-10-21"
 updated: "2026-09-26"
 order: 16
-blurb: "Why minds resist change. Evolution favors utility over truth, and how to plant seeds that grow into changed minds."
+blurb: "Why minds resist change. Evolution shaped us to track what works, not what's true, and that tells us how to plant seeds that can grow into changed minds."
 ---
 
 # Utility of Truth
@@ -63,7 +63,7 @@ If minds track utility, where does truth-seeking come from?
 
 My conjecture is that it comes from failure. People learn which strategies work for them, and for most, trusting their group works well enough. Someone who seeks truth for its own sake has often learned the hard way that the group can be wrong, usually because people they trusted let them down in a way that mattered.
 
-Put simply, truth becomes valuable when utility fails.
+Put simply, truth is an emergent property of failed utility: we start to value it when the beliefs that served us stop working.
 
 Karl Popper described knowledge as growing the same way: we make conjectures, find where they fail, and correct them. Failure is the raw material of learning, not its opposite. And once we learn from failure, truth pays for itself. More accurate models predict more, and better prediction gives us more control over the world.
 

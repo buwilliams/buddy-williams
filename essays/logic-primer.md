@@ -4,7 +4,7 @@ status: "Final"
 created: "2025-10-08"
 updated: "2026-09-26"
 order: 17
-blurb: "A letter to my children on reasoning well. Why truth is hard for humans to see, the three acts of the mind, deduction and induction, common errors of reason, and the character of a rational mind."
+blurb: "A letter to my children on reasoning well. Why truth is hard to see, the road from reality to words, the kinds of reasoning, and the character of a rational mind."
 ---
 
 # A Primer on Logic
@@ -106,6 +106,7 @@ Watch out for arguments that only look valid. “All cats are animals, so all an
 
 **Induction** [expecting unobserved cases to resemble observed ones] gives likelihood, not certainty.
 (My dog has barked at the mail carrier every day this week, so he’ll probably bark tomorrow.)
+Most of what people claim is inductive. It rests on patterns and evidence, so it deals in likelihood, too.
 
 **Abduction** [reasoning to the best explanation] proposes what might explain what we see.
 (The grass is wet this morning. The best explanation is that it rained overnight, unless the sprinklers ran.)
@@ -113,11 +114,11 @@ Watch out for arguments that only look valid. “All cats are animals, so all an
 **Analogy** [reasoning by resemblance] helps us see connections, but only suggests.
 (The brain is like a computer: both process information and both make errors.)
 
-Deduction demonstrates, induction generalizes, abduction explains, and analogy suggests. Each has its place.
+Deduction demonstrates, induction discovers, abduction explains, and analogy suggests. Each has its place.
 
-Science uses all of them, but it moves forward mostly by bold guesses, often abductive ones, that are then tested hard against reality. The philosopher Karl Popper called this conjecture and criticism. A guess that survives testing isn’t proven. It’s just the best we have so far.
+Induction is the everyday method of science: we watch what happens again and again, then expect it to keep happening. Science also leans on deduction to work out what a theory implies, and on bold guesses to explain what we see.
 
-That points to something important. Very little can be known with certainty. Try it: think of something you’re sure of, and ask whether it could be doubted. Did yesterday really happen? What if the world were created this morning, complete with memories? You can’t rule it out. Most of what we call facts are our best current explanations. Many are very good, but all of them are open to correction.
+That points to something important. Very little can be known with certainty. Try it: think of something you’re sure of, and ask whether it could be doubted. Did yesterday really happen? What if the world were created this morning, complete with memories? You can’t rule it out. Most of what we call facts are really high probabilities. Many are very high, but all of them are open to correction.
 
 ## 5. Practicing Logic Every Day
 

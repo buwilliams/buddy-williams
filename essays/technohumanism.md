@@ -5,7 +5,7 @@ created: "2025-10-23"
 updated: "2026-09-26"
 order: 14
 featured: true
-blurb: "Humanity's past, present, and future. Technology transforms scarcity into abundance, creating biological misalignment and pointing toward transhumanism."
+blurb: "Why abundance so often feels bad. Technology turns scarcity into abundance, abundance puts our environment out of step with our biology, and the lasting fix points toward transhumanism."
 ---
 
 # Technohumanism
@@ -14,7 +14,7 @@ blurb: "Humanity's past, present, and future. Technology transforms scarcity int
 
 We have never had more. More food, more medicine, more comfort, more ways to reach each other. And yet we are lonelier, heavier, more anxious, and less sure of our purpose than we should be. If technology has made life so abundant, why does it so often feel so bad?
 
-This essay offers an explanation I call **Technohumanism**. It runs from our prehistoric past to a future that will sound like science fiction. In short: technology turns scarcity into abundance, abundance puts our environment out of step with our biology, and the only lasting fix for that mismatch is to change our biology. That last step is transhumanism.
+This essay offers an explanation I call **Technohumanism**. It runs from our prehistoric past to a future that will sound like science fiction. In short: technology turns scarcity into abundance, abundance puts our environment out of step with our biology, and the only lasting fix for that mismatch is to change our biology. That last step is transhumanism. I hope the explanation brings some peace through understanding. Understanding is prediction, and I want to make the future feel a little more predictable and a little safer.
 
 I don’t expect most readers to accept the conclusion. As I argued in [Utility of Truth](utility-of-truth.md), minds rarely change because of a good argument. They change when their current beliefs stop working. So my aim is to plant a seed. If your picture of the future stops making sense someday, I hope this one is waiting.
 

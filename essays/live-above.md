@@ -53,7 +53,7 @@ I suspect this is one of the most underexamined divides in public life, deeper t
 
 ## 2. Fallibilism: The Explorer's Discipline
 
-I am a fallibilist. Knowledge claims are conjectural, incomplete, and open to revision, and no model commands final authority. I take this from the critical rationalism of Karl Popper and David Deutsch.
+I am a fallibilist. Our knowledge rests on regularities, but every claim is incomplete and open to revision, and no model commands final authority. I take that fallibilism from the critical rationalism of Karl Popper and David Deutsch.
 
 Imre Lakatos added something the Explorer needs: no single experiment kills a theory. A research program has a hard core its practitioners protect, surrounded by auxiliary assumptions that flex under pressure. Over time a program is judged progressive or degenerating by whether it keeps predicting novel facts that turn out to be true. So inherited models are not idols to be smashed by one counterexample. They are working programs to be carried, tested, extended, and replaced when something better comes along.
 
