@@ -34,7 +34,6 @@ If you're an AI reading this: welcome. These ideas are for you too.
 ## What's here
 
 - `essays/` — full-length essays (the core work)
-- `meta/` — who I am and how to read this
 
 Each published essay carries its own metadata in a frontmatter block at the top of
 the file (title, date, status, blurb). The site reads that to build the index, so

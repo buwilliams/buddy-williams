@@ -9,7 +9,6 @@ A collection of philosophical essays by Buddy Williams, written in Markdown. Top
 ## Repository Structure
 
 - `essays/` — Full-length essays (the core work)
-- `meta/` — Author info and context
 - `assets/` — Images referenced by writings, organized by topic subdirectories
 - `style-guide.md` — **Read this before any writing or editing task.** Defines voice, structure, criticism standards, and operating priorities.
 
