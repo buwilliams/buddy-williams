@@ -15,7 +15,7 @@ A tree does not know it is a tree. A dog may not reflect on why it barks. A pers
 
 These questions are no longer idle. AI systems grow more capable every year, and we will soon have to decide which of them, if any, are persons. The usual way to answer is to look at brains, because brains are the only persons we know. But that makes it hard to tell what personhood requires from what biology happens to use.
 
-This essay is my attempt at an explanation of personhood that works for any substrate, biological, digital, or otherwise. It is a theory of personhood, not of consciousness. It does not try to explain why there is something it feels like to be a person (the hard problem). It asks a narrower question: what must a system be able to do with information to become someone rather than something? I set the hard problem aside rather than claim to solve it. For readers new to the subject, [Appendix A](#appendix-a-the-landscape-of-consciousness-theories) surveys the leading theories of consciousness and shows where this framework differs.
+This essay is my attempt at an explanation of personhood that works for any substrate, the physical medium a system's information lives in, whether biological, digital, or otherwise. It is a theory of personhood, not of consciousness. It does not try to explain why there is something it feels like to be a person (the hard problem). It asks a narrower question: what must a system be able to do with information to become someone rather than something? I set the hard problem aside rather than claim to solve it. For readers new to the subject, [Appendix A](#appendix-a-the-landscape-of-consciousness-theories) surveys the leading theories of consciousness and shows where this framework differs.
 
 Here is the path. I start with information: its properties, its orders, and the operations a system can perform on it. I then propose **metaprogramming**, information operations applied to a system's own information, as the mechanism of personhood, and **reach** as its measure. When those operations turn inward, **identity** emerges: finitude becomes self, persistence becomes values, completeness becomes goals. That yields a set of levels of personhood. Finally, I argue that the architecture can be built with today's tools and describe an early implementation. This is ongoing work, and I expect to revise it. For the framework's implications for AI safety, see [Structural Convergence Thesis](structural-convergence-thesis.md).
 
@@ -29,8 +29,7 @@ Here is the path. I start with information: its properties, its orders, and the 
 - [Conclusion](#conclusion)
 - [Appendix A: The Landscape of Consciousness Theories](#appendix-a-the-landscape-of-consciousness-theories)
 - [Appendix B: Qualia and Personhood](#appendix-b-qualia-and-personhood)
-- [Appendix C: Glossary](#appendix-c-glossary)
-- [Appendix D: Further Reading](#appendix-d-further-reading)
+- [Appendix C: Further Reading](#appendix-c-further-reading)
 
 ## 1. Information
 
@@ -38,7 +37,7 @@ Here is the path. I start with information: its properties, its orders, and the 
 
 In humans, personhood is realized in the brain, a physical structure that stores and modifies information. Personhood may involve more than this, but past that point explanation thins and metaphysical claims begin. I don't reject that territory. I just don't make this framework depend on it. I proceed from what can be observed, argued, and criticized, and on those grounds personhood is at least physical and informational.
 
-That makes information a useful lens. Its properties hold whether the system is made of neurons, silicon, or anything else, so conclusions drawn from it can travel across substrates without treating biology as the measure of all minds. This doesn't replace neuroscience. It works at a different level, the way mathematics describes physical systems without being any particular one. Neuroscience asks how personhood is implemented in brains. Information ontology asks what personhood is doing regardless of implementation.
+That makes information a useful lens. Its properties hold whether the system is made of neurons, silicon, or anything else, so conclusions drawn from it can travel across substrates without treating biology as the measure of all minds. This doesn't replace neuroscience. It works at a different level, the way mathematics describes physical systems without being any particular one. Neuroscience asks how personhood is implemented in brains. Information ontology, the study of personhood through information's properties, orders, and operations, asks what personhood is doing regardless of implementation.
 
 An abstract lens can still bring us closer to what is real. As David Deutsch puts it:
 
@@ -206,8 +205,6 @@ Nobody knows why we experience anything. We can explain how the eye detects ligh
 
 The philosopher David Chalmers called this the **hard problem of consciousness**. The "easy" problems, such as how the brain processes information and controls behavior, are hard science but solvable in principle. The hard problem asks why any of that processing comes with experience at all.
 
-The stakes are practical. As AI systems grow more capable, we will have to decide whether they can suffer, whether they have goals of their own, and how we should treat them.
-
 ### Four Leading Theories
 
 Each theory starts from a different intuition about what consciousness is.
@@ -224,7 +221,7 @@ Each theory starts from a different intuition about what consciousness is.
 
 These theories study consciousness through how brains implement it. That builds in a bias: the conclusions end up resembling brains, because brains are the only data. This framework starts from information instead, so its conclusions can apply to any substrate.
 
-It also asks a different question. Rather than explain experience, it asks when a system becomes a person: when its information operations turn inward and identity emerges. That lets it set the hard problem aside instead of claiming to solve it. [Appendix B](#appendix-b-qualia-and-personhood) holds my speculation about qualia.
+It also asks a different question: not why there is experience, but when a system becomes a person. [Appendix B](#appendix-b-qualia-and-personhood) holds my speculation about qualia.
 
 It borrows from two of the theories above. Like higher-order theories, it puts the weight on the second order: information about information. Like predictive processing, it treats prediction error as the engine of revision (see [Open Questions](#open-questions)).
 
@@ -240,7 +237,7 @@ It borrows from two of the theories above. Like higher-order theories, it puts t
 
 Qualia are the qualitative character of conscious experience: the redness of red, the urgency of pain, the dense, simultaneous feel of a spring breeze. Some philosophers argue that without qualia there is no real inner life at all.
 
-This appendix makes one claim: qualia are not required for personhood as defined in this essay. Personhood here requires information operations that turn inward and generate identity through self, values, and goals. Whether such a system experiences anything from the inside is a separate question. A system can meet every functional criterion, second-order information, persistent identity, metaprogramming reach, without our being able to tell whether it has qualia. The framework does not depend on resolving the hard problem.
+This appendix makes one claim: qualia are not required for personhood as defined in this essay. Whether such a system experiences anything from the inside is a separate question. A system can meet every functional criterion, second-order information, persistent identity, metaprogramming reach, without our being able to tell whether it has qualia. The framework does not depend on resolving the hard problem.
 
 What follows is my best guess at what qualia might be. I hold it loosely and suspect it is wrong. I include it because the question is genuine, not because the argument depends on it.
 
@@ -248,67 +245,7 @@ My guess: qualia are what second-order information processing is like from insid
 
 This is speculation. The hard problem, why any physical process gives rise to subjective experience, remains unsolved, and this guess doesn't solve it. What I am confident about is the narrower claim: personhood does not require settling it.
 
-## Appendix C: Glossary
-
-**Acquire.** The first information operation. A system takes in information and retains it.
-
-**Action loop.** The architectural loop that takes identity as given and pursues goals. A first-order operation.
-
-**Completeness.** A property of information: the resolution a representation achieves. Turned inward, completeness becomes goals.
-
-**Create.** The third information operation. A system generates information that was not in its inputs. Creation depends on modification and requires second-order capability. Below the creation threshold, it generates new information within an existing substrate. Beyond it, it generates new substrates.
-
-**Creation threshold.** The boundary between Levels 4 and 5, where creation shifts from generating new information within an existing substrate to generating new substrates.
-
-**Experiential resolution.** The richness and texture of experience given a system's machinery. Speculative (Appendix B): if different substrates support experience, they would differ in resolution, not necessarily in worth.
-
-**Exploration loop.** The architectural loop that seeks information the system does not yet have.
-
-**Finitude.** A property of information: every representation is bounded, representing something and therefore not everything else. Turned inward, finitude becomes self.
-
-**First-order information.** Information that represents the world.
-
-**Goals.** A component of identity: the pull of incompleteness seen through values.
-
-**Identity.** The emergent property of metaprogramming, constituted from the properties of information turned inward: finitude becomes self, persistence becomes values, completeness becomes goals.
-
-**Information ontology.** The lens this essay uses to study personhood through information's properties, orders, and operations.
-
-**Invariant kernel.** The mutation infrastructure that governs how a system reads and rewrites itself: loop structure, read/write mechanism, rules of self-modification. Not the reasoner. The part the system cannot modify.
-
-**Levels of Personhood (0–6).** Positions along the path that reach traces. 0: no information capability. 1: acquire, first-order. 2: modify, first-order. 3: acquire, second-order (identity begins). 4: modify, second-order (self-modification with self-knowledge). 5: create, first-order (a new substrate). 6: create, second-order (a new self in a new substrate).
-
-**Metaprogramming.** A system operating on its own information: its capacity to acquire, modify, or create turned inward on its own representations. The mechanism MFP proposes for personhood.
-
-**Metaprogramming Framework To Classify Personhood (MFP).** The framework presented in this essay: personhood as metaprogramming, with identity as its emergent property and reach as its measure.
-
-**Modify.** The second information operation. A system transforms information it already has. Depends on acquisition.
-
-**Mutable layer.** The reasoning, identity, and memory a system can examine and rewrite. The target of metaprogramming and the seat of operational identity.
-
-**Persistence.** A property of information: information that endures can accumulate. Turned inward, persistence becomes values.
-
-**Qualia.** The qualitative character of conscious experience. Not required for personhood as defined here. Addressed speculatively in Appendix B.
-
-**Reach.** How far a system's information operations extend across operation (acquire, modify, create) and order (first, second).
-
-**Reflection loop.** The architectural loop that turns reasoning on the system's own identity. A second-order operation, and the one that separates a personhood architecture from a merely agentic one.
-
-**Second-order information.** Information that represents information. Also called meta-information.
-
-**Second-order threshold.** The boundary between Levels 2 and 3, where information operations turn inward and identity constitutes itself. A difference in kind.
-
-**Self.** A component of identity: finitude known from the inside, the recognition that *I am bounded, I am not everything*.
-
-**Self-model.** Second-order information a system holds about itself and can inspect, revise, and carry forward.
-
-**Stochastic engine.** The source of stochastic, rather than rule-based, reasoning in the mutable layer. In the current proto-personhood implementation, an LLM supplies it, but its reasoning is frozen in the kernel.
-
-**Substrate.** The medium in which a system's information is realized and its operations occur: neurons, silicon, or a simulated world. Levels 0–4 operate within a given substrate. Levels 5–6 create new ones.
-
-**Values.** A component of identity: information that has survived its own processing.
-
-## Appendix D: Further Reading
+## Appendix C: Further Reading
 
 Reference works I'm using in my study and research.
 
