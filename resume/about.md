@@ -7,11 +7,9 @@
 
 ## Who I Am
 
-Pioneer, builder, and writer. Exploring minds and meaning.
+For 25 years I've followed ideas past the edge of the map and built the first version. Low-code before it had a name. AI strategy before it was on every roadmap.
 
-For 25 years I've followed ideas to the edge of what's new and built the first version. Low-code before it had a name. AI strategy before it was on every roadmap.
-
-Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on minds and meaning.
+Now: Growth Lab, where I help people multiply what they can do with frontier AI, and essays on minds, human and artificial, and what gives life meaning.
 
 What connects the work isn't a field. It's the habit of asking what's actually new. I'm self-taught: software architecture, economics, epistemology, philosophy. I study whatever the territory demands. I design systems, write frameworks, and search for good explanations.
 

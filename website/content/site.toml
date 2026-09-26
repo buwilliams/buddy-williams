@@ -1,14 +1,14 @@
 # Structured site content. Edit copy here — no Rust changes needed.
 
 name = "Buddy Williams"
-role_title = "Pioneer · Builder · Writer"
-tagline = "Exploring minds and meaning."
+role_title = "Building and writing at the edge of AI"
+tagline = "Asking what minds are, human and artificial, and what gives a life meaning."
 positioning = "I go where there's no map yet, build the first version, and write about what I find."
 hero_sub = """
 For 25 years I've followed ideas to the edge of what's new and built the first \
 version. Low-code before it had a name. AI strategy before it was on every \
 roadmap. Now: Growth Lab, where I help people multiply what they can do with \
-frontier AI, and essays on minds and meaning."""
+frontier AI, and essays on what thinking machines mean for how we think and live."""
 bio = """
 I've founded four companies and worked every stage of a product, from the first \
 customer conversation to architecture, production, and the tools that make the \
