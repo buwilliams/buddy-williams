@@ -29,7 +29,6 @@ The path goes like this. First, a few thinking tools. Then what computers teach 
 7. [Why Computation Reaches Further Than Physicalism](#7-why-computation-reaches-further-than-physicalism)
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
-- [Appendix: The Argument in Outline](#appendix-the-argument-in-outline)
 
 ## 1. Layers and Substrates
 
@@ -156,30 +155,3 @@ This is a conjecture. I don't need you to believe it. I need you to take it seri
 - [Why Explanation Comes in Layers](layers.md), on explanatory layers and why they can't be collapsed.
 - David Deutsch, *The Beginning of Infinity* (2011)
 - Alan Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem" (1936); see [Universal Turing machine](https://en.wikipedia.org/wiki/Universal_Turing_machine)
-
-## Appendix: The Argument in Outline
-
-**Grounding.** The conjecture starts from physical reality, not from myth, revelation, or the supernatural. Physical reality already contains computers, programs, simulations, observer locality, and nested computation. These are observed phenomena, not thought experiments.
-
-**Properties of computation.**
-
-1. We start as local observers in our universe.
-2. Computers are built on physical substrates.
-3. Programs can be computers (universality, substrate independence).
-4. Programs can be closed causal systems (a loop of rules, state, and error handling).
-5. People can be programs (Deutsch's universal explainers; AGI).
-6. Programs can be simulations.
-7. People can live inside a simulation.
-8. People inside a simulation have observer locality.
-9. Programs can nest without a principled limit, as long as logic is preserved (NAND gates).
-10. Hosting programs can pass information into nested simulations.
-
-**Implications.**
-
-1. The properties of information, computers, programs, and logic hold at every nesting depth.
-2. From the hosting layer, a program's rules can break our physics: magic, time travel, violations of conservation. To the local observer, those same rules are normal, causally closed, and logical.
-3. If each nested layer runs slower, time still feels normal to the observer inside it, while it runs slower from the hosting layer's perspective.
-4. Our universe shares the structural properties of simulated worlds: it processes information, and it runs by rules that compose.
-5. If we can look down into nested simulations, no logical reason prevents looking up from our own layer. A closed causal system can contain observers who believe their local rules are fundamental. So our layer has no special privilege as the stopping point.
-6. Every fundamental explanation meets a regress. God explains God. Physicalism explains physicalism. Computation treats the regress as structure: the unbounded graph.
-7. Physicalism explains the local rules of our closed causal system. Computation explains how closed causal systems with local rules can exist, nest, and contain observers. So computation has more explanatory reach. If we are in a simulation, physicalism is the ruleset of our program.
