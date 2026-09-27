@@ -4,113 +4,89 @@ status: "Draft"
 created: "2026-09-27"
 updated: "2026-09-27"
 order: 2
-blurb: "What I claim, what I leave open, and what draws me: reality is infinite, the bottom floor is unknown, and a finite mind should hold its beliefs with an open hand, neither clenched in dogma nor empty of conviction."
+blurb: "Why metaphysics is worth asking about if you take your own fallibility seriously, why an infinite reality meeting finite minds is a rational frame for it, and my own modest views: what I claim, what I leave open, and what I'm drawn to."
 ---
 
 # The Open Hand: A Modest Metaphysics
 
 ## Introduction
 
-Recently I was told that some branches of mathematics have no spatial intuition. I was curious, so I asked an AI whether 3Blue1Brown, a channel famous for making math visual, ignores those fields. It said no: he forces them onto a geometric canvas. That seemed like a contradiction, so I pushed. It answered that the math itself has no space, and that the pictures are only the language people use to talk about it.
+Recently I was told that some branches of mathematics have no spatial intuition. I asked an AI whether 3Blue1Brown, a channel famous for making math visual, ignores those fields. It said no: he forces them onto a geometric canvas. When I pointed out the tension, it answered that the math itself has no space, and the pictures are only the language people use to talk about it.
 
-That answer smuggled in a big claim. If there is a "math itself," separate from the people doing it, then mathematics is out there to be found. So is math discovered or invented? I found I wanted to go further and ask whether invention is possible at all. Can something come from nothing?
+That answer smuggled in a big claim. If there is a "math itself," separate from the people doing it, then mathematics is out there to be found. So is math discovered or invented? And going further: is invention possible at all? Can something come from nothing?
 
-Following that question took me through information, infinity, and logic, and eventually to the limits of what a finite mind can know. This essay sorts what I found into three kinds of belief: what I claim, what I leave open, and what I'm drawn to. Then it describes the posture I think a finite mind should take toward all three.
-
-The word *metaphysics* makes many people stop reading. It sounds like crystals, or like claims no one could ever check. Plenty of people ignore the question entirely and dismiss those who don't. For most work that's reasonable: you don't need a theory of reality to prove a theorem or run an experiment. But ignoring the question doesn't answer it, and the people who scoff at it often hold an answer without noticing. "Physics is all there is" is a metaphysical claim too, and it isn't one physics can test.
-
-Taking the question seriously is worth it for more than any particular answer. The deepest questions about reality are still open, and seeing that clearly keeps a mind open too. You learn where knowledge ends, so you can stand firmly on what is known without mistaking it for everything. That is the value of metaphysics as I see it: to claim only what you can claim with confidence, and no more, while staying open to more. It lets a mind be both grounded and open. My own metaphysics is modest in that sense: it claims one thing and leaves most of the rest open.
-
-The posture matters to me for a personal reason. Years ago I committed myself to a fundamental dogma, and I was burned. Since then I have tried to hold my views in a way that lets them be corrected. That is the open hand of the title.
+These are metaphysical questions, and many people wave them off. This essay explains why I find them worth asking, offers a frame for asking them, and then gives my own views.
 
 ## Table of Contents
 
-1. [Nothing From Nothing](#1-nothing-from-nothing)
-2. [What Computers Show](#2-what-computers-show)
-3. [Reality Is Infinite](#3-reality-is-infinite)
-4. [But Two Plus Two Is Four](#4-but-two-plus-two-is-four)
-5. [Does Logic Survive?](#5-does-logic-survive)
-6. [Three Hands](#6-three-hands)
+1. [Why Metaphysics Is Worth Asking](#1-why-metaphysics-is-worth-asking)
+2. [Infinity Meets Finite Minds](#2-infinity-meets-finite-minds)
+3. [Three Hands](#3-three-hands)
+4. [My Views](#4-my-views)
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
 
-## 1. Nothing From Nothing
+## 1. Why Metaphysics Is Worth Asking
 
-Start with invention. When we say someone invented something, we rarely mean they made it from nothing. The inventor of the wheel used wood, observation, and a brain shaped by millions of years of evolution. The author of a novel uses words, memories, and stories they have read. Invention, looked at closely, is **reconfiguration**: taking what already exists and arranging it in a new way.
+The value that shapes my thinking most is fallibilism: any of my beliefs might be wrong, and I make progress by finding and fixing errors. Open-mindedness follows from it. If I might be wrong about anything, I might be wrong about which questions are worth asking.
 
-Now ask where the new arrangement was before anyone found it. If reconfiguration draws only on what exists, then every possible arrangement was already available, waiting to be reached. The inventor didn't add it to reality. They found a path to it. On this view, reconfiguration is discovery.
+Take that seriously and metaphysics becomes hard to ignore. If I might be wrong anywhere, the beliefs most worth checking are the deepest ones, because everything else rests on them and they are the ones I examine least. What is real? What is fundamental? Can anything come from nothing? Nearly everyone holds some answer to these. "Physics is all there is" is an answer, and it isn't one physics can test. Ignoring the questions doesn't avoid them. It just leaves the answers unexamined.
 
-This fits a view I hold for other reasons: that creativity can be an algorithm. An algorithm doesn't conjure its outputs. It searches, combines, and tests. If creativity works that way, then even our most original ideas are the result of a search through a space that was already there. Brilliance lies in the search, in knowing where to look and recognizing what you've found, not in making something from nothing.
+Many scientists hold a different view: only falsifiable questions are worth asking, and philosophy, which mostly asks other kinds, is useless. But that view is itself a choice about which questions are worth asking, and no experiment could test it. A fallibilist should hold it as loosely as any other.
 
-A thoughtful reader might object that this erases something real. When Einstein conceived of relativity, wasn't that new? It was new to us, and that is not a small thing. Being first to reach an idea takes the same genius either way. What changes is only the picture of what genius does: it navigates rather than conjures.
+There is a real concern behind it, and I share it. Making strong claims that can't be tested, and holding them as certain, is a failure. But asking a question is not the same as making a claim. And Karl Popper, who made falsifiability famous, used it to mark the line between science and everything else, not between worthwhile and worthless. He rejected the idea that metaphysics is meaningless, pointed out that metaphysical ideas like atomism guided science long before anyone could test them, and held that such ideas can still be criticized. He also championed bold conjectures. My views sit outside his line for science, but not outside that spirit: bold ideas, held open to criticism.
 
-I'm drawn to this view, that we only discover and never create. But I hold it as an attraction, not a claim. It depends on questions I can't settle, which the rest of this essay takes up.
+The value, as I see it, isn't in reaching final answers. It is in learning where confident claims end: to claim only what I can claim with confidence, and no more, while staying open to more. That lets a mind be both grounded and open.
 
-## 2. What Computers Show
+This matters to me for a personal reason. Years ago I committed myself to a fundamental dogma, and I was burned. I didn't give up on deep questions afterward. I changed how I hold my answers to them.
 
-If nothing comes from nothing, something must lie underneath. What is it?
+## 2. Infinity Meets Finite Minds
 
-My first answer was information. In [What Is a Computer?](what-is-a-computer.md) and [The Computation Conjecture](computation-conjecture.md), I argue from computers we already build. Computation is substrate independent: it runs the same on transistors, gears, water, or redstone blocks inside Minecraft. Computers can host computers, so worlds can nest inside worlds. And an observer inside any such world finds its rules closed and necessary, because they have nothing deeper to compare them with. I call that **observer locality**. It means our sense that physics is the bottom floor is not evidence that it is.
+If I'm going to ask metaphysical questions, I need a frame that fits a fallible mind. The one I use is simple: reality is infinite, and every mind is finite.
 
-Does that make information more fundamental than matter? I lean that way. Information and its operations survive every move between substrates, while the physics changes each time. But I haven't seen an account of information that runs with no substrate at all, and I can't rule out that the two depend on each other, or that something deeper underlies both. So I leave the bottom floor open. Whatever is down there is beyond my current grasp, and possibly beyond anyone's.
+**Reality is infinite.** This is the claim I hold most confidently. By reality I don't mean the observable universe, which has an age and a horizon. I mean everything that exists, including whatever, if anything, lies beyond or hosts our world. I don't know how to make sense of a finite reality. If it has an edge, what is past it? If nothing, then "nothing" is doing the work of an outside; if something, the edge moves. And in [The Computation Conjecture](computation-conjecture.md) I argue that if worlds can host worlds, as computers show they can, we have no principled reason to think the nesting stops, and no way to confirm from inside that we are at the base.
 
-## 3. Reality Is Infinite
+I should be honest about the limits of these reasons. A sphere's surface is finite and has no edge, and space itself might close up the same way. The edge argument leans on spatial intuition, which is the kind of intuition the opening story questioned. So I can't prove reality is infinite. I can only say that I see nothing that would make it stop, and every argument for a limit I've met fails.
 
-Here is the one thing I'm willing to claim: reality is infinite.
+**Minds are finite.** This part is less controversial. Every mind has limited memory, limited time, and a limited vantage point. It sees the world through models, and as I argue in [More Better](frame-problem.md), every model leaves something out. Worse, a mind inside a world has access only to that world's rules. In [What Is a Computer?](what-is-a-computer.md) I call this observer locality: a closed world looks fundamental from inside, whether or not it is.
 
-By reality I don't mean the observable universe. That has an age and a horizon, and physics may well show it to be finite. I mean everything that exists, including whatever, if anything, hosts our world or lies beyond it.
+**Put them together.** A finite mind cannot hold an infinite reality. Whatever it knows, there is more it doesn't, and it can't tell from inside how much more. So any final answer about the whole of reality claims more than a finite mind can support.
 
-My first reason is that I don't know how to make sense of a finite reality. If reality has an edge, what is past it? If nothing, then "nothing" is doing the work of an outside, and the edge isn't the end of everything. If something, that something is part of reality, and the edge moves. A finite reality needs existence to simply stop, with no reason and no beyond. I can't rule that out, but I can't see how to believe it.
+That is why I think the frame is rational rather than just humble. It doesn't depend on reality being infinite, either. Even a finite reality vast enough to exceed every mind leads to the same conclusion. Infinity only makes it permanent: no amount of learning closes the gap.
 
-My second reason comes from the computation argument. Nesting goes down as far as logic is preserved and resources allow. In The Computation Conjecture I argue that we have no principled reason to think it stops going up, either. From inside, we can never confirm that we are at the base. A reality with no knowable top and no knowable bottom is at least open-ended, and I see no reason to cap it.
+## 3. Three Hands
 
-This claim is narrower than it may sound. An infinite reality need not contain everything. There are infinitely many even numbers, yet none of them is odd. The **principle of plenitude**, the old idea that everything that can exist does exist, goes much further than infinity. Philosophers from Spinoza to David Lewis have defended versions of it, and it would support my attraction to discovery: if every possible arrangement is real, then finding one is all we can ever do. But whether plenitude is true, I leave open. Infinity I claim. Plenitude I find compelling and cannot establish.
+The frame suggests a posture. There are three ways to hold a belief.
 
-## 4. But Two Plus Two Is Four
-
-When I tell people I think the hand can never be closed, the most common reply is some version of "But two plus two is four!" The objection is fair. It sounds as if I'm saying nothing is certain, and here is something that plainly is.
-
-My answer starts by agreeing. Given the rules of arithmetic, two plus two is four, and nothing I say changes that. What follows from a set of rules is not up for negotiation. My doubt is about something else: which rules hold, and what they rest on.
-
-Computers make the distinction concrete. A programmer can write a world with any consistent rules they like. In Minecraft, a redstone clock toggles forever without burning fuel. It is a perpetual motion machine, possible because nobody wrote a rule that energy must run down. Inside that world, its inhabitants would find perpetual motion as natural as we find conservation of energy impossible to break. Our laws of physics may be like that: rules our world happens to run, not necessities that every world must obey.
-
-Could a world be built where two plus two is five? In one sense, easily: redefine the plus sign. But that changes the symbol, not the arithmetic. Under the old rules, two plus two is still four. And to redefine anything consistently, you need something that doesn't change: the logic that makes a set of rules consistent at all. Whatever we alter, it seems, logic has to survive.
-
-## 5. Does Logic Survive?
-
-That seems like solid ground. Physics may be local, arithmetic depends on its rules, but logic looks like the one thing no world can do without. If anything is fundamental, logic is a strong candidate.
-
-But notice who is making that judgment. A mind looks at logic and finds it inescapable. Maybe that's because logic is fundamental. Or maybe logic is, at least in part, what minds do: the form a thinking system gives to whatever it thinks about. From inside a mind, those two possibilities could look exactly the same.
-
-I'm not saying logic is merely a habit of minds. I'm saying I can't check. This is the [frame problem](frame-problem.md) turned on its own tools. Every model leaves something out, and nothing inside the model warns you what is missing. Our sense that logic is necessary could be accurate, or it could be the edge of a frame we have no way to see around. We would be fooling ourselves in exactly the way observer locality predicts: finding our rules necessary because we have nothing deeper to compare them with.
-
-I'm not alone in taking this seriously. W. V. O. Quine argued that no belief, not even a law of logic, is immune from revision, and Hilary Putnam asked whether quantum mechanics gives us reason to revise logic itself. Neither settled the question. I don't either.
-
-This uncertainty also reaches back to plenitude. "Everything that can exist does exist" is usually read as "everything logically possible exists." If I can't be sure our logic is the last word, I can't be sure what "can exist" covers. That is one more reason plenitude stays open for me.
-
-So we come full circle. Every road to the bottom floor passes through a finite mind, and every judgment about what is fundamental is made with tools that may be local. That doesn't make the questions pointless. It shapes how we should hold our answers.
-
-## 6. Three Hands
-
-There are three ways to hold a belief.
-
-A **closed hand** clutches. It treats a belief as final and grips it against every challenge. This is dogma, and I know it from the inside. A closed hand is strong until reality pulls hard enough, and then it loses the belief along with everything built on it.
+A **closed hand** clutches. It treats a belief as final and grips it against every challenge. This is dogma. A closed hand is strong until reality pulls hard enough, and then it loses the belief along with everything built on it.
 
 **No hand** holds nothing. It treats every belief as equally disposable and commits to none. This looks like humility, but it is its own kind of dogma: the certainty that nothing can be known. It also can't act, because acting requires relying on something.
 
-An **open hand** holds. It grips its beliefs firmly enough to use them, build on them, and defend them. But it doesn't clench. When a better explanation comes, or reality pushes back, the belief can be taken out and something better put in. The open hand still holds that two plus two is four, and that the sun will rise tomorrow. It holds them as the best we have, not as the last word.
+An **open hand** holds. It grips its beliefs firmly enough to use them, build on them, and defend them, but it doesn't clench. When a better explanation comes, or reality pushes back, the belief can be replaced. These three match the postures I describe in [Living Above the Models](live-above.md): the Orthodox, the Unbounded, and the Explorer.
 
-These match the three postures I describe in [Living Above the Models](live-above.md): the Orthodox, the Unbounded, and the Explorer. That essay is about authority, about how to relate to the maps we inherit. The hands are about belief itself, including beliefs about what is fundamental.
+The usual objection is "But two plus two is four!" The open hand agrees. Given the rules of arithmetic, two plus two is four, and nothing changes that. What follows from a set of rules is fixed. My doubt is about something else: which rules hold in reality, and what they rest on. A programmer can write a world with different physics, like the redstone clocks in Minecraft that run forever without fuel. The open hand holds arithmetic firmly and still asks what lies underneath.
 
-"The hand can never be closed" is not a theory about reality. It isn't a claim that could be falsified, any more than fallibilism is. It is practical advice for finite beings: given how little of an infinite reality any mind can hold, this is the posture that keeps us learning. It also answers an obvious worry. Isn't "the hand can never be closed" itself a closed-hand claim? No. It is advice, and advice can expire. Perhaps there is a final understanding somewhere, some state in which nothing is left to correct. I doubt it. But if a mind ever reached it, the open hand would no longer be needed. Until then, and no finite mind could confirm it had arrived, the open hand is how we should hold what we know.
+Isn't "the hand can never be closed" itself a closed-hand claim? No. It isn't a theory about reality. It is practical advice for finite minds. If there is some final understanding, a state with nothing left to correct, the advice would expire there. I doubt such a state exists, and no finite mind could confirm it had reached one. Until then, the open hand is how I think we should hold what we know.
+
+## 4. My Views
+
+Here is how I hold my own answers, sorted by how confident I am.
+
+**What I claim.** Reality is infinite, for the reasons in section 2, and with the limits I gave there.
+
+**What I leave open.**
+
+- *What is fundamental.* Computers show that computation runs the same on any substrate: transistors, gears, water, or redstone. Information and its operations survive every move between substrates while the physics changes, so I lean toward information being more fundamental than matter. But I haven't seen an account of information running with no substrate at all. The two may depend on each other, or something deeper may underlie both.
+- *Whether everything that can exist does exist.* This is the **principle of plenitude**, and it goes further than infinity. An infinite reality need not contain everything: there are infinitely many even numbers, and none of them is odd. I find plenitude compelling, but I can't establish it.
+- *Whether logic is final.* Any world with rules seems to need logic, which makes logic look fundamental. But the one judging that is a mind. Maybe logic is fundamental, or maybe it is partly what minds do, the form a thinking system gives to whatever it thinks about. From inside a mind the two could look the same. I'm not saying logic is merely a habit. I'm saying I can't check, and we could be fooling ourselves in a way we have no frame to see.
+
+**What I'm drawn to.** I'm drawn to the view that we discover rather than create. Invention, looked at closely, is reconfiguration: the wheel from wood and observation, a novel from words and memories. If possible arrangements are real before anyone finds them, then every invention is a discovery, and creativity is a search through what is already there. That fits my view that creativity can be an algorithm. It doesn't diminish genius; it changes the picture of what genius does, from conjuring to navigating. But it depends on plenitude, which I leave open, so it stays an attraction rather than a claim.
 
 ## Conclusion
 
-I started by asking whether math is discovered or invented, and whether anything can come from nothing. I can't give a final answer, and I've argued that no finite mind can. But I can say where I stand.
+So is math discovered or invented? I don't know, and the frame explains why I shouldn't expect to know for certain. But asking led me somewhere useful: to a clear sense of which beliefs I would claim, which I leave open, and which I'm only drawn to.
 
-I claim that reality is infinite. I leave open whether information or something deeper is fundamental, whether everything that can exist does exist, and whether logic belongs to reality or to minds. I'm drawn to the view that we never create, only discover: that every idea we reach was there to be reached.
-
-And I hold all of it with an open hand. Not clenched, because I've learned what happens when reality pulls on a closed hand. Not empty, because a mind that holds nothing can't explore. Open, so the search can go on.
+That is why metaphysics is worth asking about for anyone who takes their own fallibility seriously. Not for final answers, but for knowing how firmly to hold the answers we have. Not clenched, because reality eventually pulls on a closed hand. Not empty, because a mind that holds nothing can't explore. Open, so the search can go on.
 
 ## Further Reading
 
@@ -118,9 +94,7 @@ And I hold all of it with an open hand. Not clenched, because I've learned what 
 - [More Better: Modeling and the Frame Problem](frame-problem.md), on what every model leaves out.
 - [Living Above the Models](live-above.md), on the Explorer's posture toward inherited authority.
 - [Thinking About Thinking](thinking-about-thinking.md), on fallibilism as a habit of mind.
+- [Karl Popper, *Conjectures and Refutations* (1963)](https://en.wikipedia.org/wiki/Conjectures_and_Refutations), especially "On the Status of Science and of Metaphysics," on how untestable ideas can still be criticized.
 - [Arthur Lovejoy, *The Great Chain of Being* (1936)](https://en.wikipedia.org/wiki/Principle_of_plenitude), which named and traced the principle of plenitude.
-- [Robert Nozick, *Philosophical Explanations* (1981)](https://en.wikipedia.org/wiki/Philosophical_Explanations), whose "principle of fecundity" holds that all possibilities are realized.
 - [Jürgen Schmidhuber, "A Computer Scientist's View of Life, the Universe, and Everything" (1997)](https://arxiv.org/abs/quant-ph/9904050), which argues that all computable universes exist.
-- [Max Tegmark, "The Mathematical Universe" (2007)](https://arxiv.org/abs/0704.0646), on the idea that every mathematical structure is a real world.
 - [W. V. O. Quine, "Two Dogmas of Empiricism" (1951)](https://en.wikipedia.org/wiki/Two_Dogmas_of_Empiricism), on why no belief, even in logic, is beyond revision.
-- [Hilary Putnam, "Is Logic Empirical?" (1968)](https://en.wikipedia.org/wiki/Is_logic_empirical%3F), on whether physics could give us reason to revise logic.
