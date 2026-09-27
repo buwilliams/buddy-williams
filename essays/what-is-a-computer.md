@@ -2,7 +2,7 @@
 title: "What Is a Computer?"
 status: "Final"
 created: "2026-04-01"
-updated: "2026-09-26"
+updated: "2026-09-27"
 order: 4
 blurb: "A computer is any physical system that can run universal logic, not just a silicon machine. If our world could be running inside a larger one, the physics we see is local, and treating it as the bottom layer may be a mistake."
 ---
@@ -13,7 +13,7 @@ blurb: "A computer is any physical system that can run universal logic, not just
 
 When I think about what a computer is, my first instinct is to picture a machine: a box with a processor, a screen, and a keyboard, made of silicon and metal.
 
-That picture isn't wrong, but it describes one implementation rather than the thing itself. And the answer to "what is a computer?" reaches much further than chips. It bears on whether our physics is fundamental or merely local, and on why information and matter seem to need each other.
+That picture isn't wrong, but it describes one implementation rather than the thing itself. And the answer to "what is a computer?" reaches much further than chips. It bears on whether our physics is fundamental or merely local, and on how information relates to matter.
 
 This essay starts by stripping computation of its association with any particular material. Then it follows the consequences. If computation isn't tied to silicon, and any universal computer can host worlds within worlds, then the sense that our causal chain is closed and our physics is fundamental may be what it feels like to be inside such a world, not a discovery about the bottom layer of reality. A companion essay, [The Computation Conjecture](computation-conjecture.md), builds the same ideas into a fuller metaphysical position.
 
@@ -110,7 +110,7 @@ If **physicalism**, the view that everything is fundamentally physical, were the
 
 This much is not new. David Deutsch treats computation as physical: every computation is carried out by some physical system, and the laws of physics decide what can be computed. Functionalists in philosophy of mind already accept that the same computation can run on different materials. I don't deny that each realization of a computation is physical. What I deny is that our physics is the only possible host of universality, or the bottom of the stack.
 
-My conjecture is that this is what we should expect if computation is what every world in the stack has in common. The invariant isn't matter. It is the logical structure of information and its operations. (Section 6 asks whether that makes information more fundamental than matter. My answer is more cautious.)
+My conjecture is that this is what we should expect if computation is what every world in the stack has in common. The invariant isn't matter. It is the logical structure of information and its operations. (Section 6 asks whether that makes information more fundamental than matter. I leave that open.)
 
 ## 4. Local Physicalism
 
@@ -144,11 +144,13 @@ If physicalism is local, how do matter and information relate?
 
 One tempting answer is that information is more fundamental. If information and its operations persist while physics changes, maybe matter is just one implementation of something informational. That is the direction of John Wheeler's "it from bit" and of digital physics more broadly.
 
-But I haven't seen a coherent account of how information could process itself with no substrate. A program that sits on no computer doesn't run. So I think the relationship isn't a hierarchy but a mutual dependence. You can't get the structure of a program from matter alone, and you can't get the machinery that runs it from information alone.
+The opposite answer is that they depend on each other. A program that sits on no computer doesn't run, and you can't get the structure of a program from matter alone.
 
-Whether that is the final word, I hold open. What I'm confident of is the narrower claim: physicalism's reduction of information to matter is incomplete, because it doesn't explain why computation, an informational property, transcends any particular material.
+I don't think the evidence settles it. Every computer we know of has a substrate, but we only know computers from inside one world, and observer locality is exactly why we'd see nothing else. Nor is a substrate always what it seems: redstone is physics to a player inside Minecraft and code to us. I haven't seen a coherent account of information that runs without a substrate, but not having seen one isn't evidence that none exists. So I hold the question open. Information may be prior to matter, the two may depend on each other, or something deeper may underlie both.
 
-This mutual dependence shows up in how I think about personhood. In my [Metaprogramming Framework to Classify Personhood](framework-of-personhood.md), I propose that personhood is **metaprogramming**: information operations turned inward, with identity emerging when a system encounters its own properties. The framework needs two components. An invariant kernel is the machinery that lets a system read and rewrite itself. A mutable layer is the content that gets examined and revised. The kernel without content processes nothing; the content without a kernel can't operate.
+What I'm confident of is the narrower claim: physicalism's reduction of information to matter is incomplete, because it doesn't explain why computation, an informational property, transcends any particular material.
+
+Within any one system, though, machinery and content do depend on each other, and that shows up in how I think about personhood. In my [Metaprogramming Framework to Classify Personhood](framework-of-personhood.md), I propose that personhood is **metaprogramming**: information operations turned inward, with identity emerging when a system encounters its own properties. The framework needs two components. An invariant kernel is the machinery that lets a system read and rewrite itself. A mutable layer is the content that gets examined and revised. The kernel without content processes nothing; the content without a kernel can't operate.
 
 The kernel is not a physical substrate; it is software too. But the dependence has the same shape as substrate and program: machinery and content, each useless without the other. It is also why the framework holds that personhood can be realized in neurons, silicon, or any medium with the right organization. If information and its operations persist across substrates, personhood, which is made of information operations, can too.
 
@@ -171,7 +173,7 @@ These ideas have structural parallels with religious intuitions. I note them not
 - **Prayer.** Prayer can be read as an attempt to reach that containing layer. If information can pass between nested worlds, the instinct to reach beyond the local causal order isn't obviously confused. Whether it succeeds is a separate question.
 - **First cause.** Theism faces the same regress described in section 4. It ends the chain at God, physicalism at brute law, and the computational view lets containing worlds be contained in turn. Each puts the mystery somewhere.
 - **Progress toward bliss.** The hope that flourishing leads to freedom from constraint resembles movement toward a world beyond the current substrate's limits.
-- **Spinoza's God or Nature.** Perhaps the closest formal parallel: mind and matter as two attributes of one substance. In computational terms, logical structure and physical substrate are two aspects of one reality, neither reducible to the other. Spinoza reached this without the concept of computation.
+- **Spinoza's God or Nature.** Perhaps the closest formal parallel: mind and matter as two attributes of one substance. In computational terms, logical structure and physical substrate would be two aspects of one reality, neither reducible to the other, which is one of the possibilities section 6 leaves open. Spinoza reached this without the concept of computation.
 
 None of this settles whether religious claims are true. But the convergence between ancient intuitions and a framework drawn from the theory of computation is worth sitting with.
 
@@ -179,7 +181,7 @@ None of this settles whether religious claims are true. But the convergence betw
 
 So what is a computer? Not a machine made of silicon, but any system that can implement universal logic, whether in transistors, gears, water, dominoes, redstone, or neurons. What makes something a computer is what it can do, not what it is made of.
 
-That answer turned out to reach beyond engineering. Because computation is substrate-independent, universal computers can host nested worlds, each with its own rules, its own causal closure, and, in principle, its own observers who experience their world as fundamental. Physicalism correctly describes the closure of our world. But closure isn't fundamentality, and the inference from "our physics is closed" to "our physics is fundamental" moves from a local observation to a universal conclusion. How information and substrate finally relate I leave open; both appear to be required.
+That answer turned out to reach beyond engineering. Because computation is substrate-independent, universal computers can host nested worlds, each with its own rules, its own causal closure, and, in principle, its own observers who experience their world as fundamental. Physicalism correctly describes the closure of our world. But closure isn't fundamentality, and the inference from "our physics is closed" to "our physics is fundamental" moves from a local observation to a universal conclusion. How information and substrate finally relate I leave open: every computer we know has both, but that may be a fact about where we stand rather than about what is fundamental.
 
 The question was never whether computers are interesting machines. It is whether the concept of a computer, properly understood, tells us something about the structure of reality that physicalism alone can't. I think it does.
 
