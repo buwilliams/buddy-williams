@@ -11,27 +11,28 @@ blurb: "Why metaphysics is worth taking seriously when no one knows where the ne
 
 ## Introduction
 
-Metaphysics asks questions no experiment can settle: what is real, what is fundamental, whether anything can come from nothing. Most people dismiss these questions as impractical. This essay explains why these questions are worth taking seriously, offers a frame for asking them, and then gives my own answers.
+Metaphysics asks questions no experiment can settle: what is real, what is fundamental, whether anything can come from nothing. Most people dismiss them as impractical. This essay explains why they are worth taking seriously, offers a frame for asking them, and then gives my own answers.
 
 ## Table of Contents
 
-1. [Dismissed](#1-dismissed)
-2. [Infinity](#2-infinity)
-3. [My Views](#3-my-views)
+1. [Pragmatism](#1-pragmatism)
+2. [Steered Search](#2-steered-search)
+3. [Infinity](#3-infinity)
+4. [My Views](#4-my-views)
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
 
-## 1. Prgamatism
+## 1. Pragmatism
 
-Many believe there is no practical value in metaphysics, because what hasn't been tested shouldn't be trusted. Our best guard is [falsifiability](https://en.wikipedia.org/wiki/Falsifiability). Science is built on this rule, and it protects us from staking important decisions on uncertainty. Since metaphysics cannot be empirically tested, many believe the subject can be safely ignored.
+Many people see no practical value in metaphysics, because what hasn't been tested shouldn't be trusted. Our best guard is [falsifiability](https://en.wikipedia.org/wiki/Falsifiability). Science is built on this rule, and it protects us from staking important decisions on uncertainty. Since metaphysics cannot be empirically tested, many believe the subject can be safely ignored.
 
-But, igornace has consequences, consider:
+But ignorance has consequences. Consider:
 
-Georges Lemaître, a physicist who was also a priest, proposed in 1931 that the universe began from a "primeval atom," Fred Hoyle resisted in part because a beginning seemed to invite a creator. He backed a steady-state universe with no beginning, and on BBC radio he mockingly named his rival's idea the "Big Bang." In 1965 the discovery of the Big Bang's leftover heat settled which of them was right, but not why there was anything to begin. But Hoyl never accepted the Big Bang, and he defended versions of the steady state until his death in 2001.
+When Georges Lemaître, a physicist who was also a priest, proposed in 1931 that the universe began from a "primeval atom," Fred Hoyle resisted in part because a beginning seemed to invite a creator. He backed a steady-state universe with no beginning, and on BBC radio he mockingly named his rival's idea the "Big Bang." In 1965 the discovery of the Big Bang's leftover heat settled which of them was right, but not why there was anything to begin. But Hoyle never accepted the Big Bang, and he defended versions of the steady state until his death in 2001.
 
-Many people are functional physicalists: they act as if only the physical exists, even if they would never say so. They wave off metaphysical conversations and are quick to mock the people who start them. Physicalism it's self is a metaphysical position, and it can't be falsified. Every experiment measures something physical, so no experiment could reveal something that isn't. A physicalist might shrug: so what? I live in a physical universe. But like Hoyle, metaphysics steers the search whether we notice it or not.
+Many people are functional physicalists: they act as if only the physical exists, even if they would never say so. They wave off metaphysical conversations and are quick to mock the people who start them. Physicalism itself is a metaphysical position, and it can't be falsified. Every experiment measures something physical, so no experiment could reveal something that isn't. A physicalist might shrug: so what? I live in a physical universe. But as Hoyle's case shows, metaphysics steers the search whether we notice it or not.
 
-Don't be reductive! Metaphysics is more than spirits, ghosts, and souls. Afterall, the physical world demands metaphysics. Why does anything exist at all? What caused the Big Bang? Was there a first cause? These questions don't come only from religion and superstition, they come directly from physics.
+Don't be reductive! Metaphysics is more than spirits, ghosts, and souls. After all, the physical world demands metaphysics. Why does anything exist at all? What caused the Big Bang? Was there a first cause? These questions don't come only from religion and superstition, they come directly from physics.
 
 ## 2. Steered Search
 
@@ -81,7 +82,7 @@ That is why I think the frame is rational rather than just humble. It doesn't ev
 
 With that frame, here are my own answers, sorted by how firmly I hold them.
 
-**What I claim.** Reality is infinite, for the reasons in section 2, and with the limits I gave there.
+**What I claim.** Reality is infinite, for the reasons in section 3, and with the limits I gave there.
 
 **What I leave open.**
 
