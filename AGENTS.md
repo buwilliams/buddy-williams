@@ -11,7 +11,7 @@ Essays by Buddy Williams, written in Markdown, and the website that publishes th
 - `essays/` — All writing lives here, one Markdown file per essay. The file name is the URL slug (`/writings/<slug>`).
 - `style-guide.md` — **Read this before any writing or editing task.** Defines voice, brevity, structure, criticism standards, and priorities.
 - `website/` — Rust/Axum site that renders `essays/` directly (no copied content). Essay images live in `website/static/img/essays/`. See `website/README.md` and `website/DEPLOY.md`.
-- `resume/` — Résumés, cover letters, `about.md`, and `my-work.md` (a work inventory whose essay table mirrors essay frontmatter).
+- `resume/` — Résumés, cover letters, `about.md`, and `my-work.md` (a work inventory).
 
 ## Essay Frontmatter and Status
 
