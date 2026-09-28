@@ -1,5 +1,5 @@
 ---
-title: "Metaphysics"
+title: "Practical Metaphysics"
 status: "Draft"
 created: "2026-09-27"
 updated: "2026-09-28"
@@ -7,25 +7,35 @@ order: 2
 blurb: "Why metaphysics is worth taking seriously when no one knows where the next breakthrough will come from, why an infinite reality meeting finite minds is a rational frame for it, and my own views: what I claim, what I leave open, and what I'm drawn to."
 ---
 
-# Metaphysics
+# Practical Metaphysics
 
 ## Introduction
 
-Only crazy people take metaphysics seriously. That is the common view, and it is easy to see why. Metaphysics asks questions no experiment can settle: what is real, what is fundamental, whether anything can come from nothing. People who answer those questions with certainty often end up somewhere strange. I know the risk firsthand. Years ago I committed myself to a fundamental dogma, and I was burned.
-
-But I didn't stop asking. This essay explains why the questions are worth taking seriously, offers a frame for asking them, and then gives my own answers and how firmly I hold each one.
+Metaphysics asks questions no experiment can settle: what is real, what is fundamental, whether anything can come from nothing. Most people dismiss these questions as impractical. This essay explains why these questions are worth taking seriously, offers a frame for asking them, and then gives my own answers.
 
 ## Table of Contents
 
-1. [Objection](#1-objection)
+1. [Dismissed](#1-dismissed)
 2. [Infinity](#2-infinity)
 3. [My Views](#3-my-views)
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
 
-## 1. Objection
+## 1. Prgamatism
 
-By the objection's standard, Johannes Kepler was one of the crazy people. In 1596 he published a book arguing that God had spaced the six known planets by nesting the five Platonic solids (cube, tetrahedron, and the rest) one inside another. He was wrong. But the belief that the heavens followed a hidden geometry kept him working for years through Tycho Brahe's observations of Mars, long after a less driven person would have settled for an approximate fit. What he found were his three laws of planetary motion, which Newton later built on. The third appeared in a book called *The Harmony of the World*.
+Many believe there is no practical value in metaphysics, because what hasn't been tested shouldn't be trusted. Our best guard is [falsifiability](https://en.wikipedia.org/wiki/Falsifiability). Science is built on this rule, and it protects us from staking important decisions on uncertainty. Since metaphysics cannot be empirically tested, many believe the subject can be safely ignored.
+
+But, igornace has consequences, consider:
+
+Georges Lemaître, a physicist who was also a priest, proposed in 1931 that the universe began from a "primeval atom," Fred Hoyle resisted in part because a beginning seemed to invite a creator. He backed a steady-state universe with no beginning, and on BBC radio he mockingly named his rival's idea the "Big Bang." In 1965 the discovery of the Big Bang's leftover heat settled which of them was right, but not why there was anything to begin. But Hoyl never accepted the Big Bang, and he defended versions of the steady state until his death in 2001.
+
+Many people are functional physicalists: they act as if only the physical exists, even if they would never say so. They wave off metaphysical conversations and are quick to mock the people who start them. Physicalism it's self is a metaphysical position, and it can't be falsified. Every experiment measures something physical, so no experiment could reveal something that isn't. A physicalist might shrug: so what? I live in a physical universe. But like Hoyle, metaphysics steers the search whether we notice it or not.
+
+Don't be reductive! Metaphysics is more than spirits, ghosts, and souls. Afterall, the physical world demands metaphysics. Why does anything exist at all? What caused the Big Bang? Was there a first cause? These questions don't come only from religion and superstition, they come directly from physics.
+
+## 2. Steered Search
+
+In 1596 Johannes Kepler published a book arguing that God had spaced the six known planets by nesting the five Platonic solids (cube, tetrahedron, and the rest) one inside another. He was wrong. But the belief that the heavens followed a hidden geometry kept him working for years through Tycho Brahe's observations of Mars, long after a less driven person would have settled for an approximate fit. What he found were his three laws of planetary motion, which Newton later built on. The third appeared in a book called *The Harmony of the World*.
 
 Science could not have told Kepler what to look for. It can test a hypothesis, but it is silent on which hypothesis to make. That choice comes from somewhere else: hunches, analogies, beauty, and beliefs about what the world is like underneath. Those beliefs are metaphysics, whether or not we call them that.
 
@@ -37,11 +47,13 @@ Searching **near** means exploring what is already at hand. Engineers live here.
 
 Searching **far** means imagining what might be, with no guarantee it connects to anything. Theorists live here. In 1854 Bernhard Riemann described geometries of curved space, which no one had a use for. Sixty years later they were exactly what Einstein needed for general relativity. G. H. Hardy boasted in 1940 that number theory, his field, had no practical use. Today it secures nearly every purchase made on the internet.
 
-No one could have predicted which far ideas would pay off, least of all the people who had them. That is the case for metaphysics. We don't know where the next breakthrough will come from, and near search alone only finds what is close to what we already know. Ruling out every question that can't yet be tested means ruling out much of the far search.
+No one could have predicted which far ideas would pay off, least of all the people who had them. We don't know where the next breakthrough will come from, and near search alone only finds what is close to what we already know. Demanding that every question be testable before we ask it rules out much of the far search.
 
-The objection does have a real point, and I share it. Holding untestable claims as certain is a mistake. But asking a question is not the same as making a claim. Karl Popper, who made falsifiability famous, used it to separate science from everything else, not to separate the worthwhile from the worthless. He pointed to atomism himself. The lesson isn't to stop asking. It is to hold the answers loosely enough to keep searching.
+So the dismissal applies the rule in the wrong place. Falsifiability is a rule for judging claims: deciding what to trust and act on. It is not a rule for searching: deciding what to wonder about and where to look. Applied to judgment, it guards against dogma. Applied to search, it rules out questions before anyone knows where they lead.
 
-## 2. Infinity
+The dismissal does have a real point, and I share it. Holding untestable claims as certain is how dogma starts. But asking a question is not the same as making a claim. Karl Popper, who made falsifiability famous, used it to separate science from everything else, not to separate the worthwhile from the worthless. He pointed to atomism himself, and held that ideas outside science can still be criticized. Falsifiability belongs at the gate where an idea becomes something we trust and act on. It doesn't belong at the edge of where we are willing to look.
+
+## 3. Infinity
 
 If I'm going to ask these questions, I need a frame that suits a mind that can be wrong. The one I use is simple: reality is infinite, and every mind is finite.
 
@@ -65,7 +77,7 @@ Worse, a mind inside a world only has access to that world's rules. A character 
 
 That is why I think the frame is rational rather than just humble. It doesn't even depend on reality being infinite. A finite reality vast enough to exceed every mind leads to the same conclusion. Infinity only makes it permanent: no amount of learning closes the gap.
 
-## 3. My Views
+## 4. My Views
 
 With that frame, here are my own answers, sorted by how firmly I hold them.
 
@@ -83,7 +95,7 @@ If that's right, creativity is a search through what already exists, which fits 
 
 ## Conclusion
 
-Maybe only crazy people take metaphysics seriously. If so, Kepler was crazy, and so were Democritus and Riemann. What made them useful wasn't certainty. It was a willingness to search far from what was known, and to let the world correct them when it did.
+Maybe metaphysics has no practical value. If so, Kepler wasted his time, and so did Democritus and Riemann. What made them useful wasn't certainty. It was a willingness to search far from what was known, and to let the world correct them when it did.
 
 That is how I try to hold my own answers. I claim that reality is infinite and that no finite mind will exhaust it. I leave open what is fundamental, whether everything possible exists, and whether logic is final. I'm drawn to the view that every invention is a discovery. None of it is final, and that is the point: in an infinite reality, the search can go on.
 
