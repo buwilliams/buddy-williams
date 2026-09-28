@@ -91,8 +91,8 @@
 // Home stage: one hero with Intro · Work · Writing.
 // Steps walk Intro → Work (Growth Lab, Moving Line, Refine) → Writing.
 // Roomy screens: the frame pins and ordinary scrolling advances the steps
-// (native scroll, never hijacked). Otherwise: plain tabs + arrows + swipe.
-// No JS: everything stacks.
+// (native scroll, never hijacked). Narrow screens and no JS: everything
+// stacks. Wide but short screens: plain tabs + arrows + swipe.
 (function () {
   var stage = document.querySelector("[data-stage]");
   if (!stage) return;
@@ -115,7 +115,7 @@
 
   var current = 0;
   var slide = 0; // last Work slide shown, kept when leaving the tab
-  var mode = "tabs";
+  var mode = "tabs"; // "tabs" | "pinned" | "stacked"
   var stepPx = 0;
   var start = 0;
 
@@ -196,7 +196,11 @@
       stage.classList.remove("is-measuring");
     }
     if (!(roomy && fits)) {
-      stage.classList.add("is-tabs");
+      if (window.innerWidth > 940) {
+        stage.classList.add("is-tabs");
+      } else {
+        mode = "stacked";
+      }
     } else {
       mode = "pinned";
       stage.classList.add("is-pinned");
@@ -245,4 +249,36 @@
   if (reduce.addEventListener) reduce.addEventListener("change", layout);
   window.addEventListener("load", layout);
   layout();
+})();
+
+// Mobile menu: the hamburger opens the site nav as a drop-down.
+(function () {
+  var header = document.querySelector(".site-header");
+  var toggle = header && header.querySelector(".nav-toggle");
+  if (!toggle) return;
+  header.classList.add("has-menu");
+
+  function set(open) {
+    header.classList.toggle("is-open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  }
+  function isOpen() { return header.classList.contains("is-open"); }
+
+  toggle.addEventListener("click", function () { set(!isOpen()); });
+  header.querySelectorAll(".site-nav a").forEach(function (a) {
+    a.addEventListener("click", function () { set(false); });
+  });
+  document.addEventListener("click", function (e) {
+    if (isOpen() && !header.contains(e.target)) set(false);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && isOpen()) {
+      set(false);
+      toggle.focus();
+    }
+  });
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 620 && isOpen()) set(false);
+  });
 })();

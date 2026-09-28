@@ -1,9 +1,10 @@
 {% extends "base.html" %} {% block content %}
 <main>
   <!-- Stage: one hero with three tabs (Intro · Work · Writing).
-       No JS: the panels simply stack. With JS on a roomy screen, the stage pins
-       and normal scrolling steps through Intro → the three Work slides → Writing;
-       elsewhere it becomes plain tabs (tap, arrow keys, swipe). -->
+       No JS or a narrow screen: the panels simply stack. With JS on a roomy
+       screen, the stage pins and normal scrolling steps through Intro → the
+       three Work slides → Writing; on wide but short screens it becomes plain
+       tabs (tap, arrow keys, swipe). -->
   <section class="stage" data-stage aria-label="Introduction, work, and writing">
     <div class="stage-sticky">
       <div class="stage-bar">

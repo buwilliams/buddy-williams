@@ -36,12 +36,13 @@
         <img class="brand-mark" src="/static/img/mark.svg" alt="" aria-hidden="true" />
         <span class="brand-name">{{ cfg.name }}</span>
       </a>
-      <nav class="site-nav">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav">
         <a href="/writings" class="{% if page == 'writings' %}is-active{% endif %}">Writing</a>
         <a href="/consulting" class="{% if page == 'consulting' %}is-active{% endif %}">Consulting</a>
-        <a class="nav-cta" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener"
-          >{{ cfg.scheduler_label }}</a
-        >
+        <a class="nav-cta" href="{{ cfg.scheduler_url }}" target="_blank" rel="noopener">Contact</a>
       </nav>
     </header>
 
