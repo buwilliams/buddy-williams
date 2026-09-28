@@ -1,6 +1,6 @@
 ---
 title: "Practical Metaphysics"
-status: "Draft"
+status: "Final"
 created: "2026-09-27"
 updated: "2026-09-28"
 order: 2
@@ -46,7 +46,7 @@ Discovery is a search through possibilities, and there are two ways to search: n
 
 Searching **near** means exploring what is already at hand. Engineers live here. Thomas Edison tested thousands of materials for a light bulb filament before settling on carbonized bamboo. The Wright brothers built a wind tunnel in 1901 and tested some two hundred wing shapes. Near search is systematic, and it works.
 
-Searching **far** means imagining what might be, with no guarantee it connects to anything. Theorists live here. In 1854 Bernhard Riemann described geometries of curved space, which no one had a use for. Sixty years later they were exactly what Einstein needed for general relativity. G. H. Hardy boasted in 1940 that number theory, his field, had no practical use. Today it secures nearly every purchase made on the internet.
+Searching **far** means imagining what might be, with no guarantee it connects to anything. Theorists live here. In 1854 Bernhard Riemann described geometries of curved space, which no one had a use for. Sixty years later they were exactly what Einstein needed for general relativity. G. H. Hardy wrote in 1940 that "no one has yet discovered any warlike purpose to be served by the theory of numbers." Today it secures nearly every purchase made on the internet.
 
 No one could have predicted which far ideas would pay off, least of all the people who had them. We don't know where the next breakthrough will come from, and near search alone only finds what is close to what we already know. Demanding that every question be testable before we explore it rules out much of the exploration space.
 
@@ -70,7 +70,7 @@ The usual objection is that something finite doesn't need to have an edge. The s
 
 **Minds are finite.** Every mind has limited memory, limited time, and a limited vantage point. It sees the world through models, and as I argue in [More Better](frame-problem.md), every model leaves something out.
 
-The confident ones are often the most instructive. In 1894 the physicist Albert Michelson said that the fundamental laws of physics had very likely all been discovered, and what remained was more precise measurement. The next year Wilhelm Röntgen discovered X-rays. Radioactivity followed in 1896, the electron in 1897, quantum theory in 1900, and relativity in 1905. Michelson was one of the best experimenters alive, and his own work helped lead to relativity. He wasn't foolish. He was finite, and he couldn't see what he couldn't see.
+The confident ones are often the most instructive. In 1894 the physicist Albert Michelson declared that "the more important fundamental laws and facts of physical science have all been discovered," and that future discoveries "must be looked for in the sixth place of decimals." The next year Wilhelm Röntgen discovered X-rays. Radioactivity followed in 1896, the electron in 1897, quantum theory in 1900, and relativity in 1905. Michelson was one of the best experimenters alive, and his own work helped lead to relativity. He wasn't foolish. He was finite, and he couldn't see what he couldn't see.
 
 Worse, a mind inside a world only has access to that world's rules. A character in Minecraft would find redstone just as fundamental as we find electricity. In [What Is a Computer?](what-is-a-computer.md) I call this observer locality: a closed world looks fundamental from inside, whether or not it is.
 
