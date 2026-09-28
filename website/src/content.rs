@@ -207,16 +207,12 @@ fn sort_writings_newest_first(list: &mut [WritingMeta]) -> Result<(), BoxErr> {
     }
 
     list.sort_by(|a, b| {
-        created_month(b)
-            .cmp(&created_month(a))
+        parse_date(&b.created)
+            .cmp(&parse_date(&a.created))
             .then_with(|| a.order.cmp(&b.order))
             .then_with(|| a.slug.cmp(&b.slug))
     });
     Ok(())
-}
-
-fn created_month(w: &WritingMeta) -> Option<(i32, u8)> {
-    parse_date(&w.created).map(|(y, m, _)| (y, m))
 }
 
 /// Parse a `YYYY-MM-DD` date into (year, month, day).
@@ -296,12 +292,13 @@ mod tests {
     }
 
     #[test]
-    fn writings_sort_newest_first_with_order_as_same_month_tiebreaker() {
+    fn writings_sort_newest_first_by_created_date_with_order_as_same_day_tiebreaker() {
         let mut writings = vec![
             writing("october", "2025-10-21", 0),
-            writing("june-second", "2026-06-01", 2),
+            writing("june-early", "2026-06-01", 0),
             writing("july", "2026-07-11", 9),
-            writing("june-first", "2026-06-03", 1),
+            writing("june-late-second", "2026-06-03", 2),
+            writing("june-late-first", "2026-06-03", 1),
         ];
 
         sort_writings_newest_first(&mut writings).unwrap();
@@ -310,7 +307,10 @@ mod tests {
             .iter()
             .map(|writing| writing.slug.as_str())
             .collect();
-        assert_eq!(slugs, ["july", "june-first", "june-second", "october"]);
+        assert_eq!(
+            slugs,
+            ["july", "june-late-first", "june-late-second", "june-early", "october"]
+        );
     }
 
     #[test]

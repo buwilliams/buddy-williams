@@ -36,8 +36,8 @@ No Rust changes are needed for copy edits:
   published essay opens with a `---` YAML frontmatter block (`title`, `status`,
   `date`, `blurb`, optional `featured`, `order`); the slug is the filename. The
   site scans `essays/` at startup and publishes every file that has frontmatter —
-  set `featured: true` to surface on the home page. Both pages sort by `date`
-  newest first; `order` is the lowest-first tie-breaker within the same month.
+  set `featured: true` to surface on the home page. Both pages sort by `created`
+  date newest first; `order` is the lowest-first tie-breaker for the same date.
   Delete the frontmatter to unpublish. Files without frontmatter (raw drafts,
   working notes) are ignored. Essays render on GitHub *and* on the site from this
   one copy; the site rewrites their relative links/images at render time. Images

@@ -23,7 +23,7 @@ title: "Thinking About Thinking"
 status: "Final"        # Draft | Working | Final
 created: "2026-09-01"  # YYYY-MM-DD when first written; use the 1st if the day is unknown
 updated: "2026-09-26"  # YYYY-MM-DD of the last substantive revision
-order: 0               # tie-breaker within a month, lower first; the index sorts newest first by created month
+order: 0               # tie-breaker for the same created date, lower first; the index sorts newest first by created date
 featured: true         # optional
 blurb: "One or two sentences for the index."
 ---
