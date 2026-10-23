@@ -1,6 +1,6 @@
 ---
 title: "The Oscillation of Life"
-status: "Draft"
+status: "Final"
 created: "2026-10-23"
 updated: "2026-10-23"
 order: 1
