@@ -1,3 +1,12 @@
+---
+title: "The Oscillation of Life"
+status: "Draft"
+created: "2026-10-23"
+updated: "2026-10-23"
+order: 1
+blurb: "What if reality has no boundaries, and intelligence is an endless process of discovering and appreciating it? I explore a bold conjecture about the nature of reality, the limits of our understanding, and a philosophy of life built on two complementary activities: growth and gratitude. One expands what we can experience. The other celebrates the beauty we discover."
+---
+
 # The Oscillation of Life
 
 *On Reality, Intelligence, Growth, and Gratitude*
