@@ -1,5 +1,5 @@
 ---
-title: "Everything: Reality, Minds, Meaning"
+title: "Everything: Metaphysics, Minds, Meaning"
 status: "Final"
 created: "2026-10-23"
 updated: "2026-10-24"
@@ -7,7 +7,7 @@ order: 1
 blurb: "My theory of everything. Where does a pencil end? Why reality has no edges, how minds divide it into things anyway, and why that makes a good life a cycle of growth and gratitude."
 ---
 
-# Everything: Reality, Minds, Meaning
+# Everything: Metaphysics, Minds, Meaning
 
 ## Introduction
 
@@ -163,7 +163,9 @@ Growth without gratitude becomes an endless chase, a discontentment that never r
 
 Gratitude without growth has the opposite problem. We appreciate what we already know and stop exploring what we don't. It is easy to mistake contentment for having nothing left to find.
 
-Together, they form a cycle between discontentment and contentment. We explore and discover. We appreciate what we found. That appreciation pulls us to explore further, and exploring reveals more to appreciate.
+Together, they form a cycle between discontentment and contentment. We explore and discover. We appreciate what we found. Then we grow again, not because contentment failed, but because growing is what living things do.
+
+A rock doesn't want to move or grow. Only living things act on their own, and anything that does, any **agent**, seeks out new experience. That is the nature of being alive. Seen at the resolution of a body, the seeking is survival. Seen at the resolution of a life, it is meaning. So contentment doesn't end the cycle. It is the resting point from which a living mind reaches again.
 
 The swing is a picture, not a schedule. Growth and gratitude don't have to take turns; they often happen at once, within different frames of the same mind. A scientist can delight in a discovery while chasing what it means. A parent can enjoy their child exactly as they are while helping them grow. An athlete can love the movement while getting stronger. Some of the best moments in life are the ones where you can't tell the two apart.
 
