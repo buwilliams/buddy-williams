@@ -11,9 +11,9 @@ blurb: "Where does a pencil end? Why reality has no edges, why no mind can ever 
 
 ## Introduction
 
-What is intelligence for? The usual answer is survival. Intelligence helps us find food, avoid danger, and solve problems. That answer is true, but I don't think it is complete.
+What are minds for? The usual answer is survival. Minds help us find food, avoid danger, and solve problems. That answer is true, but I don't think it is complete.
 
-My conjecture is that intelligent life moves back and forth between two activities: **growth** and **gratitude**. Growth is expanding what we can consider and experience. Gratitude is appreciating what we have come to find beautiful. The two work like a swing, each motion feeding the next: growth gives us more to appreciate, and appreciation draws us to grow.
+My conjecture is that minds move back and forth between two activities: **growth** and **gratitude**. Growth is expanding what we can consider and experience. Gratitude is appreciating what we have come to find beautiful. The two work like a swing, each motion feeding the next: growth gives us more to appreciate, and appreciation draws us to grow.
 
 This is a philosophy for living, but it rests on a view of reality and of minds. So the essay has three parts. **Reality** argues that reality has no edges. **Minds** explains how minds divide it into things anyway, and why no mind can ever see all of it. **Living** draws the consequence: growth never has to end, and there is always more to appreciate. The first two parts are what philosophers call ontology, the study of what exists, and epistemology, the study of how we know.
 
@@ -137,7 +137,7 @@ But growth alone leaves a question open. Why should we care about discovering mo
 
 ### 8. Beauty and Gratitude
 
-The practical reasons for intelligence are real. Evolution explains well why creatures that can predict danger and solve problems would survive. But I don't think survival captures everything intelligence is good for. Intelligence can also do something remarkable: it can appreciate beauty.
+The practical reasons for minds are real. Evolution explains well why creatures that can predict danger and solve problems would survive. But I don't think survival captures everything minds are good for. Minds can also do something remarkable: they can appreciate beauty.
 
 Think of the moment a hard idea suddenly makes sense. Something that seemed tangled becomes simple. Events that seemed unrelated turn out to share one cause. There is beauty in that moment. There is beauty, too, in music, a mountain view, a mathematical proof, a loving relationship, a good run, or a conversation that changes how you see the world. These experiences are very different, yet we can value each one for its own sake.
 
@@ -147,7 +147,7 @@ Someone who studies music hears patterns they used to miss. Someone who studies 
 
 And understanding more doesn't make reality less mysterious. A good explanation often reveals a whole new landscape of questions. There is beauty in what we understand and beauty in what we haven't yet found.
 
-This reminds me of the religious idea of *glory*. In the Christian tradition, the beauty and majesty of the world are often taken as signs of God. I don't believe we need a creator outside reality to appreciate that beauty. But I recognize the experience the word points to. The rise of stars, planets, life, minds, and love is worth deep appreciation. And since intelligence is part of reality, we don't need to imagine a mind outside the world admiring it. Sagan said that we are a way for the cosmos to know itself. I would add that we are also one of the ways reality comes to appreciate itself.
+This reminds me of the religious idea of *glory*. In the Christian tradition, the beauty and majesty of the world are often taken as signs of God. I don't believe we need a creator outside reality to appreciate that beauty. But I recognize the experience the word points to. The rise of stars, planets, life, minds, and love is worth deep appreciation. And since minds are part of reality, we don't need to imagine a mind outside the world admiring it. Sagan said that we are a way for the cosmos to know itself. I would add that we are also one of the ways reality comes to appreciate itself.
 
 This is where **gratitude** enters: appreciating what we have come to find beautiful. A discovery, a friendship, a good idea, a moment of joy, or simply the chance to exist at all can each be a source of it.
 
@@ -181,7 +181,7 @@ Even in a world of great abundance, we will still have reasons to grow, discover
 
 ## Conclusion
 
-I started with a question: what is intelligence for? Survival is part of the answer, but not all of it.
+I started with a question: what are minds for? Survival is part of the answer, but not all of it.
 
 Reality has no edges. Everything is related to everything else, and the separations we see are formed by minds, through lossy representations shaped by their capabilities. Every edge can be redrawn at another resolution or from another perspective. That means no representation of reality is ever complete, and the frame problem never goes away. For a mind, that is not a cage. It is an open door. There is always more to understand, and the more we understand, the more we can find beautiful.
 
