@@ -13,11 +13,11 @@ blurb: "My theory of everything. Where does a pencil end? Why reality has no edg
 
 This essay is my theory of everything. Not a physical theory that unifies the forces, but an account of how reality, minds, and meaning fit together.
 
-It starts from one conjecture: **reality has no edges or distinctions of its own.** Everything is related to everything else, and every separation we see is formed by an observer. The essay has three parts. **Reality** argues for the conjecture. **Minds** explains how minds, the only observers we know of, divide an edgeless reality into things through lossy representations, and why no mind can ever see all of it. **Meaning** draws the consequence for what minds are for: a life of growth and gratitude, a cycle between discontentment and contentment that never has to end. The first two parts are what philosophers call ontology, the study of what exists, and epistemology, the study of how we know.
+It starts from one conjecture: **reality has no edges or distinctions of its own.** Everything is related to everything else, and every separation we see is formed by an observer. The essay has three parts. **Metaphysics** argues for the conjecture. **Minds** explains how minds, the only observers we know of, divide an edgeless reality into things through lossy representations, and why no mind can ever see all of it. **Meaning** draws the consequence for what minds are for: a life of growth and gratitude, a cycle between discontentment and contentment that never has to end. The first two parts are what philosophers call ontology, the study of what exists, and epistemology, the study of how we know.
 
 ## Table of Contents
 
-- [Reality](#reality)
+- [Metaphysics](#metaphysics)
   1. [Nothing Exists in Isolation](#1-nothing-exists-in-isolation)
   2. [Reality as an Endless Graph](#2-reality-as-an-endless-graph)
   3. [Observers](#3-observers)
@@ -33,7 +33,7 @@ It starts from one conjecture: **reality has no edges or distinctions of its own
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
 
-## Reality
+## Metaphysics
 
 ### 1. Nothing Exists in Isolation
 
@@ -47,7 +47,7 @@ We could draw a line at its surface. But that leaves out everything it touches a
 
 The point isn't that we haven't found the pencil's true edge yet. It is that reality has no edges to find. Everything is related to everything else, and nothing is separated.
 
-This leads to a bold conjecture: **reality has no edges or distinctions of its own.** The edges we see are lines drawn by observers, not walls built into the world. Who draws them, and how, is the subject of the rest of this part and the next.
+This leads to a bold conjecture: **reality has no edges or distinctions of its own.** The edges we see are lines drawn by observers, not walls built into reality. Who draws them, and how, is the subject of the rest of this part and the next.
 
 ### 2. Reality as an Endless Graph
 
@@ -55,9 +55,7 @@ How can we picture a reality with no edges? The closest picture I know comes fro
 
 A **graph**, in math, is a set of points, called *nodes*, joined by lines. Mathematicians call these lines edges, but I'll call them *links*, to keep them apart from the edges this essay is about. A subway map is a graph: the stations are nodes, and the tracks between them are links. A **complete graph** is one where every node links to every other node.
 
-Now imagine that every distinction we could ever make about reality becomes a node: a pencil, a person, a thought, a feeling, a theory. Every node links to every other. But the links are things we can think about too, so each one can become a node of its own. Then the links between those links can become nodes, and so on without end. The graph would even have to include pictures of itself, since those are part of reality too.
-
-How big would this graph be? Some infinities are bigger than others. The whole numbers (1, 2, 3, and so on) never end, but you can list them in order, and every number shows up somewhere on the list. In the 1870s the mathematician Georg Cantor proved that the points on a line can't be listed that way: any list you make will miss some. Mathematicians call an infinity you can list *countable*, and one you can't *uncountable*. I conjecture that the distinctions we could make about reality are uncountable, like the points on a line: not just endless, but too many to ever list.
+Now draw the pencil as a node. Each thing we can say about it becomes a node linked to it: its wood, its graphite, its color, its owner. Each of those opens onto more. The wood links to a tree, the tree to soil and sunlight, the sunlight to the sun. The graphite links to the rock it formed in and the miners who dug it out. The color links to the light it reflects and the eye that sees it. Even a link can become a node: the pencil being *on* the desk is something we can describe, and it links to more. Follow any path and it never ends. Do the same for everything else, not just the pencil, and the graph holds every distinction we could ever make about reality, with every node linked to every other: a complete graph that never ends.
 
 Reality is not literally made of nodes and links. The graph is just a picture, a way of making a boundless reality easier to think about.
 
@@ -65,11 +63,13 @@ Reality is not literally made of nodes and links. The graph is just a picture, a
 
 If reality has no edges, where does the pencil's edge come from? It comes from an **observer**: a part of reality that takes in information about the rest and separates it into things.
 
-The graph makes one fact about observers vivid. The person drawing it is inside it. A thought about reality is part of reality. So is a mathematical proof, a computer simulation, or this essay. There is no place outside reality to stand and look at it. An observer is not separate from what it observes.
+Observers draw lines around what counts as existing. Physicalism, the view that only the physical exists, is one such line. A physicalist may say that mathematics and logic don't really exist, that they are only patterns in brains and marks on paper. But they have a puzzling kind of existence. A computer is a system that runs universal logic, and the same logic runs on transistors, gears, water valves, or blocks in a video game. A program can itself be a computer, running other programs inside it. Whatever logic is, it isn't tied to any one **substrate**, the medium it runs on. In [What Is a Computer?](what-is-a-computer.md) I follow this to simulation theory: the possibility that our own world runs inside a larger one. Wherever we draw the line around what exists, observers inside reality drew it.
 
-So our attempts to understand reality aren't separate from it either. Each one is a new part of reality, related to everything else, and so each one adds something new to understand. It is like pulling on an endless string: the more we pull, the more there is to pull.
+In the film *Doctor Strange* (2016), the Ancient One challenges Dr. Strange:
 
-Carl Sagan said that we are a way for the cosmos to know itself. That is the picture here. Reality has no edges of its own, but it contains observers, and through them it shows up as pencils, people, and stars. How an observer turns an edgeless reality into things depends on what kind of observer it is.
+> You think you know how the world works? You think that this material universe is all there is? What is real? What mysteries lie beyond the reach of your senses?... This universe is only one of an infinite number. Worlds without end... Who are you in this vast multiverse, Mr. Strange?
+
+So who are the observers, and how do they draw their lines?
 
 ## Minds
 
@@ -151,7 +151,7 @@ Someone who studies music hears patterns they used to miss. Someone who studies 
 
 And understanding more doesn't make reality less mysterious. A good explanation often reveals a whole new landscape of questions. There is beauty in what we understand and beauty in what we haven't yet found.
 
-This reminds me of the religious idea of *glory*. In the Christian tradition, the beauty and majesty of the world are often taken as signs of God. I don't believe we need a creator outside reality to appreciate that beauty. But I recognize the experience the word points to. The rise of stars, planets, life, minds, and love is worth deep appreciation. And since minds are part of reality, we don't need to imagine a mind outside the world admiring it. Sagan said that we are a way for the cosmos to know itself. I would add that we are also one of the ways reality comes to appreciate itself.
+This reminds me of the religious idea of *glory*. In the Christian tradition, the beauty and majesty of the world are often taken as signs of God. I don't believe we need a creator outside reality to appreciate that beauty. But I recognize the experience the word points to. The rise of stars, planets, life, minds, and love is worth deep appreciation. And since minds are part of reality, we don't need to imagine a mind outside the world admiring it. Carl Sagan said that we are a way for the cosmos to know itself. I would add that we are also one of the ways reality comes to appreciate itself.
 
 This is where gratitude enters: experiencing the present, and the beauty in it, with contentment. A discovery, a friendship, a good idea, a moment of joy, or simply the chance to exist at all can each be a source of it.
 
@@ -187,7 +187,7 @@ Even in a world of great abundance, we will still have reasons to grow, discover
 
 ## Conclusion
 
-Reality has no edges. Everything is related to everything else, and the separations we see are formed by minds, through lossy representations shaped by their capabilities. Every edge can be redrawn at another resolution or from another perspective. That means no representation of reality is ever complete, and the frame problem never goes away. For a mind, that is not a cage. It is an open door. There is always more to understand, and the more we understand, the more we can find beautiful.
+Reality has no edges. Everything is related to everything else, and the separations we see are formed by minds, through lossy representations shaped by their capabilities. Through minds, reality shows up as pencils, people, and stars, and, as Sagan put it, comes to know itself. Every edge can be redrawn at another resolution or from another perspective. That means no representation of reality is ever complete, and the frame problem never goes away. For a mind, that is not a cage. It is an open door. There is always more to understand, and the more we understand, the more we can find beautiful.
 
 So what are minds for? Survival is part of the answer, but not all of it. A good life doesn't need a finish line. We don't have to master every possibility or reach a point where nothing is left to explore. We can keep growing, keep giving thanks, and enjoy the beauty of the process while it unfolds: to discover more of reality, and to love more of what we discover.
 
@@ -201,5 +201,4 @@ So what are minds for? Survival is part of the answer, but not all of it. A good
 - [David Deutsch, *The Beginning of Infinity* (2011)](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)
 - [Karl Popper, *Conjectures and Refutations* (1963)](https://en.wikipedia.org/wiki/Conjectures_and_Refutations)
 - [Carl Sagan, *Cosmos* (1980)](https://en.wikipedia.org/wiki/Cosmos_(Carl_Sagan_book))
-- [Cantor's diagonal argument](https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument), the proof that some infinities are bigger than others.
 - [The frame problem](https://plato.stanford.edu/entries/frame-problem/), Stanford Encyclopedia of Philosophy.
