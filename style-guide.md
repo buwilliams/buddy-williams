@@ -98,6 +98,17 @@ Be specific and actionable. For each issue, identify:
 
 Criticism should strengthen bold ideas, not flatten them into timid ones.
 
+## Hot Takes
+
+A hot take is titled as a question ("Are LLMs Conscious?"), quotes one or more public answers from other people, and analyzes whether they hold up. Steelman each take in its author's own words before criticizing it. Then every hot take should offer:
+
+- **Alternative explanations**: other accounts of the same facts, including why the author might hold the view
+- **Counterfactuals**: "what if" cases that test whether the author's criterion is the one they actually use
+- **Counterexamples**: concrete cases where the claim, taken at its word, fails
+- **Criticisms**: unsupported claims, contradictions, and reasoning that can't be tested
+
+Also say plainly where the take is right, and close with my own answer to the question.
+
 ## Priorities
 
 When there are tradeoffs, prioritize:

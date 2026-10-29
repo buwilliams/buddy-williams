@@ -25,9 +25,12 @@ created: "2026-09-01"  # YYYY-MM-DD when first written; use the 1st if the day i
 updated: "2026-09-26"  # YYYY-MM-DD of the last substantive revision
 order: 0               # tie-breaker for the same created date, lower first; the index sorts newest first by created date
 featured: true         # optional
+category: "Essays"     # optional; "Essays" (default) or "Hot Takes", matching a [[categories]] name in website/content/site.toml
 blurb: "One or two sentences for the index."
 ---
 ```
+
+Categories: **Essays** (the default) and **Hot Takes**. A hot take is titled as a question (e.g. "Are LLMs Conscious?"), quotes one or more public answers from other people, and analyzes their merits; it pairs with Buddy's Wednesday TikTok LIVE with Chris D. See "Hot Takes" in `style-guide.md`. The writing index filters by category at `/writings?category=<slug>`.
 
 Status: **Draft** (AI-assisted sketch, not ready for public criticism) → **Working** (rewritten by hand) → **Final** (complete, no further updates intended). Files without frontmatter are unpublished drafts.
 
