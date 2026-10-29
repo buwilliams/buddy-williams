@@ -5,8 +5,16 @@ content %}
   <article class="reader">
     <a class="reader-back" href="/writings">← All writing</a>
     <span class="badge badge-{{ meta.status|lower }}">{{ meta.status }} · {{ meta.date }}{% if meta.updated_label %} · Updated {{ meta.updated_label }}{% endif %}</span>
+    {% if meta.category != default_category %}<a class="badge badge-category" href="/writings?category={{ meta.category_slug }}">{{ meta.category }}</a>{% endif %}
     <h1>{{ meta.title }}</h1>
     <p class="reader-blurb">{{ meta.blurb }}</p>
+
+    {% if category and category.callout %}
+    <aside class="reader-callout">
+      {% if category.callout.url %}<a href="{{ category.callout.url }}" target="_blank" rel="noopener"><strong>{{ category.callout.title }} →</strong></a>{% else %}<strong>{{ category.callout.title }}</strong>{% endif %}
+      <span>{{ category.callout.body }}</span>
+    </aside>
+    {% endif %}
 
     {% if toc %}
     <nav class="reader-toc" aria-label="Table of contents">
@@ -20,6 +28,13 @@ content %}
     {% endif %}
 
     <div class="markdown">{{ content|safe }}</div>
+
+    {% if category and category.callout %}
+    <aside class="reader-callout">
+      {% if category.callout.url %}<a href="{{ category.callout.url }}" target="_blank" rel="noopener"><strong>{{ category.callout.title }} →</strong></a>{% else %}<strong>{{ category.callout.title }}</strong>{% endif %}
+      <span>{{ category.callout.body }}</span>
+    </aside>
+    {% endif %}
 
     <aside class="reader-book">
       <p>Building in tech? I offer free intro calls to builders.</p>

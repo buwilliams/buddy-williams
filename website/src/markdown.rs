@@ -332,6 +332,15 @@ mod tests {
     }
 
     #[test]
+    fn slugs_drop_apostrophes_like_github() {
+        assert_eq!(
+            slugify("2. Fallibilism: The Explorer's Discipline"),
+            "2-fallibilism-the-explorers-discipline"
+        );
+        assert_eq!(slugify("1. Suleyman\u{2019}s Case"), "1-suleymans-case");
+    }
+
+    #[test]
     fn relative_images_become_root_absolute() {
         assert_eq!(
             rewrite_image("../website/static/img/essays/x.png").unwrap(),
@@ -346,6 +355,11 @@ fn slugify(text: &str) -> String {
     let mut slug = String::with_capacity(text.len());
     let mut last_dash = false;
     for ch in text.chars() {
+        // Drop apostrophes like GitHub does, so "Explorer's" becomes "explorers"
+        // and anchors written for GitHub also work on the site.
+        if matches!(ch, '\'' | '\u{2018}' | '\u{2019}') {
+            continue;
+        }
         if ch.is_ascii_alphanumeric() {
             slug.push(ch.to_ascii_lowercase());
             last_dash = false;

@@ -4,11 +4,12 @@ use crate::content::{SiteConfig, WritingMeta};
 use crate::markdown;
 use axum::{
     body::Body,
-    extract::{Path, State},
+    extract::{Path, Query, State},
     http::{header, StatusCode},
     response::{Html, IntoResponse, Response},
 };
 use minijinja::{context, Environment, Value};
+use serde::Deserialize;
 use std::{path::PathBuf, sync::Arc};
 
 #[derive(Clone)]
@@ -53,13 +54,36 @@ pub async fn home(State(state): State<AppState>) -> Response {
     )
 }
 
-pub async fn writings_index(State(state): State<AppState>) -> Response {
+#[derive(Deserialize)]
+pub struct WritingsQuery {
+    category: Option<String>,
+}
+
+/// `/writings` lists everything; `/writings?category=<slug>` lists one category.
+pub async fn writings_index(
+    State(state): State<AppState>,
+    Query(query): Query<WritingsQuery>,
+) -> Response {
+    let category = match &query.category {
+        None => None,
+        Some(slug) => match state.cfg.categories.iter().find(|c| &c.slug == slug) {
+            Some(c) => Some(c),
+            None => return not_found(&state),
+        },
+    };
+    let writings: Vec<&WritingMeta> = state
+        .writings
+        .iter()
+        .filter(|w| category.map_or(true, |c| w.category_slug == c.slug))
+        .collect();
     render(
         &state,
         "writings.html",
         context! {
             cfg => &*state.cfg,
-            writings => &*state.writings,
+            writings => writings,
+            category => category,
+            default_category => &state.cfg.categories[0].name,
             page => "writings",
         },
     )
@@ -87,6 +111,11 @@ pub async fn essay(State(state): State<AppState>, Path(slug): Path<String>) -> R
     let (_, body_md) = markdown::split_frontmatter(&md);
     let body = markdown::strip_toc(&markdown::strip_first_h1(body_md));
     let rendered = markdown::render(&body, &rewrite);
+    let category = state
+        .cfg
+        .categories
+        .iter()
+        .find(|c| c.slug == meta.category_slug);
     let prev = idx.checked_sub(1).map(|i| &state.writings[i]);
     let next = state.writings.get(idx + 1);
 
@@ -100,6 +129,8 @@ pub async fn essay(State(state): State<AppState>, Path(slug): Path<String>) -> R
             toc => rendered.toc,
             prev => prev,
             next => next,
+            default_category => &state.cfg.categories[0].name,
+            category => category,
             page => "writings",
         },
     )

@@ -533,6 +533,15 @@ p {
 .badge-draft {
   color: var(--star);
 }
+.badge + .badge {
+  margin-left: 6px;
+}
+.badge-category {
+  color: var(--blue);
+  border-color: rgba(79, 143, 247, 0.4);
+  background: rgba(79, 143, 247, 0.08);
+  text-decoration: none;
+}
 
 /* ---------- Consulting band ---------- */
 .consulting-band {
@@ -725,6 +734,29 @@ p {
 }
 
 /* writings index */
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: -20px 0 28px;
+}
+.category-filter a {
+  padding: 6px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.category-filter a:hover {
+  color: var(--text);
+}
+.category-filter a[aria-current="page"] {
+  color: var(--night);
+  background: var(--amber);
+  border-color: var(--amber);
+}
 .writing-list {
   list-style: none;
   margin: 0;
@@ -877,10 +909,40 @@ p {
   border-color: var(--paper-line);
   color: var(--ink-muted);
 }
+.reader .badge-category {
+  color: var(--blue-deep);
+  background: rgba(42, 90, 158, 0.08);
+  border-color: rgba(42, 90, 158, 0.3);
+}
 .reader .badge-working {
   color: #1d8a64;
   background: rgba(29, 138, 100, 0.08);
   border-color: rgba(29, 138, 100, 0.3);
+}
+.reader-callout {
+  display: grid;
+  gap: 4px;
+  margin: 0 0 28px;
+  padding: 16px 20px;
+  border: 1px solid rgba(42, 90, 158, 0.3);
+  border-left: 4px solid var(--blue-deep);
+  border-radius: var(--radius);
+  background: rgba(42, 90, 158, 0.06);
+  color: var(--ink);
+}
+.reader-callout a {
+  color: var(--blue-deep);
+  text-decoration: none;
+}
+.reader-callout a:hover {
+  text-decoration: underline;
+}
+.reader-callout span {
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+}
+.markdown + .reader-callout {
+  margin: 36px 0 0;
 }
 .reader-blurb {
   font-family: var(--serif);

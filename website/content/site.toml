@@ -162,3 +162,22 @@ name = "HarmonicWork"
 period = "2025"
 blurb = "Agent orchestration platform where AI workers are first-class citizens alongside humans, routing tasks via DAG-based workflows."
 url = "https://github.com/buwilliams/harmonic"
+
+# Writing categories, in the order the writing index shows them. An essay's
+# frontmatter `category` must name one; essays without one get the first.
+[[categories]]
+name = "Essays"
+slug = "essays"
+description = "Long-form explanations on AI, economics, epistemology, and personhood."
+
+[[categories]]
+name = "Hot Takes"
+slug = "hot-takes"
+description = """
+One question, someone else's answer, and whether it holds up. Each pairs with the \
+TikTok LIVE I host with Chris every Wednesday at 8am Eastern."""
+
+[categories.callout]
+title = "Talk about this live with Chris and Buddy"
+body = "TikTok LIVE, every Wednesday at 8am Eastern."
+url = "https://www.tiktok.com/@buddyiterates"

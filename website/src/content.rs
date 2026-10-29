@@ -72,6 +72,27 @@ pub struct Consulting {
     pub cta: String,
 }
 
+/// A writing category (Essays, Hot Takes). Listed in `site.toml` in the order
+/// the writing index shows them; the first is the default for essays whose
+/// frontmatter names none.
+#[derive(Debug, Clone, Deserialize, Serialize)]
+pub struct Category {
+    pub name: String,
+    pub slug: String,
+    pub description: String,
+    /// Optional banner shown at the top and bottom of every essay in this category.
+    #[serde(default)]
+    pub callout: Option<Callout>,
+}
+
+#[derive(Debug, Clone, Deserialize, Serialize)]
+pub struct Callout {
+    pub title: String,
+    pub body: String,
+    #[serde(default)]
+    pub url: Option<String>,
+}
+
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct SiteConfig {
     pub name: String,
@@ -95,6 +116,7 @@ pub struct SiteConfig {
     pub consulting: Consulting,
     #[serde(default)]
     pub projects: Vec<Project>,
+    pub categories: Vec<Category>,
 }
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -112,6 +134,9 @@ pub struct WritingMeta {
     /// than `created`; empty otherwise.
     pub updated_label: String,
     pub blurb: String,
+    /// Category name, e.g. "Hot Takes".
+    pub category: String,
+    pub category_slug: String,
     #[serde(default)]
     pub featured: bool,
     #[serde(default)]
@@ -128,6 +153,8 @@ struct FrontMatter {
     updated: String,
     blurb: String,
     #[serde(default)]
+    category: Option<String>,
+    #[serde(default)]
     featured: bool,
     #[serde(default)]
     order: i64,
@@ -135,14 +162,19 @@ struct FrontMatter {
 
 pub fn load_site(root: &Path) -> Result<SiteConfig, BoxErr> {
     let raw = std::fs::read_to_string(root.join("content/site.toml"))?;
-    Ok(toml::from_str(&raw)?)
+    let cfg: SiteConfig = toml::from_str(&raw)?;
+    if cfg.categories.is_empty() {
+        return Err("site.toml must list at least one [[categories]] entry".into());
+    }
+    Ok(cfg)
 }
 
 /// Load published writings by scanning `<root>/essays/*.md`. An essay is published
 /// iff it opens with a `---` YAML frontmatter block; files without one (raw drafts,
 /// working notes) are skipped. Sorted newest to oldest by the month in `created`,
 /// with `order` as the tie-breaker for writings created in the same month.
-pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
+/// Each essay's `category` must name one of `categories`; it defaults to the first.
+pub fn load_writings(root: &Path, categories: &[Category]) -> Result<Vec<WritingMeta>, BoxErr> {
     let mut list = Vec::new();
     for entry in std::fs::read_dir(root.join("essays"))? {
         let path = entry?.path();
@@ -160,13 +192,17 @@ pub fn load_writings(root: &Path) -> Result<Vec<WritingMeta>, BoxErr> {
             .to_string();
         let meta: FrontMatter = serde_yaml::from_str(fm)
             .map_err(|e| format!("frontmatter in {}: {e}", path.display()))?;
-        list.push(writing_meta(slug, meta)?);
+        list.push(writing_meta(slug, meta, categories)?);
     }
     sort_writings_newest_first(&mut list)?;
     Ok(list)
 }
 
-fn writing_meta(slug: String, meta: FrontMatter) -> Result<WritingMeta, BoxErr> {
+fn writing_meta(
+    slug: String,
+    meta: FrontMatter,
+    categories: &[Category],
+) -> Result<WritingMeta, BoxErr> {
     let bad = |field: &str, value: &str| -> BoxErr {
         format!("unsupported {field} date {value:?} in {slug}; expected YYYY-MM-DD")
             .into()
@@ -176,6 +212,13 @@ fn writing_meta(slug: String, meta: FrontMatter) -> Result<WritingMeta, BoxErr> 
     if updated < created {
         return Err(format!("updated date precedes created date in {slug}").into());
     }
+    let category = match &meta.category {
+        None => categories.first().ok_or("no categories configured")?,
+        Some(name) => categories
+            .iter()
+            .find(|c| &c.name == name)
+            .ok_or_else(|| format!("unknown category {name:?} in {slug}"))?,
+    };
     let updated_label = if (updated.0, updated.1) > (created.0, created.1) {
         month_label(updated)
     } else {
@@ -190,6 +233,8 @@ fn writing_meta(slug: String, meta: FrontMatter) -> Result<WritingMeta, BoxErr> 
         title: meta.title,
         status: meta.status,
         blurb: meta.blurb,
+        category: category.name.clone(),
+        category_slug: category.slug.clone(),
         featured: meta.featured,
         order: meta.order,
     })
@@ -286,6 +331,8 @@ mod tests {
             date: String::new(),
             updated_label: String::new(),
             blurb: String::new(),
+            category: "Essays".into(),
+            category_slug: "essays".into(),
             featured: true,
             order,
         }
@@ -329,9 +376,21 @@ mod tests {
             created: created.into(),
             updated: updated.into(),
             blurb: String::new(),
+            category: None,
             featured: false,
             order: 0,
         }
+    }
+
+    fn categories() -> Vec<Category> {
+        ["Essays", "Hot Takes"]
+            .map(|name| Category {
+                name: name.into(),
+                slug: name.to_lowercase().replace(' ', "-"),
+                description: String::new(),
+                callout: None,
+            })
+            .to_vec()
     }
 
     #[test]
@@ -344,12 +403,29 @@ mod tests {
 
     #[test]
     fn labels_show_created_month_and_later_updates_only() {
-        let m = writing_meta("a".into(), front("2025-10-21", "2026-09-26")).unwrap();
+        let m = writing_meta("a".into(), front("2025-10-21", "2026-09-26"), &categories()).unwrap();
         assert_eq!((m.date.as_str(), m.updated_label.as_str()), ("Oct 2025", "Sep 2026"));
 
-        let m = writing_meta("b".into(), front("2026-09-01", "2026-09-26")).unwrap();
+        let m = writing_meta("b".into(), front("2026-09-01", "2026-09-26"), &categories()).unwrap();
         assert_eq!((m.date.as_str(), m.updated_label.as_str()), ("Sep 2026", ""));
 
-        assert!(writing_meta("c".into(), front("2026-09-26", "2026-01-01")).is_err());
+        assert!(writing_meta("c".into(), front("2026-09-26", "2026-01-01"), &categories()).is_err());
+    }
+
+    #[test]
+    fn category_defaults_to_first_and_must_be_known() {
+        let cats = categories();
+        let m = writing_meta("a".into(), front("2026-10-29", "2026-10-29"), &cats).unwrap();
+        assert_eq!((m.category.as_str(), m.category_slug.as_str()), ("Essays", "essays"));
+
+        let mut fm = front("2026-10-29", "2026-10-29");
+        fm.category = Some("Hot Takes".into());
+        let m = writing_meta("b".into(), fm, &cats).unwrap();
+        assert_eq!(m.category_slug, "hot-takes");
+
+        let mut fm = front("2026-10-29", "2026-10-29");
+        fm.category = Some("Hot Take".into());
+        let error = writing_meta("c".into(), fm, &cats).unwrap_err();
+        assert!(error.to_string().contains("unknown category"));
     }
 }

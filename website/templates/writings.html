@@ -2,12 +2,24 @@
 <main class="page-shell">
   <header class="page-head">
     <p class="eyebrow">The writing</p>
+    {% if category %}
+    <h1>{{ category.name }}</h1>
+    <p class="page-sub">{{ category.description }}</p>
+    {% else %}
     <h1>Essays &amp; explanations</h1>
     <p class="page-sub">
       Essays on AI, economics, epistemology, and personhood. Plain Markdown, readable by people and
       machines alike, and meant to be built on and argued with.
     </p>
+    {% endif %}
   </header>
+
+  <nav class="category-filter" aria-label="Filter by category">
+    <a href="/writings"{% if not category %} aria-current="page"{% endif %}>All</a>
+    {% for c in cfg.categories %}
+    <a href="/writings?category={{ c.slug }}"{% if category and category.slug == c.slug %} aria-current="page"{% endif %}>{{ c.name }}</a>
+    {% endfor %}
+  </nav>
 
   <ul class="writing-list">
     {% for w in writings %}
@@ -15,6 +27,7 @@
       <a class="writing-row" href="/writings/{{ w.slug }}">
         <div class="writing-row-main">
           <span class="badge badge-{{ w.status|lower }}">{{ w.status }}</span>
+          {% if w.category != default_category %}<span class="badge badge-category">{{ w.category }}</span>{% endif %}
           <h2>{{ w.title }}</h2>
           <p>{{ w.blurb }}</p>
         </div>
