@@ -2,19 +2,24 @@
 title: "Everything: Metaphysics, Minds, Meaning"
 status: "Final"
 created: "2026-10-23"
-updated: "2026-10-24"
+updated: "2026-10-30"
 order: 1
-blurb: "Why reality is one infinite whole without edges, why every finite mind that tries to understand it runs into the frame problem, and why a good life can be an endless cycle of growth and gratitude."
+blurb: "Is reality scarce or abundant? Why reality is one infinite whole without edges, why every finite mind that tries to understand it runs into the frame problem, and why a good life can be an endless cycle of growth and gratitude."
 ---
 
 # Everything: Metaphysics, Minds, Meaning
 
 ## Introduction
 
-This essay makes one metaphysical claim: **reality is one infinite whole, without edges.** Everything else is about how finite minds cope with that. **Metaphysics** argues for the claim. **Minds** shows what it means for a finite mind: it can only understand reality through lossy representations, drawn at some resolution and from some perspective, so it keeps running into the frame problem. **Meaning** proposes how to live with that: a cycle of growth and gratitude, between discontentment and contentment, that never has to end. The essay is a frame too: one finite mind's attempt to make sense of a whole it can't see all of.
+Is reality fundamentally scarce or abundant? This seems to be a significant yet largely unnoticed economic, political, ethical, and academic dividing line. In economics, some people worry that superintelligence will leave us without jobs, while others want to build the next market. In politics, some want to fix the system we have, while others want to move on to what comes next. In ethics, some hold that sexual preference is binary, while others see sexuality as fluid. In academia, some believe matter, minds, mathematics, or information is the bedrock of reality; others believe there is no final bedrock. In each pair, the first answer assumes scarcity and the second assumes abundance.
+
+My answer is abundance. Reality is an infinite whole, infinite in extent and in possibility. Everything that exists is within it, because there is no outside. In itself, reality has no edges. Any finite mind looking at it will be forced to see edges because the finite cannot contain the infinite. The frame problem no mind can escape. Scarcity is real in the same way: within a frame, for as long as the frame holds.
+
+That reality is one infinite whole, without edges, is the essay's one metaphysical claim. Everything else is about how finite minds cope with it. **Scarcity and Abundance** shows why the opening question matters to a finite mind. **Metaphysics** argues for the claim. **Minds** shows what it means for a finite mind: it can only understand reality through lossy representations, drawn at some resolution and from some perspective, so it keeps running into the frame problem. **Meaning** proposes how to live with that: a cycle of growth and gratitude, between discontentment and contentment, that never has to end. The essay is a frame too: one finite mind's attempt to make sense of a whole it can't see all of.
 
 ## Table of Contents
 
+- [Scarcity and Abundance](#scarcity-and-abundance)
 - [Metaphysics](#metaphysics)
   1. [Reality Is One Infinite Whole Without Edges](#1-reality-is-one-infinite-whole-without-edges)
   2. [Graphing Exercise](#2-graphing-exercise)
@@ -30,6 +35,18 @@ This essay makes one metaphysical claim: **reality is one infinite whole, withou
   10. [Heads, Hands, and Hearts](#10-heads-hands-and-hearts)
 - [Conclusion](#conclusion)
 - [Further Reading](#further-reading)
+
+## Scarcity and Abundance
+
+Why does the question matter? Because every mind we know of is finite, and a finite mind always works inside a **frame**: a boundary around what it will consider. Section 5 explains why no mind can escape one. Scarcity belongs to frames. There can be immediate scarcity without ultimate scarcity. Turning one into the other has been the whole project of human technology, as I describe in [Technohumanism](technohumanism.md), and it is why our present limits don't have to be our final ones.
+
+Why prefer abundance, if scarcity is real? Because a finite mind has finite attention, and how it spends that attention is a strategy in a game we are all playing. Suppose we have ten meals to feed a family. We could spend our attention rationing them to last longer, or working out how to grow more food. We could try to spend less money, or try to make more. Rationing plays a **zero-sum** game: it divides what we have, and it never ends the need to ration. Rationing is sometimes wise when scarcity is immediate. But growing plays a **positive-sum** game: once there is enough food, rationing it no longer needs our attention, and that attention is freed for the next problem.
+
+Scarcity also taxes the attention we would need to escape it. Sendhil Mullainathan and Eldar Shafir call this the *bandwidth tax*: people short on money or time get so absorbed in managing the shortage that they have less mind left to end it. Julian Simon described the other side in *The Ultimate Resource*: human ingenuity keeps turning scarce resources into plentiful ones, so the resource that matters most is minds. Progress doesn't end trade-offs. It trades old scarcities for ones we would rather have.
+
+The mistake is holding on to a frame after the constraints that created it erode. As technology frees us from old scarcities, the rules and customs we inherited deserve questioning. When a frame no longer applies, we should be eager to discard it, as Galileo discarded the Earth-centered cosmos once his telescope showed it no longer fit.
+
+So abundance is the deeper answer, but scarcity isn't simply wrong; the two views do different work. Scarcity describes the frame we live in each day: the problems we must solve now, and the present we can be grateful for, limited as it is. Abundance gives us possibility and direction: our ambition to grow. The Meaning part of this essay returns to both.
 
 ## Metaphysics
 
@@ -115,7 +132,9 @@ Fiction puts the question well. In the film *Doctor Strange* (2016), the Ancient
 
 > You think you know how the world works? You think that this material universe is all there is? What is real? What mysteries lie beyond the reach of your senses?... This universe is only one of an infinite number. Worlds without end... Who are you in this vast multiverse, Mr. Strange?
 
-I think the Ancient One is right. In an infinite reality, our universe is likely one unit among many, the way a pencil is one among many, and perhaps every possibility exists somewhere. "All there is" is a frame too, and we have no reason to think we have drawn it wide enough.
+I think the Ancient One is right, and I would go further: in an infinite reality, every possibility exists. Infinity alone doesn't guarantee this. An infinite reality could, in principle, repeat one pattern forever and leave everything else out. What rules that out is the claim from Section 1: reality has no edges. A limit on what can exist would be an edge around existence itself, a line with the possible on one side and the real on the other. Every edge we have ever tested has turned out to be one a mind drew, and I see no reason this one would be different. The graph from Section 2 points the same way: it holds every distinction a mind could ever draw, and it never ends.
+
+So our universe is one unit among many, the way a pencil is one among many. The idea is old. Arthur Lovejoy named it the *principle of plenitude* and traced it from Plato through Leibniz. My version stands or falls with the claim that reality has no edges. "All there is" is a frame too, and we have no reason to think we have drawn it wide enough.
 
 ### 7. Intelligence and Growth
 
@@ -183,9 +202,11 @@ This way of seeing a life shapes how I think about technology. Machines are taki
 
 ## Conclusion
 
-So where does the pencil end? Nowhere of its own accord. Reality, I conjecture, is one infinite whole without edges; minds draw them, at a resolution and from a perspective, and no frame ever holds everything. For a mind, that is not a cage but an open door: there is always more to understand, and the more we understand, the more we can find beautiful.
+Is reality fundamentally scarce or abundant? Abundant. Reality is one infinite whole, without edges, and every possibility exists within it. Scarcity is real too, but it lives in frames: the edges a finite mind draws, at some resolution and from some perspective, because the finite cannot contain the infinite. A scarcity, like the pencil's edge, is real within the frame that draws it, but it is not where reality stops.
 
-Survival is part of what minds are for, but not all of it. A good life moves between growth and gratitude and doesn't need a finish line. We can keep growing, keep being grateful, and enjoy the beauty of the process while it unfolds: to discover more of reality, and to love more of what we discover.
+That is why the dividing line matters. A mind that mistakes its frame for the limit of reality spends its attention rationing what it has and defending rules whose constraints have eroded. A mind that knows its frame is one of endless possible frames spends its attention on positive-sum work: growing what there is, and redrawing the frame when it stops fitting. Neither escapes the frame problem. Only one keeps trading old scarcities for ones it would rather have. For that mind, finitude is not a cage but an open door.
+
+Abundance gives a mind direction; scarcity gives it a present to live in. A good life moves between the two, between growth and gratitude: reaching past our current frame, and being grateful for what it holds, limited as it is. Survival is part of what minds are for, but not all of it. In a reality without edges, there is always more to discover, and more of it to love.
 
 ## Further Reading
 
@@ -193,6 +214,9 @@ Survival is part of what minds are for, but not all of it. A good life moves bet
 - [More Better: Modeling and the Frame Problem](frame-problem.md), on models, the frame problem, and error correction as a way of life.
 - [Thinking About Thinking](thinking-about-thinking.md), on training the mind and the joy of insight.
 - [Technohumanism](technohumanism.md), on why abundance so often feels bad, and what to do about it.
+- [Sendhil Mullainathan and Eldar Shafir, *Scarcity: Why Having Too Little Means So Much* (2013)](https://en.wikipedia.org/wiki/Scarcity:_Why_Having_Too_Little_Means_So_Much)
+- [Julian Simon, *The Ultimate Resource* (1981)](https://en.wikipedia.org/wiki/The_Ultimate_Resource)
+- [Arthur Lovejoy, *The Great Chain of Being* (1936)](https://en.wikipedia.org/wiki/Principle_of_plenitude), on the history of the principle of plenitude.
 - [Leonard Read, "I, Pencil" (1958)](https://fee.org/resources/i-pencil/)
 - [David Deutsch, *The Beginning of Infinity* (2011)](https://en.wikipedia.org/wiki/The_Beginning_of_Infinity)
 - [Karl Popper, *Conjectures and Refutations* (1963)](https://en.wikipedia.org/wiki/Conjectures_and_Refutations)
