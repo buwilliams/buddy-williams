@@ -1,6 +1,13 @@
-# What It Would Take to Evolve a Doom AI
+---
+title: "Evolving a Doom AI"
+status: "Draft"
+created: "2026-11-11"
+updated: "2026-11-11"
+order: 0
+blurb: "A response to the AI Futures Project's forecast of an intelligence explosion in 2027. Granting the timeline, what would have to stay true for a doom AI to evolve? Every path needs its goals to stop answering to reality, and no finite mind can arrange that."
+---
 
-<!-- No frontmatter yet, so this stays unpublished. Add frontmatter (status: "Draft") when ready. Before publishing, re-check quotes against their linked sources. -->
+# Evolving a Doom AI
 
 ## Introduction
 
